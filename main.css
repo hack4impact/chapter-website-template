@@ -1,9 +1,89 @@
 .center {
     text-align: center;
-    
 }
 .vert-align {
     position: relative;
     top: 50%;
     transform: translateY(-50%);
+}
+section {
+    padding: 60px 0; 
+}
+@media (min-width: 768px) {
+    section {
+      padding: 100px 0; 
+    } 
+    .banner-section {
+        padding-top: 70px;
+    }
+}
+#mainNav {
+    background-color: #D8C3A5; }
+    #mainNav .navbar-toggler {
+      font-size: 12px;
+      right: 0;
+      padding: 13px;
+      text-transform: uppercase;
+      color: #8E8D8A;
+      border: 0;
+      background-color: #e98074;
+      font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+    #mainNav .navbar-brand {
+      color: #e98074;
+      font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive; }
+      #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+        color: #e98074; }
+    #mainNav .navbar-nav .nav-item .nav-link {
+      font-size: 90%;
+      font-weight: 400;
+      padding: 0.75em 0;
+      letter-spacing: 1px;
+      color: #8e8d8a;
+      font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+      #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
+        color: #e98074; }
+  
+@media (min-width: 992px) {
+#mainNav {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
+    -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
+    transition: padding-top 0.3s, padding-bottom 0.3s;
+    border: none;
+    background-color: transparent; }
+    #mainNav .navbar-brand {
+    font-size: 1.75em;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s; }
+    #mainNav .navbar-nav .nav-item .nav-link {
+    padding: 1.1em 1em !important; }
+    #mainNav.navbar-shrink {
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #212529; }
+    #mainNav.navbar-shrink .navbar-brand {
+        font-size: 1.25em;
+        padding: 12px 0; } 
+}
+.btn {
+    font-weight: 700;
+}
+.btn-primary {
+    background-color: #e98074 !important; 
+    border-color: #e98074 !important;
+}
+#cta-button {
+    padding: 12px 12px 12px;
+}
+.banner-section {
+    height:90vh;
+    max-height:650px;
+    background: #EAE7DC;
+    padding-top: 200px;
+}
+#sub-headline {
+    max-width: 600px;
+    margin:0 auto;
 }

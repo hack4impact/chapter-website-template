@@ -1,3 +1,9 @@
+/*
+Common Styling
+*/
+body {
+    font-family: 'Nunito Sans', sans-serif;
+}
 .center {
     text-align: center;
 }
@@ -17,9 +23,26 @@ section {
         padding-top: 70px;
     }
 }
+.section-title{
+    font-size: 35px;
+    margin-bottom: 25px;
+    font-weight:600;
+}
+.btn {
+    font-weight: 700;
+    font-size: 15px !important;
+}
 
+.btn-primary {
+    background-color: #e98074 !important; 
+    border-color: #e98074 !important;
+}
+
+/*
+    Navigation Bar
+*/
 #mainNav {
-    background-color: #D8C3A5; }
+    background-color: #EAE7DC; }
     #mainNav .navbar-toggler {
       font-size: 12px;
       right: 0;
@@ -63,27 +86,15 @@ section {
     #mainNav.navbar-shrink {
     padding-top: 0;
     padding-bottom: 0;
-    background-color: #212529; }
+    background-color: #EAE7DC; }
     #mainNav.navbar-shrink .navbar-brand {
         font-size: 1.25em;
         padding: 12px 0; } 
 }
 
-
-.btn {
-    font-weight: 700;
-    font-size: 15px !important;
-}
-
-.btn-primary {
-    background-color: #e98074 !important; 
-    border-color: #e98074 !important;
-}
-
-#cta-button {
-    padding: 15px 15px 15px;
-}
-
+/*
+    Banner Section
+*/
 .banner-section {
     height:90vh;
     max-height:650px;
@@ -107,13 +118,19 @@ section {
     margin-bottom: 28px;
     color: #656565;
 }
+#cta-button {
+    padding: 15px 15px 15px;
+}
 .cta-box{
     padding-top: 7px;
 }
 .cta-box a {
-   
     font-size: 12px;
     color: #8e8d8a;
     border-bottom: 1px solid #8e8d8a;
     text-decoration: none !important;
+}
+
+#our-work-title-box{
+    padding-bottom: 40px;
 }

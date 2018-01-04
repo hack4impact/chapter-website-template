@@ -2,7 +2,7 @@
 Common Styling
 */
 body {
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 .center {
     text-align: center;
@@ -130,7 +130,14 @@ section {
     border-bottom: 1px solid #8e8d8a;
     text-decoration: none !important;
 }
-
+/*
+    Our Work Section
+*/
 #our-work-title-box{
     padding-bottom: 40px;
+}
+.our-work-section {
+    height: 600px;
+
+    background-color: #f7f7f7;
 }

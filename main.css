@@ -3,14 +3,13 @@ Common Styling
 */
 body {
     font-family: 'Lato', sans-serif;
+    letter-spacing: .5px;
+}
+.container{
+    max-width: 1000px !important;
 }
 .center {
     text-align: center;
-}
-.vert-align {
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
 }
 section {
     padding: 60px 0; 
@@ -140,4 +139,40 @@ section {
     height: 600px;
 
     background-color: #f7f7f7;
+}
+
+/*
+    Get Involved Section
+*/
+.student-cta {
+    padding-top: 40px;
+}
+
+
+/*
+Sponsor Section
+*/
+.sponsor-title-box {
+    text-align: center;
+}
+.sponsor-title-box h1 {
+    margin-bottom: 5px !important;
+}
+.sponsor-title-box p {
+    font-size: 14px;
+    padding: 2px 0;
+    margin: 0 0;
+}
+
+
+.contact-section {
+    padding:60px !important;
+    height: 250px;
+    background:#EAE7DC;
+}
+.contact-section h1 {
+    margin-bottom: 10px !important;
+}
+#contact-us-text {
+    font-size:20px;
 }

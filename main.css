@@ -187,7 +187,6 @@ Sponsor Section
     background: #EAE7DC;
     min-height: 350px;
     padding-top:70px !important;
-    
 }
 .footer-section h4{
     font-size: 15px;
@@ -204,4 +203,7 @@ Sponsor Section
     color:#8E8D8A;
     font-size: 15px;
     padding-bottom: 5px;
+}
+.footer-logo-box {
+    padding-bottom: 20px;
 }

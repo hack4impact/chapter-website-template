@@ -36,6 +36,9 @@ section {
     background-color: #e98074 !important; 
     border-color: #e98074 !important;
 }
+a {
+    text-decoration: none !important;
+}
 
 /*
     Navigation Bar
@@ -50,10 +53,9 @@ section {
       color: #8E8D8A;
       border: 0;
       background-color: #e98074;
-      font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+    }
     #mainNav .navbar-brand {
-      color: #e98074;
-      font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive; }
+      color: #e98074; }
       #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
         color: #e98074; }
     #mainNav .navbar-nav .nav-item .nav-link {
@@ -61,8 +63,7 @@ section {
       font-weight: 400;
       padding: 0.75em 0;
       letter-spacing: 1px;
-      color: #8e8d8a;
-      font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+      color: #8e8d8a; }
       #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
         color: #e98074; }
 
@@ -185,11 +186,22 @@ Sponsor Section
 .footer-section {
     background: #EAE7DC;
     min-height: 350px;
-    padding-top:60px !important;
+    padding-top:70px !important;
     
 }
 .footer-section h4{
     font-size: 15px;
     color:#656565;
-    text-align: center;
+    text-align: left;
+    padding-bottom: 9px;
+}
+.footer-section ul{
+    list-style-type: none;
+    text-align: left;
+    padding:0;
+}
+.footer-section li {
+    color:#8E8D8A;
+    font-size: 15px;
+    padding-bottom: 5px;
 }

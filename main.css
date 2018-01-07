@@ -176,3 +176,20 @@ Sponsor Section
 #contact-us-text {
     font-size:20px;
 }
+
+
+
+/*
+    Footer
+*/
+.footer-section {
+    background: #EAE7DC;
+    min-height: 350px;
+    padding-top:60px !important;
+    
+}
+.footer-section h4{
+    font-size: 15px;
+    color:#656565;
+    text-align: center;
+}

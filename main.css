@@ -200,10 +200,12 @@ Sponsor Section
     padding:0;
 }
 .footer-section li {
-    color:#8E8D8A;
     font-size: 15px;
     padding-bottom: 5px;
 }
 .footer-logo-box {
     padding-bottom: 20px;
+}
+.footer-section a {
+    color:#8E8D8A;
 }

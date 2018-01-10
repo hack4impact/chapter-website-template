@@ -22,6 +22,13 @@ section {
     .banner-section {
         padding-top: 200px !important;
     }
+    .our-work-section {
+        height: 600px;
+    }
+    
+}
+@media (max-width: 768px){
+    
 }
 .section-title{
     font-size: 35px;
@@ -153,8 +160,9 @@ a {
     max-width:100%;
 }
 .our-work-section {
-    height: 600px;
+    max-height: 900px;
     padding-top:50px;
+    padding-bottom: 200px;
     background-color: #f7f7f7;
 }
 .project-showcase-box{
@@ -231,7 +239,9 @@ Contact Section
 .footer-section a {
     color:#8E8D8A;
 }
-
+.footer-left-div {
+    padding-bottom: 30px;
+}
 /*
 Banners for other pages
 */

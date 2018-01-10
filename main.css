@@ -165,7 +165,9 @@ Sponsor Section
     margin: 0 0;
 }
 
-
+/*
+Contact Section
+*/
 .contact-section {
     padding:60px !important;
     height: 250px;
@@ -177,8 +179,6 @@ Sponsor Section
 #contact-us-text {
     font-size:20px;
 }
-
-
 
 /*
     Footer
@@ -208,4 +208,28 @@ Sponsor Section
 }
 .footer-section a {
     color:#8E8D8A;
+}
+
+/*
+Banners for other pages
+*/
+.other-page-banner-section {
+    max-height:350px;
+    background: #EAE7DC;
+    padding-top: 100px;
+}
+#other-banner-sub{
+    max-width:600px;
+}
+#other-banner-sub p {
+    font-size: 17px;
+    color:#8E8D8A;
+}
+#other-banner-headline {
+    margin-bottom: 24px;
+}
+#other-banner-headline h1{
+    font-size:36px;
+    font-weight: 600;
+    color: #e85a4f;
 }

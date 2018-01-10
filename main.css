@@ -16,7 +16,7 @@ section {
 }
 @media (min-width: 768px) {
     section {
-      padding: 100px 0; 
+      padding: 200px 0; 
     } 
     .banner-section {
         padding-top: 70px;
@@ -109,7 +109,7 @@ a {
 #main-headline h1{
     font-size: 60px !important;
     font-weight: 600;
-    color: #e85a4f;
+    color: #ffffff;
 }
 #sub-headline {
     max-width: 600px;
@@ -118,7 +118,8 @@ a {
 #sub-headline p {
     font-size: 20px;
     margin-bottom: 28px;
-    color: #656565;
+    color: #ffffff;
+    font-size: 400;
 }
 #cta-button {
     padding: 15px 15px 15px;
@@ -147,6 +148,9 @@ a {
 /*
     Get Involved Section
 */
+.involve-section {
+    background: #00bf9a;
+}
 .student-cta {
     padding-top: 40px;
 }

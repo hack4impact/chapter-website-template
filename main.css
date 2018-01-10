@@ -242,3 +242,6 @@ About Page - "Our Mission" Sectio
     font-size: 30px;
     font-weight: 550;
 }
+.mission-section {
+    max-height: 300px !important;
+}

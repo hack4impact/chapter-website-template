@@ -233,3 +233,12 @@ Banners for other pages
     font-weight: 600;
     color: #e85a4f;
 }
+
+
+/*
+About Page - "Our Mission" Sectio 
+*/
+.mission-section h2 {
+    font-size: 30px;
+    font-weight: 550;
+}

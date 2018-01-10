@@ -100,6 +100,8 @@ a {
     max-height:650px;
     background: #EAE7DC;
     padding-top: 200px;
+    background: url('./uiuc.jpg') no-repeat center center fixed;
+    background-size: cover;
 }
 #main-headline {
     margin-bottom: 24px;

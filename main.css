@@ -120,6 +120,7 @@ a {
     padding-top: 100px;
     background: url('./uiuc.jpg') no-repeat center center fixed;
     background-size: cover;
+    opacity: 0.7;
 }
 #main-headline {
     margin-bottom: 24px;

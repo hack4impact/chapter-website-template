@@ -4,6 +4,7 @@ Common Styling
 body {
     font-family: 'Lato', sans-serif;
     letter-spacing: .5px;
+    background: #445261;
 }
 .container{
     max-width: 1000px !important;
@@ -14,6 +15,9 @@ body {
 section {
     padding: 60px 0; 
     display:block;
+}
+p {
+    font-weight: 200;
 }
 @media (min-width: 768px) {
     section {
@@ -33,7 +37,7 @@ section {
 .section-title{
     font-size: 35px;
     margin-bottom: 25px;
-    font-weight:600;
+    font-weight:400;
 }
 .btn {
     font-weight: 700;
@@ -47,7 +51,9 @@ section {
 a {
     text-decoration: none !important;
 }
-
+h2 {
+    font-weight: 400;
+}
 
 /*
     Navigation Bar
@@ -148,8 +154,8 @@ a {
 }
 .cta-box a, .cta-box a:hover{
     font-size: 12px;
-    color: #1bbc9b;
-    border-bottom: 1px solid #1bbc9b;
+    color: ##39ba91;
+    border-bottom: 1px solid ##39ba91
     text-decoration: none !important;
 }
 
@@ -164,8 +170,19 @@ a {
     max-height: 900px;
     padding-top:50px;
     padding-bottom: 200px;
-    background-color: #f7f7f7;
+    background-color: #46525f;
 }
+.our-work-section h1 {
+    color:#bfe6ec;
+}
+.our-work-section p {
+    color: #ffffff;
+}
+#project-showcase-box h2 {
+    color: #bfe6ec;
+    font-weight: 400;
+}
+
 .project-showcase-box{
     max-width:100%;
 }
@@ -174,7 +191,7 @@ a {
     Get Involved Section
 */
 .involve-section {
-    background: #00bf9a;
+    background: #39ba91;
 }
 .student-cta {
     padding-top: 40px;
@@ -184,6 +201,9 @@ a {
 /*
 Sponsor Section
 */
+.sponsors-section {
+    background:#bfe6ec;
+}
 .sponsor-title-box {
     text-align: center;
 }
@@ -215,7 +235,7 @@ Contact Section
     Footer
 */
 .footer-section {
-    background: #EAE7DC;
+    background-color: #46525f;
     min-height: 350px;
     padding-top:70px !important;
 }

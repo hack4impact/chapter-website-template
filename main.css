@@ -109,7 +109,7 @@ h2 {
     #mainNav.navbar-shrink {
         padding-top: 0;
         padding-bottom: 0;
-        background-color: #EAE7DC; 
+        background-color: #ffffff; 
     }
     #mainNav.navbar-shrink .navbar-brand {
         font-size: 1.25em;
@@ -126,7 +126,7 @@ h2 {
     padding-top: 100px;
     background: url('./uiuc.jpg') no-repeat center center fixed;
     background-size: cover;
-    opacity: 0.7;
+    opacity: .6;
 }
 #main-headline {
     margin-bottom: 24px;
@@ -144,17 +144,18 @@ h2 {
     font-size: 20px;
     margin-bottom: 28px;
     color: #ffffff;
-    font-size: 400;
+    font-weight: 350;
+
 }
 #cta-button {
-    padding: 15px 15px 15px;
+    padding: 15px 30px 15px;
 }
 .cta-box{
     padding-top: 7px;
 }
 .cta-box a, .cta-box a:hover{
     font-size: 12px;
-    color: ##39ba91;
+    color: #39ba91;
     border-bottom: 1px solid ##39ba91
     text-decoration: none !important;
 }
@@ -178,7 +179,7 @@ h2 {
 .our-work-section p {
     color: #ffffff;
 }
-#project-showcase-box h2 {
+#project-showcase-box a {
     color: #bfe6ec;
     font-weight: 400;
 }
@@ -191,7 +192,7 @@ h2 {
     Get Involved Section
 */
 .involve-section {
-    background: #39ba91;
+    background: url('./sayagata-400px.png');
 }
 .student-cta {
     padding-top: 40px;
@@ -241,7 +242,7 @@ Contact Section
 }
 .footer-section h4{
     font-size: 15px;
-    color:#656565;
+    color:#e1e1e1;
     text-align: left;
     padding-bottom: 9px;
 }
@@ -259,6 +260,9 @@ Contact Section
 }
 .footer-section a {
     color:#8E8D8A;
+}
+.footer-section a:hover {
+    color: #d9d9d9;
 }
 .footer-left-div {
     padding-bottom: 30px;

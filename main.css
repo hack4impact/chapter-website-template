@@ -59,7 +59,7 @@ h2 {
     Navigation Bar
 */
 #mainNav {
-    background-color: #EAE7DC; 
+    background-color: #ffffff; 
 }
 #mainNav .navbar-toggler {
     font-size: 12px;
@@ -68,13 +68,13 @@ h2 {
     text-transform: uppercase;
     color: #082567;
     border: 0;
-    background-color: #e98074;
+    background-color: #bfe6ec;
 }
 #mainNav .navbar-brand {
-    color: #e98074; 
+    color: #bfe6ec; 
 }
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-    color: #e98074; 
+    color: #bfe6ec; 
 }
 #mainNav .navbar-nav .nav-item .nav-link {
     font-size: 90%;
@@ -84,7 +84,7 @@ h2 {
     color: #082567; 
 }
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-    color: #e98074; 
+    color: #bfe6ec; 
 }
 
 @media (min-width: 992px) {

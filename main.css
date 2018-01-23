@@ -29,6 +29,9 @@ p {
     .our-work-section {
         height: 600px;
     }
+    .our-work-section h2{
+        margin-top: 0px;
+    }
     
 }
 @media (max-width: 768px){
@@ -174,6 +177,9 @@ h2 {
     padding-top:50px;
     padding-bottom: 200px;
     background-color: #46525f;
+}
+.our-work-section h2{
+    margin-top: 20px; /* when screen is small */
 }
 .our-work-section h1 {
     color:#bfe6ec;

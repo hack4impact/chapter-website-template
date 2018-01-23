@@ -127,7 +127,7 @@ h2 {
     height:650px;
     background: #EAE7DC;
     padding-top: 100px;
-    background: url('./uiuc.jpg') no-repeat center center fixed;
+    background: url('./img/uiuc.jpg') no-repeat center center fixed;
     background-size: cover;
     opacity: .6;
 }
@@ -194,7 +194,7 @@ h2 {
     Get Involved Section
 */
 .involve-section {
-    background: url('./sayagata-400px.png');
+    background: url('./img/sayagata-400px.png');
 }
 .student-cta {
     padding-top: 40px;

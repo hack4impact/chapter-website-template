@@ -33,6 +33,7 @@
         $("#mainNav").addClass("shadow");
       } else {
         $("#mainNav").removeClass("navbar-shrink");
+        $("#mainNav").removeClass("shadow");
       }
     };
     // Collapse now if page is not at top

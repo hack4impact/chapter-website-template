@@ -59,7 +59,7 @@ h2 {
     Navigation Bar
 */
 #mainNav {
-    background-color: #ffffff; 
+    background-color: #ffffff;
 }
 #mainNav .navbar-toggler {
     font-size: 12px;
@@ -69,7 +69,6 @@ h2 {
     color: #082567;
     border: 0;
     background-color: #bfe6ec;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 #mainNav .navbar-brand {
     color: #bfe6ec; 
@@ -86,6 +85,9 @@ h2 {
 }
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
     color: #bfe6ec; 
+}
+.shadow {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 @media (min-width: 992px) {

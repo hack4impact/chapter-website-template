@@ -119,6 +119,9 @@ h2 {
         font-size: 1.25em;
         padding: 12px 0; 
     } 
+    .student-cta h3{
+        padding-top: 15px;
+    }
 }
 
 /*
@@ -189,6 +192,9 @@ h2 {
     color: #bfe6ec;
     font-weight: 400;
 }
+.our-work-section img {
+    border-radius: 5px;
+}
 
 .project-showcase-box{
     max-width:100%;
@@ -206,6 +212,9 @@ h2 {
 .involve-section img {
     border-radius: 5px;
     box-shadow: 2px 2px 2px grey;
+}
+.np-cta h3 {
+    padding-top: 15px;
 }
 
 /*

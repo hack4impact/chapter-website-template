@@ -32,10 +32,8 @@ p {
     .our-work-section h2{
         margin-top: 0px;
     }
-    
 }
 @media (max-width: 768px){
-    
 }
 .section-title{
     font-size: 35px;
@@ -274,6 +272,9 @@ Contact Section
 }
 .footer-left-div {
     padding-bottom: 30px;
+}
+.footer-section p {
+    color: #d9d9d9;
 }
 /*
 Banners for other pages

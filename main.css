@@ -203,7 +203,10 @@ h2 {
 .student-cta {
     padding-top: 40px;
 }
-
+.involve-section img {
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px grey;
+}
 
 /*
 Sponsor Section

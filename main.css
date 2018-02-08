@@ -192,7 +192,7 @@ h2 {
     color: #6a6f73;
 }
 #project-showcase-box a {
-    color: #18acb6;
+    color: #2da2e1;
     font-weight: 400;
 }
 .our-work-section img {
@@ -325,4 +325,9 @@ About Page - "Our Mission" Sectio
 }
 .mission-section {
     max-height: 300px !important;
+}
+
+
+.apply-section h2{
+    color: #18acb6;
 }

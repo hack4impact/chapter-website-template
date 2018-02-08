@@ -33,8 +33,6 @@ p {
         margin-top: 0px;
     }
 }
-@media (max-width: 768px){
-}
 .section-title{
     font-size: 35px;
     margin-bottom: 25px;
@@ -127,6 +125,11 @@ h2 {
 /*
     Banner Section
 */
+@media (max-width: 768px){
+    .banner-section {
+        background-size: contain;
+    }
+}
 .banner-section {
     height:650px;
     background: #EAE7DC;
@@ -177,19 +180,19 @@ h2 {
     max-height: 950px;
     padding-top:50px;
     padding-bottom: 200px;
-    background-color: #46525f;
+    background-color: #ebeff2;
 }
 .our-work-section h2{
     margin-top: 20px; /* when screen is small */
 }
 .our-work-section h1 {
-    color:#bfe6ec;
+    color:#2da2e1;
 }
 .our-work-section p {
-    color: #ffffff;
+    color: #6a6f73;
 }
 #project-showcase-box a {
-    color: #bfe6ec;
+    color: #2da2e1;
     font-weight: 400;
 }
 .our-work-section img {
@@ -204,7 +207,7 @@ h2 {
     Get Involved Section
 */
 .involve-section {
-    background: url('./img/sayagata-400px.png');
+    /*background: url('./img/sayagata-400px.png');*/
 }
 .student-cta {
     padding-top: 40px;
@@ -254,7 +257,7 @@ Contact Section
     Footer
 */
 .footer-section {
-    background-color: #46525f;
+    background-color: #37536c;
     min-height: 350px;
     padding-top:70px !important;
 }

@@ -230,6 +230,7 @@ h2 {
 */
 .involve-section {
     /*background: url('./img/sayagata-400px.png');*/
+    background-color:#ebeff2;
 }
 .student-cta {
     padding-top: 40px;
@@ -259,6 +260,19 @@ Sponsor Section
     padding: 2px 0;
     margin: 0 0;
 }
+
+
+
+.home-client-section {
+    /* background-color: #ebeff2; */
+}
+.client-logo-center {
+    padding-top:30px;
+}
+.home-client-section img {
+    margin: 0 20px;
+}
+
 
 /*
 Contact Section

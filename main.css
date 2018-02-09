@@ -209,7 +209,7 @@ h2 {
 
 .home-quote-section{
     background-color:#37536c;
-    padding: 60px 0 30px;
+    padding: 80px 0 50px;
 }
 .bq3{
     margin: 0 auto;
@@ -221,6 +221,9 @@ h2 {
 }
 .bq3 #quote-person{
     color: #a2b4c5;
+}
+.client-btn{
+    margin-top:30px;
 }
 /*
     Get Involved Section

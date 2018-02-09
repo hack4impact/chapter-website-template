@@ -3,7 +3,7 @@ Common Styling
 */
 body {
     font-family: 'Lato', sans-serif;
-    letter-spacing: .5px;
+    letter-spacing: .3px;
     background: #445261;
 }
 .container{
@@ -186,14 +186,15 @@ h2 {
     margin-top: 20px; /* when screen is small */
 }
 .our-work-section h1 {
-    color:#2da2e1;
+    color:#373f46;
+    font-weight: 500;
 }
 .our-work-section p {
     color: #6a6f73;
 }
 #project-showcase-box a {
-    color: #2da2e1;
-    font-weight: 400;
+    color: #373f46;
+    font-weight: 500;
 }
 .our-work-section img {
     border-radius: 5px;
@@ -203,6 +204,24 @@ h2 {
     max-width:100%;
 }
 
+
+
+
+.home-quote-section{
+    background-color:#37536c;
+    padding: 60px 0 30px;
+}
+.bq3{
+    margin: 0 auto;
+    text-align:center;
+}
+.bq3 p {
+    color: #ffffff;
+    font-weight: 400;
+}
+.bq3 #quote-person{
+    color: #a2b4c5;
+}
 /*
     Get Involved Section
 */

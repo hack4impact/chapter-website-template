@@ -1,187 +1,203 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Hack4Impact UIUC</title>
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-</head>
-<body>
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-        <div class="container">
-          <a class="navbar-brand js-scroll-trigger" href="./index.html"><img id="logo-img" height=35 width=200 src="./img/colored-logo.png"/></a>
-          <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-            Menu
-            <i class="fa fa-bars"></i>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav text-uppercase ml-auto">
-              <li class="nav-item" style="display:none">
-                <a class="nav-link js-scroll-trigger" href="./about.html">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="https://docs.google.com/forms/d/e/1FAIpQLSePWsr0nA81Lo6x2prxbO1uR1A79WlCNsyZ5Foa-mC0unH4AA/viewform">Apply</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-    </nav>
-    <section class="banner-section center">
-        <div class="container align-middle">
-            <div id="main-headline">
-                <h1>We build Software for Nonprofits</h1>
-            </div>
-            <div id="sub-headline">
-                <p>We are the UIUC chapter of Hack4Impact.</p>
-            </div>
-            <div class="cta-box">
-                <button type="button" class="btn btn-primary" id="cta-button"onclick="location.href='https://docs.google.com/forms/d/e/1FAIpQLSePWsr0nA81Lo6x2prxbO1uR1A79WlCNsyZ5Foa-mC0unH4AA/viewform'" >APPLY</button>
-                <p><a href="#work-id">Learn More</a></p>
-            </div>
-        </div>
-    </section>
-    <section class="our-work-section" id="work-id">
-        <div class="container">
-            <div id="our-work-title-box">
-                <h1 class="section-title">Our Work</h1>
-                <p>We realize that our engineering skill sets do not render us useless in addressing social injustices. Instead, they empower us with unique tools that we can actively use to empower the few who are working to build a better society. </p>
-                <p>Each semester, we select 3-5 nonprofits and provide student teams of 4-7 with the opportunity to work with them. Each team is led by a product manager and technical lead and works closely with the nonprofit to build a great product that solves a core need.</p>
-            </div>
-            <div class="row" id="project-showcase-box">
-                <div class="col-md-6"><img src="./img/nnb_app_img.jpg" class="img-fluid"/></div>
-                <div class="col-md-6">
-                    <h2><a href="https://github.com/hack4impact-uiuc/nnb-frontend">Neighborhood News Bureau</a></h2>
-                    <p>This past semester, we successfully shipped our pilot product to NNB. This application, called MapStories, provides NNB with a way to visualize their historical database by telling stories through a timeline and maps. Their mission is the preservation of local history. We will be working with them to launch this product mid-2018 to celebrate the 150th anniversary of the arrival of the first two African American settlers in St. Petersburg, Florida.</p>
-                </div>
-                <div class="col-md-2"></div>
-            </div>
-        </div>
-    </section>
-    <section class="home-quote-section">
-        <div class="container">
-            <div class="col-md-3"></div>
-            <div class="bq3 col-md-6">
-                <p>"Working with Hack4Impact was easy, efficient and incredibly productive. They were quick to understand what we were looking to achieve and made the app even better and simpler to use than what I had imagined."</p>
-                <p id="quote-person">Bernardo H. Motta, Ph.D., Faculty Coordinator of the USFSP Neighborhood News Bureau. </p>
-                <button class="btn btn-primary client-btn" onclick="location.href='.home-client-section'">Our Clients</button>
-            </div>  
-            <div class="col-md-3"></div>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Hack4Impact UIUC</title>
+        <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    </head>
 
-        </div>
-    </section>
-    <section class="involve-section">
-        <div class="container">
-            <h1 class="section-title">Get Involved</h1>
-            <div class="row np-cta">
-                <div class="col-md-5"><img src="./img/team.jpg" class="img-fluid" /></div>
-                <div class="col-md-1"></div>
-                <div class="col-md-6">
-                    <h3>Nonprofits</h3>
-                    <p>Our Mission is to help nonprofits expand their reach impact with technology. Thus, we collaborate closely with organizations of all sizes to produce robust software that meets their needs! We encourage you to apply!</p>
-                    <p style="display:none"><a href="#">Learn More</a></p>
-                </div>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+            <div class="container">
+              <a class="navbar-brand js-scroll-trigger" href="./index.html"><img id="logo-img" height=35 width=200 src="./img/colored-logo.png"/></a>
+              <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                Menu
+                <i class="fa fa-bars"></i>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav text-uppercase ml-auto">
+                  <li class="nav-item" style="display:none">
+                    <a class="nav-link js-scroll-trigger" href="./about.html">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="https://docs.google.com/forms/d/e/1FAIpQLSePWsr0nA81Lo6x2prxbO1uR1A79WlCNsyZ5Foa-mC0unH4AA/viewform">Apply</a>
+                  </li>
+                </ul>
+              </div>
             </div>
-            <div class="row student-cta">
+        </nav>
 
-                <div class="col-md-6">
-                    <h3>Students</h3>
-                    <p>Are you passionate about software and Social Impact? Are you looking to join a unique and close-knit community? Join Us! Our mission provides a distinct experience to develop technical skills and interact with nonprofit clients all while applying your skills to impact real lives.</p>
-                    <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSePWsr0nA81Lo6x2prxbO1uR1A79WlCNsyZ5Foa-mC0unH4AA/viewform">Learn More</a></p>
+        <section class="banner-section center">
+            <div class="container align-middle">
+                <div id="main-headline">
+                    <h1>We build Software for Nonprofits</h1>
                 </div>
-                <div class="col-md-1"></div>
-                <div class="col-md-5"><img src="./img/working.jpg" class="img-fluid"/></div>
+                <div id="sub-headline">
+                    <p>We are the UIUC chapter of Hack4Impact.</p>
+                </div>
+                <div class="cta-box">
+                    <button type="button" class="btn btn-primary" id="cta-button"onclick="location.href='https://docs.google.com/forms/d/e/1FAIpQLSePWsr0nA81Lo6x2prxbO1uR1A79WlCNsyZ5Foa-mC0unH4AA/viewform'" >APPLY</button>
+                    <p><a href="#work-id">Learn More</a></p>
+                </div>
             </div>
-        </div>
-    </section>
-    <section class="sponsors-section" style="display:none">
-        <div class="container">
-            <div class="sponsor-title-box">
-                <h1 class="section-title">Our Sponsors</h1>
-                <p>These sponsors have increased the quality of our organization through mentorship and workshops.</p>
-                <p><a href="#">Join them</a></p>
-            </div>
-        </div>
+        </section>
 
-    </section>
-    <section class="home-client-section">
-        <div class="container">
-            <h2>The non-profits we are currently working with</h2>
-            <div class="row">
-                <div class="col-md-1"></div>
-                <div class="col-4 col-md-2 client-logo-center" ><img src="img/kiva.png" class="img-fluid"/></div>
-                <div class="col-4 col-md-2"><img src="img/cttc.jpg" class="img-fluid"/></div>
-                <div class="col-4 col-md-2"><img src="img/lwb-logo.png" class="img-fluid"/></div>
-                <div class="col-6 col-md-4 client-logo-center"><img src="img/nnb-logo.jpg" class="img-fluid"/></div>
-            </div>
-        </div>
-    </section>
-    <section class="contact-section" style="display:none;">
-        <div class="container">
-            <h1 class="section-title">Contact Us</h1>
-            <div class="row">
-                <div class="col-md-7"><p id="contact-us-text">Have any questions?</p></div>
-                <div class="col-md-4">
-                    <button class="btn btn-primary">EMAIL US!</button>
+        <section class="our-work-section" id="work-id">
+            <div class="container">
+                <div id="our-work-title-box">
+                    <h1 class="section-title">Our Work</h1>
+                    <p>We realize that our engineering skill sets do not render us useless in addressing social injustices. Instead, they empower us with unique tools that we can actively use to empower the few who are working to build a better society. </p>
+                    <p>Each semester, we select 3-5 nonprofits and provide student teams of 4-7 with the opportunity to work with them. Each team is led by a product manager and technical lead and works closely with the nonprofit to build a great product that solves a core need.</p>
+                </div>
+                <div class="row" id="project-showcase-box">
+                    <div class="col-md-6"><img src="./img/nnb_app_img.jpg" class="img-fluid"/></div>
+                    <div class="col-md-6">
+                        <h2><a href="https://github.com/hack4impact-uiuc/nnb-frontend">Neighborhood News Bureau</a></h2>
+                        <p>This past semester, we successfully shipped our pilot product to NNB. This application, called MapStories, provides NNB with a way to visualize their historical database by telling stories through a timeline and maps. Their mission is the preservation of local history. We will be working with them to launch this product mid-2018 to celebrate the 150th anniversary of the arrival of the first two African American settlers in St. Petersburg, Florida.</p>
+                    </div>
+                    <div class="col-md-2"></div>
                 </div>
             </div>
-        </div>
-    </section>
-    <section class="footer-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-md-4 footer-left-div">
-                    <div class="footer-logo-box"><img src="./img/h4i_white.png" height=35 width=200 /></div>
-                    <p>For all inquiries of partnership or sponsorship, please contact <a href="mailto:tk2@illinois.edu">Timothy Ko</a>.</p>
+        </section>
+
+        <section class="home-quote-section">
+            <div class="container">
+                <div class="col-md-3"></div>
+                <div class="bq3 col-md-6">
+                    <p>"Working with Hack4Impact was easy, efficient and incredibly productive. They were quick to understand what we were looking to achieve and made the app even better and simpler to use than what I had imagined."</p>
+                    <p id="quote-person">Bernardo H. Motta, Ph.D., Faculty Coordinator of the USFSP Neighborhood News Bureau. </p>
+                    <button class="btn btn-primary client-btn" onclick="location.href='.home-client-section'">Our Clients</button>
+                </div>  
+                <div class="col-md-3"></div>
+
+            </div>
+        </section>
+        
+        <section class="involve-section">
+            <div class="container">
+                <h1 class="section-title">Get Involved</h1>
+                <div class="row np-cta">
+                    <div class="col-md-5"><img src="./img/team.jpg" class="img-fluid" /></div>
+                    <div class="col-md-1"></div>
+                    <div class="col-md-6">
+                        <h3>Nonprofits</h3>
+                        <p>Our Mission is to help nonprofits expand their reach impact with technology. Thus, we collaborate closely with organizations of all sizes to produce robust software that meets their needs! We encourage you to apply!</p>
+                        <p style="display:none"><a href="#">Learn More</a></p>
+                    </div>
                 </div>
-                <div class="col-md-1"></div>
-                <div class="col-6 col-md-2 ">
-                    <h4>ORGANIZATION</h4>
-                    <ul>
-                        <li><a href="#work-id">About Us</a></li>
-                        <li style="display:none"><a href="#">Projects</a></li>
-                        <li style="display:none"><a href="#">Contact</a></li>
-                        <li style="display:none"><a href="#">Blog</a></li>
-                        <li style="display:none"><a href="#">Sponsors</a></li>
-                    </ul>
-                </div>
-                <div class="col-6 col-md-2">
-                    <h4>STUDENTS</h4>
-                    <ul>
-                        <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSePWsr0nA81Lo6x2prxbO1uR1A79WlCNsyZ5Foa-mC0unH4AA/viewform">Apply</a></li>
-                        <li style="display:none"><a href="#">FAQ</a></li>
-                    </ul>
-                </div>
-                <div class="col-6 col-md-2" style="display:none">
-                    <h4>NONPROFITS</h4>
-                    <ul>
-                        <li><a href="#">Apply</a></li>
-                        <li><a href="#">FAQ</a></li>
-                    </ul>
-                </div>
-                <div class="col-6 col-md-2">
-                    <h4>EXTRAS</h4>
-                    <ul>
-                        <li><a href="https://www.facebook.com/h4iuiuc/">Facebook</a></li>
-                        <li><a href="https://github.com/hack4impact-uiuc">Github</a></li>
-                        <li><a href="https://github.com/hack4impact-uiuc/wiki/wiki">Wiki</a></li>
-                        <li style="display:none"><a href="#">Blog</a></li>
-                        <li><a href="mailto:alvin@hack4impact.org">Email</a></li>
-                    </ul>
+                <div class="row student-cta">
+
+                    <div class="col-md-6">
+                        <h3>Students</h3>
+                        <p>Are you passionate about software and Social Impact? Are you looking to join a unique and close-knit community? Join Us! Our mission provides a distinct experience to develop technical skills and interact with nonprofit clients all while applying your skills to impact real lives.</p>
+                        <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSePWsr0nA81Lo6x2prxbO1uR1A79WlCNsyZ5Foa-mC0unH4AA/viewform">Learn More</a></p>
+                    </div>
+                    <div class="col-md-1"></div>
+                    <div class="col-md-5"><img src="./img/working.jpg" class="img-fluid"/></div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Bootstrap core JavaScript -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+        <!--
+            <section class="sponsors-section" style="display:none">
+                <div class="container">
+                    <div class="sponsor-title-box">
+                        <h1 class="section-title">Our Sponsors</h1>
+                        <p>These sponsors have increased the quality of our organization through mentorship and workshops.</p>
+                        <p><a href="#">Join them</a></p>
+                    </div>
+                </div>
+            </section>
+        -->
 
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-    <!-- Custom Scripts -->
-    <script src="js/main.js"></script>
+        <section class="home-client-section">
+            <div class="container">
+                <h2>The non-profits we are currently working with</h2>
+                <div class="row">
+                    <div class="col-md-1"></div>
+                    <div class="col-4 col-md-2 client-logo-center" ><img src="img/kiva.png" class="img-fluid"/></div>
+                    <div class="col-4 col-md-2"><img src="img/cttc.jpg" class="img-fluid"/></div>
+                    <div class="col-4 col-md-2"><img src="img/lwb-logo.png" class="img-fluid"/></div>
+                    <div class="col-6 col-md-4 client-logo-center"><img src="img/nnb-logo.jpg" class="img-fluid"/></div>
+                </div>
+            </div>
+        </section>
 
-</body>
+        <!--
+            <section class="contact-section" style="display:none;">
+                <div class="container">
+                    <h1 class="section-title">Contact Us</h1>
+                    <div class="row">
+                        <div class="col-md-7"><p id="contact-us-text">Have any questions?</p></div>
+                        <div class="col-md-4">
+                            <button class="btn btn-primary">EMAIL US!</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        -->
+
+        <section class="footer-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-4 footer-left-div">
+                        <div class="footer-logo-box"><img src="./img/h4i_white.png" height=35 width=200 /></div>
+                        <p>For all inquiries of partnership or sponsorship, please contact <a href="mailto:tk2@illinois.edu">Timothy Ko</a>.</p>
+                    </div>
+                    <div class="col-md-1"></div>
+                    <div class="col-6 col-md-2 ">
+                        <h4>ORGANIZATION</h4>
+                        <ul>
+                            <li><a href="#work-id">About Us</a></li>
+                            <li style="display:none"><a href="#">Projects</a></li>
+                            <li style="display:none"><a href="#">Contact</a></li>
+                            <li style="display:none"><a href="#">Blog</a></li>
+                            <li style="display:none"><a href="#">Sponsors</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-md-2">
+                        <h4>STUDENTS</h4>
+                        <ul>
+                            <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSePWsr0nA81Lo6x2prxbO1uR1A79WlCNsyZ5Foa-mC0unH4AA/viewform">Apply</a></li>
+                            <li style="display:none"><a href="#">FAQ</a></li>
+                        </ul>
+                    </div>
+
+                    <!--
+                        <div class="col-6 col-md-2" style="display:none">
+                            <h4>NONPROFITS</h4>
+                            <ul>
+                                <li><a href="#">Apply</a></li>
+                                <li><a href="#">FAQ</a></li>
+                            </ul>
+                        </div>
+                    -->
+
+                    <div class="col-6 col-md-2">
+                        <h4>EXTRAS</h4>
+                        <ul>
+                            <li><a href="https://www.facebook.com/h4iuiuc/">Facebook</a></li>
+                            <li><a href="https://github.com/hack4impact-uiuc">Github</a></li>
+                            <li><a href="https://github.com/hack4impact-uiuc/wiki/wiki">Wiki</a></li>
+                            <li style="display:none"><a href="#">Blog</a></li>
+                            <li><a href="mailto:alvin@hack4impact.org">Email</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Bootstrap core JavaScript -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+
+        <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+        <!-- Custom Scripts -->
+        <script src="js/main.js"></script>
+
+    </body>
 </html>

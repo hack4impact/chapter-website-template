@@ -6,38 +6,48 @@ body {
     letter-spacing: .3px;
     background: #445261;
 }
+
 .container{
     max-width: 1000px !important;
 }
+
 .center {
     text-align: center;
 }
+
 section {
     padding: 60px 0; 
     display:block;
 }
+
 p {
     font-weight: 200;
 }
+
 @media (min-width: 768px) {
     section {
       padding: 100px 0; 
     } 
+
     .banner-section {
         padding-top: 200px !important;
     }
+
     .our-work-section {
         height: 600px;
     }
+
     .our-work-section h2{
         margin-top: 0px;
     }
 }
+
 .section-title{
     font-size: 35px;
     margin-bottom: 25px;
     font-weight:400;
 }
+
 .btn {
     font-weight: 700;
     font-size: 15px !important;
@@ -47,12 +57,15 @@ p {
     background-color: #4682b4 !important; 
     border-color: #4682b4 !important;
 }
+
 a {
     text-decoration: none !important;
 }
+
 h2 {
     font-weight: 400;
 }
+
 
 /*
     Navigation Bar
@@ -60,6 +73,7 @@ h2 {
 #mainNav {
     background-color: #ffffff;
 }
+
 #mainNav .navbar-toggler {
     font-size: 12px;
     right: 0;
@@ -77,9 +91,11 @@ h2 {
     letter-spacing: 1px;
     color: #082567; 
 }
+
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
     color: #bfe6ec; 
 }
+
 .shadow {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -94,28 +110,34 @@ h2 {
         border: none;
         background-color: transparent; 
     }
+
     #mainNav .navbar-brand {
         font-size: 1.75em;
         -webkit-transition: all 0.3s;
         -moz-transition: all 0.3s;
         transition: all 0.3s; 
     }
+
     #mainNav .navbar-nav .nav-item .nav-link {
         padding: 1.1em 1em !important; 
     }
+
     #mainNav.navbar-shrink {
         padding-top: 0;
         padding-bottom: 0;
         background-color: #ffffff; 
     }
+
     #mainNav.navbar-shrink .navbar-brand {
         font-size: 1.25em;
         padding: 12px 0; 
     } 
+
     .student-cta h3{
         padding-top: 15px;
     }
 }
+
 
 /*
     Banner Section
@@ -125,6 +147,7 @@ h2 {
         background-size: contain;
     }
 }
+
 .banner-section {
     height:650px;
     background: #EAE7DC;
@@ -133,18 +156,22 @@ h2 {
     background-size: cover;
     opacity: .6;
 }
+
 #main-headline {
     margin-bottom: 24px;
 }
+
 #main-headline h1{
     font-size: 60px !important;
     font-weight: 600;
     color: #ffffff;
 }
+
 #sub-headline {
     max-width: 600px;
     margin:0 auto;
 }
+
 #sub-headline p {
     font-size: 20px;
     margin-bottom: 28px;
@@ -152,18 +179,23 @@ h2 {
     font-weight: 350;
 
 }
+
 #cta-button {
     padding: 15px 30px 15px;
 }
+
 .cta-box{
     padding-top: 7px;
 }
+
 .cta-box a, .cta-box a:hover{
     font-size: 12px;
     color: #ffffff;
     border-bottom: 1px solid #ffffff;
     text-decoration: none !important;
 }
+
+
 /*
     Our Work Section
 */
@@ -177,20 +209,25 @@ h2 {
     padding-bottom: 200px;
     background-color: #ebeff2;
 }
+
 .our-work-section h2{
     margin-top: 20px; /* when screen is small */
 }
+
 .our-work-section h1 {
     color:#373f46;
     font-weight: 500;
 }
+
 .our-work-section p {
     color: #6a6f73;
 }
+
 #project-showcase-box a {
     color: #373f46;
     font-weight: 500;
 }
+
 .our-work-section img {
     border-radius: 5px;
 }
@@ -200,26 +237,33 @@ h2 {
 }
 
 
-
-
+/*
+    Blockquote Section
+*/
 .home-quote-section{
     background-color:#37536c;
     padding: 80px 0 50px;
 }
+
 .bq3{
     margin: 0 auto;
     text-align:center;
 }
+
 .bq3 p {
     color: #ffffff;
     font-weight: 400;
 }
+
 .bq3 #quote-person{
     color: #a2b4c5;
 }
+
 .client-btn{
     margin-top:30px;
 }
+
+
 /*
     Get Involved Section
 */
@@ -227,20 +271,24 @@ h2 {
     /*background: url('./img/sayagata-400px.png');*/
     background-color:#ebeff2;
 }
+
 .student-cta {
     padding-top: 40px;
 }
+
 .involve-section img {
     border-radius: 5px;
     box-shadow: 2px 2px 2px grey;
 }
+
 .np-cta h3 {
     padding-top: 15px;
 }
 
+
 /*
-Sponsor Section
-*/
+    Sponsor Section
+
 .sponsors-section {
     background:#bfe6ec;
 }
@@ -255,18 +303,26 @@ Sponsor Section
     padding: 2px 0;
     margin: 0 0;
 }
+*/
 
+
+/*
+    Clients Section
+*/
 .home-client-section {
     /* background-color: #ebeff2; */
     padding-top: 40px;
     padding-bottom: 40x;
 }
+
 .client-logo-center {
     padding-top:30px;
 }
+
 .home-client-section img {
     margin: 0 20px;
 }
+
 .home-client-section h2{
     font-size: 20px;
     text-align:center;
@@ -278,19 +334,22 @@ Sponsor Section
 
 
 /*
-Contact Section
-*/
+    Contact Section
 .contact-section {
     padding:60px !important;
     height: 250px;
     background:#EAE7DC;
 }
+
 .contact-section h1 {
     margin-bottom: 10px !important;
 }
+
 #contact-us-text {
     font-size:20px;
 }
+*/
+
 
 /*
     Footer
@@ -300,39 +359,49 @@ Contact Section
     min-height: 350px;
     padding-top:70px !important;
 }
+
 .footer-section h4{
     font-size: 15px;
     color:#e1e1e1;
     text-align: left;
     padding-bottom: 9px;
 }
+
 .footer-section ul{
     list-style-type: none;
     text-align: left;
     padding:0;
 }
+
 .footer-section li {
     font-size: 15px;
     padding-bottom: 5px;
 }
+
 .footer-logo-box {
     padding-bottom: 20px;
 }
+
 .footer-section a {
     color:#8E8D8A;
 }
+
 .footer-section a:hover {
     color: #d9d9d9;
 }
+
 .footer-left-div {
     padding-bottom: 30px;
 }
+
 .footer-section p {
     color: #d9d9d9;
 }
+
+
 /*
 Banners for other pages
-*/
+
 .other-page-banner-section {
     max-height:350px;
     background: #EAE7DC;
@@ -357,7 +426,7 @@ Banners for other pages
 
 /*
 About Page - "Our Mission" Sectio 
-*/
+
 .mission-section h2 {
     font-size: 30px;
     font-weight: 550;
@@ -370,3 +439,4 @@ About Page - "Our Mission" Sectio
 .apply-section h2{
     color: #18acb6;
 }
+*/

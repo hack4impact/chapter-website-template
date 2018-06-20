@@ -69,12 +69,7 @@ h2 {
     border: 0;
     background-color: #bfe6ec;
 }
-#mainNav .navbar-brand {
-    color: #bfe6ec; 
-}
-#mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-    color: #bfe6ec; 
-}
+
 #mainNav .navbar-nav .nav-item .nav-link {
     font-size: 90%;
     font-weight: 400;

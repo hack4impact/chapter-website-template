@@ -267,11 +267,6 @@ h2 {
 /*
     Get Involved Section
 */
-.involve-section {
-    /*background: url('./img/sayagata-400px.png');*/
-    background-color:#ebeff2;
-}
-
 .student-cta {
     padding-top: 40px;
 }
@@ -279,10 +274,6 @@ h2 {
 .involve-section img {
     border-radius: 5px;
     box-shadow: 2px 2px 2px grey;
-}
-
-.np-cta h3 {
-    padding-top: 15px;
 }
 
 
@@ -310,7 +301,7 @@ h2 {
     Clients Section
 */
 .home-client-section {
-    /* background-color: #ebeff2; */
+    background-color: #ebeff2;
     padding-top: 40px;
     padding-bottom: 40x;
 }

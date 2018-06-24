@@ -321,7 +321,7 @@ h2 {
 /*
     Clients Section
 */
-.home-client-section {
+.partners-section {
     background-color: #ebeff2;
     padding-top: 40px;
     padding-bottom: 40x;
@@ -331,11 +331,11 @@ h2 {
     padding-top:30px;
 }
 
-.home-client-section img {
+.partners-section img {
     margin: 0 20px;
 }
 
-.home-client-section h2{
+.partners-section h2{
     font-size: 20px;
     text-align:center;
     margin-bottom: 50px;

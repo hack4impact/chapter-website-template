@@ -150,11 +150,9 @@ h2 {
 
 .banner-section {
     height:650px;
-    background: #EAE7DC;
     padding-top: 100px;
-    background: url('./img/uiuc.jpg') no-repeat center center fixed;
+    background: white /*url('./img/banner sample.svg') no-repeat fixed*/;
     background-size: cover;
-    opacity: .6;
 }
 
 #main-headline {
@@ -162,30 +160,34 @@ h2 {
 }
 
 #main-headline h1{
-    font-size: 60px !important;
+    font-size: 55px !important;
     font-weight: 600;
-    color: #ffffff;
+    color: #000080;
+    text-align: left;
 }
 
 #sub-headline {
     max-width: 600px;
-    margin:0 auto;
+    margin:0 ;
 }
 
 #sub-headline p {
-    font-size: 20px;
+    font-size: 17px;
     margin-bottom: 28px;
-    color: #ffffff;
+    color: black;
     font-weight: 350;
+    text-align: left;
 
 }
 
 #cta-button {
-    padding: 15px 30px 15px;
+    padding: 11px 30px 11px;
+    margin-right: 10px;
 }
 
 .cta-box{
     padding-top: 7px;
+    align-content: left;
 }
 
 .cta-box a, .cta-box a:hover{

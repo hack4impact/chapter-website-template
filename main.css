@@ -274,7 +274,7 @@ h2 {
     margin: 7% auto;
     border-radius: 5px;
     box-shadow: 2px 2px 2px grey;
-    max-height: 258px; /* Temporary to preserve image heights */
+    max-height: 260px; /* Temporary to preserve image heights */
 }
 
 .blockquote-fancy {

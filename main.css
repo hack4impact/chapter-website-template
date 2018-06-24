@@ -327,6 +327,10 @@ h2 {
     padding-bottom: 40x;
 }
 
+.partners-section img {
+    padding: 10% 12%;
+}
+
 .partners-section h2{
     font-size: 20px;
     text-align:center;
@@ -334,6 +338,14 @@ h2 {
     color: #373f46;
     opacity: .7;
     font-weight: 300;
+}
+
+.divider-right {
+    border-right: 1px solid #D0D0D0;
+}
+
+.partner-button {
+    margin-top: 6%;
 }
 
 

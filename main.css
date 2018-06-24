@@ -276,7 +276,7 @@ h2 {
 
 .blockquote-fancy {
     line-height: 1.5em;
-    padding: 5% 2% 0 0;
+    padding-top: 5%;
 }
 
 .blockquote-fancy:before {
@@ -285,7 +285,7 @@ h2 {
     font-size: 40pt;
     font-family: Georgia, serif;
     color: #7a7a7a;
-    margin: 1% 0 0 -5%;
+    margin: 1% 0 0 -7%;
 }
 
 .blockquote-fancy-cite {

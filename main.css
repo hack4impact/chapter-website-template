@@ -270,8 +270,11 @@ h2 {
     Get Involved Section
 */
 .involve-section img {
+    display: block;
+    margin: 7% auto;
     border-radius: 5px;
     box-shadow: 2px 2px 2px grey;
+    max-height: 258px; /* Temporary to preserve image heights */
 }
 
 .blockquote-fancy {

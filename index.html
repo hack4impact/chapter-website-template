@@ -48,7 +48,8 @@
                 </div>
                 <div class="cta-box"> 
                 <div class = "float-left"> 
-                    <button type="button" class="btn btn-outline-dark" id="cta-button" onclick="location.href= "#" > Learn More </button> </div>
+                    <button type="button" class="btn btn-outline-dark" id="cta-button" onclick="location.href= '#'" > Learn More </button> 
+                </div>
                 <div class = "float-left">
                     <button type="button" class="btn btn-outline-dark" id="cta-button" onclick="location.href='https://docs.google.com/forms/d/e/1FAIpQLSePWsr0nA81Lo6x2prxbO1uR1A79WlCNsyZ5Foa-mC0unH4AA/viewform'" > Apply </button> </div>
                 </div>
@@ -88,25 +89,32 @@
         
         <section class="involve-section">
             <div class="container">
-                <h1 class="section-title">Get Involved</h1>
-                <div class="row np-cta">
-                    <div class="col-md-5"><img src="./img/team.jpg" class="img-fluid" /></div>
-                    <div class="col-md-1"></div>
-                    <div class="col-md-6">
-                        <h3>Nonprofits</h3>
-                        <p>Our Mission is to help nonprofits expand their reach impact with technology. Thus, we collaborate closely with organizations of all sizes to produce robust software that meets their needs! We encourage you to apply!</p>
-                        <p style="display:none"><a href="#">Learn More</a></p>
+                <div class = "row involved-title">
+                    <div class = "col-md-12">
+                        <h1 class="section-title text-center">Get Involved</h1>
                     </div>
                 </div>
-                <div class="row student-cta">
-
-                    <div class="col-md-6">
-                        <h3>Students</h3>
+                <div class = "row involved-body">
+                    <div class = "col-md-5 involved-students">
+                        <h3 class = "text-center">Students</h3>
+                        <img src="./img/team.jpg" class="img-fluid"/>
+                        <p class = "blockquote-fancy">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel nunc at lectus vestibulum fermentum at at sem. Vivamus faucibus mi risus, in aliquet mauris dapibus at. Sed sit amet eros nunc. Vivamus consequat felis nec est interdum dapibus. Etiam vestibulum quam nulla, sit amet molestie dolor aliquet ac. Pellentesque massa odio, gravida in lobortis quis, gravida eget elit. Donec scelerisque elit sit amet urna imperdiet, a pharetra velit fringilla. Praesent congue ultricies tristique."</p>
+                        <p class = "text-right blockquote-fancy-cite">- Billy Bob, '17</p>
+                        <!--
                         <p>Are you passionate about software and Social Impact? Are you looking to join a unique and close-knit community? Join Us! Our mission provides a distinct experience to develop technical skills and interact with nonprofit clients all while applying your skills to impact real lives.</p>
-                        <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSePWsr0nA81Lo6x2prxbO1uR1A79WlCNsyZ5Foa-mC0unH4AA/viewform">Learn More</a></p>
+                        -->
+                        <button type="button" class="btn btn-outline-dark" id="cta-button" onclick="location.href= '#'" > Learn More </button>
                     </div>
-                    <div class="col-md-1"></div>
-                    <div class="col-md-5"><img src="./img/working.jpg" class="img-fluid"/></div>
+                    <div class = "col-md-5 offset-md-2 involved-nonprofits">
+                        <h3 class = "text-center">Nonprofits</h3>
+                        <img src="./img/working.jpg" class="img-fluid"/>
+                        <p class = "blockquote-fancy">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel nunc at lectus vestibulum fermentum at at sem. Vivamus faucibus mi risus, in aliquet mauris dapibus at. Sed sit amet eros nunc. Vivamus consequat felis nec est interdum dapibus. Etiam vestibulum quam nulla, sit amet molestie dolor aliquet ac. Pellentesque massa odio, gravida in lobortis quis, gravida eget elit. Donec scelerisque elit sit amet urna imperdiet, a pharetra velit fringilla. Praesent congue ultricies tristique."</p>
+                        <p class = "text-right blockquote-fancy-cite">- Joe Boe, '21</p>
+                        <!--
+                        <p>Our Mission is to help nonprofits expand their reach impact with technology. Thus, we collaborate closely with organizations of all sizes to produce robust software that meets their needs! We encourage you to apply!</p>
+                        -->
+                        <button type="button" class="btn btn-outline-dark" id="cta-button" onclick="location.href= '#'" > Learn More </button>
+                    </div>
                 </div>
             </div>
         </section>
@@ -123,15 +131,23 @@
             </section>
         -->
 
-        <section class="home-client-section">
+        <section class="partners-section">
             <div class="container">
-                <h2>The non-profits we are currently working with</h2>
+                <div class = "row">
+                    <div class = "col-md-12">
+                        <h1 class = "section-title text-center">Our Partners</h1>
+                    </div>
+                </div>
                 <div class="row">
-                    <div class="col-md-1"></div>
-                    <div class="col-4 col-md-2 client-logo-center" ><img src="img/kiva.png" class="img-fluid"/></div>
-                    <div class="col-4 col-md-2"><img src="img/cttc.jpg" class="img-fluid"/></div>
-                    <div class="col-4 col-md-2"><img src="img/lwb-logo.png" class="img-fluid"/></div>
-                    <div class="col-6 col-md-4 client-logo-center"><img src="img/nnb-logo.jpg" class="img-fluid"/></div>
+                    <div class="col-md-3 divider-right"><img src="img/filler-logo.jpg" class = "img-fluid"/></div>
+                    <div class="col-md-3 divider-right"><img src="img/filler-logo.jpg" class = "img-fluid"/></div>
+                    <div class="col-md-3 divider-right"><img src="img/filler-logo.jpg" class = "img-fluid"/></div>
+                    <div class="col-md-3"><img src="img/filler-logo.jpg" class = "img-fluid"/></div>
+                </div>
+                <div class = "row">
+                    <div class = "col-md-12 text-center partner-button">
+                        <button class = "btn btn-outline-dark" id = "cta-button">Partner with Us</button>
+                    </div>
                 </div>
             </div>
         </section>

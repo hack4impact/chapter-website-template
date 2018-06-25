@@ -269,22 +269,32 @@ h2 {
 /*
     Get Involved Section
 */
-.involve-section {
-    /*background: url('./img/sayagata-400px.png');*/
-    background-color:#ebeff2;
-}
-
-.student-cta {
-    padding-top: 40px;
-}
-
 .involve-section img {
+    display: block;
+    margin: 7% auto;
     border-radius: 5px;
     box-shadow: 2px 2px 2px grey;
+    max-height: 260px; /* Temporary to preserve image heights */
 }
 
-.np-cta h3 {
-    padding-top: 15px;
+.blockquote-fancy {
+    line-height: 1.5em;
+    padding-top: 5%;
+}
+
+.blockquote-fancy:before {
+    position: absolute;
+    content: "\201C";
+    font-size: 40pt;
+    font-family: Georgia, serif;
+    color: #7a7a7a;
+    margin: 1% 0 0 -7%;
+}
+
+.blockquote-fancy-cite {
+    font-style: italic;
+    font-weight: 300;
+    color: #808080;
 }
 
 
@@ -311,27 +321,31 @@ h2 {
 /*
     Clients Section
 */
-.home-client-section {
-    /* background-color: #ebeff2; */
+.partners-section {
+    background-color: #ebeff2;
     padding-top: 40px;
     padding-bottom: 40x;
 }
 
-.client-logo-center {
-    padding-top:30px;
+.partners-section img {
+    padding: 10% 12%;
 }
 
-.home-client-section img {
-    margin: 0 20px;
-}
-
-.home-client-section h2{
+.partners-section h2{
     font-size: 20px;
     text-align:center;
     margin-bottom: 50px;
     color: #373f46;
     opacity: .7;
     font-weight: 300;
+}
+
+.divider-right {
+    border-right: 1px solid #D0D0D0;
+}
+
+.partner-button {
+    margin-top: 6%;
 }
 
 

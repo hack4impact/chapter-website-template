@@ -295,6 +295,15 @@ h2 {
     font-style: italic;
     font-weight: 300;
     color: #808080;
+    margin-bottom: 0;
+}
+
+.blockquote-fancy-title {
+    font-style: italic;
+    font-weight: 300;
+    font-size: 12.5px;
+    white-space: nowrap;
+    margin-bottom: 7%;
 }
 
 

@@ -160,23 +160,21 @@ h2 {
 }
 
 #main-headline h1{
-    font-size: 55px !important;
+    font-size: 60px !important;
     font-weight: 600;
     color: #000080;
-    text-align: left;
 }
 
 #sub-headline {
     max-width: 600px;
-    margin:0 ;
+    margin:0 auto;
 }
 
 #sub-headline p {
-    font-size: 17px;
-    margin-bottom: 28px;
+    font-size: 20px;
+    margin-bottom: 28px auto;
     color: black;
     font-weight: 350;
-    text-align: left;
 
 }
 

@@ -359,6 +359,26 @@ h2 {
 
 
 /*
+    Coming Soon Section
+*/
+.coming-section {
+    height: 100vh;
+    color: white;
+    background: linear-gradient(rgba(20, 20, 20, 0.7), rgba(20, 20, 20, 0.7)), url('img/uiuc.jpg'), no-repeat;
+    background-size: cover;
+}
+
+.coming-section h1 {
+    letter-spacing: 5px;
+    margin: 3% 0;
+}
+
+.coming-section button {
+    padding: 8px 40px;
+}
+
+
+/*
     Contact Section
 .contact-section {
     padding:60px !important;

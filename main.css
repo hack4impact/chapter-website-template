@@ -16,7 +16,7 @@ body {
 }
 
 section {
-    padding: 60px 0; 
+    padding: 60px 0;
     display:block;
 }
 
@@ -26,8 +26,8 @@ p {
 
 @media (min-width: 768px) {
     section {
-      padding: 100px 0; 
-    } 
+      padding: 100px 0;
+    }
 
     .banner-section {
         padding-top: 200px !important;
@@ -54,7 +54,7 @@ p {
 }
 
 .btn-primary {
-    background-color: #4682b4 !important; 
+    background-color: #4682b4 !important;
     border-color: #4682b4 !important;
 }
 
@@ -89,11 +89,11 @@ h2 {
     font-weight: 400;
     padding: 0.75em 0;
     letter-spacing: 1px;
-    color: #082567; 
+    color: #082567;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-    color: #6A7CA3; 
+    color: #6A7CA3;
 }
 
 .shadow {
@@ -108,30 +108,30 @@ h2 {
         -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
         transition: padding-top 0.3s, padding-bottom 0.3s;
         border: none;
-        background-color: transparent; 
+        background-color: transparent;
     }
 
     #mainNav .navbar-brand {
         font-size: 1.75em;
         -webkit-transition: all 0.3s;
         -moz-transition: all 0.3s;
-        transition: all 0.3s; 
+        transition: all 0.3s;
     }
 
     #mainNav .navbar-nav .nav-item .nav-link {
-        padding: 1.1em 1em !important; 
+        padding: 1.1em 1em !important;
     }
 
     #mainNav.navbar-shrink {
         padding-top: 0;
         padding-bottom: 0;
-        background-color: #ffffff; 
+        background-color: #ffffff;
     }
 
     #mainNav.navbar-shrink .navbar-brand {
         font-size: 1.25em;
-        padding: 12px 0; 
-    } 
+        padding: 12px 0;
+    }
 
     .student-cta h3{
         padding-top: 15px;
@@ -204,9 +204,8 @@ h2 {
     max-width:100%;
 }
 .our-work-section {
-    height: 800px;
+    height: 100%;
     padding-top:50px;
-    padding-bottom: 200px;
     background-color: #ebeff2;
 }
 
@@ -473,7 +472,7 @@ Banners for other pages
 
 
 /*
-About Page - "Our Mission" Sectio 
+About Page - "Our Mission" Sectio
 
 .mission-section h2 {
     font-size: 30px;

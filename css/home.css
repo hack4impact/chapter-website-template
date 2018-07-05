@@ -1,0 +1,208 @@
+/* Home Page Styling */
+
+@media (min-width: 768px) {
+    section {
+      padding: 100px 0;
+    }
+
+    .banner-section {
+        padding-top: 200px !important;
+    }
+
+    .our-work-section {
+        height: 600px;
+    }
+
+    .our-work-section h2{
+        margin-top: 0px;
+    }
+}
+
+
+/*
+    Navigation Bar
+*/
+#mainNav {
+    background-color: #ffffff;
+}
+
+#mainNav .navbar-toggler {
+    font-size: 12px;
+    right: 0;
+    padding: 13px;
+    text-transform: uppercase;
+    color: #082567;
+    border: 0;
+    background-color: #bfe6ec;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+    font-size: 90%;
+    font-weight: 400;
+    padding: 0.75em 0;
+    letter-spacing: 1px;
+    color: #082567;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
+    color: #6A7CA3;
+}
+
+.shadow {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media (min-width: 992px) {
+    #mainNav {
+        padding-top: 8px;
+        padding-bottom: 8px;
+        -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
+        -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
+        transition: padding-top 0.3s, padding-bottom 0.3s;
+        border: none;
+        background-color: transparent;
+    }
+
+    #mainNav .navbar-brand {
+        font-size: 1.75em;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        transition: all 0.3s;
+    }
+
+    #mainNav .navbar-nav .nav-item .nav-link {
+        padding: 1.1em 1em !important;
+    }
+
+    #mainNav.navbar-shrink {
+        padding-top: 0;
+        padding-bottom: 0;
+        background-color: #ffffff;
+    }
+
+    #mainNav.navbar-shrink .navbar-brand {
+        font-size: 1.25em;
+        padding: 12px 0;
+    }
+
+    .student-cta h3{
+        padding-top: 15px;
+    }
+}
+
+
+/*
+  Banner Section
+*/
+@media (max-width: 768px){
+    .banner-section {
+        background-size: contain;
+    }
+}
+
+.banner-section {
+    height:650px;
+    padding-top: 100px;
+    background: white /*url('./img/banner sample.svg') no-repeat fixed*/;
+    background-size: cover;
+}
+
+#cta-button {
+    padding: 11px 30px 11px;
+    margin-right: 10px;
+}
+
+.cta-box{
+    padding-top: 7px;
+    align-content: left;
+}
+
+.cta-box a, .cta-box a:hover{
+    font-size: 12px;
+    color: #ffffff;
+    border-bottom: 1px solid #ffffff;
+    text-decoration: none !important;
+}
+
+
+/*
+    Our Work Section
+*/
+#our-work-title-box{
+    padding-bottom: 40px;
+    max-width:100%;
+}
+.our-work-section {
+    height: 100%;
+    padding-top:50px;
+    background-color: #ebeff2;
+}
+
+.our-work-section h2{
+    margin-top: 20px; /* when screen is small */
+}
+
+.our-work-section h1 {
+    color:#373f46;
+    font-weight: 500;
+}
+
+.our-work-section p {
+    color: #6a6f73;
+}
+
+#project-showcase-box a {
+    color: #373f46;
+    font-weight: 500;
+}
+
+.our-work-section img {
+    border-radius: 5px;
+}
+
+.project-showcase-box{
+    max-width:100%;
+}
+
+
+/*
+    Get Involved Section
+*/
+.involve-section img {
+    display: block;
+    margin: 7% auto;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px grey;
+    max-height: 260px; /* Temporary to preserve image heights */
+}
+
+
+/*
+    Clients Section
+*/
+.partners-section {
+    background-color: #ebeff2;
+    padding-top: 40px;
+    padding-bottom: 40x;
+}
+
+.partners-section img {
+    padding: 10% 12%;
+}
+
+.partners-section h2{
+    font-size: 20px;
+    text-align:center;
+    margin-bottom: 50px;
+    color: #373f46;
+    opacity: .7;
+    font-weight: 300;
+}
+
+.divider-right {
+    border-right: 1px solid #D0D0D0;
+}
+
+.partner-button {
+    margin-top: 6%;
+}

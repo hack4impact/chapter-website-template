@@ -1,0 +1,195 @@
+/*
+Common Styling
+*/
+body {
+    font-family: 'Lato', sans-serif;
+    letter-spacing: .3px;
+    background: #445261;
+}
+
+.container{
+    max-width: 1000px !important;
+}
+
+.center {
+    text-align: center;
+}
+
+section {
+    padding: 60px 0;
+    display:block;
+}
+
+p {
+    font-weight: 200;
+}
+
+.section-title{
+    font-size: 35px;
+    margin-bottom: 25px;
+    font-weight:400;
+}
+
+.btn {
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.btn-primary {
+    background-color: #4682b4 !important;
+    border-color: #4682b4 !important;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+h2 {
+    font-weight: 400;
+}
+
+
+/*
+    Banner Sections
+*/
+#main-headline {
+    margin-bottom: 24px;
+}
+
+#main-headline h1{
+    font-size: 60px !important;
+    font-weight: 600;
+    color: #000080;
+}
+
+#sub-headline {
+    max-width: 600px;
+    margin:0 auto;
+}
+
+#sub-headline p {
+    font-size: 20px;
+    margin-bottom: 28px auto;
+    color: black;
+    font-weight: 350;
+
+}
+
+
+/*
+  Blockquotes
+*/
+.blockquote-fancy {
+    line-height: 1.5em;
+    padding-top: 5%;
+}
+
+.blockquote-fancy:before {
+    position: absolute;
+    content: "\201C";
+    font-size: 40pt;
+    font-family: Georgia, serif;
+    color: #7a7a7a;
+    margin: 1% 0 0 -7%;
+}
+
+.blockquote-fancy-cite {
+    font-style: italic;
+    font-weight: 300;
+    color: #808080;
+    margin-bottom: 0;
+}
+
+.blockquote-fancy-title {
+    font-style: italic;
+    font-weight: 300;
+    font-size: 12.5px;
+    white-space: nowrap;
+    margin-bottom: 7%;
+}
+
+
+/*
+    Footer
+*/
+.footer-section {
+    background-color: #37536c;
+    min-height: 350px;
+    padding-top:70px !important;
+}
+
+.footer-section h4{
+    font-size: 15px;
+    color:#e1e1e1;
+    text-align: left;
+    padding-bottom: 9px;
+}
+
+.footer-section ul{
+    list-style-type: none;
+    text-align: left;
+    padding:0;
+}
+
+.footer-section li {
+    font-size: 15px;
+    padding-bottom: 5px;
+}
+
+.footer-logo-box {
+    padding-bottom: 20px;
+}
+
+.footer-section a {
+    color:#8E8D8A;
+}
+
+.footer-section a:hover {
+    color: #d9d9d9;
+}
+
+.footer-left-div {
+    padding-bottom: 30px;
+}
+
+.footer-section p {
+    color: #d9d9d9;
+}
+
+
+/*
+    Sponsor Section
+
+.sponsors-section {
+    background:#bfe6ec;
+}
+.sponsor-title-box {
+    text-align: center;
+}
+.sponsor-title-box h1 {
+    margin-bottom: 5px !important;
+}
+.sponsor-title-box p {
+    font-size: 14px;
+    padding: 2px 0;
+    margin: 0 0;
+}
+*/
+
+
+/*
+    Contact Section
+.contact-section {
+    padding:60px !important;
+    height: 250px;
+    background:#EAE7DC;
+}
+
+.contact-section h1 {
+    margin-bottom: 10px !important;
+}
+
+#contact-us-text {
+    font-size:20px;
+}
+*/

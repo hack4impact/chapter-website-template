@@ -1,0 +1,10 @@
+/*
+  Navbar
+*/
+#mainNav {
+  background-color: #0019FF;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+  color: white;
+}

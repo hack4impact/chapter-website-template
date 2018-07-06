@@ -18,17 +18,11 @@
   padding: 12% 0;
 }
 
-#about-headline, #about-sub-headline {
-  padding: 8px 0;
-  color: white;
-}
-
-#about-headline h1 {
-  font-size: 60px;
-  font-weight: 600;
-}
-
-#about-sub-headline p {
+#sub-headline {
+  max-width: 100%;
   padding: 0 10%;
-  font-size: 14pt;
+}
+
+#main-headline h1, #sub-headline p {
+  color: white;
 }

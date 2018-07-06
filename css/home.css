@@ -37,28 +37,6 @@
 /*
     Banner Sections
 */
-#main-headline {
-    margin-bottom: 24px;
-}
-
-#main-headline h1{
-    font-size: 60px !important;
-    font-weight: 600;
-    color: #000080;
-}
-
-#sub-headline {
-    max-width: 600px;
-    margin:0 auto;
-}
-
-#sub-headline p {
-    font-size: 20px;
-    margin-bottom: 28px auto;
-    color: black;
-    font-weight: 350;
-}
-
 .banner-section {
     height:650px;
     padding-top: 100px;

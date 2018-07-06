@@ -56,6 +56,15 @@ h2 {
     font-weight: 400;
 }
 
+.blue-arrow-down {
+  margin: auto;
+  width: 0;
+  height: 0;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-top: 60px solid #0019FF;
+}
+
 
 /*
     Navigation Bar

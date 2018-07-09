@@ -1,20 +1,8 @@
 /*
-  Navbar
-*/
-#mainNav {
-  background-color: #0019FF;
-}
-
-#mainNav .navbar-nav .nav-item .nav-link {
-  color: white;
-}
-
-
-/*
   About Banner
 */
 .about-banner-section {
-  background-color: #0019FF;
+  background: radial-gradient(white, #AAC3FF);
   padding: 12% 0;
 }
 
@@ -23,6 +11,8 @@
   padding: 0 10%;
 }
 
+/*
 #main-headline h1, #sub-headline p {
   color: white;
 }
+*/

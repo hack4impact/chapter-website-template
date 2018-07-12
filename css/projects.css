@@ -5,11 +5,10 @@
 .card-deck {
 	width: 18rem;
 }*/
-
-.project-banner-section {
-  background: radial-gradient(white, #AAC3FF);
+.gradient-banner-section {
   padding: 8% 0;
 }
+
 
 .explore {
 	height: 100%;

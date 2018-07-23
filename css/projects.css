@@ -16,3 +16,11 @@
 	background-color: #ebeff2;
 }
 */
+#project-photo {
+	height: 80%;
+	width: 80%;
+}
+
+.tech-stack {
+	padding: 2%;
+}

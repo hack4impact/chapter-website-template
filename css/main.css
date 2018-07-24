@@ -71,6 +71,10 @@ h2 {
     background-color: #ebeff2;
 }
 
+
+.tech-stack {
+    margin: 2%;
+}
 /*
     Navigation Bar
 */
@@ -202,7 +206,23 @@ h2 {
   background: radial-gradient(white, #AAC3FF);
   padding: 12% 0;
 }
-    
+
+
+/* 
+    Project Page Banner 
+*/
+ 
+.project-page-banner {
+    padding: 6% 0;
+    background: #a3b4d8;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+.project-page-banner h1 {
+    margin: 3%;
+}
 /*
     Footer
 */

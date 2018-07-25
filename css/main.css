@@ -72,7 +72,7 @@ h2 {
 }
 
 
-.margin-small {
+.margin-sm-all {
     margin: 2%;
 }
 /*
@@ -220,9 +220,6 @@ h2 {
     text-align: center;
 }
 
-.project-page-banner h1 {
-    margin: 3%;
-}
 /*
     Footer
 */

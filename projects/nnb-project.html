@@ -13,14 +13,14 @@
         <link rel="stylesheet" type="text/css" media="screen" href="../css/projects.css" />
         <link rel="stylesheet" type="text/css" media="screen" href="../css/about.css"/>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lato|Chivo|Heebo:300" rel="stylesheet">
     </head>
 
     <body>
-      <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+      <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="otherNav">
           <div class="container">
             <a class="navbar-brand js-scroll-trigger" href="../index.html"><img id="logo-img" height=35 width=200 src="../img/colored-logo.png"/></a>
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler navbar-toggler-right" stype="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
               Menu
               <i class="fa fa-bars"></i>
             </button>
@@ -48,7 +48,7 @@
       <div class = "container margin-sm-all">
         <div class = "row">
           <div class = "col-md-12">
-            <h1> Neighborhood News Bureau </h1>
+            <h1 class = "section-title"> Neighborhood News Bureau </h1>
           </div>
         </div>
 
@@ -61,7 +61,7 @@
 
         <div class = "row text-center">
           <div class = "col-md-12">
-            <button type="button" class="btn btn-outline-dark" onclick="location.href= 'http://www.nnbnews.com/'" > Learn More </button>
+            <button type="button" class="btn btn-outline-light" onclick="location.href= 'http://www.nnbnews.com/'" > Learn More </button>
           </div>
         </div>
       </div>
@@ -72,7 +72,7 @@
         <div class = "row">
           <div class = "col-md-6">
             <div class = "card border-0">
-              <h3 class = "card-title text-center"> Problem </h3>
+              <h5 class = "card-title text-center text-title"> Problem </h5>
                 <div class = "text-center">
                   <img src = "../img/4-square.jpg" class = "card-img-top" id ="project-photo"/>
                 </div>
@@ -84,7 +84,7 @@
 
           <div class = "col-md-6">
             <div class = "card border-0">
-              <h3 class = "text-center"> Solution </h3>
+              <h5 class = "card-title text-center text-title"> Solution </h5>
                 <div class = "text-center">
                   <img src = "../img/mapstories.jpg" class = "card-img-top" id ="project-photo"/>
                 </div>
@@ -99,7 +99,7 @@
           <div class = "row">
               <div class = "col-md-12">
                 <div class = "text-center">
-                  <h4> <i> Tech Stack </i> </h4>
+                  <h5 class = "text-title"> Tech Stack </h5>
                 </div>
               </div>
           </div>
@@ -129,8 +129,8 @@
         <div class = "github-link">
           <div class = "row text-center">
             <div class = "col-md-12">
-              <button type="button" class="btn btn-outline-dark" onclick="location.href= 'https://github.com/hack4impact-uiuc/nnb-frontend'" > Frontend Repository </button>
-              <button type="button" class="btn btn-outline-dark" onclick="location.href= 'https://github.com/hack4impact-uiuc/nnb-backend-v2'" > Backend Repository </button>
+              <button id = "cta-button" type="button" class="btn btn-outline-dark" onclick="location.href= 'https://github.com/hack4impact-uiuc/nnb-frontend'" > Frontend Repository </button>
+              <button id = "cta-button" type="button" class="btn btn-outline-dark" onclick="location.href= 'https://github.com/hack4impact-uiuc/nnb-backend-v2'" > Backend Repository </button>
             </div>
           </div>
         </div>
@@ -142,7 +142,7 @@
         <div class = "row">
           <div class = "col-md-12">
             <blockquote class = "blockquote">
-              <p class ="mb-0"> <b> <h1> “</b> </h1> The educational tool is both very sensible and very easy. We’ll be using this tool to teach local kids in school and eventually teach them how to code and add to these stories. This tool <b> <i> transforms local black history to mainstream history. </i> </b> The more we empower people to add to these stories, the better.” </p>
+              <b> <h1> “</h1> </b> <p class = "project-body-quote"> The educational tool is both very sensible and very easy. We’ll be using this tool to teach local kids in school and eventually teach them how to code and add to these stories. This tool <b> <i> transforms local black history to mainstream history. </i> </b> The more we empower people to add to these stories, the better.” </p>
               <footer class = "blockquote-footer"> Bernardo Motta, <cite title = "Source Title"> Ph. D, Faculty Coordinator of the USFSP Neighborhood News Bureau
  </cite> </footer>
             </blockquote>
@@ -155,7 +155,7 @@
       <div class = "container">
         <div class = "row">
           <div class = "col-md-12">
-            <h3> Project Team </h3>
+            <h5 class = "text-title"> Project Team </h5>
           </div>
         </div>
 
@@ -198,7 +198,7 @@
 
         <div class = "row text-center">
           <div class = "col-md-12">
-            <button type="button" class="btn btn-outline-dark" onclick="location.href= '../projects.html'" > View Other Projects </button>
+            <button id = "cta-button" type="button" class="btn btn-outline-dark" onclick="location.href= '../projects.html'" > View Other Projects </button>
           </div>
         </div>
       </div>

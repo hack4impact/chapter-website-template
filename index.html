@@ -12,7 +12,7 @@
         <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
         <link rel="stylesheet" type="text/css" media="screen" href="css/home.css" />
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lato|Chivo|Heebo:300" rel="stylesheet">
     </head>
 
     <body>
@@ -43,22 +43,21 @@
             </div>
         </nav>
 
-        <section class="banner-section center">
+        <section id = "main-banner-photo" class="banner-section center">
             <div class="container align-middle">
-                <div id="main-headline">
+                <div id="homepage-main-headline">
                     <h1>Software for Nonprofits </h1>
                 </div>
-                <div id="sub-headline">
+                <div id="homepage-sub-headline">
                     <p> We are a team of UIUC students who create robust software for social good. We believe that our engineering skill sets do not render us useless in addressing social injustices. Instead, they empower us to build a better society together. </p>
                 </div>
                 <div class="cta-box">
 
-                    <button type="button" class="btn btn-outline-dark" id="cta-button" onclick="location.href= '#work-id'" > Learn More </button>
+                    <button type="button" class="btn btn-outline-light" id="cta-button" onclick="location.href= '#work-id'" > Learn More </button>
 
 
-                    <button type="button" class="btn btn-outline-dark" id="cta-button" onclick="location.href='https://docs.google.com/forms/d/e/1FAIpQLSePWsr0nA81Lo6x2prxbO1uR1A79WlCNsyZ5Foa-mC0unH4AA/viewform'" > Apply </button>
+                    <button type="button" class="btn btn-outline-light" id="cta-button" onclick="location.href='https://docs.google.com/forms/d/e/1FAIpQLSePWsr0nA81Lo6x2prxbO1uR1A79WlCNsyZ5Foa-mC0unH4AA/viewform'" > Apply </button>
                 </div>
-
             </div>
         </section>
 
@@ -74,24 +73,24 @@
                 </div>
                 <div class="row" id = "project-showcase">
                     <div class="col-md-4">
-                        <h5 class = "text-center"> Kiva </h5>
+                        <h5 class = "text-title text-center"> Kiva </h5>
                         <a href = "./projects/kiva-project.html"> <img src="./img/kiva-graphic-edit.svg" class="img-fluid" href = "./projects/kiva-project.html"/> </a>
                     </div>
 
 
                     <div class="col-md-4">
-                        <h5 class = "text-center"> Cut to the Case </h5>
+                        <h5 class = "text-title text-center"> Cut to the Case </h5>
                         <a href = "./projects/cttc-project.html"> <img src="./img/cttc-edit.svg" class="img-fluid"/> </a>
                     </div>
 
                     <div class="col-md-4">
-                        <h5 class = "text-center"> Love without Boundaries </h5>
+                        <h5 class = "text-title text-center"> Love without Boundaries </h5>
                         <a href = "./projects/lwb-project.html"> <img src="./img/lwb-edit.svg" class="img-fluid"/></a>
                     </div>
                 </div>
                 <div class = "row">
                     <div class = "col-md-12 text-center partner-button">
-                        <button class = "btn btn-outline-dark" id = "cta-button" onclick="location.href='projects.html'"> View All Projects </button>
+                        <button class = "btn btn-outline-primary" id = "cta-button" onclick="location.href='projects.html'"> View All Projects </button>
                     </div>
                 </div>
             </div>
@@ -119,7 +118,7 @@
                 </div>
                 <div class = "row involved-body">
                     <div class = "col-md-5 involved-students">
-                        <h3 class = "text-center">Students</h3>
+                        <h3 class = "text-title text-center">Students</h3>
                         <img src="./img/team.jpg" class="img-fluid"/>
                         <!--Temporary hacky change-->
                         <p style="margin-top: 60px; margin-bottom: 35px;">Are you passionate about software and Social Impact? Are you looking to join a unique and close-knit community? Join Us! Our mission provides a distinct experience to develop technical skills and interact with nonprofit clients all while applying your skills to impact real lives.</p>
@@ -127,10 +126,12 @@
                         <p class = "blockquote-fancy">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel nunc at lectus vestibulum fermentum at at sem. Vivamus faucibus mi risus, in aliquet mauris dapibus at. Sed sit amet eros nunc. Vivamus consequat felis nec est interdum dapibus."</p>
                         <p class = "text-right blockquote-fancy-cite">- Billy Bob, '17</p>
                         -->
-                        <button type="button" class="btn btn-outline-dark" id="cta-button" onclick="location.href= 'coming-soon.html'" > Learn More </button>
+                        <div class = "text-center"> 
+                            <button type="button" class="btn btn-outline-primary" id="cta-button" onclick="location.href= 'coming-soon.html'" > Learn More </button>
+                        </div>
                     </div>
                     <div class = "col-md-5 offset-md-2 involved-nonprofits">
-                        <h3 class = "text-center">Nonprofits</h3>
+                        <h3 class = "text-title text-center">Nonprofits</h3>
                         <img src="./img/working.jpg" class="img-fluid"/>
                         <p class = "blockquote-fancy">Working with Hack4Impact was easy, efficient and incredibly productive. They were quick to understand what we were looking to achieve and made the app even better and simpler to use than what I had imagined."</p>
                         <p class = "text-right blockquote-fancy-cite">- Bernardo H. Motta, Ph.D.</p>
@@ -138,7 +139,9 @@
                         <!--
                         <p>Our Mission is to help nonprofits expand their reach impact with technology. Thus, we collaborate closely with organizations of all sizes to produce robust software that meets their needs! We encourage you to apply!</p>
                         -->
-                        <button type="button" class="btn btn-outline-dark" id="cta-button" onclick="location.href= 'https://docs.google.com/forms/d/e/1FAIpQLSdnDbHQdqMH4Vzd6jU9PBmnX9NPMh2J5tPh9VdEvC8m7SDnCQ/viewform'" > Learn More </button>
+                        <div class = "text-center"> 
+                            <button type="button" class="btn btn-outline-primary" id="cta-button" onclick="location.href= 'https://docs.google.com/forms/d/e/1FAIpQLSdnDbHQdqMH4Vzd6jU9PBmnX9NPMh2J5tPh9VdEvC8m7SDnCQ/viewform'" > Learn More </button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -172,7 +175,7 @@
                 </div>
                 <div class = "row">
                     <div class = "col-md-12 text-center partner-button">
-                        <button class = "btn btn-outline-dark" id = "cta-button" onclick="location.href= 'coming-soon.html'">Partner with Us</button>
+                        <button class = "btn btn-outline-primary" id = "cta-button" onclick="location.href= 'coming-soon.html'">Partner with Us</button>
                     </div>
                 </div>
             </div>

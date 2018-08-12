@@ -221,7 +221,9 @@ h2 {
 */
 
 #main-banner-photo{
-    background-image: url("../img/h4i-team-blue-2.tif");
+    background-image: url("../img/h4i-team-blue-2.png");
+    display: flex;
+    background-attachment: fixed;
 }
 
 #main-banner-headline {

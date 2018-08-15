@@ -22,18 +22,18 @@
   
     // Activate scrollspy to add active class to navbar items on scroll
     $('body').scrollspy({
-      target: '#mainNav',
+      target: '#otherNav',
       offset: 54
     });
-  
+
     // Collapse Navbar
     var navbarCollapse = function() {
-      if ($("#mainNav").offset().top > 100) {
-        $("#mainNav").addClass("navbar-shrink");
-        $("#mainNav").addClass("shadow");
+      if ($("#otherNav").offset().top > 100) {
+        $("#otherNav").addClass("navbar-shrink");
+        $("#otherNav").addClass("shadow");
       } else {
-        $("#mainNav").removeClass("navbar-shrink");
-        $("#mainNav").removeClass("shadow");
+        $("#otherNav").removeClass("navbar-shrink");
+        $("#otherNav").removeClass("shadow");
       }
     };
     // Collapse now if page is not at top

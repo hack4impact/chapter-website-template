@@ -5,29 +5,21 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>H4I | CTTC Project </title>
+  
+        <link rel="stylesheet" type="text/css" media="screen" href="../css/main.css" />
+        <link rel="stylesheet" type="text/css" media="screen" href="../css/projects.css" />
+        <link rel="stylesheet" type="text/css" media="screen" href="../css/about.css"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Lato|Chivo|Heebo:300" rel="stylesheet">
+    </head>
 
-    <link rel="apple-touch-icon" sizes="180x180" href="../img/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="../img/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="../img/favicon-16x16.png">
-
-    <link rel="stylesheet" type="text/css" media="screen" href="../css/main.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="../css/projects.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="../css/about.css" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-        crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-</head>
-
-<body>
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-        <div class="container">
-            <a class="navbar-brand js-scroll-trigger" href="../index.html">
-                <img id="logo-img" height=35 width=200 src="../img/colored-logo.png" />
-            </a>
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
-                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                Menu
-                <i class="fa fa-bars"></i>
+    <body>
+      <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="otherNav">
+          <div class="container">
+            <a class="navbar-brand js-scroll-trigger" href="../index.html"><img id="logo-img" height=35 width=200 src="../img/colored-logo.png"/></a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+              Menu
+              <i class="fa fa-bars"></i>
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav text-uppercase ml-auto">
@@ -48,44 +40,38 @@
                     </li>
                 </ul>
             </div>
+          </div>
+      </nav>
+
+    <section class = "project-page-banner">
+      <div class = "container margin-sm-all">
+        <div class = "row">
+          <div class = "col-md-12">
+            <h1 class = "section-title"> Cut to the Case </h1>
+          </div>
         </div>
-    </nav>
 
-    <section class="project-page-banner">
-        <div class="container margin-sm-all">
-            <div class="row">
-                <div class="col-md-12">
-                    <h1> Cut to the Case </h1>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-md-8 offset-md-2">
-                    <p> Cut to the Case (CTTC) is a nonprofit organization started by two UIUC Engineering students who met through
-                        a nonprofit startup aimed at increasing interest in STEM among young girls called MakerGirl. After
-                        getting accepted into iVenture Accelerator and doing summer research, Premika and Kendall decided
-                        to tackle the issue of sexual assault. CTTC’s goal is to increase reporting and eventually increase
-                        prosecution through a rape kit tracking system. Currently Premika and Kendall are working on customer
-                        research.
-                    </p>
-                </div>
-            </div>
-
-            <div class="row text-center">
-                <div class="col-md-12">
-                    <button type="button" class="btn btn-outline-dark" onclick="location.href= 'https://www.cuttothecase.com/'"> Learn More </button>
-                </div>
-            </div>
+        <div class = "row">
+          <div class = "col-md-8 offset-md-2">
+            <p> Cut to the Case (CTTC) is a nonprofit organization started by two UIUC Engineering students who met through a nonprofit startup aimed at increasing interest in STEM among young girls called MakerGirl. After getting accepted into iVenture Accelerator and doing summer research, Premika and Kendall decided to tackle the issue of sexual assault. CTTC’s goal is to increase reporting and eventually increase prosecution through a rape kit tracking system. Currently Premika and Kendall are working on customer research.
+            </p>
+          </div>
         </div>
+
+        <div class = "row text-center">
+          <div class = "col-md-12">
+            <button id = "cta-button" type="button" class="btn btn-outline-dark" onclick="location.href= 'https://www.cuttothecase.com/'" > Learn More </button>
+          </div>
+        </div>
+      </div>
     </section>
-
 
     <section class="project-details">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
                     <div class="card border-0">
-                        <h3 class="card-title text-center"> Problem </h3>
+                        <h5 class="card-title text-center text-title"> Problem </h5>
                         <div class="text-center">
                             <img src="../img/2-reporting-edit.jpg" class="card-img-top" id="project-photo" />
                         </div>
@@ -101,7 +87,7 @@
 
                 <div class="col-md-6">
                     <div class="card border-0">
-                        <h3 class="text-center"> Solution </h3>
+                        <h5 class="card-title text-center text-title> Solution </h5>
                         <div class="text-center">
                             <img src="../img/cttc-site-edit.jpg" class="card-img-top" id="project-photo" />
                         </div>
@@ -116,16 +102,14 @@
                 </div>
             </div>
 
-            <div class="tech-stack margin-sm-all">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="text-center">
-                            <h4>
-                                <i> Tech Stack </i>
-                            </h4>
-                        </div>
-                    </div>
+            <div class = "tech-stack margin-sm-all">
+              <div class = "row">
+                <div class = "col-md-12">
+                  <div class = "text-center">
+                    <h5 class = "text-title"> Tech Stack </h5>
+                  </div>
                 </div>
+              </div>
 
                 <div class="row">
                     <div class="col-md-2">
@@ -169,36 +153,25 @@
         </div>
     </section>
 
-    <section class="gray-subsection">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <blockquote class="blockquote">
-                        <p class="mb-0">
-                            <b>
-                                <h1> “</b>
-                            </h1> We talked to a couple of companies about Cut to the Case, but a lot of them didn’t have the same
-                            passion that Hack4Impact had for the project.
-                            <b>
-                                <i> Hack4Impact had enthusiasm for what we were doing. </i>
-                            </b> Alex’s team brought up great points like what we would do if someone who’s reporting is underage.
-                            They were really receptive to what we said and had a good grasp on the issue.” </p>
-                        <footer class="blockquote-footer"> Premika Pandian,
-                            <cite title="Source Title"> Cut to the Case Co-Founder and CTO </cite>
-                        </footer>
-                    </blockquote>
-                </div>
-            </div>
+    <section class = "gray-subsection">
+      <div class = "container">
+        <div class = "row">
+          <div class = "col-md-12">
+            <blockquote class = "blockquote">
+              <b> <h1> “ </h1> </b> <p class = "project-body-quote"> We talked to a couple of companies about Cut to the Case, but a lot of them didn’t have the same passion that Hack4Impact had for the project. <b> <i> Hack4Impact had enthusiasm for what we were doing. </i> </b> Alex’s team brought up great points like what we would do if someone who’s reporting is underage. They were really receptive to what we said and had a good grasp on the issue.” </p>
+              <footer class = "blockquote-footer"> Premika Pandian, <cite title = "Source Title"> Cut to the Case Co-Founder and CTO </cite> </footer>
+            </blockquote>
+          </div>
         </div>
     </section>
 
-    <section class="project-team">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <h3> Project Team </h3>
-                </div>
-            </div>
+    <section class = "project-team">
+      <div class = "container">
+        <div class = "row">
+          <div class = "col-md-12">
+            <h5 class = "text-title"> Project Team </h5>
+          </div>
+        </div>
 
             <div class="row">
                 <div class="col-md-3 offset-md-3">
@@ -228,7 +201,6 @@
                 </div>
             </div>
 
-
             <div class="row">
                 <div class="col-md-12">
                     <div class="text-center">
@@ -239,11 +211,10 @@
                 </div>
             </div>
 
-            <div class="row text-center">
-                <div class="col-md-12">
-                    <button type="button" class="btn btn-outline-dark" onclick="location.href= '../projects.html'"> View Other Projects </button>
-                </div>
-            </div>
+        <div class = "row text-center">
+          <div class = "col-md-12">
+            <button id = "cta-button" type="button" class="btn btn-outline-dark" onclick="location.href= '../projects.html'" > View Other Projects </button>
+          </div>
         </div>
     </section>
 

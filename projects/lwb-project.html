@@ -6,28 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>H4I | LWB Project </title>
 
-    <link rel="apple-touch-icon" sizes="180x180" href="../img/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="../img/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="../img/favicon-16x16.png">
+        <link rel="stylesheet" type="text/css" media="screen" href="../css/main.css" />
+        <link rel="stylesheet" type="text/css" media="screen" href="../css/projects.css" />
+        <link rel="stylesheet" type="text/css" media="screen" href="../css/about.css"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Lato|Chivo|Heebo:300" rel="stylesheet">
+    </head>
 
-    <link rel="stylesheet" type="text/css" media="screen" href="../css/main.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="../css/projects.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="../css/about.css" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-        crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-</head>
-
-<body>
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-        <div class="container">
-            <a class="navbar-brand js-scroll-trigger" href="../index.html">
-                <img id="logo-img" height=35 width=200 src="../img/colored-logo.png" />
-            </a>
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
-                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                Menu
-                <i class="fa fa-bars"></i>
+    <body>
+      <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="otherNav">
+          <div class="container">
+            <a class="navbar-brand js-scroll-trigger" href="../index.html"><img id="logo-img" height=35 width=200 src="../img/colored-logo.png"/></a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+              Menu
+              <i class="fa fa-bars"></i>
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav text-uppercase ml-auto">
@@ -48,34 +40,30 @@
                     </li>
                 </ul>
             </div>
+          </div>
+      </nav>
+
+    <section class = "project-page-banner">
+      <div class = "container margin-sm-all">
+        <div class = "row">
+          <div class = "col-md-12">
+            <h1 class= "section-title"> Love Without Boundaries </h1>
+          </div>
         </div>
-    </nav>
 
-    <section class="project-page-banner">
-        <div class="container margin-sm-all">
-            <div class="row">
-                <div class="col-md-12">
-                    <h1> Love Without Boundaries </h1>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-md-8 offset-md-2">
-                    <p> Love Without Boundaries (LWB) is an international NPO with the mission of serving vulnerable children
-                        in underserved communities. Through their services including nutrition programs, summer camps, and
-                        healing homes, LWB is able to target education, nutrition, medical care, and foster care. LWB recently
-                        registered as a NGO in China’s national registry. Other areas they serve include Cambodia, India,
-                        and Uganda.
-                    </p>
-                </div>
-            </div>
-
-            <div class="row text-center">
-                <div class="col-md-12">
-                    <button type="button" class="btn btn-outline-dark" onclick="location.href= 'https://www.lovewithoutboundaries.com/'"> Learn More </button>
-                </div>
-            </div>
+        <div class = "row">
+          <div class = "col-md-8 offset-md-2">
+            <p> Love Without Boundaries (LWB) is an international NPO with the mission of serving vulnerable children in underserved communities. Through their services including nutrition programs, summer camps, and healing homes, LWB is able to target education, nutrition, medical care, and foster care. LWB recently registered as a NGO in China’s national registry. Other areas they serve include Cambodia, India, and Uganda.
+            </p>
+          </div>
         </div>
+
+        <div class = "row text-center">
+          <div class = "col-md-12">
+            <button type="button" class="btn btn-outline-dark" onclick="location.href= 'https://www.lovewithoutboundaries.com/'" > Learn More </button>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section class="project-details">
@@ -83,7 +71,7 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="card border-0">
-                        <h3 class="card-title text-center"> Problem </h3>
+                        <h5 class="card-title text-center text-title"> Problem </h5>
                         <div class="text-center">
                             <img src="../img/3-square.jpg" class="card-img-top" id="project-photo" />
                         </div>
@@ -98,7 +86,7 @@
 
                 <div class="col-md-6">
                     <div class="card border-0">
-                        <h3 class="text-center"> Solution </h3>
+                        <h5 class="card-title text-center text-title"> Solution </h5>
                         <div class="text-center">
                             <img src="../img/student-square.jpg" class="card-img-top" id="project-photo" />
                         </div>
@@ -113,16 +101,14 @@
                 </div>
             </div>
 
-            <div class="tech-stack margin-sm-all">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="text-center">
-                            <h4>
-                                <i> Tech Stack </i>
-                            </h4>
-                        </div>
-                    </div>
+            <div class = "tech-stack margin-sm-all">
+              <div class = "row">
+                <div class = "col-md-12">
+                  <div class = "text-center">
+                     <h4 class = "text-title"> Tech Stack </h4>
+                  </div>
                 </div>
+              </div>
 
                 <div class="row">
                     <div class="col-md-2">
@@ -158,48 +144,33 @@
                 </div>
             </div>
 
-            <div class="github-link">
-                <div class="row text-center">
-                    <div class="col-md-12">
-                        <button type="button" class="btn btn-outline-dark" onclick="location.href= 'https://github.com/hack4impact-uiuc/love-without-boundaries'">
-                            View Github Repository </button>
-                    </div>
-                </div>
+        <div class = "github-link">
+          <div class = "row text-center">
+            <div class = "col-md-12">
+              <button id="cta-button" type="button" class="btn btn-outline-dark" onclick="location.href= 'https://github.com/hack4impact-uiuc/love-without-boundaries'" > View Github Repository </button>
             </div>
         </div>
     </section>
 
-    <section class="gray-subsection">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <blockquote class="blockquote">
-                        <p class="mb-0">
-                            <b>
-                                <h1> “</b>
-                            </h1> The software is transformative. To be able to bring English language competency and ability to
-                            pass the college entrance exams to these students in an extremely impoverished and vulnerable
-                            region literally
-                            <b>
-                                <i> transforms futures </i>
-                            </b>. These students now can have options and select a career where they can think about what they
-                            want to do in life and contribute to the economy. It opens the door to a new future.” </p>
-                        <footer class="blockquote-footer"> Kelly Wolfe,
-                            <cite title="Source Title"> Love Without Boundaries Managing Director of Strategic Partnerships </cite>
-                        </footer>
-                    </blockquote>
-                </div>
-            </div>
+    <section class = "gray-subsection">
+      <div class = "container">
+        <div class = "row">
+          <div class = "col-md-12">
+            <blockquote class = "blockquote">
+              <b> <h1> “ </h1> </b> <p class = "project-body-quote"> The software is transformative. To be able to bring English language competency and ability to pass the college entrance exams to these students in an extremely impoverished and vulnerable region literally <b> <i> transforms futures </i> </b>. These students now can have options and select a career where they can think about what they want to do in life and contribute to the economy. It opens the door to a new future.” </p>
+              <footer class = "blockquote-footer"> Kelly Wolfe, <cite title = "Source Title"> Love Without Boundaries Managing Director of Strategic Partnerships </cite> </footer>
+            </blockquote>
+          </div>
         </div>
     </section>
 
-    <section class="project-team">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <h3> Project Team </h3>
-                </div>
-            </div>
+    <section class = "project-team">
+      <div class = "container">
+        <div class = "row">
+          <div class = "col-md-12">
+            <h5 class = "text-title"> Project Team </h5>
+          </div>
+        </div>
 
             <div class="row">
                 <div class="col-md-3 offset-md-3">
@@ -238,11 +209,10 @@
                 </div>
             </div>
 
-            <div class="row text-center">
-                <div class="col-md-12">
-                    <button type="button" class="btn btn-outline-dark" onclick="location.href= '../projects.html'"> View Other Projects </button>
-                </div>
-            </div>
+        <div class = "row text-center">
+          <div class = "col-md-12">
+            <button id = "cta-button" type="button" class="btn btn-outline-dark" onclick="location.href= '../projects.html'" > View Other Projects </button>
+          </div>
         </div>
     </section>
 

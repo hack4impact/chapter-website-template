@@ -188,7 +188,7 @@ h2 {
         background-color: transparent;
     }
 
-    #othernNav .navbar-brand {
+    #otherNav .navbar-brand {
         font-size: 1.75em;
         -webkit-transition: all 0.3s;
         -moz-transition: all 0.3s;
@@ -224,6 +224,7 @@ h2 {
     background-image: url("../img/h4i-team-blue-2.png");
     display: flex;
     background-attachment: fixed;
+    background-position: center center;
 }
 
 #main-banner-headline {
@@ -333,8 +334,8 @@ h2 {
 */
  
 .project-page-banner {
-    padding: 6% 0;
-    background: #64AB8A;
+    padding: 7% 0;
+    background: radial-gradient(white, #64ab8a);
     background-size: cover;
     background-attachment: fixed;
     text-align: center;

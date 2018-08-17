@@ -22,7 +22,7 @@ section {
 
 p {
     font-weight: 200;
-    font-family: 'Heebo', sans-serif;   
+    font-family: 'Heebo', sans-serif;
 }
 
 .section-title{
@@ -75,7 +75,6 @@ h2 {
 }
 
 .gray-subsection {
-    height: 100%;
     padding-top:50px;
     background-color: #ebeff2;
 }
@@ -319,9 +318,9 @@ h2 {
     font-family: 'Heebo', sans-serif;
 }
 
-/* 
+/*
     Gradient Banner
-*/  
+*/
 
 .gradient-banner-section {
   background: radial-gradient(white, #AAC3FF);
@@ -329,10 +328,10 @@ h2 {
 }
 
 
-/* 
-    Project Page Banner 
+/*
+    Project Page Banner
 */
- 
+
 .project-page-banner {
     padding: 7% 0;
     background: radial-gradient(white, #64ab8a);

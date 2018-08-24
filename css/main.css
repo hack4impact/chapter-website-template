@@ -25,6 +25,15 @@ p {
     font-family: 'Heebo', sans-serif;
 }
 
+/**
+* Bootstrap was overriding the margins for the row to be -15px on each side,
+* causing some elements to be pushed to the very edge of the page.
+**/
+.row {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+
 .section-title{
     font-size: 35px;
     margin-bottom: 25px;

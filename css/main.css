@@ -95,6 +95,14 @@ h2 {
 .margin-sm-all {
     margin: 2%;
 }
+
+.link-wrap {
+  /* Technically the same, but use both for cross-browser compatibility */
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+
 /*
     MAIN Navigation Bar
 */
@@ -328,6 +336,12 @@ h2 {
 
 .blockquote-footer {
     font-family: 'Heebo', sans-serif;
+}
+
+@media (max-width:900px) {
+  .blockquote-fancy-title {
+    white-space: initial;
+  }
 }
 
 /*

@@ -113,6 +113,10 @@
     max-height: 260px; /* Temporary to preserve image heights */
 }
 
+.involved-body {
+  padding: 0 2%;
+}
+
 
 /*
     Clients Section

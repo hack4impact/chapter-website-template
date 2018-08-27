@@ -351,6 +351,7 @@ h2 {
 .gradient-banner-section {
   background: radial-gradient(white, #AAC3FF);
   padding: 12% 0;
+  margin-top: 61px;
 }
 
 
@@ -364,6 +365,7 @@ h2 {
     background-size: cover;
     background-attachment: fixed;
     text-align: center;
+    margin-top: 61px;
 }
 
 /*

@@ -9,6 +9,11 @@
   padding: 8% 0;
 }
 
+@media (max-width: 990px) {
+  .gradient-banner-section {
+    padding: 20% 0;
+  }
+}
 
 /*.explore {
 	height: 100%;

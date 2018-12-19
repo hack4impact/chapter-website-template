@@ -17,7 +17,7 @@ body {
 
 section {
     padding: 60px 0;
-    display:block;
+    display:inline-block;
 }
 
 p {
@@ -35,7 +35,7 @@ p {
 }
 
 .section-title{
-    font-size: 35px;
+    font-size: 30px;
     margin-bottom: 25px;
     font-weight:400;
     font-family: 'Chivo', sans-serif;
@@ -228,73 +228,6 @@ h2 {
         font-size: 1.25em;
         padding: 12px 0;
     }
-}
-
-
-
-
-
-
-/*
-  Banner
-*/
-
-#main-banner-photo{
-    background-image: url("../img/fa18-team-2.png");
-    display: flex;
-    background-attachment: fixed;
-    background-position: center center;
-}
-
-#main-banner-headline {
-    margin-bottom: 24px;
-    font-family: 'Chivo', sans-serif;
-}
-
-#main-headline h1{
-    font-size: 60px !important;
-    font-weight: 600;
-    color: #104a80;
-    font-family: 'Chivo', sans-serif;
-}
-
-#homepage-main-headline h1 {
-    font-size: 60px !important;
-    font-weight: 600;
-    color: white;
-    font-family: 'Chivo', sans-serif;
-}
-
-
-#sub-headline {
-    max-width: 600px;
-    margin:0 auto;
-}
-
-#sub-headline p {
-    font-size: 20px;
-    margin-bottom: 28px auto;
-    color: black;
-    font-weight: 350;
-}
-
-#homepage-sub-headline {
-    max-width: 600px;
-    margin:0 auto;
-}
-
-
-#homepage-sub-headline p {
-    font-size: 20px;
-    margin-bottom: 28px auto;
-    color: white;
-    font-weight: 350;
-}
-
-/*Buttons*/
-
-#cta-button {
-    font-family: 'Heebo', sans-serif;
 }
 
 /*

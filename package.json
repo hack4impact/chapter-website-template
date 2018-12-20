@@ -1,5 +1,5 @@
 {
-  "name": "create-next-example-app",
+  "name": "uiuc.hack4impact.org",
   "scripts": {
     "dev": "next",
     "build": "next build",
@@ -9,6 +9,17 @@
     "next": "^7.0.2",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
+    "react-spring": "^7.2.1",
     "reactstrap": "^6.5.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "babel-plugin-inline-react-svg": "^1.0.1",
+    "eslint": "^5.10.0",
+    "eslint-config-prettier": "^3.3.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-prettier": "^3.0.0",
+    "eslint-plugin-react": "^7.11.1",
+    "prettier": "^1.15.3"
   }
 }

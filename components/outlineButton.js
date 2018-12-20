@@ -1,32 +1,29 @@
-import { Component } from "react";
+import React from "react";
 import Link from "next/link";
 
-const WhiteButton = ({ link, text, style }) => (
-  <button style={style}>
+const OutlineButton = ({ text, link, style }) => (
+  <button style={{ style }}>
     <Link href={link}>
       <a>{text}</a>
     </Link>
     <style jsx>{`
       button {
-        height: 2.5rem;
-        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
-
-        color: white;
-        margin: 0px;
         padding: 0px 2rem;
-        border-radius: 5px;
-        background: white;
+        border-radius: 4px;
         border-image: initial;
         overflow: hidden;
         transition: all 0.15s ease 0s;
-        border: none;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+        height: 2.5rem;
+        color: white;
+        border-color: #155da1;
       }
 
       button a {
         font-family: "Chivo", sans-serif;
         font-weight: 100;
         font-size: 14px;
-        color: black !important;
+        color: white !important;
         text-decoration: none;
       }
 
@@ -38,4 +35,4 @@ const WhiteButton = ({ link, text, style }) => (
   </button>
 );
 
-export default WhiteButton;
+export default OutlineButton;

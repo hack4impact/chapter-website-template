@@ -1,33 +1,41 @@
 import React from "react";
 import { Container, Row, Col, Button } from "reactstrap";
 import Link from "next/link";
-import Spring from "react-spring";
-import Section from "./section";
-import ProjectContainer from "./projectContainer";
-import ActionButton from "./actionButton";
-import OutlineButton from "./outlineButton";
+import { Spring } from "react-spring";
+import Section from "../section";
+import ProjectContainer from "../projectContainer";
+import ActionButton from "../actionButton";
+import OutlineButton from "../outlineButton";
 
 const OurWorkSection = () => (
   <Section>
     <Container>
-      <div id="our-work-title-box">
-        <h2 className="title text-center">
-          We believe in using tech for good.
-        </h2>
-        <p className="subtitle text-center">
-          Each semester, we work with three to five non-profits with the
-          opportunity to build a great product that solves a core need. We work
-          in small groups led by a project manager and technical lead to scope
-          and develop the application, taking into account our clients’
-          requirements and suggestions
-        </p>
-      </div>
+      <Spring
+        config={{ delay: 300, tension: 100, fraction: 100 }}
+        from={{ opacity: 0 }}
+        to={{ opacity: 1 }}
+      >
+        {props => (
+          <div style={props} id="our-work-title-box">
+            <h2 className="title text-center">
+              We believe in using tech for good.
+            </h2>
+            <p className="subtitle text-center">
+              Each semester, we work with three to five non-profits with the
+              opportunity to build a great product that solves a core need. We
+              work in small groups led by a project manager and technical lead
+              to scope and develop the application, taking into account our
+              clients’ requirements and suggestions
+            </p>
+          </div>
+        )}
+      </Spring>
 
       <div className="project-showcase-box">
         <Row>
           <Col sm="4">
             <ProjectContainer
-              delay={1100}
+              delay={800}
               title="Cut 2 the Case"
               subtitle="How might we make students feel safer on campus?"
               image="url('/static/c2tc-cover.jpg')"
@@ -35,7 +43,7 @@ const OurWorkSection = () => (
           </Col>
           <Col sm="4">
             <ProjectContainer
-              delay={1500}
+              delay={900}
               title="Child's Play"
               subtitle="How might we streamline the process of connecting children with effective games to order to alleviate their ailments?"
               image="url('/static/cp-cover.jpg')"
@@ -43,7 +51,7 @@ const OurWorkSection = () => (
           </Col>
           <Col sm="4">
             <ProjectContainer
-              delay={1900}
+              delay={1000}
               title="Global Giving"
               subtitle="How might we streamline the process of connecting children with effective games to order to alleviate their ailments?"
               image="url('/static/gg-cover.jpg')"

@@ -1,9 +1,9 @@
 import React from "react";
 import { Container, Row, Col, Button } from "reactstrap";
 import Link from "next/link";
-import Section from "./section";
-import BlockQuote from "./blockQuote";
-import Spring from "react-spring";
+import Section from "../section";
+import BlockQuote from "../blockQuote";
+
 const InvolveSection = () => (
   <Section grey>
     <Container>

@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Button, Row, Col, Jumbotron, Media } from "reactstrap";
-import ActionButton from "./actionButton";
-import WhiteButton from "./whiteButton";
+import ActionButton from "../actionButton";
+import WhiteButton from "../whiteButton";
 import { Spring, config } from "react-spring";
 
 const Banner = () => (
@@ -18,25 +18,17 @@ const Banner = () => (
         <div id="homepage-main-headline">
           <h1>Software for Nonprofits </h1>
         </div>
-        <Spring
-          config={config.gentle}
-          from={{ opacity: 0 }}
-          to={{ opacity: 1 }}
-        >
-          {props => (
-            <div style={props} id="homepage-sub-headline">
-              <p>
-                We are a team of UIUC students who create robust software for
-                social good. We believe that our engineering skill sets do not
-                render us useless in addressing social injustices. Instead, they
-                empower us to build a better society together.
-              </p>
-            </div>
-          )}
-        </Spring>
+        <div id="homepage-sub-headline">
+          <p>
+            We are a team of UIUC students who create robust software for social
+            good. We believe that our engineering skill sets do not render us
+            useless in addressing social injustices. Instead, they empower us to
+            build a better society together.
+          </p>
+        </div>
         <div className="cta-box">
           <Spring
-            config={{ delay: 250, tension: 100, fraction: 100 }}
+            config={{ delay: 150, tension: 150, fraction: 1000 }}
             from={{ opacity: 0 }}
             to={{ opacity: 1 }}
           >
@@ -45,7 +37,7 @@ const Banner = () => (
             )}
           </Spring>
           <Spring
-            config={{ delay: 300, tension: 70 }}
+            config={{ delay: 200, tension: 60 }}
             from={{ opacity: 0 }}
             to={{ opacity: 1 }}
           >
@@ -128,11 +120,5 @@ const Banner = () => (
     </style>
   </Container>
 );
-// #main-banner-photo{
-//   background-image: url("/static/fa18-team.png");
-//   display: flex;
-//   background-attachment: fixed;
-//   background-position: center center;
-// }
 
 export default Banner;

@@ -4,23 +4,25 @@ import Link from "next/link";
 import { Spring, Trail } from "react-spring";
 import Section from "../section";
 import ProjectContainer from "../projectContainer";
-import ActionButton from "../actionButton";
-import OutlineButton from "../outlineButton";
+import ActionLink from "../actionLink";
 const items = [
   <ProjectContainer
     title="Cut 2 the Case"
     subtitle="How might we make students feel safer on campus?"
     image="url('/static/c2tc-cover.jpg')"
+    link="/projects/c2tc"
   />,
   <ProjectContainer
     title="Child's Play"
     subtitle="How might we streamline the process of connecting children with effective games to order to alleviate their ailments?"
     image="url('/static/cp-cover.jpg')"
+    link="/projects/cp"
   />,
   <ProjectContainer
     title="Global Giving"
     subtitle="How might we streamline the process of connecting children with effective games to order to alleviate their ailments?"
     image="url('/static/gg-cover.jpg')"
+    link="/projects/gg"
   />
 ];
 
@@ -66,11 +68,7 @@ const OurWorkSection = () => (
         </Row>
       </div>
       <Row style={{ paddingTop: "5px" }}>
-        <Link href="/projects">
-          <a className="link" style={{ color: "#155da1" }}>
-            View our other projects
-          </a>
-        </Link>
+        <ActionLink text="View our other projects" link="/projects" />
       </Row>
     </Container>
     <style jsx>{`
@@ -94,8 +92,6 @@ const OurWorkSection = () => (
         margin: auto;
         border-bottom: 1px solid #3f46ad;
         margin-top: 40px;
-      }
-      .title {
       }
     `}</style>
   </Section>

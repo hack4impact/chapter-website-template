@@ -1,4 +1,3 @@
-import { Component } from "react";
 import Link from "next/link";
 
 const WhiteButton = ({ link, text, style }) => (

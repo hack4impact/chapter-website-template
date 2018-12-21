@@ -1,9 +1,7 @@
 import React from "react";
 import { Container, Button, Row, Col, Jumbotron, Media } from "reactstrap";
 import ActionButton from "../actionButton";
-import WhiteButton from "../whiteButton";
 import { Spring, config, Trail } from "react-spring";
-const items = ["h", "2", "i"];
 
 const Banner = () => (
   <Container
@@ -43,7 +41,8 @@ const Banner = () => (
             to={{ opacity: 1 }}
           >
             {props => (
-              <WhiteButton
+              <ActionButton
+                white
                 link="/apply"
                 text="Apply"
                 style={{ marginLeft: "20px", ...props }}

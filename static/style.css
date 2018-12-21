@@ -13,6 +13,7 @@ body {
 
 .center {
     text-align: center;
+    margin: auto;
 }
 
 section {
@@ -300,39 +301,5 @@ h2 {
 }
 
 
-/*
-    Sponsor Section
-
-.sponsors-section {
-    background:#bfe6ec;
-}
-.sponsor-title-box {
-    text-align: center;
-}
-.sponsor-title-box h1 {
-    margin-bottom: 5px !important;
-}
-.sponsor-title-box p {
-    font-size: 14px;
-    padding: 2px 0;
-    margin: 0 0;
-}
-*/
 
 
-/*
-    Contact Section
-.contact-section {
-    padding:60px !important;
-    height: 250px;
-    background:#EAE7DC;
-}
-
-.contact-section h1 {
-    margin-bottom: 10px !important;
-}
-
-#contact-us-text {
-    font-size:20px;
-}
-*/

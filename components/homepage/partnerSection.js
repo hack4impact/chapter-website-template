@@ -15,7 +15,7 @@ export default () => (
         <img
           width="150"
           height="150"
-          src="/static/fb-logo.svg"
+          src="/static/images/fb-logo.svg"
           className="center"
         />
       </Row>

@@ -9,19 +9,19 @@ const items = [
   <ProjectContainer
     title="Cut 2 the Case"
     subtitle="How might we make students feel safer on campus?"
-    image="url('/static/c2tc-cover.jpg')"
+    image="url('/static/images/c2tc-cover.jpg')"
     link="/projects/c2tc"
   />,
   <ProjectContainer
     title="Child's Play"
     subtitle="How might we streamline the process of connecting children with effective games to order to alleviate their ailments?"
-    image="url('/static/cp-cover.jpg')"
+    image="url('/static/images/cp-cover.jpg')"
     link="/projects/cp"
   />,
   <ProjectContainer
     title="Global Giving"
     subtitle="How might we streamline the process of connecting children with effective games to order to alleviate their ailments?"
-    image="url('/static/gg-cover.jpg')"
+    image="url('/static/images/gg-cover.jpg')"
     link="/projects/gg"
   />
 ];

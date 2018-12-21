@@ -15,7 +15,6 @@ const Home = () => (
     <ClientSlider />
     <InvolveSection />
     <PartnerSection />
-    <Footer />
   </div>
 );
 

@@ -11,7 +11,7 @@ const Banner = () => (
   >
     <Row>
       <Col md="7" style={{ paddingTop: 5 }}>
-        <img src="/static/banner_sample.svg" />
+        <img src="/static/images/banner_sample.svg" />
       </Col>
       <Col md="5">
         <div id="homepage-main-headline">

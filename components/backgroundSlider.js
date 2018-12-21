@@ -4,6 +4,7 @@ export default ({ duration, children }) => (
       .slider-container {
         overflow: hidden;
         white-space: nowrap;
+        max-width: 100%;
       }
       .slider-content-wrapper {
         display: inline-block;

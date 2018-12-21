@@ -15,7 +15,7 @@ const InvolveSection = () => (
           <Col md="5">
             <div className="involved-container">
               <h3 className="text-title text-center">Students</h3>
-              <img src="/static/h4i-funny.jpg" className="img-fluid" />
+              <img src="/static/images/h4i-funny.jpg" className="img-fluid" />
 
               <p
                 style={{
@@ -37,7 +37,7 @@ const InvolveSection = () => (
           <Col md="5" className=" offset-md-2">
             <div className="involved-container">
               <h3 className="text-title text-center">Nonprofits</h3>
-              <img src="/static/team-cheer.jpg" className="img-fluid" />
+              <img src="/static/images/team-cheer.jpg" className="img-fluid" />
 
               <BlockQuote
                 text="Working with Hack4Impact was easy, efficient and incredibly

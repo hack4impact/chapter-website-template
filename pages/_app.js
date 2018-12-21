@@ -27,13 +27,12 @@ export default class MyApp extends App {
   }
 
   render() {
-    const { Component, pageProps, route } = this.props;
-
+    const { Component, pageProps, router } = this.props;
     return (
       <Container>
         <div>
           <Head />
-          <Nav navType={route === "/" ? "mainNav" : "otherNav"} />
+          <Nav navType={router.route === "/" ? "mainNav" : "otherNav"} />
           {this.state.hasError ? (
             <ErrorMessage
               code="404"

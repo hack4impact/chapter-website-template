@@ -8,7 +8,7 @@ const Footer = () => (
       <Row>
         <Col md="5" xs="12" className="footer-left-div">
           <div className="footer-logo-box">
-            <img src="/static/h4i_white.png" height="35" width="200" />
+            <img src="/static/images/h4i_white.png" height="35" width="200" />
           </div>
           <p>
             For all inquiries of partnership or sponsorship, please contact{" "}

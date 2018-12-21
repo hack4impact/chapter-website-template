@@ -2,7 +2,8 @@ import React from "react";
 import { Container, Button, Row, Col, Jumbotron, Media } from "reactstrap";
 import ActionButton from "../actionButton";
 import WhiteButton from "../whiteButton";
-import { Spring, config } from "react-spring";
+import { Spring, config, Trail } from "react-spring";
+const items = ["h", "2", "i"];
 
 const Banner = () => (
   <Container
@@ -11,10 +12,10 @@ const Banner = () => (
     style={{ marginTop: "100px", marginBottom: "30px", maxWidth: "1200px" }}
   >
     <Row>
-      <Col md="6" style={{ paddingTop: 5 }}>
+      <Col md="7" style={{ paddingTop: 5 }}>
         <img src="/static/banner_sample.svg" />
       </Col>
-      <Col md="6">
+      <Col md="5">
         <div id="homepage-main-headline">
           <h1>Software for Nonprofits </h1>
         </div>
@@ -28,7 +29,7 @@ const Banner = () => (
         </div>
         <div className="cta-box">
           <Spring
-            config={{ delay: 150, tension: 150, fraction: 1000 }}
+            config={config.stiff}
             from={{ opacity: 0 }}
             to={{ opacity: 1 }}
           >
@@ -37,7 +38,7 @@ const Banner = () => (
             )}
           </Spring>
           <Spring
-            config={{ delay: 200, tension: 60 }}
+            config={config.stiff}
             from={{ opacity: 0 }}
             to={{ opacity: 1 }}
           >

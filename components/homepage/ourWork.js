@@ -1,17 +1,34 @@
 import React from "react";
 import { Container, Row, Col, Button } from "reactstrap";
 import Link from "next/link";
-import { Spring } from "react-spring";
+import { Spring, Trail } from "react-spring";
 import Section from "../section";
 import ProjectContainer from "../projectContainer";
 import ActionButton from "../actionButton";
 import OutlineButton from "../outlineButton";
+const items = [
+  <ProjectContainer
+    title="Cut 2 the Case"
+    subtitle="How might we make students feel safer on campus?"
+    image="url('/static/c2tc-cover.jpg')"
+  />,
+  <ProjectContainer
+    title="Child's Play"
+    subtitle="How might we streamline the process of connecting children with effective games to order to alleviate their ailments?"
+    image="url('/static/cp-cover.jpg')"
+  />,
+  <ProjectContainer
+    title="Global Giving"
+    subtitle="How might we streamline the process of connecting children with effective games to order to alleviate their ailments?"
+    image="url('/static/gg-cover.jpg')"
+  />
+];
 
 const OurWorkSection = () => (
   <Section>
     <Container>
       <Spring
-        config={{ delay: 300, tension: 100, fraction: 100 }}
+        config={{ delay: 600, tension: 100, fraction: 100 }}
         from={{ opacity: 0 }}
         to={{ opacity: 1 }}
       >
@@ -33,30 +50,19 @@ const OurWorkSection = () => (
 
       <div className="project-showcase-box">
         <Row>
-          <Col sm="4">
-            <ProjectContainer
-              delay={800}
-              title="Cut 2 the Case"
-              subtitle="How might we make students feel safer on campus?"
-              image="url('/static/c2tc-cover.jpg')"
-            />
-          </Col>
-          <Col sm="4">
-            <ProjectContainer
-              delay={900}
-              title="Child's Play"
-              subtitle="How might we streamline the process of connecting children with effective games to order to alleviate their ailments?"
-              image="url('/static/cp-cover.jpg')"
-            />
-          </Col>
-          <Col sm="4">
-            <ProjectContainer
-              delay={1000}
-              title="Global Giving"
-              subtitle="How might we streamline the process of connecting children with effective games to order to alleviate their ailments?"
-              image="url('/static/gg-cover.jpg')"
-            />
-          </Col>
+          <Trail
+            items={items}
+            keys={item => item.key}
+            config={{ delay: 1200 }}
+            from={{ opacity: 0, transform: "translate3d(0,200px,0)" }}
+            to={{ opacity: 100, transform: "translate3d(0,0px,0)" }}
+          >
+            {item => props => (
+              <Col sm="4" style={props}>
+                {item}
+              </Col>
+            )}
+          </Trail>
         </Row>
       </div>
       <Row style={{ paddingTop: "5px" }}>

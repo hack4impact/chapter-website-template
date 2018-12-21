@@ -75,15 +75,6 @@ h2 {
     font-weight: 400;
 }
 
-.blue-arrow-down {
-  margin: auto;
-  width: 0;
-  height: 0;
-  border-left: 100px solid transparent;
-  border-right: 100px solid transparent;
-  border-top: 60px solid #C3D5FD;
-}
-
 .gray-subsection {
     padding-top:50px;
     background-color: #ebeff2;
@@ -143,30 +134,10 @@ h2 {
         border: none;
         background-color: white;
     }
-
-/*    #mainNav .navbar-brand {
-        font-size: 1.75em;
-        -webkit-transition: all 0.3s;
-        -moz-transition: all 0.3s;
-        transition: all 0.3s;
-    }
-*/
     #mainNav .navbar-nav .nav-item .nav-link {
         padding: 1.1em 1em !important;
     }
-
-/*    #mainNav.navbar-shrink {
-        padding-top: 0;
-        padding-bottom: 0;
-        background-color: white;
-    }
-
-    #mainNav.navbar-shrink .navbar-brand {
-        font-size: 1.25em;
-        padding: 12px 0;
-    }*/
 }
-
 
 
 /*Other Navigation Bars*/

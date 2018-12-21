@@ -10,8 +10,8 @@ import {
   Nav
 } from "reactstrap";
 
-const NavigationBar = () => (
-  <Navbar className="navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+const NavigationBar = ({ navType }) => (
+  <Navbar className="navbar-expand-lg navbar-dark fixed-top" id={navType}>
     <Container>
       <NavbarBrand className="js-scroll-trigger" href="/">
         <img

@@ -87,13 +87,6 @@ const Banner = () => (
           font-family: "Chivo", sans-serif;
         }
 
-        #main-headline h1 {
-          font-size: 60px !important;
-          font-weight: 600;
-          color: #323648;
-          font-family: "Chivo", sans-serif;
-        }
-
         #homepage-main-headline h1 {
           font-size: 60px !important;
           font-weight: 600;

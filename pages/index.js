@@ -10,8 +10,6 @@ import PartnerSection from "../components/homepage/partnerSection";
 
 const Home = () => (
   <div>
-    <Head title="Home" />
-    <Nav />
     <Banner />
     <OurWorkSection />
     <ClientSlider />

@@ -44,22 +44,6 @@
     background-size: cover;
 }
 
-#cta-button {
-    padding: 11px 30px 11px;
-    margin-right: 10px;
-}
-
-.cta-box{
-    padding-top: 7px;
-    align-content: left;
-}
-
-.cta-box a, .cta-box a:hover{
-    font-size: 12px;
-    color: #ffffff;
-    border-bottom: 1px solid #ffffff;
-    text-decoration: none !important;
-}
 
 
 /*

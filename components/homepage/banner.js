@@ -25,7 +25,7 @@ const Banner = () => (
             build a better society together.
           </p>
         </div>
-        <div className="cta-box">
+        <div>
           <Spring
             config={config.stiff}
             from={{ opacity: 0 }}

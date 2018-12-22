@@ -23,9 +23,6 @@ class NavigationBar extends React.Component {
     });
   }
   render() {
-    {
-      console.log(this.state.isTop);
-    }
     return (
       <Navbar
         className={`navbar-expand-lg navbar-dark fixed-top ${

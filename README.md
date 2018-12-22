@@ -13,7 +13,7 @@ For the optimal development environment, edit your code with [vscode](https://co
 
 ## Details
 ### Project Pages
-Each project page is under `/projects?name={project_id}`. Ex: `/projects?name=c2tc-1` - this goes to the sp2018 project. `/projects?name=c2tc-2` goes to the fa18 project, etc. Look into `/data/projectData.js` for the projects detail.
+Each project page is under `/projects?name={project_id}`. Ex: `/projects?name=c2tc-1` - this goes to the sp2018 project. `/projects?name=c2tc-2` goes to the fa18 project, etc. Look into `/data/projectData.js` for the projects detail. `/projects` just goes to the regular project page listing all the projects.
 
 ### People Pictures
 Whenever you need to add a new member to the organization, whether to the `/about` or `/project` page, you would need to add a photo of them to the folder `/static/images/people/` and name it `{name}.jpg`. Ex: for `Timothy Ko`, `timothy_ko.jpg`. Fill in the spaces with `_`. Then, in any configuration file for their name, put in the name itself (`Timothy Ko`)

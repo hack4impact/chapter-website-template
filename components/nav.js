@@ -12,7 +12,8 @@ import {
 
 class NavigationBar extends React.Component {
   state = {
-    isTop: true
+    isTop: true,
+    collapsed: true
   };
   componentDidMount() {
     document.addEventListener("scroll", () => {
@@ -22,6 +23,11 @@ class NavigationBar extends React.Component {
       }
     });
   }
+  toggleNavbar = () => {
+    this.setState({
+      collapsed: !this.state.collapsed
+    });
+  };
   render() {
     return (
       <Navbar
@@ -39,18 +45,8 @@ class NavigationBar extends React.Component {
               src="/static/images/colored-logo.png"
             />
           </NavbarBrand>
-          <NavbarToggler
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarResponsive"
-            aria-controls="navbarResponsive"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            Menu
-            <i className="fa fa-bars" />
-          </NavbarToggler>
-          <Collapse navbar id="navbarResponsive">
+          <NavbarToggler onClick={this.toggleNavbar} className="mr-2" />
+          <Collapse navbar id="navbarResponsive" isOpen={!this.state.collapsed}>
             <Nav navbar className="text-uppercase ml-auto">
               <NavItem>
                 <Link prefetch href="/about">

@@ -1,10 +1,12 @@
 import React from "react";
 import { Container, Row } from "reactstrap";
 
-const Section = ({ children, grey }) => (
+const Section = ({ children, grey, darkgrey }) => (
   <section
     className="typical-section"
-    style={{ background: grey ? "rgb(250, 251, 252)" : undefined }}
+    style={{
+      background: grey ? "rgb(250, 251, 252)" : darkgrey ? "#ebeff2" : undefined
+    }}
   >
     <div>
       {children}

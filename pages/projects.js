@@ -3,6 +3,7 @@ import { Component } from "react";
 import ProjectList from "../components/projects/projectList";
 import SpecificProjectPage from "../components/projects/specificProjectPage";
 import ErrorMessage from "../components/errorMessage";
+import ProjectExplore from "../components/projects/projectExplore";
 
 import projectData from "../data/projectData";
 
@@ -18,7 +19,12 @@ class Projects extends Component {
     const { query } = this.props;
     // return project List (regular project Page) if not query (just /projets)
     if (Object.keys(query).length === 0 && query.constructor === Object) {
-      return <ProjectList />;
+      return (
+        <>
+          <ProjectList />
+          <ProjectExplore />
+        </>
+      );
     }
     // else its something like this /project?name=lwb
     for (var i = 0; i < projectData.length; i++) {

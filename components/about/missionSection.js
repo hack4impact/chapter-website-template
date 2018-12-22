@@ -2,19 +2,20 @@
   Mission Section holding the photo and our mission in the /about page
 */
 import { Container, Row, Col } from "reactstrap";
+import { Spring } from "react-spring";
 
 const MissionSection = () => (
   <section className="mission-section">
     <Container>
       <Row>
-        <Col md="12" className="text-center section-title">
-          <h2>Our Mission</h2>
+        <Col md="12" className="text-center">
+          <h2 className="mission-title">Our Mission</h2>
         </Col>
       </Row>
 
       <Row>
         <Col md="12" className="text-center">
-          <p className="body-text">
+          <p className="mission-body-text">
             Hack4Impact exists for both nonprofits and students. We connect
             student software developers with nonprofits and other socially
             responsible businesses to develop powerful new tools for social
@@ -25,18 +26,39 @@ const MissionSection = () => (
         </Col>
       </Row>
       <Row>
-        <Col md="12" className="text-center">
-          <img
-            src="/static/images/fa18-team.jpg"
-            className="img-fluid"
-            id="mission-team"
-          />
-        </Col>
+        <Spring
+          from={{ transform: "translate3d(0,300px,0)" }}
+          to={{ transform: "translate3d(0,0,0)" }}
+        >
+          {props => (
+            <Col md="12" className="text-center">
+              <img
+                style={props}
+                src="/static/images/fa18-team-swag.jpg"
+                className="shadow"
+                id="mission-team"
+              />
+            </Col>
+          )}
+        </Spring>
       </Row>
     </Container>
     <style jsx>{`
       #mission-team {
         max-width: 700px;
+        margin-top: 30px;
+      }
+      .mission-title {
+        font-weight: 900;
+        color: #323648;
+        font-family: "Chivo", sans-serif;
+        margin-bottom: 20px;
+      }
+      .mission-body-text {
+        color: #323648;
+
+        font-weight: 550;
+        letter-spacing: 0.6px;
       }
     `}</style>
   </section>

@@ -51,7 +51,7 @@ export default [
         quoteSourceTitle: "Cut to the Case Co-Founder and CTO",
         team: {
           type: "pics",
-          details: [
+          detail: [
             {
               name: "Shreyas Mohan",
               role: "Product Manager"
@@ -90,7 +90,8 @@ export default [
       {
         name: "Child's Play",
         id: "cp", // second C2TC Project
-        detail: "How might we make students feel safer on campus?",
+        detail:
+          "How might we streamline the process of connecting children with effective games to order to alleviate their ailments?",
         coverImagePath: "/static/images/projects/cp/cp-cover.jpg",
         clientDetail:
           "Child’s Play seeks to improve the lives of children in pediatric hospitals and other child welfare facilities through the kindness and generosity of the video game community and the power of play. They reach 169 hospitals and shelters internationally.",
@@ -131,7 +132,7 @@ export default [
         quote: null,
         team: {
           type: "pic",
-          details: [
+          detail: [
             {
               name: "Hana Rimawi",
               role: "Product Manager"
@@ -267,7 +268,7 @@ export default [
           "Love Without Boundaries Managing Director of Strategic Partnerships",
         team: {
           type: "no-pic",
-          details: {
+          detail: {
             pm: "Timothy Ko",
             tl: "Aria Malkani",
             swe: [
@@ -304,7 +305,7 @@ export default [
         quoteSourceTitle: "Cut to the Case Co-Founder and CTO",
         team: {
           type: "no-pic",
-          details: {
+          detail: {
             pm: "Alex Wu",
             tl: "Jeff Delonge",
             swe: [

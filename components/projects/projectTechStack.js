@@ -46,6 +46,16 @@ const techStackMasterList = {
     link: "https://graphql.org/",
     title: "GraphQL",
     imgPath: "/static/images/techStack/graphql.jpg"
+  },
+  redis: {
+    link: "https://redis.io/",
+    title: "Redis",
+    imgPath: "/static/images/techStack/redis.jpg"
+  },
+  python: {
+    link: "https://www.python.org/",
+    title: "Python",
+    imgPath: "/static/images/techStack/python.jpg"
   }
 };
 

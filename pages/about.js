@@ -1,6 +1,7 @@
 import React from "react";
 import GradientSection from "../components/gradientSection";
 import MissionSection from "../components/about/missionSection";
+import OurValues from "../components/about/ourValues";
 
 class AboutPage extends React.Component {
   render() {
@@ -11,6 +12,7 @@ class AboutPage extends React.Component {
           subHeadline="Hack4Impact believes in technology’s huge potential to empower activists and humanitarians to create lasting and impactful social change. We work to foster the wider adoption of software as a tool for social good."
         />
         <MissionSection />
+        <OurValues />
       </div>
     );
   }

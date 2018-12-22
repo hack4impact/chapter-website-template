@@ -66,11 +66,6 @@ p {
   color: white;
 }
 
-.btn-primary {
-    background-color: #4682b4 !important;
-    border-color: #4682b4 !important;
-}
-
 a {
     text-decoration: none !important;
 }
@@ -156,7 +151,6 @@ h2 {
     padding: 13px;
     text-transform: uppercase;
     color: #155DA1;
-    border: 0;
     background-color: #bfe6ec;
 }
 
@@ -252,39 +246,10 @@ h2 {
 }
 
 
-/*
-    Project Page Banner
-*/
-
-.project-page-banner {
-    padding: 7% 0;
-    background: radial-gradient(white, #64ab8a);
-    background-size: cover;
-    background-attachment: fixed;
-    text-align: center;
-}
-
 @media (max-width: 990px) {
   .gradient-banner-section, .project-page-banner {
     margin-top: 61px;
   }
-}
-
-.cta-button {
-    padding: 11px 30px 11px;
-    margin-right: 10px;
-}
-
-.cta-box{
-    padding-top: 7px;
-    align-content: left;
-}
-
-.cta-box a, .cta-box a:hover{
-    font-size: 12px;
-    color: #ffffff;
-    border-bottom: 1px solid #ffffff;
-    text-decoration: none !important;
 }
 
 

@@ -31,19 +31,28 @@ const MissionSection = () => (
           to={{ transform: "translate3d(0,0,0)" }}
         >
           {props => (
-            <Col md="12" className="text-center">
+            <div className="text-center img-holder">
               <img
                 style={props}
                 src="/static/images/fa18-team-swag.jpg"
                 className="shadow"
                 id="mission-team"
               />
-            </Col>
+            </div>
           )}
         </Spring>
       </Row>
     </Container>
     <style jsx>{`
+      @media (max-width: 768px) {
+        #mission-team {
+          width: 100%;
+        }
+        .img-holder {
+          overflow: hidden;
+          max-width: 100%;
+        }
+      }
       #mission-team {
         max-width: 700px;
         margin-top: 30px;

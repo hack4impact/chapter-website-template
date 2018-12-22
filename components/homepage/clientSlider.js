@@ -11,7 +11,7 @@ const clients = [
     link: "/projects?name=lwb"
   },
   {
-    name: "child's play",
+    name: "child&#39;s play",
     width: 140,
     height: 135,
     logoPath: "/static/images/client_logos/cplogogreen.png",

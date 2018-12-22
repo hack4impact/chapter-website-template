@@ -20,7 +20,8 @@ export default [
             <a href="https://www.facebook.com/events/762781120723120/">
               Product Showcase
             </a>
-            event to see our team's solution and live demo of the final product!
+            event to see our team&#39;s solution and live demo of the final
+            product!
             <br />
             <br /> Event Details: <br /> Sunday, Dec. 9 <br /> 5PM-6PM <br />
             ECEB 2013
@@ -88,7 +89,7 @@ export default [
         }
       },
       {
-        name: "Child's Play",
+        name: "Child&#39;s Play",
         id: "cp", // second C2TC Project
         detail:
           "How might we streamline the process of connecting children with effective games to order to alleviate their ailments?",
@@ -105,7 +106,8 @@ export default [
             <a href="https://www.facebook.com/events/762781120723120/">
               Product Showcase
             </a>
-            event to see our team's solution and live demo of the final product!
+            event to see our team&#39;s solution and live demo of the final
+            product!
             <br />
             <br /> Event Details: <br /> Sunday, Dec. 9 <br /> 5PM-6PM <br />
             ECEB 2013
@@ -183,7 +185,8 @@ export default [
               {" "}
               Product Showcase{" "}
             </a>{" "}
-            event to see our team's solution and live demo of the final product!
+            event to see our team&#39;s solution and live demo of the final
+            product!
             <br />
             <br /> Event Details: <br /> Sunday, Dec. 9 <br /> 5PM-6PM <br />
             ECEB 2013

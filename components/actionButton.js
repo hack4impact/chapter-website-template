@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const ActionButton = ({ link, text, style, white }) => (
   <button style={style} className={white ? "white-button" : "action-button"}>
-    <Link href={link}>
+    <Link prefetch href={link}>
       <a>{text}</a>
     </Link>
     <style jsx>{`

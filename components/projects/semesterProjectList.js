@@ -7,10 +7,7 @@ export default () => (
     {projectData.map(semester => (
       <div>
         <Row>
-          <h1 className="section-title center">
-            {" "}
-            {semester.semester} Projects{" "}
-          </h1>
+          <h1 className="section-title center">{semester.semester} Projects</h1>
         </Row>
         <CardDeck>
           {semester.projects.map(project => (

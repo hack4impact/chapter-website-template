@@ -43,7 +43,7 @@ class Projects extends Component {
     // project DNE and not just /projects (regular project Page)
     return (
       <div>
-        <ErrorMessage message="Project Doesn't exist" />
+        <ErrorMessage message="Project Doesn&#39;t exist" />
       </div>
     );
   }

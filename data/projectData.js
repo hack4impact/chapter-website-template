@@ -89,7 +89,7 @@ export default [
         }
       },
       {
-        name: "Child&#39;s Play",
+        name: "Child's Play",
         id: "cp", // second C2TC Project
         detail:
           "How might we streamline the process of connecting children with effective games to order to alleviate their ailments?",

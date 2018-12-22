@@ -18,6 +18,11 @@ const TeamMemberIcon = ({ name, role, nopic }) => (
         <b> {name} </b> <br /> {role}
       </p>
     </div>
+    <style jsx>{`
+      .team-icon {
+        width: 80%;
+      }
+    `}</style>
   </Col>
 );
 const ProjectTeam = ({ team }) => (
@@ -36,17 +41,17 @@ const ProjectTeam = ({ team }) => (
               <Col md="3" />
               <TeamMemberIcon
                 nopic
-                name={team.details.pm}
+                name={team.detail.pm}
                 role="Product Manager"
               />
-              <TeamMemberIcon nopic name={team.details.tl} role="Tech Lead" />
+              <TeamMemberIcon nopic name={team.detail.tl} role="Tech Lead" />
             </Row>
             <Row>
               <Col md="12">
                 <div className="text-center">
                   <p className="text-center">
                     <b> Developers: </b>{" "}
-                    {team.details.swe.map(swe => (
+                    {team.detail.swe.map(swe => (
                       <>{swe}, </>
                     ))}
                   </p>
@@ -55,7 +60,7 @@ const ProjectTeam = ({ team }) => (
             </Row>
           </div>
         ) : (
-          team.details.map(member => (
+          team.detail.map(member => (
             <TeamMemberIcon name={member.name} role={member.role} />
           ))
         )}
@@ -69,11 +74,6 @@ const ProjectTeam = ({ team }) => (
         />
       </Row>
     </Container>
-    <style jsx>{`
-      .team-icon {
-        width: 80%;
-      }
-    `}</style>
   </section>
 );
 

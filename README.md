@@ -12,6 +12,8 @@ For the optimal development environment, edit your code with [vscode](https://co
 
 
 ## Details
+### Project Pages
+Each project page is under `/projects?name={project_id}`. Ex: `/projects?name=c2tc-1` - this goes to the sp2018 project. `/projects?name=c2tc-2` goes to the fa18 project, etc. Look into `/data/projectData.js` for the projects detail.
 
 ### People Pictures
 Whenever you need to add a new member to the organization, whether to the `/about` or `/project` page, you would need to add a photo of them to the folder `/static/images/people/` and name it `{name}.jpg`. Ex: for `Timothy Ko`, `timothy_ko.jpg`. Fill in the spaces with `_`. Then, in any configuration file for their name, put in the name itself (`Timothy Ko`)
@@ -21,26 +23,25 @@ The Project Data configuration file will hold a list of dictionaries (which are 
 
 
 Each Semester has the following...
-- semester: <str> ex: Fall 2018
-- projects: List[Objects]
-    - name: Full Name of Client
-    - id: id for the page ex: `/projects?name=lwb` goes to the project with id `lwb`
-    - detail: detail shown below each project card (in the regular projects list)
-    - coverImagePath: image shown in each project card
-    - clientDetail: paragraph detailing the client and who they are. Shown in the project banner.
-    - clientLink: link to the Client's website. Used in the `Learn More` Button in the project banner
-    - problem: problem text shown below the `Problem` in the specific project's page
-    - problemImagePath: the image for this section
-    - solution: solution text
-    - solutionImagePath: self explanatory
-    - features: List[Object] (can make this null)
-        - title: str
-        - detail: str
-    - techStack: List[str] (Must match the `techStackMasterList` in `/components/projects/projectTechStack.js`)
-    - quote: Quote from client. (can be null) 
-    - quoteSource: name of the source of the quote (can be null if `quote` is null)
-    - quoteTitle: the title of the source of the quote (can be null if `quoteq is null)
-    team: Object
-        - type: either 
-        - details (this can either be { pm: "Timothy Ko", tl: "Aria Malkani", swe: ["Hana Rimawi", "Michael Chen"]} for type `no-pic` or [{name: "Timothy Ko", role: "Product Manager"}, {name: "Aria Malkani", role: "Tech Lead"}, {name: "Hana Rimawi", role: "Software Developer"}])
-```
+- `semester`: <str> ex: Fall 2018
+- `projects`: List[Objects]
+    - `name`: Full Name of Client
+    - `id`: id for the page ex: `/projects?name=lwb` goes to the project with id `lwb`
+    - `detail`: detail shown below each project card (in the regular projects list)
+    - `coverImagePath`: image shown in each project card
+    - `clientDetail`: paragraph detailing the client and who they are. Shown in the project banner.
+    - `clientLink`: link to the Client's website. Used in the `Learn More` Button in the project banner
+    - `problem`: problem text shown below the `Problem` in the specific project's page
+    - `problemImagePath`: the image for this section
+    - `solution`: solution text
+    - `solutionImagePath`: self explanatory
+    - `features`: List[Object] (can make this null)
+        - `title`: str
+        - `detail`: str
+    - `techStack`: List[str] (Must match the `techStackMasterList` in `/components/projects/projectTechStack.js`)
+    - `quote`: Quote from client. (can be null) 
+    - `quoteSource`: name of the source of the quote (can be null if `quote` is null)
+    - `quoteTitle`: the title of the source of the quote (can be null if `quoteq is null)
+    - `team`: Object
+        - `type`: either 
+        - `details` (this can either be { pm: "Timothy Ko", tl: "Aria Malkani", swe: ["Hana Rimawi", "Michael Chen"]} for type `no-pic` or [{name: "Timothy Ko", role: "Product Manager"}, {name: "Aria Malkani", role: "Tech Lead"}, {name: "Hana Rimawi", role: "Software Developer"}])

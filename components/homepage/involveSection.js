@@ -23,7 +23,7 @@ const InvolveSection = () => (
                 }}
               >
                 Are you passionate about software and Social Impact? Are you
-                looking to join a unique and close- knit community?Join Us! Our
+                looking to join a unique and close-knit community? Join Us! Our
                 mission provides a distinct experience to develop technical
                 skills and interact with nonprofit clients all while applying
                 your skills to impact real lives.

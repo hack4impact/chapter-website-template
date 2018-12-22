@@ -162,6 +162,81 @@ export default [
             }
           ]
         }
+      },
+      {
+        name: "Global Giving",
+        id: "gg",
+        detail:
+          "How might we expand Global Giving’s impact and reach on domestic and international nonprofits?",
+        coverImagePath: "/static/images/projects/gg/gg-cover.jpg",
+        clientDetail:
+          "Global Giving seeks to identify nonprofits around the world, creating a central directory of nonprofits. They also aim to connect each nonprofit with the necessary resources, such as connecting them with donors or setting up crowdfunding options to help the nonprofit succeed.",
+        clientLink: "https://www.globalgiving.org/",
+        problem:
+          "Currently, GlobalGiving connects with organizations based in the US along with some nonprofits in other countries. However, the process of finding and applying to GlobalGiving remains significantly easier within the United States. In certain countries, factors including lack of internet connectivity and lack of access to documents required by GlobalGiving has led to slower onboarding and discovery of the organization.",
+        problemImagePath: "/static/images/projects/gg/gg-cover.jpg",
+        solution: (
+          <>
+            Come out to our{" "}
+            <a href="https://www.facebook.com/events/762781120723120/">
+              {" "}
+              Product Showcase{" "}
+            </a>{" "}
+            event to see our team's solution and live demo of the final product!
+            <br />
+            <br /> Event Details: <br /> Sunday, Dec. 9 <br /> 5PM-6PM <br />
+            ECEB 2013
+          </>
+        ),
+        solutionImagePath: "/static/images/projects/question.jpg",
+        features: [
+          {
+            title: "Database",
+            detail:
+              "Choose ten websites with directories of nonprofits and scrape each individual one and add them to the database. Data includes the organization’s name, country of registration, registration numbers, website url, and email."
+          },
+          {
+            title: "Command Line Tool",
+            detail:
+              "Allows user to see all the available scripts, run them, and submit the entries to the global giving database using the organization parser"
+          }
+        ],
+        quote: null,
+        quoteSource: null,
+        quoteSourceTitle: null,
+        team: {
+          type: "pic",
+          detail: [
+            {
+              name: "Aria Malkani",
+              role: "Tech Lead"
+            },
+            {
+              name: "Roy Chiu",
+              role: "Tech Lead"
+            },
+            {
+              name: "Skyler Shi",
+              role: "Software Developer"
+            },
+            {
+              name: "Alan Fang",
+              role: "Software Developer"
+            },
+            {
+              name: "Pavani Malli",
+              role: "Software Developer"
+            },
+            {
+              name: "Aryn Harmon",
+              role: "Software Developer"
+            },
+            {
+              name: "Alan Ren",
+              role: "Software Developer"
+            }
+          ]
+        }
       }
     ]
   },

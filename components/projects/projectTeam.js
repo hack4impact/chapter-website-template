@@ -3,7 +3,7 @@ import ActionButton from "../actionButton";
 import { ImagePathConversion } from "../../data/helper";
 
 const TeamMemberIcon = ({ name, role, nopic }) => (
-  <Col sm={nopic ? "6" : "3"} md="3">
+  <Col xs={nopic ? "6" : "6"} md="3">
     <Card className="border-0">
       <div className="text-center">
         <img

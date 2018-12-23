@@ -75,7 +75,7 @@ const ProjectTechStack = ({ techStack }) =>
 
         <Row>
           {techStack.map(tech => (
-            <Col md="2" sm="4">
+            <Col md="2" xs="6">
               <Card className="border-0">
                 <img
                   src={techStackMasterList[tech].imgPath}

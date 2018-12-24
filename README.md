@@ -42,6 +42,7 @@ Each Semester has the following...
     - `quote`: Quote from client. (can be null) 
     - `quoteSource`: name of the source of the quote (can be null if `quote` is null)
     - `quoteTitle`: the title of the source of the quote (can be null if `quoteq is null)
+    - `githubLink`: link to the github source code of the project
     - `team`: Object
         - `type`: either 
         - `details` (this can either be { pm: "Timothy Ko", tl: "Aria Malkani", swe: ["Hana Rimawi", "Michael Chen"]} for type `no-pic` or [{name: "Timothy Ko", role: "Product Manager"}, {name: "Aria Malkani", role: "Tech Lead"}, {name: "Hana Rimawi", role: "Software Developer"}])

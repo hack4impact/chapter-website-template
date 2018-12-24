@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default ({ link, text, style }) => (
+const ActionLink = ({ link, text, style }) => (
   <Link href={link}>
     <a className="link" style={{ color: "#155da1", ...style }}>
       {text}
@@ -18,3 +18,5 @@ export default ({ link, text, style }) => (
     </a>
   </Link>
 );
+
+export default ActionLink;

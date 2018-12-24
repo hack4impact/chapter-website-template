@@ -1,8 +1,8 @@
 import { Container, Row, Col } from "reactstrap";
 
-const GradientSection = ({ title, subHeadline }) => (
+const GradientSection = ({ title, subHeadline, style }) => (
   <div>
-    <section className="banner-section">
+    <section className="banner-section" style={style}>
       <Container className="align-middle">
         <Row>
           <Col md="12" className="text-center">

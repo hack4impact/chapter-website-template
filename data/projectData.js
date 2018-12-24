@@ -50,6 +50,7 @@ export default [
           "We talked to a couple of people about developing about Cut to the Case, but a lot of them didn’t have the same passion that Hack4Impact had for the project. Hack4Impact had enthusiasm for what we were doing.",
         quoteSource: "Premika Pandian",
         quoteSourceTitle: "Cut to the Case Co-Founder and CTO",
+        githubLink: "https://github.com/hack4impact-uiuc/c2tc-fall-2018",
         team: {
           type: "pics",
           detail: [
@@ -132,6 +133,7 @@ export default [
         ],
         techStack: ["react", "redux", "flask", "postgres"],
         quote: null,
+        githubLink: "https://github.com/hack4impact-uiuc/childs-play-tool",
         team: {
           type: "pic",
           detail: [
@@ -208,6 +210,7 @@ export default [
         quote: null,
         quoteSource: null,
         quoteSourceTitle: null,
+        githubLink: "https://github.com/hack4impact-uiuc/globalgiving-tool",
         team: {
           type: "pic",
           detail: [
@@ -269,6 +272,8 @@ export default [
         quoteSource: "Kelly Wolfe",
         quoteSourceTitle:
           "Love Without Boundaries Managing Director of Strategic Partnerships",
+        githubLink:
+          "https://github.com/hack4impact-uiuc/love-without-boundaries",
         team: {
           type: "no-pic",
           detail: {
@@ -306,6 +311,7 @@ export default [
           "We talked to a couple of people about developing about Cut to the Case, but a lot of them didn’t have the same passion that Hack4Impact had for the project. Hack4Impact had enthusiasm for what we were doing. Alex’s team brought up great points like what we would do if someone who’s reporting is underage. They were really receptive to what we said and had a good grasp on the issue.",
         quoteSource: "Premika Pandian",
         quoteSourceTitle: "Cut to the Case Co-Founder and CTO",
+        githubLink: null,
         team: {
           type: "no-pic",
           detail: {

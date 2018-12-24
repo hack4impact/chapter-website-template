@@ -60,7 +60,7 @@ const OurWorkSection = () => (
             to={{ opacity: 100, transform: "translate3d(0,0px,0)" }}
           >
             {item => props => (
-              <Col sm="4" style={props}>
+              <Col key={item.key} sm="4" style={props}>
                 {item}
               </Col>
             )}

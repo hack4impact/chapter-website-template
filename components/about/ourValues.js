@@ -75,7 +75,7 @@ const OurValues = () => (
 
       <CardDeck>
         {values.map(value => (
-          <Card>
+          <Card key={value.title}>
             <img
               className="card-img-top"
               src={value.imagePath}
@@ -83,9 +83,7 @@ const OurValues = () => (
             />
             <CardBody>
               <h5 className="text-title card-title"> {value.title} </h5>
-              <CardText>
-                <p>{value.text}</p>
-              </CardText>
+              <CardText>{value.text}</CardText>
             </CardBody>
           </Card>
         ))}

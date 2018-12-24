@@ -59,7 +59,7 @@ export default () => (
       <BackgroundSlider duration={40}>
         <div className="client-logo-container">
           {clients.map(client => (
-            <div>
+            <div key={client.name}>
               <Link href={client.link}>
                 <a>
                   <img

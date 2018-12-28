@@ -32,16 +32,16 @@ const values = [
     title: "Empathy",
     text: (
       <>
-        We are eager to learn about technology, ourselves, and the world around
-        us. We dive deep into our fields of study and work, and seek feedback
-        from our teammates, students, and teachers. We are hungry, yet humble;
-        we are able to set aside our egos and view each moment and interaction
-        as an opportunity to learn. <br />
-        <br /> We are incredibly curious about our clients. We know we might not
-        know everything, so we must ask the right questions to even begin to
-        grasp the complexity of our clients’ situations. Curiosity also enables
-        us to look beyond our immediate vicinity and deliver the best solution
-        to our clients, even if the solution isn’t built by Hack4Impact.
+        We look to understand perspectives, situations, and needs, and therefore
+        are not afraid of asking or being asked clarifying questions. We make
+        intentional, well-informed decisions by understanding the environments
+        we are surrounded by and deeply listening to our teammates. We are then
+        able to best mentor our own teammates growth because we can see where
+        they are coming from. <br />
+        <br /> Empathy drives every decision we make on behalf of our clients.
+        Our empathetic approach provides a North Star to our development
+        process. We’re able to settle difficult debates by agreeing and
+        executing on what’s best for our client.
       </>
     ),
     imagePath: "/static/images/values/value-2.svg"

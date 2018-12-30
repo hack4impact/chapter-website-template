@@ -12,7 +12,7 @@ const ProjectDetail = ({ project }) => (
             <div className="text-center">
               <img
                 src={project.problemImagePath}
-                className="card-img-top"
+                className="card-img-top light-shadow"
                 id="project-photo"
               />
             </div>
@@ -28,7 +28,7 @@ const ProjectDetail = ({ project }) => (
             <div className="text-center">
               <img
                 src={project.solutionImagePath}
-                className="card-img-top"
+                className="card-img-top light-shadow"
                 id="project-photo"
               />
             </div>

@@ -1,9 +1,9 @@
-import GradientSection from "../../components/gradientSection";
+import GradientBanner from "../../components/gradientBanner";
 import ActionButton from "../../components/actionButton";
 
 const ApplyPage = () => (
   <>
-    <GradientSection title="Apply" />
+    <GradientBanner title="Apply" />
     <section class="timeline-split-apply">
       <div class="container">
         <div class="row">

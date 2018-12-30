@@ -15,7 +15,7 @@ const ProjectFeature = ({ features }) =>
 
       <CardDeck>
         {features.map(feature => (
-          <Card className="text-white bg-secondary mb-3">
+          <Card className="text-white bg-secondary mb-3 light-shadow">
             <CardBody>
               <h5 className="text-title card-title text-center">
                 {feature.title}

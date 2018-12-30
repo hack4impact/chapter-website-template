@@ -1,4 +1,6 @@
 import { Row, Card, Col } from "reactstrap";
+import Link from "next/link";
+
 // need to add to this whenever a new library/technology is used
 // this must match the strings listed in props.techStack, which is an array
 const techStackMasterList = {
@@ -77,16 +79,19 @@ const ProjectTechStack = ({ techStack }) =>
           {techStack.map(tech => (
             <Col md="2" xs="6">
               <Card className="border-0">
-                <img
-                  src={techStackMasterList[tech].imgPath}
-                  className="img-thumbnail img-fluid"
-                />
-                <a
-                  href={techStackMasterList[tech].link}
-                  className="text-center"
-                >
-                  {techStackMasterList[tech].title}
-                </a>
+                <Link href={techStackMasterList[tech].link}>
+                  <a>
+                    <img
+                      src={techStackMasterList[tech].imgPath}
+                      className="img-thumbnail img-fluid tech-stack-img"
+                    />
+                  </a>
+                </Link>
+                <Link href={techStackMasterList[tech].link}>
+                  <a className="text-center tech-stack-link">
+                    {techStackMasterList[tech].title}
+                  </a>
+                </Link>
               </Card>
             </Col>
           ))}
@@ -97,6 +102,12 @@ const ProjectTechStack = ({ techStack }) =>
           padding: 5px;
           display: flex;
           justify-content: center;
+        }
+        .tech-stack-link {
+          color: #155da1;
+        }
+        .tech-stack-img:hover {
+          box-shadow: 0 5px 30px rgba(44, 62, 80, 0.1);
         }
       `}</style>
     </>

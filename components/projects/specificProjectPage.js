@@ -18,6 +18,8 @@ class SpecificProjectPage extends Component {
           title={project.name}
           clientDetail={project.clientDetail}
           clientLink={project.clientLink}
+          githubLink={project.githubLink}
+          projectLink={project.projectLink}
         />
         <ProjectDetail project={project} />
         <ProjectQuote

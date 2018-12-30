@@ -1,13 +1,24 @@
-import { Button, Row, Col, Container } from "reactstrap";
+import { Row, Col, Container } from "reactstrap";
 import ActionButton from "../actionButton";
 import Link from "next/link";
-export default ({ title, clientDetail, clientLink }) => (
+
+export default ({
+  title,
+  clientDetail,
+  clientLink,
+  githubLink,
+  projectLink
+}) => (
   <>
     <section className="project-page-banner">
       <Container className="margin-sm-all">
         <Row>
           <Col md="12">
-            <h1 className="section-title">{title}</h1>
+            <h1 className="section-title">
+              <Link href={clientLink}>
+                <a className="section-title-link">{title}</a>
+              </Link>
+            </h1>
           </Col>
         </Row>
 
@@ -19,7 +30,17 @@ export default ({ title, clientDetail, clientLink }) => (
 
         <Row className="text-center">
           <Col md="12">
-            <ActionButton white text="Learn More" link={clientLink} />
+            {projectLink !== undefined ? (
+              <ActionButton
+                text="Final Product"
+                link={projectLink}
+                white
+                style={{ marginRight: "10px" }}
+              />
+            ) : null}
+            {githubLink !== undefined ? (
+              <ActionButton text="View Code" link={githubLink} white />
+            ) : null}
           </Col>
         </Row>
       </Container>
@@ -31,6 +52,12 @@ export default ({ title, clientDetail, clientLink }) => (
         background-size: cover;
         background-attachment: fixed;
         text-align: center;
+      }
+      .section-title-link {
+        color: black;
+      }
+      .section-title-link:hover {
+        color: #155da1;
       }
     `}</style>
   </>

@@ -18,7 +18,8 @@ export default [
           <div style={{ marginTop: "20px" }}>
             Come out to our
             <a href="https://www.facebook.com/events/762781120723120/">
-              Product Showcase
+              {" "}
+              Product Showcase{" "}
             </a>
             event to see our team&#39;s solution and live demo of the final
             product!
@@ -103,10 +104,10 @@ export default [
         problemImagePath: "/static/images/projects/cp/cp-cover.jpg",
         solution: (
           <div style={{ marginTop: "20px" }}>
-            Come out to our
+            Come out to our{" "}
             <a href="https://www.facebook.com/events/762781120723120/">
               Product Showcase
-            </a>
+            </a>{" "}
             event to see our team&#39;s solution and live demo of the final
             product!
             <br />
@@ -274,6 +275,7 @@ export default [
           "Love Without Boundaries Managing Director of Strategic Partnerships",
         githubLink:
           "https://github.com/hack4impact-uiuc/love-without-boundaries",
+        projectLink: "http://cambodia.lovewithoutboundaries.org",
         team: {
           type: "no-pic",
           detail: {

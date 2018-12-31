@@ -208,6 +208,7 @@ export default [
               "Allows user to see all the available scripts, run them, and submit the entries to the global giving database using the organization parser"
           }
         ],
+        techStack: ["python", "flask", "mongodb"],
         quote: null,
         quoteSource: null,
         quoteSourceTitle: null,
@@ -275,7 +276,7 @@ export default [
           "Love Without Boundaries Managing Director of Strategic Partnerships",
         githubLink:
           "https://github.com/hack4impact-uiuc/love-without-boundaries",
-        projectLink: "http://cambodia.lovewithoutboundaries.org",
+        projectLink: "http://cambodia.lovewithoutboundaries.com",
         team: {
           type: "no-pic",
           detail: {
@@ -314,6 +315,7 @@ export default [
         quoteSource: "Premika Pandian",
         quoteSourceTitle: "Cut to the Case Co-Founder and CTO",
         githubLink: null,
+        projectLink: null,
         team: {
           type: "no-pic",
           detail: {

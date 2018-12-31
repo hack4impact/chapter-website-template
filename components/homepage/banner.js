@@ -10,35 +10,59 @@ const Banner = () => (
     style={{ marginTop: "100px", marginBottom: "30px", maxWidth: "1200px" }}
   >
     <Row>
-      <Col md="7" style={{ paddingTop: 5 }}>
-        <img src="/static/images/banner_sample.svg" />
-      </Col>
+      <Spring
+        config={{ delay: 100, ...config.slow }}
+        from={{ opacity: 0, transform: "translate3d(-100px,0,0)" }}
+        to={{ opacity: 100, transform: "translate3d(0,0px,0)" }}
+      >
+        {props => (
+          <Col md="7" style={{ ...props, paddingTop: 5 }}>
+            <img src="/static/images/banner_sample.svg" />
+          </Col>
+        )}
+      </Spring>
       <Col md="5">
-        <div id="homepage-main-headline">
-          <h1>Software for Nonprofits </h1>
-        </div>
-        <div id="homepage-sub-headline">
-          <p>
-            We are a team of UIUC students who create robust software for social
-            good. We believe that our engineering skill sets do not render us
-            useless in addressing social injustices. Instead, they empower us to
-            build a better society together.
-          </p>
-        </div>
+        <Spring
+          config={{ delay: 450, ...config.slow }}
+          from={{ opacity: 0, transform: "translate3d(-100px,0,0)" }}
+          to={{ opacity: 100, transform: "translate3d(0,0px,0)" }}
+        >
+          {props => (
+            <div style={props} id="homepage-main-headline">
+              <h1>Software for Nonprofits </h1>
+            </div>
+          )}
+        </Spring>
+        <Spring
+          config={{ delay: 450, ...config.slow }}
+          from={{ opacity: 0, transform: "translate3d(-100px,0,0)" }}
+          to={{ opacity: 100, transform: "translate3d(0,0px,0)" }}
+        >
+          {props => (
+            <div style={props} id="homepage-sub-headline">
+              <p>
+                We are a team of UIUC students who create robust software for
+                social good. We believe that our engineering skill sets do not
+                render us useless in addressing social injustices. Instead, they
+                empower us to build a better society together.
+              </p>
+            </div>
+          )}
+        </Spring>
         <div>
           <Spring
-            config={config.stiff}
-            from={{ opacity: 0 }}
-            to={{ opacity: 1 }}
+            config={{ delay: 500, ...config.slow }}
+            from={{ opacity: 0, transform: "translate3d(-100px,0,0)" }}
+            to={{ opacity: 100, transform: "translate3d(0,0px,0)" }}
           >
             {props => (
               <ActionButton style={props} link="/about" text="Learn More" />
             )}
           </Spring>
           <Spring
-            config={config.stiff}
-            from={{ opacity: 0 }}
-            to={{ opacity: 1 }}
+            config={{ delay: 550, ...config.slow }}
+            from={{ opacity: 0, transform: "translate3d(-100px,0,0)" }}
+            to={{ opacity: 100, transform: "translate3d(0,0px,0)" }}
           >
             {props => (
               <ActionButton

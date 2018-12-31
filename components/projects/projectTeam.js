@@ -26,11 +26,11 @@ const TeamMemberIcon = ({ name, role, nopic }) => (
   </Col>
 );
 const ProjectTeam = ({ team }) => (
-  <section class="project-team">
+  <section className="project-team">
     <Container>
       <Row>
         <Col md="12">
-          <h5 class="text-title center mb-5"> Project Team </h5>
+          <h5 className="text-title center mb-5"> Project Team </h5>
         </Col>
       </Row>
 

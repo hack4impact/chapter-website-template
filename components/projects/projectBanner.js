@@ -30,7 +30,7 @@ export default ({
 
         <Row className="text-center">
           <Col md="12">
-            {projectLink !== undefined ? (
+            {projectLink !== undefined && projectLink != null ? (
               <ActionButton
                 text="Final Product"
                 link={projectLink}
@@ -38,7 +38,7 @@ export default ({
                 style={{ marginRight: "10px" }}
               />
             ) : null}
-            {githubLink !== undefined ? (
+            {githubLink !== undefined && githubLink !== null ? (
               <ActionButton text="View Code" link={githubLink} white />
             ) : null}
           </Col>

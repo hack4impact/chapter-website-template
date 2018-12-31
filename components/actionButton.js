@@ -1,11 +1,19 @@
 import { Component } from "react";
 import Link from "next/link";
 
-const ActionButton = ({ link, text, style, white }) => (
-  <button style={style} className={white ? "white-button" : "action-button"}>
-    <Link prefetch href={link}>
+const ActionButton = ({ link, text, style, white, onClick }) => (
+  <button
+    style={style}
+    className={white ? "white-button" : "action-button"}
+    onClick={onClick === undefined && link !== undefined ? null : onClick}
+  >
+    {link !== undefined ? (
+      <Link prefetch href={link}>
+        <a>{text}</a>
+      </Link>
+    ) : (
       <a>{text}</a>
-    </Link>
+    )}
     <style jsx>{`
       button {
         border-image: initial;

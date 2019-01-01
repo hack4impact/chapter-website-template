@@ -30,7 +30,7 @@ const ProjectTeam = ({ team }) => (
     <Container>
       <Row>
         <Col md="12">
-          <h5 className="text-title center mb-5"> Project Team </h5>
+          <h5 className="project-detail-title center mb-5"> Project Team </h5>
         </Col>
       </Row>
 
@@ -60,10 +60,10 @@ const ProjectTeam = ({ team }) => (
             </Row>
           </div>
         ) : (
-          team.detail.map(member => (
-            <TeamMemberIcon name={member.name} role={member.role} />
-          ))
-        )}
+            team.detail.map(member => (
+              <TeamMemberIcon name={member.name} role={member.role} />
+            ))
+          )}
       </Row>
       <Row>
         <ActionButton

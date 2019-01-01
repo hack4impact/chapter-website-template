@@ -14,7 +14,7 @@ export default ({
       <Container className="margin-sm-all">
         <Row>
           <Col md="12">
-            <h1 className="section-title">
+            <h1 className="project-title mb-4">
               <Link href={clientLink}>
                 <a className="section-title-link">{title}</a>
               </Link>
@@ -24,7 +24,7 @@ export default ({
 
         <Row>
           <div className="col-md-8 offset-md-2">
-            <p>{clientDetail}</p>
+            <p className="project-subtitle">{clientDetail}</p>
           </div>
         </Row>
 
@@ -51,6 +51,7 @@ export default ({
         background: radial-gradient(white, #64ab8a);
         background-size: cover;
         background-attachment: fixed;
+        font-family: "Chivo", sans-serif;
         text-align: center;
       }
       .section-title-link {
@@ -58,6 +59,14 @@ export default ({
       }
       .section-title-link:hover {
         color: #155da1;
+      }
+      .project-title {
+        font-size: 40px;
+        font-weight: 600;
+      }
+      .project-subtitle {
+        font-size: 18px;
+        font-weight: 500;
       }
     `}</style>
   </>

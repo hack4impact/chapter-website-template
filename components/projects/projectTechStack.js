@@ -70,7 +70,7 @@ const ProjectTechStack = ({ techStack }) =>
         <Row>
           <div className="col-md-12">
             <div className="text-center">
-              <h5 className="text-title"> Tech Stack </h5>
+              <h5 className="project-detail-title"> Tech Stack </h5>
             </div>
           </div>
         </Row>

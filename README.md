@@ -31,6 +31,9 @@ Each Semester has the following...
     - `coverImagePath`: image shown in each project card
     - `clientDetail`: paragraph detailing the client and who they are. Shown in the project banner.
     - `clientLink`: link to the Client's website. Used in the `Learn More` Button in the project banner
+    - `clientFeatures`: array of features about the client
+        - `title`: example is `In Donations`
+        - `detail: example is `$324 Million`
     - `problem`: problem text shown below the `Problem` in the specific project's page
     - `problemImagePath`: the image for this section
     - `solution`: solution text
@@ -38,6 +41,7 @@ Each Semester has the following...
     - `features`: List[Object] (can make this null)
         - `title`: str
         - `detail`: str
+        - `imgPath`: optional but shows feature's images.
     - `techStack`: List[str] (Must match the `techStackMasterList` in `/components/projects/projectTechStack.js`)
     - `quote`: Quote from client. (can be null) 
     - `quoteSource`: name of the source of the quote (can be null if `quote` is null)

@@ -4,6 +4,7 @@ import ProjectBanner from "./projectBanner";
 import ProjectDetail from "./projectDetail";
 import ProjectQuote from "./projectQuote";
 import ProjectTeam from "./projectTeam";
+import ClientFeatures from "./clientFeatures";
 
 class SpecificProjectPage extends Component {
   constructor(props) {
@@ -21,6 +22,7 @@ class SpecificProjectPage extends Component {
           githubLink={project.githubLink}
           projectLink={project.projectLink}
         />
+        <ClientFeatures features={project.clientFeatures} />
         <ProjectDetail project={project} />
         <ProjectQuote
           quote={project.quote}

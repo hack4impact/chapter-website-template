@@ -99,6 +99,20 @@ export default [
         clientDetail:
           "Child’s Play seeks to improve the lives of children in pediatric hospitals and other child welfare facilities through the kindness and generosity of the video game community and the power of play. They reach 169 hospitals and shelters internationally.",
         clientLink: "https://childsplaycharity.org/",
+        clientFeatures: [
+          {
+            title: "Raised",
+            detail: "$44,484,565"
+          },
+          {
+            title: "Hospitals",
+            detail: "Gift wish lists for kids"
+          },
+          {
+            title: "International Reach",
+            detail: "169 hospitals and shelters"
+          }
+        ],
         problem:
           "Child’s Play currently has an online pdf guide that categorizes recommended games by ailment, age, and device. This guide is updated around once a year with the newest EEDAR reports that they receive. The current PDF is static which requires manual searching, making it hard to update. Hospitals’ usage can be limited or slow.",
         problemImagePath: "/static/images/projects/cp/cp-cover.jpg",
@@ -174,10 +188,24 @@ export default [
         id: "gg",
         detail:
           "How might we expand Global Giving’s impact and reach on domestic and international nonprofits?",
-        coverImagePath: "/static/images/projects/gg/gg-cover.jpg",
+        coverImagePath: "/static/images/projects/gg/gg-map.png",
         clientDetail:
           "Global Giving seeks to identify nonprofits around the world, creating a central directory of nonprofits. They also aim to connect each nonprofit with the necessary resources, such as connecting them with donors or setting up crowdfunding options to help the nonprofit succeed.",
         clientLink: "https://www.globalgiving.org/",
+        clientFeatures: [
+          {
+            title: "In Donations",
+            detail: "$324 Million"
+          },
+          {
+            title: "Funded",
+            detail: "20,000 Projects"
+          },
+          {
+            title: "Reach",
+            detail: "170 Countries"
+          }
+        ],
         problem:
           "Currently, GlobalGiving connects with organizations based in the US along with some nonprofits in other countries. However, the process of finding and applying to GlobalGiving remains significantly easier within the United States. In certain countries, factors including lack of internet connectivity and lack of access to documents required by GlobalGiving has led to slower onboarding and discovery of the organization.",
         problemImagePath: "/static/images/projects/gg/gg-cover.jpg",
@@ -198,14 +226,22 @@ export default [
         solutionImagePath: "/static/images/projects/question.jpg",
         features: [
           {
-            title: "Database",
+            title: "Data collection through scraping",
             detail:
-              "Choose ten websites with directories of nonprofits and scrape each individual one and add them to the database. Data includes the organization’s name, country of registration, registration numbers, website url, and email."
+              "Choose ten websites with directories of nonprofits and scrape each individual one and add them to the database. Data includes the organization’s name, country of registration, registration numbers, website url, and email.",
+            imgPath: "/static/images/projects/gg/gg-scraper.png"
           },
           {
             title: "Command Line Tool",
             detail:
-              "Allows user to see all the available scripts, run them, and submit the entries to the global giving database using the organization parser"
+              "Allows user to see all the available scripts, run them, and submit the entries to the global giving database using the organization parser",
+            imgPath: "/static/images/projects/gg/gg-run.png"
+          },
+          {
+            title: "Web Crawler",
+            detail:
+              "Crawls the web and google searches and ranks potential NGO directories",
+            imgPath: "/static/images/projects/gg/gg-crawl.png"
           }
         ],
         techStack: ["python", "flask", "mongodb"],
@@ -261,13 +297,52 @@ export default [
         clientDetail:
           "Love Without Boundaries (LWB) is an international NPO with the mission of serving vulnerable children in underserved communities. Through their services including nutrition programs, summer camps, and healing homes, LWB is able to target education, nutrition, medical care, and foster care. LWB recently registered as a NGO in China’s national registry. Other areas they serve include Cambodia, India, and Uganda.",
         clientLink: "https://www.lovewithoutboundaries.com/",
+        clientFeatures: [
+          {
+            title: "Countries",
+            detail: "4"
+          },
+          {
+            title: "Programs",
+            detail: "6"
+          },
+          {
+            title: "Impact",
+            detail: "50,000+ children"
+          }
+        ],
         problem:
           "Recently, the Cambodian Ministry of Education implemented a written English component on the college entrance exams, requiring English competency in order to be admitted to university for the following term. Currently students and tutors can only DM only group posts without showing edits and are not able to tutor in real time.",
         problemImagePath: "/static/images/projects/lwb/lwb-problem.jpg",
         solution:
           "We worked with LWB to create an application that tracks the progress of students and their interactions with tutors.This platform allows students to access standardized lessons and work with teachers on individual worksheets and lesson notes in real - time through google docs.Admins can manage all the students and teachers through the platform while keeping track of the student progress.",
         solutionImagePath: "/static/images/projects/lwb/lwb-sol.jpg",
-        features: null,
+        features: [
+          {
+            title: "Standardized Lessons & Worksheets",
+            detail:
+              "Lessons are able to created by administrators, which consist of lessons, worksheets, and quizzes.",
+            imgPath: "/static/images/projects/lwb/lwb-sol.jpg"
+          },
+          {
+            title: "Google Drive Integration",
+            detail:
+              "Worksheets are copied over to the student's personal google drive and accessible by tutors and admins.",
+            imgPath: "/static/images/projects/lwb/lwb-google.png"
+          },
+          {
+            title: "Tutor and Student Matching",
+            detail:
+              "Tutors are matched with students so tutors are able to work on the same material with their students.",
+            imgPath: "/static/images/projects/lwb/lwb-admin.png"
+          },
+          {
+            title: "Quizzes",
+            detail:
+              "Quizzes are mandatory to pass lessons and useful to gauge the progress of a student.",
+            imgPath: "/static/images/projects/lwb/lwb-addlesson.png"
+          }
+        ],
         techStack: ["react", "relay", "mongodb", "nodejs", "graphql"],
         quote:
           "The software is transformative. To be able to bring English language competency and ability to pass the college entrance exams to these students in an extremely impoverished and vulnerable region literally transforms futures . These students now can have options and select a career where they can think about what they want to do in life and contribute to the economy. It opens the door to a new future.",

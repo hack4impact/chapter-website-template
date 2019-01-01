@@ -11,6 +11,20 @@ export default [
           "Cut to the Case (CTTC) is a nonprofit organization started by two UIUC Engineering students who met through a nonprofit startup aimed at increasing interest in STEM among young girls called MakerGirl. After getting accepted into iVenture Accelerator and doing summer research, Premika and Kendall decided to tackle the issue of sexual assault. CTTC’s goal is to increase reporting and eventually increase prosecution through a rape kit tracking system. Currently Premika and Kendall are working on customer research",
         clientLink:
           "http://iventure.illinois.edu/index.php/portfolio/wanderweb/",
+        clientFeatures: [
+          {
+            title: "Students that don't feel safe",
+            detail: "93.9%"
+          },
+          {
+            title: "Never used Safewalks/Saferides",
+            detail: "77.6%"
+          },
+          {
+            title: "Ranks UIUC's safety below 3",
+            detail: "45%"
+          }
+        ],
         problem:
           "Cut to the Case is a UIUC based non-profit started by two UIUC Engineering students whose initial mission was to help victims of sexual assault. Now, Cut to the Case has expanded their focus into tackling public safety with the hopes of improving the safety of all students on campus",
         problemImagePath: "/static/images/projects/c2tc-2/c2tc-2-cover.jpg",

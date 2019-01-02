@@ -29,7 +29,7 @@ export default [
           "Cut to the Case is a UIUC based non-profit started by two UIUC Engineering students whose initial mission was to help victims of sexual assault. Now, Cut to the Case has expanded their focus into tackling public safety with the hopes of improving the safety of all students on campus",
         problemImagePath: "/static/images/projects/c2tc-2/c2tc-2-cover.jpg",
         solution: (
-          <div style={{ marginTop: "20px" }}>
+          <div>
             Come out to our
             <a href="https://www.facebook.com/events/762781120723120/">
               {" "}
@@ -131,7 +131,7 @@ export default [
           "Child’s Play currently has an online pdf guide that categorizes recommended games by ailment, age, and device. This guide is updated around once a year with the newest EEDAR reports that they receive. The current PDF is static which requires manual searching, making it hard to update. Hospitals’ usage can be limited or slow.",
         problemImagePath: "/static/images/projects/cp/cp-cover.jpg",
         solution: (
-          <div style={{ marginTop: "20px" }}>
+          <div>
             Come out to our{" "}
             <a href="https://www.facebook.com/events/762781120723120/">
               Product Showcase

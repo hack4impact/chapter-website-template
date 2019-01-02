@@ -5,20 +5,24 @@ import InvolveSection from "../components/homepage/involveSection";
 import ClientSlider from "../components/homepage/clientSlider";
 import PartnerSection from "../components/homepage/partnerSection";
 import { ToastContainer, toast } from "react-toastify";
+import ToastText from "../components/toastText";
 
 class Home extends React.Component {
   componentDidMount() {
     // need to open it once component is mounted bc of "document not found errors"
-    toast("Student Applications are Open!", {
+    toast(<ToastText text="Student Applications are Open!" />, {
       className: "announcement",
       bodyClassName: "announcement-body"
     });
   }
+  toastClick = () => {
+    console.log("hi");
+  };
   render() {
     return (
       <div>
         <Banner />
-        <ToastContainer hideProgressBar />
+        <ToastContainer hideProgressBar onClick={this.toastClick} />
         <OurWorkSection />
         <ClientSlider />
         <InvolveSection />

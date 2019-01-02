@@ -18,7 +18,7 @@ const ProjectQuote = ({ quote, source, sourceTitle }) =>
               </p>
               <footer class="blockquote-footer">
                 {source}
-                <cite title="Source Title">{sourceTitle}</cite>
+                <cite title="Source Title">, {sourceTitle}</cite>
               </footer>
             </blockquote>
           </Col>

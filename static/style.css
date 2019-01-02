@@ -26,8 +26,10 @@ section {
 }
 
 p {
-    font-weight: 200;
+    font-weight: 400;
     font-family: 'Heebo', sans-serif;
+    line-height: 1.5;
+    
 }
 
 /**

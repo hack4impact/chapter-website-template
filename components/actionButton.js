@@ -9,7 +9,7 @@ const ActionButton = ({ link, text, style, white, onClick }) => (
   >
     {link !== undefined ? (
       <Link prefetch href={link}>
-        <a>{text}</a>
+        <a href={link}>{text}</a>
       </Link>
     ) : (
       <a>{text}</a>

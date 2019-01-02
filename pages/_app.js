@@ -30,39 +30,37 @@ export default class MyApp extends App {
   render() {
     const { Component, pageProps, router } = this.props;
     return (
-      <Container>
-        <div>
-          <Head />
-          <Nav navType={router.route === "/" ? "mainNav" : "otherNav"} />
-          <PageTransition timeout={300} classNames="page-transition">
-            {this.state.hasError ? (
-              <ErrorMessage
-                code="404"
-                message="Something went Wrong. Are you logged in? Check logs as well"
-              />
-            ) : (
-              <Component {...pageProps} />
-            )}
-          </PageTransition>
-          <Footer />
-          <style jsx global>{`
-            .page-transition-enter {
-              opacity: 0;
-            }
-            .page-transition-enter-active {
-              opacity: 1;
-              transition: opacity 300ms;
-            }
-            .page-transition-exit {
-              opacity: 1;
-            }
-            .page-transition-exit-active {
-              opacity: 0;
-              transition: opacity 300ms;
-            }
-          `}</style>
-        </div>
-      </Container>
+      <div>
+        <Head />
+        <Nav navType={router.route === "/" ? "mainNav" : "otherNav"} />
+        <PageTransition timeout={300} classNames="page-transition">
+          {this.state.hasError ? (
+            <ErrorMessage
+              code="404"
+              message="Something went Wrong. Are you logged in? Check logs as well"
+            />
+          ) : (
+            <Component {...pageProps} />
+          )}
+        </PageTransition>
+        <Footer />
+        <style jsx global>{`
+          .page-transition-enter {
+            opacity: 0;
+          }
+          .page-transition-enter-active {
+            opacity: 1;
+            transition: opacity 300ms;
+          }
+          .page-transition-exit {
+            opacity: 1;
+          }
+          .page-transition-exit-active {
+            opacity: 0;
+            transition: opacity 300ms;
+          }
+        `}</style>
+      </div>
     );
   }
 }

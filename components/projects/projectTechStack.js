@@ -1,4 +1,4 @@
-import { Row, Card, Col } from "reactstrap";
+import { Row, Card, Col, Container } from "reactstrap";
 import Link from "next/link";
 
 // need to add to this whenever a new library/technology is used
@@ -74,34 +74,39 @@ const ProjectTechStack = ({ techStack }) =>
             </div>
           </div>
         </Row>
-
-        <Row>
-          {techStack.map(tech => (
-            <Col md="2" xs="6">
-              <Card className="border-0">
-                <Link href={techStackMasterList[tech].link}>
-                  <a>
-                    <img
-                      src={techStackMasterList[tech].imgPath}
-                      className="img-thumbnail img-fluid tech-stack-img"
-                    />
-                  </a>
-                </Link>
-                <Link href={techStackMasterList[tech].link}>
-                  <a className="text-center tech-stack-link">
-                    {techStackMasterList[tech].title}
-                  </a>
-                </Link>
-              </Card>
-            </Col>
-          ))}
-        </Row>
+        <div className="center" style={{ margin: "auto" }}>
+          <Row>
+            {techStack.map(tech => (
+              <Col md="2" xs="6">
+                <Card className="border-0">
+                  <Link href={techStackMasterList[tech].link}>
+                    <a>
+                      <img
+                        src={techStackMasterList[tech].imgPath}
+                        className="img-thumbnail img-fluid tech-stack-img"
+                      />
+                    </a>
+                  </Link>
+                  <Link href={techStackMasterList[tech].link}>
+                    <a className="text-center tech-stack-link">
+                      {techStackMasterList[tech].title}
+                    </a>
+                  </Link>
+                </Card>
+              </Col>
+            ))}
+          </Row>
+        </div>
       </div>
       <style jsx>{`
+        .tech-stack {
+          margin-top: 20px;
+        }
         .tech-stack div {
           padding: 5px;
           display: flex;
           justify-content: center;
+          text-align: center;
         }
         .tech-stack-link {
           color: #155da1;

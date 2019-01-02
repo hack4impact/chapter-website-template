@@ -52,12 +52,12 @@ class FeatureSlider extends React.Component {
                 <button
                   className={`feature-slider-btn ${
                     this.state.currentTitle === feature.title ? "is-active" : ""
-                    }`}
+                  }`}
                   onClick={() => this.featureClick(feature.title)}
                 >
                   <div className="pl-3">
                     <h3 className="feature-title">{feature.title}</h3>
-                    <h4 className="feature-detail">{feature.detail}</h4>
+                    <p className="feature-detail">{feature.detail}</p>
                   </div>
                 </button>
               </Row>
@@ -90,13 +90,13 @@ class FeatureSlider extends React.Component {
           .feature-slider-btn:hover h3 {
             color: #155da1 !important;
           }
-          .feature-slider-btn:hover h4 {
+          .feature-slider-btn:hover 0 {
             color: black !important;
           }
           .is-active h3 {
             color: #155da1 !important;
           }
-          .is-active h4 {
+          .is-active p {
             color: black !important;
           }
           .feature-title {
@@ -106,8 +106,8 @@ class FeatureSlider extends React.Component {
           }
           .feature-detail {
             color: #a8a9b0;
-            font-weight: 500;
-            font-size: 15px;
+            font-size: 16px;
+            font-weight: 400;
           }
         `}</style>
       </Row>

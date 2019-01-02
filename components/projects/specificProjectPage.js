@@ -5,6 +5,9 @@ import ProjectDetail from "./projectDetail";
 import ProjectQuote from "./projectQuote";
 import ProjectTeam from "./projectTeam";
 import ClientFeatures from "./clientFeatures";
+import ProjectFeature from "./projectFeature";
+import ProjectTechStack from "./projectTechStack";
+import { Container } from "reactstrap";
 
 class SpecificProjectPage extends Component {
   constructor(props) {
@@ -24,11 +27,9 @@ class SpecificProjectPage extends Component {
         />
         <ClientFeatures features={project.clientFeatures} />
         <ProjectDetail project={project} />
-        <ProjectQuote
-          quote={project.quote}
-          source={project.quoteSource}
-          sourceTitle={project.quoteSourceTitle}
-        />
+        <Container>
+          <ProjectTechStack techStack={project.techStack} />
+        </Container>
         <ProjectTeam team={project.team} />
       </div>
     );

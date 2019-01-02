@@ -1,4 +1,4 @@
-import { Col, Row, CardDeck, Card, CardBody } from "reactstrap";
+import { Col, Container, Row, CardDeck, Card, CardBody } from "reactstrap";
 import FeatureSlider from "../featureSlider";
 
 const ProjectFeature = ({ features }) =>
@@ -19,7 +19,7 @@ const ProjectFeature = ({ features }) =>
           features.map(feature => (
             <Card className="text-white bg-secondary mb-3 light-shadow">
               <CardBody>
-                <h5 className="projhect-detail-title card-title text-center">
+                <h5 className="project-detail-title card-title text-center">
                   {feature.title}
                 </h5>
                 <p className="text-center" id="card-text">

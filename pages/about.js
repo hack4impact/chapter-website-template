@@ -10,6 +10,7 @@ class AboutPage extends React.Component {
         <GradientBanner
           title="We believe in using tech for good."
           subHeadline="Hack4Impact believes in technology’s huge potential to empower activists and humanitarians to create lasting and impactful social change. We work to foster the wider adoption of software as a tool for social good."
+          arrow
         />
         <MissionSection />
         <OurValues />

@@ -7,7 +7,9 @@ const GradientBanner = ({
   subHeadline,
   style,
   buttonText,
-  buttonLink
+  buttonLink,
+  color,
+  arrow
 }) => (
   <div>
     <section className="banner-section" style={style}>
@@ -55,10 +57,13 @@ const GradientBanner = ({
         </Row>
       </Container>
     </section>
-    <div className="arrow" />
+    {arrow && <div className="arrow" />}
     <style jsx>{`
       section {
-        background: radial-gradient(white, #aac3ff);
+        background: radial-gradient(
+          white,
+          ${color !== undefined ? color : "#aac3ff"}
+        );
         padding: 12% 0;
         padding: 8% 0;
       }

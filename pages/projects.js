@@ -23,6 +23,7 @@ class Projects extends Component {
       return (
         <>
           <GradientBanner
+            arrow
             title="Our Work"
             subHeadline="In today&#39;s world, we are capable of changing the lives of those
                 halfway across the country. While tech has enabled us to have a

@@ -309,7 +309,7 @@ export default [
           "How might we facilitate and improve the learning of Cambodian students preparing for the English Exam?",
         coverImagePath: "/static/images/projects/lwb/lwb-cover.jpg",
         clientDetail:
-          "Love Without Boundaries (LWB) is an international NPO with the mission of serving vulnerable children in underserved communities. Through their services including nutrition programs, summer camps, and healing homes, LWB is able to target education, nutrition, medical care, and foster care. LWB recently registered as a NGO in China’s national registry. Other areas they serve include Cambodia, India, and Uganda.",
+          "Love Without Boundaries (LWB) is an international NPO with the mission of serving vulnerable children in underserved communities. Through their services, which include nutrition programs, summer camps, and healing homes, LWB is able to target education, nutrition, medical care, and foster care. LWB mainly serves in China, Cambodia, India, and Uganda.",
         clientLink: "https://www.lovewithoutboundaries.com/",
         clientFeatures: [
           {

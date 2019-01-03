@@ -28,7 +28,7 @@ const ProjectContainer = ({ title, subtitle, image, link }) => (
           background-position: center;
           background-size: cover;
           background-repeat: no-repeat;
-          border-radius: 3px;
+          border-radius: 5px;
           color: #f9fafc;
           display: flex;
           justify-content: flex-end;

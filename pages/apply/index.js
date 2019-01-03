@@ -3,7 +3,7 @@ import ActionButton from "../../components/actionButton";
 
 const ApplyPage = () => (
   <>
-    <GradientBanner title="Apply" />
+    <GradientBanner title="Apply" arrow />
     <section class="timeline-split-apply">
       <div class="container">
         <div class="row">
@@ -32,7 +32,7 @@ const ApplyPage = () => (
                   about our services and how your organization can partner with
                   us to support your organization's goals and mission.
                 </p>
-                <ActionButton text="Apply" link="/apply/nonprofit" />
+                <ActionButton text="Apply" link="/apply/nonprofits" />
               </div>
             </div>
           </div>

@@ -1,8 +1,11 @@
 import GradientBanner from "../../components/gradientBanner";
 import ActionButton from "../../components/actionButton";
-
+import Head from "../../components/head";
+import Nav from "../../components/nav";
 const ApplyPage = () => (
   <>
+    <Head title="Apply" />
+    <Nav navType="otherNav" />
     <GradientBanner title="Apply" arrow />
     <section class="timeline-split-apply">
       <div class="container">

@@ -31,8 +31,6 @@ export default class MyApp extends App {
     const { Component, pageProps, router } = this.props;
     return (
       <div>
-        <Head />
-        <Nav navType={router.route === "/" ? "mainNav" : "otherNav"} />
         <PageTransition timeout={300} classNames="page-transition">
           {this.state.hasError ? (
             <ErrorMessage

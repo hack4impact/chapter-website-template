@@ -6,6 +6,8 @@ import ClientSlider from "../components/homepage/clientSlider";
 import PartnerSection from "../components/homepage/partnerSection";
 import { ToastContainer, toast } from "react-toastify";
 import ToastText from "../components/toastText";
+import Head from "../components/head";
+import Nav from "../components/nav";
 
 class Home extends React.Component {
   componentDidMount() {
@@ -21,6 +23,8 @@ class Home extends React.Component {
   render() {
     return (
       <div>
+        <Head title="Hack4Impact UIUC" />
+        <Nav navType="mainNav" />
         <Banner />
         <ToastContainer hideProgressBar onClick={this.toastClick} />
         <OurWorkSection />

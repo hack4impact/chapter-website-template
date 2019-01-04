@@ -1,5 +1,6 @@
 import { Component } from "react";
-
+import Head from "../components/head";
+import Nav from "../components/nav";
 import GradientBanner from "../components/gradientBanner";
 import ProjectList from "../components/projects/projectList";
 import SpecificProjectPage from "../components/projects/specificProjectPage";
@@ -21,7 +22,9 @@ class Projects extends Component {
     // return project List (regular project Page) if not query (just /projets)
     if (Object.keys(query).length === 0 && query.constructor === Object) {
       return (
-        <>
+        <div>
+          <Head title="Hack4Impact Projects" />
+          <Nav navType="otherNav" />
           <GradientBanner
             arrow
             title="Our Work"
@@ -37,7 +40,7 @@ class Projects extends Component {
           />
           <ProjectList />
           <ProjectExplore />
-        </>
+        </div>
       );
     }
     // else its something like this /project?name=lwb
@@ -47,6 +50,8 @@ class Projects extends Component {
         if (semester.projects[y].id === query.name) {
           return (
             <div>
+              <Head title={semester.projects[y].name} />
+              <Nav navType="otherNav" />
               <SpecificProjectPage project={semester.projects[y]} />
             </div>
           );

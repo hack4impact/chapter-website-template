@@ -154,7 +154,7 @@ h2 {
 /*Other Navigation Bars*/
 
 #otherNav {
-    background-color: #ffffff;
+    background: transparent;
 }
 
 #otherNav .navbar-toggler {
@@ -163,7 +163,7 @@ h2 {
     padding: 13px;
     text-transform: uppercase;
     color: #155DA1;
-    background-color: #bfe6ec;
+    background-color: #f0f0f0;
 }
 
 #otherNav .navbar-nav .nav-item .nav-link {
@@ -186,7 +186,7 @@ h2 {
         -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
         transition: padding-top 0.3s, padding-bottom 0.3s;
         border: none;
-        background-color: transparent;
+        background: transparent;
     }
 
     #otherNav .navbar-brand {

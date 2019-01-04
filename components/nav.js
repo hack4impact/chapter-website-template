@@ -32,9 +32,9 @@ class NavigationBar extends React.Component {
     return (
       <Navbar
         className={`navbar-expand-lg navbar-dark fixed-top ${
-          this.state.isTop ? "" : "shadow"
+          this.state.isTop ? "" : "shadow bg-white"
         }`}
-        id={this.state.isTop ? this.props.navType : "mainNav"}
+        id={this.props.navType ? this.props.navType : "mainNav"}
       >
         <Container>
           <NavbarBrand className="js-scroll-trigger" href="/">
@@ -43,6 +43,7 @@ class NavigationBar extends React.Component {
               height="35"
               width="200"
               src="/static/images/colored-logo.png"
+              alttext="Hack4Impact UIUC logo"
             />
           </NavbarBrand>
           <NavbarToggler onClick={this.toggleNavbar} className="mr-2" />
@@ -66,6 +67,11 @@ class NavigationBar extends React.Component {
             </Nav>
           </Collapse>
         </Container>
+        <style jsx>{`
+          .bg-white {
+            background-color: #ffffff;
+          }
+        `}</style>
       </Navbar>
     );
   }

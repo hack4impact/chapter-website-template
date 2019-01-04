@@ -5,7 +5,7 @@ const Quote = ({ quote, source, sourceTitle }) =>
   quote === undefined || quote === null ? (
     <></>
   ) : (
-    <Section grey>
+    <Section darkgrey>
       <Container>
         <Row>
           <Col md="12">

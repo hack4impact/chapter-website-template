@@ -5,6 +5,8 @@ import ServicesDetail from "../../components/apply/nonprofit/servicesDetail";
 import Quote from "../../components/quote";
 import Section from "../../components/section";
 import ApplicationProcess from "../../components/apply/applicationProcess";
+import Head from "../../components/head";
+import Nav from "../../components/nav";
 
 // constants
 const quote = {
@@ -40,6 +42,8 @@ const applicationLink =
 // page component itself
 const NonProfits = () => (
   <div>
+    <Head title="Nonprofit Applications" />
+    <Nav navType="otherNav" />
     <GradientBanner
       color="#64ab8a"
       title={title}

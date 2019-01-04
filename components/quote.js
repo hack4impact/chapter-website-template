@@ -1,7 +1,7 @@
-import Section from "../section";
+import Section from "./section";
 import { Container, Row, Col } from "reactstrap";
 
-const ProjectQuote = ({ quote, source, sourceTitle }) =>
+const Quote = ({ quote, source, sourceTitle }) =>
   quote === undefined || quote === null ? (
     <></>
   ) : (
@@ -26,4 +26,4 @@ const ProjectQuote = ({ quote, source, sourceTitle }) =>
       </Container>
     </Section>
   );
-export default ProjectQuote;
+export default Quote;

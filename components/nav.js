@@ -46,19 +46,19 @@ class NavigationBar extends React.Component {
             />
           </NavbarBrand>
           <NavbarToggler onClick={this.toggleNavbar} className="mr-2" />
-          <Collapse navbar id="navbarResponsive" isOpen={!this.state.collapsed}>
+          <Collapse navbar isOpen={!this.state.collapsed}>
             <Nav navbar className="text-uppercase ml-auto">
-              <NavItem onClick={this.toggleNavbar}>
+              <NavItem>
                 <Link prefetch href="/about">
                   <a className="nav-link pl-3">About</a>
                 </Link>
               </NavItem>
-              <NavItem onClick={this.toggleNavbar}>
+              <NavItem>
                 <Link prefetch href="/projects">
                   <a className="nav-link pl-3">Projects</a>
                 </Link>
               </NavItem>
-              <NavItem onClick={this.toggleNavbar}>
+              <NavItem>
                 <Link prefetch href="/apply">
                   <a className="nav-link pl-3">Apply</a>
                 </Link>

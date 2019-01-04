@@ -5,12 +5,12 @@ import { string } from "prop-types";
 const defaultDescription =
   "We are a team of UIUC students who create robust software for social good. We believe that our engineering skill sets do not render us useless in addressing social injustices. Instead, they empower us to build a better society together.";
 const defaultOGURL = "uiuc.hack4impact.org";
-const defaultOGImage = "";
+const defaultOGImage = "/static/icons/favicon-32x32.png";
 
 const Head = props => (
   <NextHead>
     <meta charSet="UTF-8" />
-    <title>{props.title || ""}</title>
+    <title>{props.title || "Hack4Impact UIUC"}</title>
     <meta
       name="description"
       content={props.description || defaultDescription}
@@ -22,7 +22,6 @@ const Head = props => (
     />
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Hack4Impact UIUC</title>
 
     <link
       rel="apple-touch-icon"

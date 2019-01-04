@@ -2,20 +2,32 @@ import { Component } from "react";
 import Link from "next/link";
 
 const ActionButton = ({ link, text, style, white, onClick }) => (
-  <button
-    style={style}
-    className={white ? "white-button" : "action-button"}
-    onClick={onClick === undefined && link !== undefined ? null : onClick}
-  >
+  <>
     {link !== undefined ? (
       <Link prefetch href={link}>
-        <a href={link}>{text}</a>
+        <button
+          style={style}
+          className={
+            white ? "white-button styled-btn" : "action-button styled-btn"
+          }
+          onClick={onClick === undefined && link !== undefined ? null : onClick}
+        >
+          <a href={link}>{text}</a>
+        </button>
       </Link>
     ) : (
-      <a>{text}</a>
+      <button
+        style={style}
+        className={
+          white ? "white-button styled-btn" : "action-button styled-btn"
+        }
+        onClick={onClick === undefined && link !== undefined ? null : onClick}
+      >
+        <a>{text}</a>
+      </button>
     )}
     <style jsx>{`
-      button {
+      .styled-btn {
         border-image: initial;
         overflow: hidden;
         transition: all 0.15s ease 0s;
@@ -26,7 +38,7 @@ const ActionButton = ({ link, text, style, white, onClick }) => (
         border: none;
         color: white;
       }
-      button a {
+      .styled-btn a {
         font-family: "Chivo", sans-serif;
         font-weight: 100;
         font-size: 14px;
@@ -46,12 +58,12 @@ const ActionButton = ({ link, text, style, white, onClick }) => (
         color: white !important;
       }
 
-      button:hover {
+      .styled-btn:hover {
         box-shadow: rgba(0, 0, 0, 0.12) 3px 5px 20px;
         transition: border 0.2s, background 0.2s, color 0.2s ease-out;
       }
     `}</style>
-  </button>
+  </>
 );
 
 export default ActionButton;

@@ -82,6 +82,7 @@ const GradientBanner = ({
       .sub-headline {
         max-width: 100%;
         padding: 0 10%;
+        margin-top: 20px;
       }
       p {
         font-size: 20px;

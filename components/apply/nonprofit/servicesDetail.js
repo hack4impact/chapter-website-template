@@ -6,7 +6,7 @@ export default () => (
   <Section>
     <Container>
       <Row>
-        <h3 class="text-center text-title">Our Services</h3>
+        <h3 class="text-center project-detail-title">Our Services</h3>
       </Row>
 
       <Row>

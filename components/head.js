@@ -53,6 +53,9 @@ const Head = props => (
       href="https://fonts.googleapis.com/css?family=Lato|Chivo|Heebo:300"
       rel="stylesheet"
     />
+    {props.title === "Nonprofit Applications" ? (
+      <link rel="stylesheet" href="/static/react-vertical.min.css" />
+    ) : null}
 
     <link rel="mask-icon" href="/static/favicon-mask.svg" color="#49B882" />
     <meta property="og:url" content={props.url || defaultOGURL} />

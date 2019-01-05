@@ -12,21 +12,18 @@ import Nav from "../components/nav";
 class Home extends React.Component {
   componentDidMount() {
     // need to open it once component is mounted bc of "document not found errors"
-    toast(<ToastText text="Student Applications are Open!" />, {
-      className: "announcement",
-      bodyClassName: "announcement-body"
-    });
+    // toast(<ToastText text="Student Applications are Open!" />, {
+    //   className: "announcement",
+    //   bodyClassName: "announcement-body"
+    // });
   }
-  toastClick = () => {
-    console.log("hi");
-  };
+
   render() {
     return (
       <div>
         <Head title="Hack4Impact UIUC" />
         <Nav navType="mainNav" />
         <Banner />
-        <ToastContainer hideProgressBar onClick={this.toastClick} />
         <OurWorkSection />
         <ClientSlider />
         <InvolveSection />

@@ -8,6 +8,7 @@ import { ToastContainer, toast } from "react-toastify";
 import ToastText from "../components/toastText";
 import Head from "../components/head";
 import Nav from "../components/nav";
+import Footer from "../components/footer";
 
 class Home extends React.Component {
   componentDidMount() {
@@ -28,6 +29,7 @@ class Home extends React.Component {
         <ClientSlider />
         <InvolveSection />
         <PartnerSection />
+        <Footer />
       </div>
     );
   }

@@ -22,16 +22,16 @@ const clientFeatures = [
   }
 ];
 const problem =
-  "Recently, the Cambodian Ministry of Education implemented a written English component on the college entrance exams, requiring English competency in order to be admitted to university for the following term. Currently students and tutors can only DM only group posts without showing edits and are not able to tutor in real time.";
+  "Recently, the Cambodian Ministry of Education implemented a written English component on the college entrance exams, requiring English competency in order to be admitted to university for the following term. Currently students and tutors can only contact via DM and facebook groups and tutors/admins arent able to track the progress of their students.";
 const problemImagePath = "/static/images/projects/lwb/lwb-problem.jpg";
 const solution =
-  "We worked with LWB to create an application that tracks the progress of students and their interactions with tutors.This platform allows students to access standardized lessons and work with teachers on individual worksheets and lesson notes in real - time through google docs.Admins can manage all the students and teachers through the platform while keeping track of the student progress.";
+  "We worked with LWB to create an application that tracks the progress of students and their interactions with tutors. This platform allows students to access standardized lessons and work with teachers on individual worksheets and lesson notes in real-time through google docs. Admins can manage all the students and teachers through the platform while keeping track of the student progress.";
 const solutionImagePath = "/static/images/projects/lwb/lwb-sol.jpg";
 const features = [
   {
     title: "Standardized Lessons & Worksheets",
     detail:
-      "Lessons are able to created by administrators, which consist of lessons, worksheets, and quizzes.",
+      "Lessons are created by administrators, which consist of lessons, worksheets, and quizzes.",
     imgPath: "/static/images/projects/lwb/lwb-sol.jpg"
   },
   {
@@ -43,13 +43,13 @@ const features = [
   {
     title: "Tutor and Student Matching",
     detail:
-      "Tutors are matched with students so tutors are able to work on the same material with their students.",
+      "Tutors are matched with students by Admins so tutors are able to work on the same material with their students.",
     imgPath: "/static/images/projects/lwb/lwb-admin.png"
   },
   {
     title: "Quizzes",
     detail:
-      "Quizzes are mandatory to pass lessons and useful to gauge the progress of a student.",
+      "Quizzes are mandatory to pass lessons and are useful to gauge the progress of a student.",
     imgPath: "/static/images/projects/lwb/lwb-addlesson.png"
   }
 ];

@@ -4,6 +4,7 @@ import MissionSection from "../components/about/missionSection";
 import OurValues from "../components/about/ourValues";
 import Head from "../components/head";
 import Nav from "../components/nav";
+import Footer from "../components/footer";
 
 class AboutPage extends React.Component {
   render() {
@@ -18,6 +19,7 @@ class AboutPage extends React.Component {
         />
         <MissionSection />
         <OurValues />
+        <Footer />
       </div>
     );
   }

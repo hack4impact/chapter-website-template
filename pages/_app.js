@@ -41,7 +41,6 @@ export default class MyApp extends App {
             <Component {...pageProps} />
           )}
         </PageTransition>
-        <Footer />
         <style jsx global>{`
           .page-transition-enter {
             opacity: 0;

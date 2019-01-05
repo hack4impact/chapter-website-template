@@ -8,10 +8,9 @@ import Section from "../../components/section";
 import ApplicationProcess from "../../components/apply/applicationProcess";
 import Head from "../../components/head";
 import Nav from "../../components/nav";
-import Phone from "../../static/icons/phone-call.svg";
-import Contract from "../../static/icons/contract.svg";
-import ActionButton from "../../components/actionButton";
+
 import data from "../../data/ngoApplyData";
+import Footer from "../../components/footer";
 
 // TODO: ADD `closed` prop to ApplicationProcess to add text about applications being closed!
 const NonProfits = () => (
@@ -39,6 +38,7 @@ const NonProfits = () => (
     <Container>
       <FAQ questions={data.faq} />
     </Container>
+    <Footer />
   </div>
 );
 

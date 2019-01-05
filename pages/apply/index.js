@@ -4,6 +4,7 @@ import Head from "../../components/head";
 import Nav from "../../components/nav";
 import { Container, Row, Col } from "reactstrap";
 import Link from "next/link";
+import Footer from "../../components/footer";
 
 const ApplyPage = () => (
   <>
@@ -49,6 +50,7 @@ const ApplyPage = () => (
         </Row>
       </Container>
     </section>
+    <Footer />
   </>
 );
 

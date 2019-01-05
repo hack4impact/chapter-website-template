@@ -1,6 +1,7 @@
 import { Row, Container, Col } from "reactstrap";
 
 const ClientFeatures = ({ features }) =>
+  features !== null &&
   features !== undefined &&
   features.length !== 0 && (
     <Container>

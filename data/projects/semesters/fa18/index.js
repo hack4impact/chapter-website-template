@@ -1,7 +1,7 @@
 import Fa18C2tcData from "./c2tc";
 import ChildsPlayData from "./cp";
 import GlobalGivingData from "./gg";
-// TODO: Phila Reads
+import PhilaReadsData from "./pr";
 
 // Fa18 Project Data
 export default {
@@ -15,6 +15,9 @@ export default {
     },
     {
       ...GlobalGivingData
+    },
+    {
+      ...PhilaReadsData
     }
   ]
 };

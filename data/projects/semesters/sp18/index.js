@@ -7,10 +7,10 @@ export default {
   semester: "Fall 2017 & Spring 2018",
   projects: [
     {
-      ...Sp18C2tcData
+      ...LwbData
     },
     {
-      ...LwbData
+      ...Sp18C2tcData
     }
   ]
 };

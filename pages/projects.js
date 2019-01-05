@@ -6,7 +6,7 @@ import ProjectList from "../components/projects/projectList";
 import SpecificProjectPage from "../components/projects/specificProjectPage";
 import ErrorMessage from "../components/errorMessage";
 import ProjectExplore from "../components/projects/projectExplore";
-
+import Footer from "../components/footer";
 import projectData from "../data/projectData";
 
 class Projects extends Component {
@@ -40,6 +40,7 @@ class Projects extends Component {
           />
           <ProjectList />
           <ProjectExplore />
+          <Footer />
         </div>
       );
     }
@@ -53,6 +54,7 @@ class Projects extends Component {
               <Head title={semester.projects[y].name} />
               <Nav navType="otherNav" />
               <SpecificProjectPage project={semester.projects[y]} />
+              <Footer />
             </div>
           );
         }

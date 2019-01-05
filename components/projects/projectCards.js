@@ -5,7 +5,10 @@ import Link from "next/link";
 export default ({ title, imgPath, link, subTitle }) => (
   <>
     <Link href={link}>
-      <Card className="bg-light mb-3 project-card">
+      <Card
+        className="bg-light mb-3 project-card h-100"
+        style={{ height: "100%" }}
+      >
         <img className="card-img-top" src={imgPath} alt={title} />
         <CardBody>
           <h5 className="text-title card-title text-center">{title}</h5>
@@ -27,6 +30,7 @@ export default ({ title, imgPath, link, subTitle }) => (
       }
       .project-card {
         border: none;
+        height: 100% !important;
       }
     `}</style>
   </>

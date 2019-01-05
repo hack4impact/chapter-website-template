@@ -40,7 +40,7 @@ const InvolveSection = () => (
             </p>
 
             <div className="text-center">
-              <ActionButton white link="/students/apply" text="Learn More" />
+              <ActionButton white link="/apply/students" text="Learn More" />
             </div>
           </Col>
           <Col md="1" />
@@ -54,11 +54,7 @@ const InvolveSection = () => (
               position="Faculty Coordinator of the USFSP Neighborhood News Bureau"
             />
             <div className="text-center">
-              <ActionButton
-                white
-                link="https://docs.google.com/forms/d/e/1FAIpQLSdnDbHQdqMH4Vzd6jU9PBmnX9NPMh2J5tPh9VdEvC8m7SDnCQ/viewform"
-                text="Learn More"
-              />
+              <ActionButton white link="/apply/nonprofits" text="Learn More" />
             </div>
           </Col>
         </Row>

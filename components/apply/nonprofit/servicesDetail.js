@@ -6,11 +6,11 @@ export default () => (
   <Section>
     <Container>
       <Row>
-        <h3 class="text-center project-detail-title">Our Services</h3>
+        <h3 className="text-center project-detail-title">Our Services</h3>
       </Row>
 
       <Row>
-        <div class="col-md-12">
+        <div className="col-md-12">
           <p>
             We currently support Web based and data science projects but we are
             open to other different types of projects. Historically, we’ve found

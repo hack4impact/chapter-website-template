@@ -20,7 +20,7 @@ const Head = props => (
       async
       src="https://www.googletagmanager.com/gtag/js?id=UA-124593378-1"
     />
-    <meta charset="utf-8" />
+    <meta charSet="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <link
@@ -47,7 +47,7 @@ const Head = props => (
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-      crossorigin="anonymous"
+      crossOrigin="anonymous"
     />
     <link
       href="https://fonts.googleapis.com/css?family=Lato|Chivo|Heebo:300"

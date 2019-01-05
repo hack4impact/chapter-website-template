@@ -17,4 +17,4 @@ deployment:
     commands:
       - yarn build
       - yarn export
-      - surge . uiuc.hack4impact.org
+      - surge out uiuc.hack4impact.org

@@ -1,3 +1,6 @@
+A Template to copy over when adding a new project
+
+```javascript
 const name = "";
 const id = ""; // used for project navigation and representations in folders
 
@@ -71,3 +74,5 @@ export default {
   githubLink,
   team
 };
+
+```

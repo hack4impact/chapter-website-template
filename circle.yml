@@ -17,4 +17,5 @@ deployment:
     commands:
       - yarn build
       - yarn export
+      - ls
       - surge out uiuc.hack4impact.org

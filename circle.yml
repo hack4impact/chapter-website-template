@@ -15,4 +15,6 @@ deployment:
   production:
     branch: master
     commands:
-      - surge . uiuc.hack4impact.org
+      - yarn build
+      - yarn export
+      - surge out uiuc.hack4impact.org

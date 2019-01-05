@@ -1,0 +1,133 @@
+/* Home Page Styling */
+
+@media (min-width: 768px) {
+    section {
+      padding: 100px 0;
+    }
+
+    .banner-section {
+        padding-top: 200px !important;
+    }
+
+    .our-work-section {
+        height: 600px;
+    }
+
+    .our-work-section h2{
+        margin-top: 0px;
+    }
+}
+
+@media (min-width: 992px) {
+    .student-cta h3{
+        padding-top: 15px;
+    }
+}
+
+
+/*
+  Banner Section
+*/
+@media (max-width: 768px){
+    .banner-section {
+        background-size: contain;
+    }
+}
+
+/*
+    Banner Sections
+*/
+.banner-section {
+    height:650px;
+    padding-top: 100px;
+    background: white /*url('./img/banner sample.svg') no-repeat fixed*/;
+    background-size: cover;
+}
+
+
+
+/*
+    Our Work Section
+*/
+#our-work-title-box{
+    padding-bottom: 40px;
+    max-width:100%;
+}
+.our-work-section {
+    height: 100%;
+    padding-top:50px;
+    background-color: #ebeff2;
+}
+
+.our-work-section h2{
+    margin-top: 20px; /* when screen is small */
+}
+
+.our-work-section h1 {
+    color:#373f46;
+    font-weight: 500;
+}
+
+.our-work-section p {
+    color: #6a6f73;
+}
+
+#project-showcase-box a {
+    color: #373f46;
+    font-weight: 500;
+}
+
+.our-work-section img {
+    border-radius: 5px;
+}
+
+.project-showcase-box{
+    max-width:100%;
+}
+
+
+/*
+    Get Involved Section
+*/
+.involve-section img {
+    display: block;
+    margin: 7% auto;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px grey;
+    max-height: 260px; /* Temporary to preserve image heights */
+}
+
+.involved-body {
+  padding: 0 2%;
+}
+
+
+/*
+    Clients Section
+*/
+.partners-section {
+    background-color: #ebeff2;
+    padding-top: 40px;
+    padding-bottom: 40x;
+}
+
+.partners-section img {
+    padding: 10% 12%;
+}
+
+.partners-section h2{
+    font-size: 20px;
+    text-align:center;
+    margin-bottom: 50px;
+    color: #373f46;
+    opacity: .7;
+    font-weight: 300;
+}
+
+.divider-right {
+    border-right: 1px solid #D0D0D0;
+}
+
+.partner-button {
+    margin-top: 6%;
+}

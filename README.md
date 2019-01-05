@@ -21,6 +21,7 @@ Whenever you need to add a new member to the organization, whether to the `/abou
 ### Project Data configuration
 The Project Data configuration file will hold a list of dictionaries (which are semesters specifying the projects that happened there). Each field must exist.
 
+Look at [template.md](./template.md) for a template when adding a project
 
 Each Semester has the following...
 - `semester`: <str> ex: Fall 2018

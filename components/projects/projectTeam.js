@@ -1,30 +1,8 @@
 import { Container, Row, Col, Card } from "reactstrap";
 import ActionButton from "../actionButton";
 import { ImagePathConversion } from "../../data/helper";
+import TeamMemberIcon from "../memberIcon";
 
-const TeamMemberIcon = ({ name, role, nopic }) => (
-  <Col xs={nopic ? "6" : "6"} md="3">
-    <Card className="border-0">
-      <div className="text-center">
-        <img
-          src={ImagePathConversion(name)}
-          className="rounded-circle img-fluid team-icon"
-        />
-      </div>
-    </Card>
-
-    <div className="card-body text-center">
-      <p>
-        <b> {name} </b> <br /> {role}
-      </p>
-    </div>
-    <style jsx>{`
-      .team-icon {
-        width: 80%;
-      }
-    `}</style>
-  </Col>
-);
 const ProjectTeam = ({ team }) => (
   <section className="project-team">
     <Container>
@@ -60,10 +38,10 @@ const ProjectTeam = ({ team }) => (
             </Row>
           </div>
         ) : (
-            team.detail.map(member => (
-              <TeamMemberIcon name={member.name} role={member.role} />
-            ))
-          )}
+          team.detail.map(member => (
+            <TeamMemberIcon name={member.name} role={member.role} />
+          ))
+        )}
       </Row>
       <Row>
         <ActionButton

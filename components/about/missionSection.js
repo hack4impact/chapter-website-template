@@ -9,7 +9,7 @@ const MissionSection = () => (
     <Container>
       <Row>
         <Col md="12" className="text-center">
-          <h2 className="mission-title">Our Mission</h2>
+          <h2 className="project-detail-title">Our Mission</h2>
         </Col>
       </Row>
 
@@ -57,12 +57,6 @@ const MissionSection = () => (
       #mission-team {
         max-width: 700px;
         margin-top: 30px;
-      }
-      .mission-title {
-        font-weight: 900;
-        color: #323648;
-        font-family: "Chivo", sans-serif;
-        margin-bottom: 20px;
       }
       .mission-body-text {
         color: #323648;

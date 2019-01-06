@@ -5,6 +5,7 @@ import OurValues from "../components/about/ourValues";
 import Head from "../components/head";
 import Nav from "../components/nav";
 import Footer from "../components/footer";
+import Team from "../components/about/team";
 
 class AboutPage extends React.Component {
   render() {
@@ -19,6 +20,7 @@ class AboutPage extends React.Component {
         />
         <MissionSection />
         <OurValues />
+        <Team />
         <Footer />
       </div>
     );

@@ -68,7 +68,7 @@ const OurValues = () => (
   <Section darkgrey>
     <Container>
       <Row>
-        <div className="text-center section-title">
+        <div className="text-center project-detail-title">
           <h2>Our Values</h2>
         </div>
       </Row>

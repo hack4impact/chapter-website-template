@@ -53,7 +53,8 @@ const Head = props => (
       href="https://fonts.googleapis.com/css?family=Lato|Chivo|Heebo:300"
       rel="stylesheet"
     />
-    {props.title === "Nonprofit Applications" ? (
+    {props.title === "H4I Apply | Nonprofits" ||
+    props.title === "H4I Apply | Students" ? (
       <link rel="stylesheet" href="/static/react-vertical.min.css" />
     ) : null}
 

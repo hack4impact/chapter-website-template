@@ -15,7 +15,7 @@ import Footer from "../../components/footer";
 // TODO: ADD `closed` prop to ApplicationProcess to add text about applications being closed!
 const NonProfits = () => (
   <div>
-    <Head title="Nonprofit Applications" />
+    <Head title="H4I Apply | Nonprofits" />
     <Nav navType="otherNav" />
     <GradientBanner
       color="#64ab8a"
@@ -35,9 +35,7 @@ const NonProfits = () => (
       titleDetail={data.applicationDetail}
       processes={data.ngoProcess}
     />
-    <Container>
-      <FAQ questions={data.faq} />
-    </Container>
+    <FAQ questions={data.faq} />
     <Footer />
   </div>
 );

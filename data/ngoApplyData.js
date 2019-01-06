@@ -126,9 +126,7 @@ export default {
           those ideas - we simply use them as a starting point for deeper
           conversation regarding your organization during our initial call! A
           detailed application would be extremely helpful!{" "}
-          <a href="https://docs.google.com/document/d/1SGG7gxu8lgWMOhxIULMSUZQa-4p0bLwrwDl4SAZW2lE/edit#heading=h.ctj44dqhs232">
-            Sample Application
-          </a>
+          <a href={projectAppExample}>Sample Application</a>
         </>
       )
     },

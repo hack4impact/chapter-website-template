@@ -52,3 +52,11 @@ Each Semester has the following...
     - `team`: Object
         - `type`: either 
         - `details` (this can either be { pm: "Timothy Ko", tl: "Aria Malkani", swe: ["Hana Rimawi", "Michael Chen"]} for type `no-pic` or [{name: "Timothy Ko", role: "Product Manager"}, {name: "Aria Malkani", role: "Tech Lead"}, {name: "Hana Rimawi", role: "Software Developer"}])
+
+
+### Apply Pages
+For both Nonprofits and Students, both pages pull data from `/data/ngoApplyData.js` or `/data/studentApplyData.js` depending on the page. 
+
+To close an application cycle, add the `closed` prop to the component `ApplicationProcess` in the relevant page and the `closedText` will display. Remember to update `currentSemester` and `nextSemester` to the correct text because that will affect what the `closedText` says. 
+
+Always remember to update the `applicationLink`, the Dates, etc. They will all be reflected on our pages. Look into the code to know how to add more faq questions, change the application process, etc. It's pretty straightforward.

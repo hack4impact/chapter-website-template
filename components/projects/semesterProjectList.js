@@ -11,7 +11,7 @@ export default () => (
         </Row>
         <Row>
           {semester.projects.map(project => (
-            <Col sm="4" xs="6" style={{ marginBottom: "25px" }}>
+            <Col md="4" sm="6" style={{ marginBottom: "25px" }}>
               <ProjectCards
                 title={project.name}
                 imgPath={project.coverImagePath}

@@ -17,44 +17,45 @@ const InvolveSection = () => (
               <h3 className="text-title text-center">Students</h3>
               <img src="/static/images/h4i-funny.jpg" className="img-fluid" />
             </div>
+            <Row>
+              <p
+                style={{
+                  padding: "38px 0 35px 0"
+                }}
+              >
+                Are you passionate about software and Social Impact? Are you
+                looking to join a unique and close-knit community? Join Us! Our
+                mission provides a distinct experience to develop technical
+                skills and interact with nonprofit clients all while applying
+                your skills to impact real lives.
+              </p>
+
+              <div className="text-center">
+                <ActionButton white link="/apply/students" text="Learn More" />
+              </div>
+            </Row>
           </Col>
           <Col md="5" className="offset-md-2">
             <div className="involved-container">
               <h3 className="text-title text-center">Nonprofits</h3>
               <img src="/static/images/team-cheer.jpg" className="img-fluid" />
-            </div>
-          </Col>
-        </Row>
-        <Row>
-          <Col md="5">
-            <p
-              style={{
-                padding: "38px 0 35px 0"
-              }}
-            >
-              Are you passionate about software and Social Impact? Are you
-              looking to join a unique and close-knit community? Join Us! Our
-              mission provides a distinct experience to develop technical skills
-              and interact with nonprofit clients all while applying your skills
-              to impact real lives.
-            </p>
-
-            <div className="text-center">
-              <ActionButton white link="/apply/students" text="Learn More" />
-            </div>
-          </Col>
-          <Col md="1" />
-          <Col md="5">
-            <BlockQuote
-              text="Working with Hack4Impact was easy, efficient and incredibly
+              <Row>
+                <BlockQuote
+                  text="Working with Hack4Impact was easy, efficient and incredibly
               productive. They were quick to understand what we were looking to
               achieve and made the app even better and simpler to use than what
               I had imagined."
-              author="- Bernardo H. Motta, Ph.D."
-              position="Faculty Coordinator of the USFSP Neighborhood News Bureau"
-            />
-            <div className="text-center">
-              <ActionButton white link="/apply/nonprofits" text="Learn More" />
+                  author="- Bernardo H. Motta, Ph.D."
+                  position="Faculty Coordinator of the USFSP Neighborhood News Bureau"
+                />
+                <div className="text-center">
+                  <ActionButton
+                    white
+                    link="/apply/nonprofits"
+                    text="Learn More"
+                  />
+                </div>
+              </Row>
             </div>
           </Col>
         </Row>

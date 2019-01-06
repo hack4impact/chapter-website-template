@@ -22,7 +22,7 @@ const clients = [
     width: 135,
     height: 120,
     logoPath: "/static/images/client_logos/philareadslogo.png",
-    link: "/projects?name=philareads"
+    link: "/projects?name=pr"
   },
   {
     name: "C2TC",

@@ -13,10 +13,11 @@ const currentSemester = "Fall 2018";
 const nextSemester = "Spring 2019";
 
 // dates
-const infoSessionDate = "Jan 16, 2019 7-8PM";
-const technicalWorkshopDate = "Jan 17, 2019 7-8PM";
-const applicationDueDate = "";
-const firstRoundInterviewDate = "";
+const infoSessionDate = "Wed Jan 16, 2019 7-8PM";
+const technicalWorkshopDate = "Thurs Jan 17, 2019 7-8PM";
+const applicationDueDate = "Saturday Jan 19, 2019";
+const applicationDueTime = "11:59 p.m.";
+const firstRoundInterviewDate = "Monday Jan 21, 2019";
 const secondRoundInterviewDate = "";
 const takeHomeExerciseDate = "";
 
@@ -53,6 +54,45 @@ const faq = [
       "Is extensive web development or data science experience required?",
     answer:
       "Nope! Mentorship is a core value of our organization so we are always looking to take less experienced developers as long as you are willing to put in the time and have the passion to learn. You will have a tight feedback loop with your project leads along with experienced members on your team to ensure your success and project’s success in-order to benefit the nonprofit your team is working with."
+  },
+  {
+    question: "Why don't you accept more students?",
+    answer: (
+      <>
+        We would love to accept all of our good candidates, but from our
+        perspective, this is what we see. <br />
+        <br />
+        <ul>
+          <li>
+            {" "}
+            We can’t work with all the non-profits in the world, because the
+            quality of work and projects is just not scalable. We need to be
+            incredibly selective with our leads because any risk of wasting an
+            entire six months of time would ultimately be counterproductive for
+            both our clients and students.{" "}
+          </li>
+          <li>
+            We can’t have enormous teams because productivity inherently goes
+            down, and work becomes less meaningful if anyone is tasked with
+            completing a miniscule part of the project. On top of that, there
+            are physical limits on the number of groups we can meet in person.
+          </li>
+          <li>
+            We can only interview a fixed number of candidates, no matter how
+            many good ones apply. We can only take as many candidates as our
+            projects leads can support along with the scope of the projects
+            itself. We want to take everyone who is qualified and we want to
+            take on more projects, but for the reasons above, we just can’t.
+          </li>
+        </ul>
+        That being said, we are looking into ways we can accomdate for members
+        in the future such as holding more external events and tech talks,
+        expanding our interview process to interview more candidates, and
+        increasing our training program for more Product Managers/Technical
+        Leads to take on more projects but maintain the high quality work we are
+        know for.
+      </>
+    )
   }
 ];
 
@@ -96,9 +136,9 @@ const studentProcess = [
     detail: (
       <>
         <p>
-          Fill out our online application before 11:59 p.m. on Friday, September
-          7! To give yourself the best shot, be sure to start early and fill
-          this out as soon as possible.
+          Fill out our online application before {applicationDueTime} on{" "}
+          <b>{applicationDueDate}</b>! To give yourself the best shot, be sure
+          to start early and fill this out as soon as possible.
         </p>
         <ActionButton
           style={{ display: "block", marginTop: "10px" }}
@@ -108,7 +148,7 @@ const studentProcess = [
       </>
     ),
     icon: <Contract />,
-    date: applicationDueDate
+    date: `${applicationDueDate} ${applicationDueTime}`
   },
   {
     title: "First Round Interviews",
@@ -127,7 +167,7 @@ const studentProcess = [
   {
     title: "Take Home Exercise",
     detail:
-      "A small, take home project that requires no prior experience to complete, and is designed to expose you to the technologies that we use.",
+      "A small, take home project that requires no prior experience to complete, and is designed to expose you to the technologies that we use. More instructions will be provided then.",
     icon: <Contract />,
     date: takeHomeExerciseDate
   }

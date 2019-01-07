@@ -68,17 +68,17 @@ class FeatureSlider extends React.Component {
             transition: all 420ms cubic-bezier(0.165, 0.84, 0.44, 1);
           }
           .img-holder {
-            margin-top: 60px;
+            margin-top: 50px;
           }
           .feature-slider-btn {
             border: none;
-            margin-top: 10px;
+            margin-top: 5px;
             opacity: 0.8;
             text-align: left;
-            margin-bottom: 10px;
+            margin-bottom: 5px;
           }
           .feature-list-box {
-            margin-top: 30px;
+            margin-top: 20px;
             min-height: 480px;
           }
           .is-active {

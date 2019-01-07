@@ -31,32 +31,40 @@ const problem =
 const problemImagePath = "/static/images/projects/pr/philly-cover.jpg";
 const solution =
   "We worked with Philadelphia READs and their professionals to develop a tablet-friendly web application that allows students to prepare for the Reading Olympics, and provides helpful information for parents on how to be involved in their children's learning";
-const solutionImagePath = "/static/images/projects/question.jpg";
+const solutionImagePath = "/static/images/projects/pr/philareads_sol.png";
 
 /* Product Features*/
 
 const features = [
   {
-    title: "Quiz System",
+    title: "Complete Quizzes",
     detail:
-      "Users can test themselves on past and presents Reading Olympics book list"
+      "Users can complete quizzes to test themselves on past and present Reading Olympics book lists.",
+    imgPath: "/static/images/projects/pr/philareads_quiz.png"
   },
   {
-    title: "Search Feature",
-    detail: "Users can access past and present book quizzes"
-  },
-  {
-    title: "User Accounts",
-    detail: "User can tracks their own quiz history"
-  },
-  {
-    title: "Badges",
-    detail: "Provide incentivization for students to continually use the page"
-  },
-  {
-    title: "Display Advice",
+    title: "Search for books",
     detail:
-      "Provide tips for parents on how to be involved in their children’s learning"
+      "Users can conveniently find a specific book by title or author name. Filters are provided to refine search results further.",
+    imgPath: "/static/images/projects/pr/philareads_search.png"
+  },
+  {
+    title: "Earn Badges",
+    detail:
+      "Provides incentivization for students to continually use the page by allowing them to track their progress through badges.",
+    imgPath: "/static/images/projects/pr/philareads_badges.png"
+  },
+  {
+    title: "View Parent Advice",
+    detail:
+      "Parents can get involved in their child’s learning through tips provided here.",
+    imgPath: "/static/images/projects/pr/philareads_parent-advice.png"
+  },
+  {
+    title: "Manage Books and Quizzes",
+    detail:
+      "Administrators can easily update and create new books or quizzes as well as perform other administrative tasks.",
+    imgPath: "/static/images/projects/pr/philareads_admin.png"
   }
 ]; // can be null
 

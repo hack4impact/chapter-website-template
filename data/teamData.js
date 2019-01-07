@@ -7,10 +7,10 @@ export default {
         "I joined Hack4Impact looking to work with incredible and hard-working students while using my skills to do something more meaningful. With Hack4Impact, I’d like to give this same opportunity to our members while pushing them to learn and grow tremendously both personally and professionally."
     },
     {
-      name: "David Chang",
-      year: "'19",
+      name: "Angad Garg",
+      year: "'20",
       quote:
-        "I came to UIUC with no friends and no idea of what I wanted to do with my life. After 2 years of searching for my place, I believe I have finally found that with Hack4Impact. I aim to create an environment where students are molded into the best versions of themselves, unstoppable teams are developed, and life changing products are built."
+        "Hack4Impact has given me the opportunity to apply my skills towards important causes while improving myself at the same time. I hope to help others experience this personal growth, see the impact their work can have, and collaborate with other people who care just as much. "
     }
   ],
   team: [
@@ -31,6 +31,10 @@ export default {
       role: "Community Director"
     },
     {
+      name: "David Chang",
+      role: "Ex Co-Director"
+    },
+    {
       name: "Hana Rimawi",
       role: "Product Manager"
     },
@@ -41,10 +45,6 @@ export default {
     {
       name: "Xuan Li",
       role: "Product Manager"
-    },
-    {
-      name: "Angad Garg",
-      role: "Tech Lead"
     },
     {
       name: "Aria Malkani",

@@ -11,7 +11,7 @@ class AboutPage extends React.Component {
   render() {
     return (
       <div>
-        <Head title="about" />
+        <Head title="About Hack4Impact" />
         <Nav navType="otherNav" />
         <GradientBanner
           title="We believe in using tech for good."

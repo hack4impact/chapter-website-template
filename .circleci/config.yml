@@ -2,7 +2,7 @@ version: 2
 jobs:
   upload:
     docker:
-      - image: node:8.11.2
+      - image: node:10.8.0
     branches:
       only: 
         - master

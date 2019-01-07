@@ -20,7 +20,7 @@ workflows:
   upload_job:
     jobs:
       - upload:
-        filters:
+          filters:
             branches:
               only: master
         

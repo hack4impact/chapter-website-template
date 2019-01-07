@@ -1,0 +1,22 @@
+version: 2
+jobs:
+  upload:
+    docker:
+      - image: node:8.11.2
+    branches:
+      only: 
+        - master
+    steps:
+      - checkout
+      - run:
+          command: |
+            npm install -g surge
+            yarn
+            yarn build
+            yarn export
+            surge out uiuc.hack4impact.org
+workflows:
+  version: 2
+  upload_job:
+    jobs:
+      - upload

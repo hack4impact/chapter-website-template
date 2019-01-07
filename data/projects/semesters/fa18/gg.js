@@ -24,19 +24,8 @@ const clientFeatures = [
 const problem =
   "Currently, GlobalGiving connects with organizations based in the US along with some nonprofits in other countries. However, the process of finding and applying to GlobalGiving remains significantly easier within the United States. In certain countries, factors including lack of internet connectivity and lack of access to documents required by GlobalGiving has led to slower onboarding and discovery of the organization.";
 const problemImagePath = "/static/images/projects/gg/gg-cover.jpg";
-const solution = (
-  <>
-    Come out to our{" "}
-    <a href="https=//www.facebook.com/events/762781120723120/">
-      {" "}
-      Product Showcase{" "}
-    </a>{" "}
-    event to see our team&#39;s solution and live demo of the final product!
-    <br />
-    <br /> Event Details= <br /> Sunday, Dec. 9 <br /> 5PM-6PM <br />
-    ECEB 2013
-  </>
-);
+const solution =
+  "We worked with Kiva to build a scalable, easy-to-use command line interface that crawls for promising nonprofit websites to scrape and manages numerous web scrapers for these sites.";
 const solutionImagePath = "/static/images/projects/question.jpg";
 const features = [
   {

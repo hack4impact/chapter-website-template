@@ -29,18 +29,8 @@ const clientFeatures = [
 const problem =
   "Philadelphia READS provides out-of-school programs to increase literacy rates among grade-school students. One of these programs is the yearly Reading Olympics. Teams of students read books from a specified book list and prepare to answer questions about the books. One drawback is that these programs are all tied to in-person interactions and Philadelphia READS does not have resources for students while they are at home or on the go.";
 const problemImagePath = "/static/images/projects/pr/philly-cover.jpg";
-const solution = (
-  <div>
-    Come out to our{" "}
-    <a href="https=//www.facebook.com/events/762781120723120/">
-      Product Showcase
-    </a>{" "}
-    event to see our team&#39;s solution and live demo of the final product!
-    <br />
-    <br /> Event Details: <br /> Sunday, Dec. 9 <br /> 5PM-6PM <br />
-    ECEB 2013
-  </div>
-);
+const solution =
+  "We worked with Philadelphia READs and their professionals to develop a tablet-friendly web application that allows students to prepare for the Reading Olympics, and provides helpful information for parents on how to be involved in their children's learning";
 const solutionImagePath = "/static/images/projects/question.jpg";
 
 /* Product Features*/

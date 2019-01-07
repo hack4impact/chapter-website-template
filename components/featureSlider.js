@@ -69,7 +69,7 @@ class FeatureSlider extends React.Component {
             transition: all 420ms cubic-bezier(0.165, 0.84, 0.44, 1);
           }
           .img-holder {
-            margin-top: 20px;
+            margin-top: 50px;
           }
           .feature-slider-btn {
             border: none;

@@ -23,20 +23,10 @@ const clientFeatures = [
   }
 ];
 const problem =
-  "Child’s Play currently has an online pdf guide that categorizes recommended games by ailment, age, and device. This guide is updated around once a year with the newest EEDAR reports that they receive. The current PDF is static which requires manual searching, making it hard to update. Hospitals’ usage can be limited or slow.";
+  "Child’s Play currently has an online pdf guide that categorizes recommended games by ailment, age, and device. This guide is updated around once a year with the newest EEDAR reports that they receive. The current PDF is static which requires manual searching, making it hard to update. Hospitals’ wifi usage can be limited or slow.";
 const problemImagePath = "/static/images/projects/cp/cp-cover.jpg";
-const solution = (
-  <div>
-    Come out to our{" "}
-    <a href="https=//www.facebook.com/events/762781120723120/">
-      Product Showcase
-    </a>{" "}
-    event to see our team&#39;s solution and live demo of the final product!
-    <br />
-    <br /> Event Details= <br /> Sunday, Dec. 9 <br /> 5PM-6PM <br />
-    ECEB 2013
-  </div>
-);
+const solution =
+  "We worked with Child's Play to build a mobile-friendly progressive web app that allows a user to search for a game for a child to play based on their characteristics/gaming system. The site stores its data offline if it is added to a phone or tablet's homescreen and thus works with little to no wifi. Child's Play would also easily update games and matches to reflect the latest research.";
 const solutionImagePath = "/static/images/projects/question.jpg";
 const features = [
   {

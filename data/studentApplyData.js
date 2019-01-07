@@ -3,6 +3,7 @@ import Interview from "../static/icons/interview.svg";
 import Calendar from "../static/icons/calendar.svg";
 import ActionButton from "../components/actionButton";
 import Contract from "../static/icons/contract.svg";
+import Education from "../static/icons/education.svg";
 import Link from "next/link";
 // constants that will affect links in the student application page
 const applicationLink = "";
@@ -12,7 +13,8 @@ const currentSemester = "Fall 2018";
 const nextSemester = "Spring 2019";
 
 // dates
-const infoSessionDate = "";
+const infoSessionDate = "Jan 16, 2019 7-8PM";
+const technicalWorkshopDate = "Jan 17, 2019 7-8PM";
 const applicationDueDate = "";
 const firstRoundInterviewDate = "";
 const secondRoundInterviewDate = "";
@@ -60,7 +62,7 @@ const studentProcess = [
       <>
         <a href="https://www.facebook.com/events/450762432077881/">
           Info Session
-        </a>{" "}
+        </a>
       </>
     ),
     detail: (
@@ -70,17 +72,24 @@ const studentProcess = [
           what we do, and the impact Hack4Impact has. We hope to see you there
           and get to know each other!
         </p>
-        <b> Details: 5PM - 6PM @ ECEB 3017 </b>
-        <p>
+        {/* <b className="pt-1"> Details: 7PM - 8PM @ Siebel 1404 </b> */}
+        {/* <p>
           More details at our{" "}
           <a href="https://www.facebook.com/events/450762432077881/">
             Facebook Event!
           </a>{" "}
-        </p>
+        </p> */}
       </>
     ),
     icon: <Calendar />,
     date: infoSessionDate
+  },
+  {
+    title: "Technical Workshop",
+    detail:
+      "Come by to learn more about the technologies we use at Hack4Impact including React, Redux, and Flask. We'll be going through why we use these libraries and then diving into code.",
+    icon: <Education />,
+    date: technicalWorkshopDate
   },
   {
     title: "Applications",

@@ -24,19 +24,8 @@ const clientFeatures = [
 const problem =
   "Cut to the Case is a UIUC based non-profit started by two UIUC Engineering students whose initial mission was to help victims of sexual assault. Now, Cut to the Case has expanded their focus into tackling public safety with the hopes of improving the safety of all students on campus";
 const problemImagePath = "/static/images/projects/c2tc-2/c2tc-2-cover.jpg";
-const solution = (
-  <div>
-    Come out to our
-    <a href="https=//www.facebook.com/events/762781120723120/">
-      {" "}
-      Product Showcase{" "}
-    </a>
-    event to see our team&#39;s solution and live demo of the final product!
-    <br />
-    <br /> Event Details= <br /> Sunday, Dec. 9 <br /> 5PM-6PM <br />
-    ECEB 2013
-  </div>
-);
+const solution =
+  "We want to educate students about what’s around them. If we give them the information they need about what’s around campus, they will be better prepared to make decisions on how they should get home. From our research, we discovered that many students value knowing about where emergency phones, open businesses, lighting, past crimes, and other people are. For the app, we focused on giving students information about open businesses, emergency phones, police stations, street lights, bus stops, and past crimes are. ";
 const solutionImagePath = "/static/images/projects/question.jpg";
 const features = [
   {

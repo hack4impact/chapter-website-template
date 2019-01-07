@@ -26,7 +26,7 @@ const problem =
 const problemImagePath = "/static/images/projects/gg/gg-cover.jpg";
 const solution =
   "We worked with Kiva to build a scalable, easy-to-use command line interface that crawls for promising nonprofit websites to scrape and manages numerous web scrapers for these sites.";
-const solutionImagePath = "/static/images/projects/question.jpg";
+const solutionImagePath = "/static/images/projects/gg/gg-crawl.png";
 const features = [
   {
     title: "Data collection through scraping",

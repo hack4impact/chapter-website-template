@@ -21,6 +21,8 @@ const firstRoundInterviewDate = "Monday Jan 21, 2019";
 const secondRoundInterviewDate = "";
 const takeHomeExerciseDate = "";
 
+const subHeadline =
+  "Students are a core part of what makes Hack4Impact. Joining Hack4Impact is the perfect way to give back while developing new skills and making long-lasting friendships.";
 const quote = {
   text:
     "A lot of classwork is theoretical. You’re given a contrived problem, and then you solve it. At Hack4Impact, you get to build a product from the ground up. Being exposed to building something from scratch is a great experience as a student.",
@@ -85,7 +87,7 @@ const faq = [
             take on more projects, but for the reasons above, we just can’t.
           </li>
         </ul>
-        That being said, we are looking into ways we can accomdate for members
+        That being said, we are looking into ways we can accommodate for members
         in the future such as holding more external events and tech talks,
         expanding our interview process to interview more candidates, and
         increasing our training program for more Product Managers/Technical
@@ -95,6 +97,8 @@ const faq = [
     )
   }
 ];
+
+const applicationDetail = "We recruit at the beginning of every semester.";
 
 const studentProcess = [
   {
@@ -160,7 +164,7 @@ const studentProcess = [
   {
     title: "Second Round Interviews",
     detail:
-      "This will be a 30 minute interview with two of our members and answer technical questions. We encourage disccussion throughout the interview and you’ll have an opportunity to ask questions to learn more about us.",
+      "This will be a 30 minute interview with two of our members and answer technical questions. We encourage discussion throughout the interview and you’ll have an opportunity to ask questions to learn more about us.",
     icon: <Interview />,
     date: secondRoundInterviewDate
   },
@@ -182,6 +186,7 @@ const closedText = (
 );
 export default {
   title: "Students",
+  subHeadline,
   applicationLink,
   quote,
   faq,

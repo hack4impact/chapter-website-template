@@ -20,7 +20,7 @@ class FeatureSlider extends React.Component {
   render() {
     return (
       <Row>
-        <Col md="5">
+        <Col md="6">
           <div className="img-holder">
             {this.props.features.map(
               feature =>
@@ -44,7 +44,6 @@ class FeatureSlider extends React.Component {
           </div>
         </Col>
 
-        <Col md="1" />
         <Col md="6">
           <div className="feature-list-box">
             {this.props.features.map(feature => (
@@ -69,7 +68,7 @@ class FeatureSlider extends React.Component {
             transition: all 420ms cubic-bezier(0.165, 0.84, 0.44, 1);
           }
           .img-holder {
-            margin-top: 50px;
+            margin-top: 60px;
           }
           .feature-slider-btn {
             border: none;

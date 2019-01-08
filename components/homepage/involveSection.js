@@ -3,6 +3,7 @@ import { Container, Row, Col, Button } from "reactstrap";
 import Section from "../section";
 import BlockQuote from "../blockQuote";
 import ActionButton from "../actionButton";
+import Link from "next/link";
 
 const InvolveSection = () => (
   <Section grey>
@@ -15,7 +16,9 @@ const InvolveSection = () => (
           <Col md="5">
             <div className="involved-container">
               <h3 className="text-title text-center">Students</h3>
-              <img src="/static/images/h4i-funny.jpg" className="img-fluid" />
+              <Link href="/apply/students">
+                <img src="/static/images/h4i-funny.jpg" className="img-fluid" />
+              </Link>
             </div>
             <Row>
               <p
@@ -38,7 +41,12 @@ const InvolveSection = () => (
           <Col md="5" className="offset-md-2">
             <div className="involved-container">
               <h3 className="text-title text-center">Nonprofits</h3>
-              <img src="/static/images/team-cheer.jpg" className="img-fluid" />
+              <Link href="/apply/students">
+                <img
+                  src="/static/images/team-cheer.jpg"
+                  className="img-fluid"
+                />
+              </Link>
               <Row>
                 <BlockQuote
                   text="Working with Hack4Impact was easy, efficient and incredibly

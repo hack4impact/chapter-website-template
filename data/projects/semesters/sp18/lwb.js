@@ -53,6 +53,7 @@ const features = [
     imgPath: "/static/images/projects/lwb/lwb-addlesson.png"
   }
 ];
+const featureImgSize = "5";
 const techStack = ["react", "relay", "mongodb", "nodejs", "graphql"];
 const quote =
   "The software is transformative. To be able to bring English language competency and ability to pass the college entrance exams to these students in an extremely impoverished and vulnerable region literally transforms futures . These students now can have options and select a career where they can think about what they want to do in life and contribute to the economy. It opens the door to a new future.";
@@ -96,5 +97,6 @@ export default {
   quoteSource,
   quoteSourceTitle,
   githubLink,
-  team
+  team,
+  featureImgSize
 };

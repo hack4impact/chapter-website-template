@@ -18,9 +18,20 @@ class FeatureSlider extends React.Component {
   };
 
   render() {
+    let { featureImgSize } = this.props;
+    if (featureImgSize === undefined || featureImgSize === null) {
+      featureImgSize = 6;
+    }
+    const featureTextSize = 12 - featureImgSize > 6 ? 6 : 12 - featureImgSize;
+    console.log(parseInt(featureTextSize) + parseInt(featureImgSize));
     return (
       <Row>
-        <Col md="6">
+        {parseInt(featureTextSize) + parseInt(featureImgSize) < 12 ? (
+          <Col
+            md={(12 - parseInt(featureImgSize) - parseInt(featureTextSize)) / 2}
+          />
+        ) : null}
+        <Col md={featureImgSize}>
           <div className="img-holder">
             {this.props.features.map(
               feature =>
@@ -44,7 +55,7 @@ class FeatureSlider extends React.Component {
           </div>
         </Col>
 
-        <Col md="6">
+        <Col md={featureTextSize}>
           <div className="feature-list-box">
             {this.props.features.map(feature => (
               <Row key={feature.title}>
@@ -68,7 +79,9 @@ class FeatureSlider extends React.Component {
             transition: all 420ms cubic-bezier(0.165, 0.84, 0.44, 1);
           }
           .img-holder {
-            margin-top: 50px;
+            margin-top: ${featureImgSize <= 5
+              ? "25px"
+              : "60px"}; // pushes img down a little bit
           }
           .feature-slider-btn {
             border: none;

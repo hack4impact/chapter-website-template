@@ -78,7 +78,7 @@ const quoteSourceTitle = null; // can be null
 /* Project Related Links */
 const githubLink = "https://github.com/hack4impact-uiuc/philareads";
 const projectLink = null;
-
+const featureImgSize = "7";
 const team = {
   type: "pic", // can be "no-pic" if no pics for developers, look at README.md for more info
   detail: [
@@ -131,5 +131,6 @@ export default {
   quoteSource,
   quoteSourceTitle,
   githubLink,
-  team
+  team,
+  featureImgSize
 };

@@ -32,6 +32,7 @@ const features = [
     imgPath: ""
   }
 ]; // can be null
+const featureImgSize = null
 
 const techStack = [""]; // can be null
 

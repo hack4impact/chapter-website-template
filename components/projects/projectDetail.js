@@ -49,7 +49,10 @@ const ProjectDetail = ({ project }) => (
           </Col>
         </Row>
       </Row>
-      <ProjectFeature features={project.features} />
+      <ProjectFeature
+        featureImgSize={project.featureImgSize}
+        features={project.features}
+      />
     </Container>
     <ProjectQuote
       quote={project.quote}

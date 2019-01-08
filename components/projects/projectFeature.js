@@ -1,7 +1,7 @@
 import FeatureSlider from "../featureSlider";
 import { Row, Col, Card, CardBody } from "reactstrap";
 
-const ProjectFeature = ({ features }) =>
+const ProjectFeature = ({ featureImgSize, features }) =>
   features === null || features === undefined || features.length === 0 ? (
     <></>
   ) : (
@@ -30,7 +30,7 @@ const ProjectFeature = ({ features }) =>
             </Col>
           ))
         ) : (
-          <FeatureSlider features={features} />
+          <FeatureSlider featureImgSize={featureImgSize} features={features} />
         )}
       </Row>
     </section>

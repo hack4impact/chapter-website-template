@@ -52,6 +52,7 @@ Each Semester has the following...
     - `team`: Object
         - `type`: either 
         - `details` (this can either be { pm: "Timothy Ko", tl: "Aria Malkani", swe: ["Hana Rimawi", "Michael Chen"]} for type `no-pic` or [{name: "Timothy Ko", role: "Product Manager"}, {name: "Aria Malkani", role: "Tech Lead"}, {name: "Hana Rimawi", role: "Software Developer"}])
+    - `featureImgSize`: (int) Bootstrap column size for the image in a feature Slider. This is to combat rectangle screenshots (vertical rectangles(phone screenshots) dont fit well with column 6 while rectanges work well with 7) - nullable. `FeatureSlider` will default to 6 (half)
 
 
 ### Apply Pages

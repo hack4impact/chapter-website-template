@@ -29,20 +29,32 @@ const solution =
 const solutionImagePath = "/static/images/projects/question.jpg";
 const features = [
   {
-    title: "Map Interface",
-    detail: "Users can click, drag and interact with map icons & filters"
+    title: "Location and Map Services",
+    detail:
+      "Users can browse the map, know their current location, and zoom back to their current location using their phone’s native map application.",
+    imgPath: "/static/images/projects/c2tc-2/c2tc-2-map.png"
   },
   {
-    title: "Map Layers",
+    title: "Filter Data",
     detail:
-      "Users can filter through layers containing different information such as emergency phones and past crimes"
+      "The C2TC app has location information on U of I’s bus stops, crimes in the past month, open businesses, emergency phones, police stations, street lights and keeps these updated constantly. ",
+    imgPath: "/static/images/projects/c2tc-2/c2tc-2-filters.png"
   },
   {
-    title: "Call Buttons",
+    title: "Applying Filters",
     detail:
-      "Users can access Safe Rides, Safe Walks, police, and trusted contact(s)"
+      "Users can then apply filters to see how dangerous the surrounding area and what the best path to take home at night.",
+    imgPath: "/static/images/projects/c2tc-2/c2tc-2-apply-filters.png"
+  },
+  {
+    title: "Safe Rides and Safe Walks Integration",
+    detail:
+      "Users can quickly call safe rides and safe walks within the app if they are not comfortable walking home alone.",
+    imgPath: "/static/images/projects/c2tc-2/c2tc-2-safe-rides.png"
   }
 ];
+
+const featureImgSize = "4";
 const techStack = ["reactnative", "flask", "mongodb"];
 const quote =
   "We talked to a couple of people about developing about Cut to the Case, but a lot of them didn’t have the same passion that Hack4Impact had for the project. Hack4Impact had enthusiasm for what we were doing.";
@@ -105,5 +117,6 @@ export default {
   quoteSource,
   quoteSourceTitle,
   githubLink,
-  team
+  team,
+  featureImgSize
 };

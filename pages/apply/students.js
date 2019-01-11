@@ -20,7 +20,6 @@ const Students = () => (
       buttonLink={data.applicationLink}
     />
     <ApplicationProcess
-      closed
       closedText={data.closedText}
       processes={data.studentProcess}
     />

@@ -104,7 +104,7 @@ const studentProcess = [
   {
     title: (
       <>
-        <a href="https://www.facebook.com/events/450762432077881/">
+        <a href="https://www.facebook.com/events/783414215343789">
           Info Session
         </a>
       </>
@@ -116,13 +116,15 @@ const studentProcess = [
           what we do, and the impact Hack4Impact has. We hope to see you there
           and get to know each other!
         </p>
-        {/* <b className="pt-1"> Details: 7PM - 8PM @ Siebel 1404 </b> */}
-        {/* <p>
+        <p>
+          <b className="pt-2"> 7PM - 8PM @ ECEB 2017</b>
+        </p>
+        <p>
           More details at our{" "}
-          <a href="https://www.facebook.com/events/450762432077881/">
+          <a href="https://www.facebook.com/events/783414215343789">
             Facebook Event!
           </a>{" "}
-        </p> */}
+        </p>
       </>
     ),
     icon: <Calendar />,

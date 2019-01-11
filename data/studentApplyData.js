@@ -6,7 +6,8 @@ import Contract from "../static/icons/contract.svg";
 import Education from "../static/icons/education.svg";
 import Link from "next/link";
 // constants that will affect links in the student application page
-const applicationLink = "";
+const applicationLink =
+  "https://docs.google.com/forms/u/1/d/e/1FAIpQLSegwjt2Dx_83l-xKeopq27_mmoI79sOVCo3OesI7WmntmPLBg/viewform";
 
 // current stuff
 const currentSemester = "Fall 2018";

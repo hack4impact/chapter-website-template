@@ -1,6 +1,5 @@
 import { Container, Row, Col, Card } from "reactstrap";
 import ProjectFeature from "./projectFeature";
-import ProjectTechStack from "./projectTechStack";
 import ProjectQuote from "../quote";
 
 const ProjectDetail = ({ project }) => (

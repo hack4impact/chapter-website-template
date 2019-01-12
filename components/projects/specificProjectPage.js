@@ -1,10 +1,8 @@
 import { Component } from "react";
-import projectData from "../../data/projectData";
 import ProjectBanner from "./projectBanner";
 import ProjectDetail from "./projectDetail";
 import ProjectTeam from "./projectTeam";
 import ClientFeatures from "./clientFeatures";
-import ProjectFeature from "./projectFeature";
 import ProjectTechStack from "./projectTechStack";
 import { Container } from "reactstrap";
 

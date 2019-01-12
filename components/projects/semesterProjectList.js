@@ -1,4 +1,4 @@
-import { Container, Row, CardDeck, Col } from "reactstrap";
+import { Container, Row, Col } from "reactstrap";
 import ProjectCards from "./projectCards";
 import projectData from "../../data/projectData";
 

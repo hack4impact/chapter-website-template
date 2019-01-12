@@ -5,6 +5,7 @@ import { Spring, Trail } from "react-spring";
 import Section from "../section";
 import ProjectContainer from "../projectContainer";
 import ActionLink from "../actionLink";
+
 const items = [
   <ProjectContainer
     title="Cut 2 the Case"

@@ -1,7 +1,7 @@
 import React from "react";
-import { Container, Button, Row, Col, Jumbotron, Media } from "reactstrap";
+import { Container, Row, Col } from "reactstrap";
+import { Spring, config } from "react-spring";
 import ActionButton from "../actionButton";
-import { Spring, config, Trail } from "react-spring";
 
 const Banner = () => (
   <Container

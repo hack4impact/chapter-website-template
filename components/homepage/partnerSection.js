@@ -1,6 +1,5 @@
 import Section from "../section";
 import { Container, Row, Col, Button } from "reactstrap";
-import Link from "next/link";
 import ActionLink from "../actionLink";
 
 export default () => (

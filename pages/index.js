@@ -13,10 +13,10 @@ import Footer from "../components/footer";
 class Home extends React.Component {
   componentDidMount() {
     // need to open it once component is mounted bc of "document not found errors"
-    // toast(<ToastText text="Student Applications are Open!" />, {
-    //   className: "announcement",
-    //   bodyClassName: "announcement-body"
-    // });
+    toast(<ToastText text="Student Applications are Open!" />, {
+      className: "announcement",
+      bodyClassName: "announcement-body"
+    });
   }
 
   render() {
@@ -24,6 +24,7 @@ class Home extends React.Component {
       <div>
         <Head title="Hack4Impact UIUC" />
         <Nav navType="mainNav" />
+        <ToastContainer />
         <Banner />
         <OurWorkSection />
         <ClientSlider />

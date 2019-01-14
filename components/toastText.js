@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const ToastText = ({ text }) => (
   <>
-    <Link href="/apply/student">
+    <Link href="/apply/students">
       <a>{text}</a>
     </Link>
     <style jsx>{`

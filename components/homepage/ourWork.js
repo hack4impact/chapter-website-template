@@ -21,7 +21,7 @@ const items = [
   />,
   <ProjectContainer
     title="Global Giving"
-    subtitle="How might we streamline the process of connecting children with effective games to order to alleviate their ailments?"
+    subtitle="How might we expand Global Giving’s impact and reach on domestic and international nonprofits?"
     image="url('/static/images/projects/gg/gg-cover.jpg')"
     link="/projects?name=gg"
   />

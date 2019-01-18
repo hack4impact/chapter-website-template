@@ -99,7 +99,11 @@ const faq = [
   }
 ];
 
-const applicationDetail = "We recruit at the beginning of every semester.";
+const applicationDetail = (
+  <>
+    Our application link is <a href={applicationLink}>{applicationLink}</a>
+  </>
+);
 
 const studentProcess = [
   {
@@ -194,5 +198,6 @@ export default {
   quote,
   faq,
   studentProcess,
-  closedText
+  closedText,
+  applicationDetail
 };

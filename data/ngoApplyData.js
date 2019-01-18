@@ -168,7 +168,8 @@ export default {
       As long as you fill out an application before <b>{applicationDueDate}</b>,
       we will carefully consider your submission and reach out to you if our
       goals align. Some aspects of the application we pay close attention to
-      include technical complexity, impact, and mission.
+      include technical complexity, impact, and mission. Our application link is{" "}
+      <a href={applicationLink}>{applicationLink}</a>
     </>
   ),
   closedApplicationText: (

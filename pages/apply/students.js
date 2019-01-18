@@ -22,6 +22,7 @@ const Students = () => (
     <ApplicationProcess
       closedText={data.closedText}
       processes={data.studentProcess}
+      titleDetail={data.applicationDetail}
     />
     <Quote
       quote={data.quote.text}

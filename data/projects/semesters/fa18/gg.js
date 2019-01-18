@@ -52,7 +52,7 @@ const techStack = ["python", "flask", "mongodb"];
 const quote = null;
 const quoteSource = null;
 const quoteSourceTitle = null;
-const githubLink = "https=//github.com/hack4impact-uiuc/globalgiving-tool";
+const githubLink = "https://github.com/hack4impact-uiuc/globalgiving-tool";
 const team = {
   type: "pic",
   detail: [

@@ -60,7 +60,7 @@ const quote = null;
 const quoteSource = null;
 const quoteSourceTitle = null;
 
-const githubLink = "https=//github.com/hack4impact-uiuc/childs-play-tool";
+const githubLink = "https://github.com/hack4impact-uiuc/childs-play-tool";
 const team = {
   type: "pic",
   detail: [

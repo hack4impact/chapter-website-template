@@ -60,7 +60,7 @@ const quote =
   "We talked to a couple of people about developing about Cut to the Case, but a lot of them didn’t have the same passion that Hack4Impact had for the project. Hack4Impact had enthusiasm for what we were doing.";
 const quoteSource = "Premika Pandian";
 const quoteSourceTitle = "Cut to the Case Co-Founder and CTO";
-const githubLink = "https=//github.com/hack4impact-uiuc/c2tc-fall-2018";
+const githubLink = "https://github.com/hack4impact-uiuc/c2tc-fall-2018";
 const team = {
   type: "pics",
   detail: [

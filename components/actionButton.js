@@ -3,16 +3,20 @@ import Link from "next/link";
 const ActionButton = ({ link, text, style, white, onClick }) => (
   <>
     {link !== undefined ? (
-      <Link prefetch href={link}>
-        <button
-          style={style}
-          className={
-            white ? "white-button styled-btn" : "action-button styled-btn"
-          }
-          onClick={onClick === undefined && link !== undefined ? null : onClick}
-        >
-          <a href={link}>{text}</a>
-        </button>
+      <Link href={link}>
+        <a href={link}>
+          <button
+            style={style}
+            className={
+              white ? "white-button styled-btn" : "action-button styled-btn"
+            }
+            onClick={
+              onClick === undefined && link !== undefined ? null : onClick
+            }
+          >
+            {text}
+          </button>
+        </a>
       </Link>
     ) : (
       <button
@@ -37,7 +41,7 @@ const ActionButton = ({ link, text, style, white, onClick }) => (
         border: none;
         color: white;
       }
-      .styled-btn a {
+      .styled-btn {
         font-family: "Chivo", sans-serif;
         font-weight: 100;
         font-size: 14px;
@@ -46,14 +50,14 @@ const ActionButton = ({ link, text, style, white, onClick }) => (
       .white-button {
         background: white;
       }
-      .white-button a {
+      .white-button {
         color: black !important;
       }
       .action-button {
         background: #155da1;
       }
 
-      .action-button a {
+      .action-button {
         color: white !important;
       }
 

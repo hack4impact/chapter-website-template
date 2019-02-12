@@ -43,14 +43,14 @@ const clients = [
     width: 160,
     height: 55,
     logoPath: "/static/images/client_logos/kivalogo.png",
-    link: "/projects?name=kiva"
+    link: "/projects?name=kiva-1"
   },
   {
     name: "NNB",
     width: 250,
     height: 50,
     logoPath: "/static/images/client_logos/nnblogo.png",
-    link: "/projects?name=nnb"
+    link: "/projects?name=nnb-1"
   }
 ];
 export default () => (

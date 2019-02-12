@@ -2,6 +2,7 @@
 import Sp18C2tcData from "./c2tc-1";
 import LwbData from "./lwb";
 import Sp18KivaData from "./kiva-1";
+import Sp18NnbData from "./nnb-1";
 
 // TODO: NNB and Kiva
 export default {
@@ -15,6 +16,9 @@ export default {
     },
     {
       ...Sp18KivaData
+    },
+    {
+      ...Sp18NnbData
     }
   ]
 };

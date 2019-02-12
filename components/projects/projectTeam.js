@@ -44,12 +44,14 @@ const ProjectTeam = ({ team }) => (
         )}
       </Row>
       <Row>
-        <ActionButton
-          style={{ margin: "30px auto" }}
-          white
-          text="View Other Projects"
-          link="/projects"
-        />
+        <div style={{ margin: "30px auto" }}>
+          <ActionButton
+            style={{ margin: "30px auto" }}
+            white
+            text="View Other Projects"
+            link="/projects"
+          />
+        </div>
       </Row>
     </Container>
   </section>

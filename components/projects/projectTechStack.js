@@ -75,27 +75,25 @@ const ProjectTechStack = ({ techStack }) =>
           </div>
         </Row>
         <div className="center" style={{ margin: "auto" }}>
-          <Row>
-            {techStack.map(tech => (
-              <Col md="2" xs="6">
-                <Card className="border-0">
-                  <Link href={techStackMasterList[tech].link}>
-                    <a>
-                      <img
-                        src={techStackMasterList[tech].imgPath}
-                        className="img-thumbnail img-fluid tech-stack-img"
-                      />
-                    </a>
-                  </Link>
-                  <Link href={techStackMasterList[tech].link}>
-                    <a className="text-center tech-stack-link">
-                      {techStackMasterList[tech].title}
-                    </a>
-                  </Link>
-                </Card>
-              </Col>
-            ))}
-          </Row>
+          {techStack.map(tech => (
+            <Col md="2" xs="6">
+              <Card className="border-0">
+                <Link href={techStackMasterList[tech].link}>
+                  <a>
+                    <img
+                      src={techStackMasterList[tech].imgPath}
+                      className="img-thumbnail img-fluid tech-stack-img"
+                    />
+                  </a>
+                </Link>
+                <Link href={techStackMasterList[tech].link}>
+                  <a className="text-center tech-stack-link">
+                    {techStackMasterList[tech].title}
+                  </a>
+                </Link>
+              </Card>
+            </Col>
+          ))}
         </div>
       </div>
       <style jsx>{`

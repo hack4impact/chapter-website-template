@@ -34,7 +34,7 @@ const features = [
 ]; // can be null
 const featureImgSize = null
 
-const techStack = [""]; // can be null
+const techStack = [""]; // can be null, must follow specific format (look at `projectTechStack.js`)
 
 /* Quote */
 const quote = ""; // can be null

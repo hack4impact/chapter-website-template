@@ -1,6 +1,7 @@
 // Fa17/Sp18 Imports
 import Sp18C2tcData from "./c2tc-1";
 import LwbData from "./lwb";
+import Sp18KivaData from "./kiva-1";
 
 // TODO: NNB and Kiva
 export default {
@@ -11,6 +12,9 @@ export default {
     },
     {
       ...Sp18C2tcData
+    },
+    {
+      ...Sp18KivaData
     }
   ]
 };

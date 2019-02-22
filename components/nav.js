@@ -60,6 +60,11 @@ class NavigationBar extends React.Component {
                 </Link>
               </NavItem>
               <NavItem>
+                <Link prefetch href="https://medium.com/hack4impact-uiuc">
+                  <a className="nav-link pl-3">Blog</a>
+                </Link>
+              </NavItem>
+              <NavItem>
                 <Link prefetch href="/apply">
                   <a className="nav-link pl-3">Apply</a>
                 </Link>

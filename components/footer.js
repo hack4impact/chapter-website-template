@@ -55,6 +55,11 @@ const Footer = () => (
               </Link>
             </li>
             <li>
+              <Link href="https://medium.com/hack4impact-uiuc">
+                <a>Blog</a>
+              </Link>
+            </li>
+            <li>
               <a href="mailto:tk2@illinois.edu">Email</a>
             </li>
           </ul>

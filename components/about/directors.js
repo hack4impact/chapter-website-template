@@ -36,6 +36,17 @@ export default ({ directors }) => (
                 <footer className="blockquote-footer">
                   {director.name}
                   <cite title="Source Title"> {director.year} </cite>
+                  {director.linkedin !== undefined ? (
+                    <a href={director.linkedin}>
+                      {" "}
+                      |{" "}
+                      <img
+                        width="12"
+                        className="linkedin-icon pb-1"
+                        src="/static/icons/linkedin.svg"
+                      />
+                    </a>
+                  ) : null}
                 </footer>
               </blockquote>
             </CardBody>

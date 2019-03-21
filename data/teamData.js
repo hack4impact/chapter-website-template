@@ -183,6 +183,11 @@ export default {
       role: "Software Developer",
       linkedin: "https://www.linkedin.com/in/navamawasthi/"
     },
+		{
+		  name: "Lam Tran",
+			role: "Software Developer",
+			linkedin: "https://www.linkedin.com/in/lamgtran/"
+		},
     {
       name: "Nithin Rajkumar",
       role: "Software Developer",

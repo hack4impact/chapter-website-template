@@ -58,6 +58,41 @@ const techStackMasterList = {
     link: "https://www.python.org/",
     title: "Python",
     imgPath: "/static/images/techStack/python.jpg"
+  },
+  sklearn: {
+    link: "https://scikit-learn.org/stable/",
+    title: "Scikit-Learn",
+    imgPath: "/static/images/techStack/sklearn.png"
+  },
+  gensim: {
+    link: "https://radimrehurek.com/gensim/",
+    title: "Gensim",
+    imgPath: "/static/images/techStack/gensim.png"
+  },
+  nltk: {
+    link: "https://www.nltk.org",
+    title: "NLTK",
+    imgPath: "/static/images/techStack/python.jpg"
+  },
+  beautifulsoup: {
+    link: "https://www.crummy.com/software/BeautifulSoup/bs4/doc/",
+    title: "Beautiful Soup",
+    imgPath: "/static/images/techStack/beautiful soup.jpg"
+  },
+  dynamodb: {
+    link: "https://aws.amazon.com/dynamodb/",
+    title: "DynamoDB",
+    imgPath: "/static/images/techStack/dynamodb.png"
+  },
+  aws: {
+    link: "https://aws.amazon.com",
+    title: "AWS",
+    imgPath: "/static/images/techStack/aws.png"
+  },
+  spacy: {
+    link: "https://spacy.io",
+    title: "Spacy",
+    imgPath: "/static/images/techStack/spacy.jpg"
   }
 };
 

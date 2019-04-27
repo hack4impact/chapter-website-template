@@ -1,5 +1,5 @@
-// Data for the SP19 C2TC Project - 3rd C2TC project (Safe Maps)
-const name = "Safe Maps";
+// Data for the SP19 C2TC Project - 3rd C2TC project (SafeMaps)
+const name = "SafeMaps";
 const id = "safemaps"; // 3rd C2TC Project
 const detail = "How might we make students feel safer on campus?";
 const coverImagePath = "/static/images/projects/safemaps/safemaps-cover.png";
@@ -26,7 +26,7 @@ const problem =
 const problemImagePath = "/static/images/projects/c2tc-2/c2tc-2-cover.jpg";
 const solution =
   "This mobile application aims to provide quick & easy access information to students as they navigate around the campus through location-triggered tip notifications, empowering students to better understand their surroundings and ultimately make more informed decisions throughout the school year.";
-const solutionImagePath = "/static/images/projects/safemaps/safemaps-cover.png";
+const solutionImagePath = "/static/images/projects/safemaps/solution.png";
 const features = [
   {
     title: "Safety Companion For Illinois Students",
@@ -106,11 +106,11 @@ const team = {
     },
     {
       name: "Phillip Kuo",
-      role: "UI/UX Designer"
+      role: "Product Designer"
     },
     {
       name: "Annie Wu",
-      role: ""
+      role: "User Research/External Relations"
     }
   ]
 };

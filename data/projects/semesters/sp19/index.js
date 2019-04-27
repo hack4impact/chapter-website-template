@@ -8,6 +8,9 @@ export default {
   semester: "Spring 2019",
   projects: [
     {
+      ...KivaData
+    },
+    {
       ...Sp19SafeMapsData
     },
     {

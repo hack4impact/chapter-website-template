@@ -2,7 +2,8 @@
 const name = "Kiva";
 const id = "kiva-2"; // second kiva Project
 const detail = "How might we create a single portal where Field Partners and Portfolio Managers can see which documents need to be uploaded and track their progress?";
-const coverImagePath = "/static/images/projects/kiva-2/thumbnail copy.png";
+const coverImagePath = "/static/images/projects/kiva-2/kiva2-thumbnail copy.png";
+
 const clientDetail = "Kiva is a nonprofit organization founded in 2006 that is funded via individual and corporate donations. Their mission is to alleviate poverty and connect people by funding loans. So far, Kiva has reached borrowers in 82 countries, and 1.7 million Kiva lenders have lent over a billion dollars to family businesses. Their goal is to reach 2 million people soon and lend the next 1 billion dollars in a shorter amount of time.";
   const clientLink = "https://www.kiva.org/"; // link to website
   const clientFeatures = [
@@ -25,34 +26,35 @@ const clientDetail = "Kiva is a nonprofit organization founded in 2006 that is f
   ];
 const problem =
 "Kiva is a non-profit organization which crowdfunds loans for lower-income and underserved people all across the world. Kiva Field Partners act as intermediaries between Kiva and borrowers and are largely responsible for managing the details of loans and repayment. Currently, Field Partner financial documents are submitted through Kiva through email and must be manually checked to make sure all documents are provided and are properly filled out/formatted/etc.";
-const problemImagePath = "/static/images/projects/kiva-2/docs.jpg";
+const problemImagePath = "/static/images/projects/kiva-2/kiva2-docs.jpg";
 const solution =
   "Our project will consolidate this process into a single portal where Field Partners and Portfolio Managers can see which documents need to be uploaded and track their progress. We’ll integrate this with some file repository service (likely Box or GitHub) and aim to create a streamlined, secure portal that will eliminate the hassle of tracking multiple financial documents across a wide network of Field Partners.";
-const solutionImagePath = "/static/images/projects/kiva-2/fp.png";
+const solutionImagePath = "/static/images/projects/kiva-2/kiva2-fp.png";
+
 const features = [
   {
     title: "Login page",
     detail:
       "Kiva users (portfolio managers) and partners (field partners) can log in to our application and be verified using the security tool developed by our chapter's Product Infrastructure team.",
-    imgPath: "/static/images/projects/kiva-2/login.png"
+    imgPath: "/static/images/projects/kiva-2/kiva2-login.png"
   },
   {
     title: "Field partner dashboard",
     detail:
       "Required documents are organized by their status, and portfolio managers can review their field partners' documents on this same page, rejecting or approving them to indicate if the documents were filled out properly.",
-    imgPath: "/static/images/projects/kiva-2/fp.png"
+    imgPath: "/static/images/projects/kiva-2/kiva2-fp.png"
   },
   {
     title: "Portfolio manager dashboard",
     detail:
       "Where portfolio managers can see the statuses of all their field partners, organized by whether each partner is currently in the reviewing process, has just been created, or has finished the review process. For \"In Process\" field partners, portfolio managers can navigate to their corresponding dashboards, while for other field partners, portfolio managers can assign new required documents to begin the review process again.",
-    imgPath: "/static/images/projects/kiva-2/pm.png"
+    imgPath: "/static/images/projects/kiva-2/kiva2-pm.png"
   },
   {
     title: "Document selection page",
     detail:
       "To set up the review process, a portfolio manager will assign requirements to a field partner from a user-defined list of document classes (e.g. Board of Directors, Strategic Plan, etc.).",
-    imgPath: "/static/images/projects/kiva-2/selection.png"
+    imgPath: "/static/images/projects/kiva-2/kiva2-selection.png"
   }
 ];
 

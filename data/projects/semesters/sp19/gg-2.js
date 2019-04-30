@@ -2,7 +2,8 @@
 const name = "Global Giving";
 const id = "gg-2"; // second GG Project
 const detail = "How might we expand Global Giving’s impact and reach on domestic and international nonprofits?";
-const coverImagePath = "/static/images/projects/gg-2/thumbnail.png";
+const coverImagePath = "/static/images/projects/gg-2/gg2-thumbnail.png";
+
 const clientDetail =
 "Global Giving seeks to identify nonprofits around the world, creating a central directory of nonprofits. They also aim to connect each nonprofit with the necessary resources, such as connecting them with donors or setting up crowdfunding options to help the nonprofit succeed.";
 const clientLink =
@@ -32,37 +33,37 @@ const solution =
       title: "Revised Categorization Schema",
       detail:
         "This categorization considers the patterns we found through experimentation and investigation; the data suggest that both whom the nonprofit serves and what they do are separate and informative facets of an organization, so one simple label does not suffice.",
-      imgPath: "/static/images/projects/gg-2/schema.png"
+      imgPath: "/static/images/projects/gg-2/gg2-schema.png"
     },
     {
       title: "Stochastic Gradient Descent",
       detail:
         "We used scikit-learn's Stochastic Gradient Descent classifier, wrapped in a OneVsRest classifier in order to do multi-label, multiclass classification on an NGO based off of the tf-idf scored text from their website.",
-      imgPath: "/static/images/projects/gg-2/gradient.png"
+      imgPath: "/static/images/projects/gg-2/gg2-gradient.png"
     },
     {
       title: "Document Vectors",
       detail:
         "Using Doc2Vec, we created a document vector model for each one. Document vectors can be clustered using KMeans to find similarities between projects. Using Matplotlib, we graphed each document with different colors representing different clusters.",
-      imgPath: "/static/images/projects/gg-2/document.png"
+      imgPath: "/static/images/projects/gg-2/gg2-document.png"
     },
     {
       title: "Word Vectors",
       detail:
         "Text from non-profit organizations can be represented as word vectors. Word vectors can be summed to represent an entire organization document. We use these to cluster data to find similarities between organizations.",
-      imgPath: "/static/images/projects/gg-2/word.png"
+      imgPath: "/static/images/projects/gg-2/gg2-word.png"
     },
     {
       title: "Unguided LDA",
       detail:
         "Unguided LDA class creates a model representing the “topics” present in a dataset of non-profit projects. The core purpose of this class is to cluster together new topics rather than classifying projects based on pre-determined topics, thus providing a new perspective on the variety of data.",
-      imgPath: "/static/images/projects/gg-2/unguided.png"
+      imgPath: "/static/images/projects/gg-2/gg2-unguided.png"
     },
     {
       title: "Bag Of Words",
       detail:
         "Bag of words is a statistical method of classifying documents based off the frequency and relevance of words in a document's text. Using this algorithm, we can predict the themes of an organization to effectively understand their mission based off their websites' text!",
-      imgPath: "/static/images/projects/gg-2/bow.png"
+      imgPath: "/static/images/projects/gg-2/gg2-bow.png"
     }
   ];
   const featureImgSize = "7";

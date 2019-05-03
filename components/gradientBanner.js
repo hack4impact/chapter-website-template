@@ -9,7 +9,9 @@ const GradientBanner = ({
   buttonText,
   buttonLink,
   color,
-  arrow
+  arrow,
+  minorButtonText,
+  minorButtonLink
 }) => (
   <div>
     <section className="banner-section" style={style}>
@@ -41,19 +43,37 @@ const GradientBanner = ({
               )}
             </Spring>
           </Row>
-          {buttonText !== undefined ? (
-            <Spring
-              config={{ delay: 550, ...config.molasses }}
-              from={{ opacity: 0, transform: "translate3d(-100px,0,0)" }}
-              to={{ opacity: 100, transform: "translate3d(0,0px,0)" }}
-            >
-              {props => (
-                <div style={props} className="center">
-                  <ActionButton text={buttonText} link={buttonLink} white />
-                </div>
-              )}
-            </Spring>
-          ) : null}
+          <Col md="12" className="text-center">
+            {buttonText !== undefined ? (
+              <Spring
+                config={{ delay: 550, ...config.molasses }}
+                from={{ opacity: 0, transform: "translate3d(-100px,0,0)" }}
+                to={{ opacity: 100, transform: "translate3d(0,0px,0)" }}
+              >
+                {props => (
+                  <div style={props} className="d-inline">
+                    <ActionButton text={buttonText} link={buttonLink} white />
+                  </div>
+                )}
+              </Spring>
+            ) : null}
+            {minorButtonText !== undefined ? (
+              <Spring
+                config={{ delay: 550, ...config.molasses }}
+                from={{ opacity: 0, transform: "translate3d(-100px,0,0)" }}
+                to={{ opacity: 100, transform: "translate3d(0,0px,0)" }}
+              >
+                {props => (
+                  <div style={props} className="d-inline ml-3">
+                    <ActionButton
+                      text={minorButtonText}
+                      link={minorButtonLink}
+                    />
+                  </div>
+                )}
+              </Spring>
+            ) : null}
+          </Col>
         </Row>
       </Container>
     </section>

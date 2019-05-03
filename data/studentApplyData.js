@@ -4,14 +4,15 @@ import Calendar from "../static/icons/calendar.svg";
 import ActionButton from "../components/actionButton";
 import Contract from "../static/icons/contract.svg";
 import Education from "../static/icons/education.svg";
+import Social from "../static/icons/social.svg";
 
 // constants that will affect links in the student application page
 const applicationLink =
   "https://docs.google.com/forms/u/1/d/e/1FAIpQLSegwjt2Dx_83l-xKeopq27_mmoI79sOVCo3OesI7WmntmPLBg/viewform";
 
 // current stuff
-const currentSemester = "Fall 2018";
-const nextSemester = "Spring 2019";
+const currentSemester = "Spring 2019";
+const nextSemester = "Fall 2019";
 
 // dates
 const infoSessionDate = "Wed Jan 16, 2019 7-8PM";
@@ -20,6 +21,7 @@ const applicationDueDate = "Saturday Jan 19, 2019";
 const applicationDueTime = "11:59 p.m.";
 const firstRoundInterviewDate = "Monday Jan 21, 2019";
 const secondRoundInterviewDate = "";
+const socialRoundDate = "";
 const takeHomeExerciseDate = "";
 
 const subHeadline =
@@ -96,14 +98,31 @@ const faq = [
         know for.
       </>
     )
+  },
+  {
+    question:
+      "What are you looking for in Software Developers and/or Product Designers?",
+    answer: (
+      <>
+        We go a lot more in-depth in our role descriptions in our{" "}
+        <a href="https://www.notion.so/h4iuiuc/Join-Hack4Impact-UIUC-2e875ce396b34e6ebb23c6dda57a89aa">
+          Official Notion page
+        </a>
+        . View{" "}
+        <a href="https://www.notion.so/h4iuiuc/Software-Developer-H4I-11df54d29aba4399a940339e88b0e540">
+          Software Developer Role
+        </a>
+        . View{" "}
+        <a href="https://www.notion.so/h4iuiuc/Product-Designer-H4I-137480f11c884844878232c62d12db25">
+          Product Designer Role
+        </a>
+        .
+      </>
+    )
   }
 ];
 
-const applicationDetail = (
-  <>
-    Our application link is <a href={applicationLink}>{applicationLink}</a>
-  </>
-);
+const applicationDetail = "";
 
 const studentProcess = [
   {
@@ -174,6 +193,13 @@ const studentProcess = [
       "This will be a 30 minute interview with two of our members and answer technical questions. We encourage discussion throughout the interview and you’ll have an opportunity to ask questions to learn more about us.",
     icon: <Interview />,
     date: secondRoundInterviewDate
+  },
+  {
+    title: "Social Round",
+    detail:
+      "Our Social Night will be a fun opportunity for us to get to know each other in a more casual setting. Be your authentic self!",
+    icon: <Interview />,
+    date: socialRoundDate
   },
   {
     title: "Take Home Exercise",

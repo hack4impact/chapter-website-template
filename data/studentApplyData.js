@@ -4,7 +4,6 @@ import Calendar from "../static/icons/calendar.svg";
 import ActionButton from "../components/actionButton";
 import Contract from "../static/icons/contract.svg";
 import Education from "../static/icons/education.svg";
-import Social from "../static/icons/social.svg";
 
 // constants that will affect links in the student application page
 const applicationLink =

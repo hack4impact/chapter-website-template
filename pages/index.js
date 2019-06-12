@@ -4,6 +4,7 @@ import OurWorkSection from "../components/homepage/ourWork";
 import InvolveSection from "../components/homepage/involveSection";
 import ClientSlider from "../components/homepage/clientSlider";
 import PartnerSection from "../components/homepage/partnerSection";
+import OtherChapters from "../components/homepage/otherChapters";
 import { ToastContainer, toast } from "react-toastify";
 import ToastText from "../components/toastText";
 import Head from "../components/head";
@@ -30,6 +31,7 @@ class Home extends React.Component {
         <ClientSlider />
         <InvolveSection />
         <PartnerSection />
+        <OtherChapters />
         <Footer />
       </div>
     );

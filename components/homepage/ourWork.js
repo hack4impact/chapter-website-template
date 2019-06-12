@@ -8,22 +8,22 @@ import ActionLink from "../actionLink";
 
 const items = [
   <ProjectContainer
-    title="Cut 2 the Case"
-    subtitle="How might we make students feel safer on campus?"
-    image="url('/static/images/projects/c2tc-2/c2tc-2-cover.jpg')"
-    link="/projects?name=c2tc-2"
+    title="Kiva"
+    subtitle="How might we expedite the reporting process with a single portal where users can see which documents need to be uploaded and track their progress?"
+    image="url('/static/images/projects/kiva-2/kiva2-thumbnail copy.png')"
+    link="/projects?name=kiva-2"
   />,
   <ProjectContainer
-    title="Child's Play"
-    subtitle="How might we streamline the process of connecting children with effective games to order to alleviate their ailments?"
-    image="url('/static/images/projects/cp/cp-cover.jpg')"
-    link="/projects?name=cp"
+    title="SafeMaps"
+    subtitle="How might we make students feel safer on campus?"
+    image="url('/static/images/projects/safemaps/sm-safemaps-cover.png')"
+    link="/projects?name=safemaps"
   />,
   <ProjectContainer
     title="Global Giving"
     subtitle="How might we expand Global Giving’s impact and reach on domestic and international nonprofits?"
-    image="url('/static/images/projects/gg/gg-cover.jpg')"
-    link="/projects?name=gg"
+    image="url('/static/images/projects/gg-2/gg2-thumbnail.png')"
+    link="/projects?name=gg-2"
   />
 ];
 

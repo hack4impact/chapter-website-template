@@ -10,6 +10,7 @@ const coverImagePath = "/static/images/projects/kiva-1/kiva-1-cover.jpg"; // use
 const clientDetail =
   "Kiva is a nonprofit organization founded in 2006 that is funded via individual and corporate donations. Their mission is to alleviate poverty and connect people by funding loans. So far, Kiva has reached borrowers in 82 countries, and 1.7 million Kiva lenders have lent over a billion dollars to family businesses. Their goal is to reach 2 million people soon and lend the next 1 billion dollars in a shorter amount of time.";
 const clientLink = "https://www.kiva.org/"; // link to website
+const previousLink = null;
 const clientFeatures = [
   {
     title: "Borrowers",
@@ -86,5 +87,6 @@ export default {
   quoteSource,
   quoteSourceTitle,
   githubLink,
+  previousLink,
   team
 };

@@ -10,6 +10,7 @@ const coverImagePath = "/static/images/projects/pr/philly-cover.jpg"; // used in
 const clientDetail =
   "Philadelphia READS aims to provide access to books and community programs to foster a love of reading and increase literacy in Philadelphia. They do this through four core literacy programs: Power Partners, Reading Olympics, the Jacoby Book Bank and Summer READS. Through these programs, they serve approximately 27,800 children and 600 educators annually.";
 const clientLink = "https://www.philareads.org/"; // link to website
+const previousLink = null;
 const clientFeatures = [
   {
     title: "Core Literacy Programs",
@@ -131,6 +132,7 @@ export default {
   quoteSource,
   quoteSourceTitle,
   githubLink,
+  previousLink,
   team,
   featureImgSize
 };

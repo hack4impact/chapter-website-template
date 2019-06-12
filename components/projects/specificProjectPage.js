@@ -21,6 +21,7 @@ class SpecificProjectPage extends Component {
           clientLink={project.clientLink}
           githubLink={project.githubLink}
           projectLink={project.projectLink}
+          previousLink={project.previousLink}
         />
         <ClientFeatures features={project.clientFeatures} />
         <ProjectDetail project={project} />

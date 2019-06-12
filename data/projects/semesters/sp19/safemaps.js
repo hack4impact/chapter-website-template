@@ -4,9 +4,11 @@ const id = "safemaps"; // 3rd C2TC Project
 const detail = "How might we make students feel safer on campus?";
 const coverImagePath = "/static/images/projects/safemaps/sm-safemaps-cover.png";
 const clientDetail =
-  "Navigate safely through campus and learn about the health and safety resources near you with Illini SafeMaps. Illini SafeMaps is your real-time safety companion. With Illini SafeMaps, you can navigate around the U of I campus safely by viewing the locations of past crimes, police stations, emergency phones, running buses, open businesses, and streetlights. This app also enables you to be notified and access safety and health resources near you including SafeWalks and SafeRides so you can stay informed and make safer decisions.";
+  "Navigate safely through campus and learn about the health and safety resources near you with Illini SafeMaps. Illini SafeMaps is your real-time safety companion. With Illini SafeMaps, you can navigate around the U of I campus safely by viewing the locations of past crimes, police stations, emergency phones, running buses, open businesses, and streetlights. This app also enables you to be notified and access safety and health resources near you including SafeWalks and SafeRides so you can stay informed and make safer decisions. This project is the continuation to the previous C2TC project.";
 const clientLink =
   "http=//iventure.illinois.edu/index.php/portfolio/wanderweb/";
+const previousLink = 
+  "https://uiuc.hack4impact.org/projects/?name=c2tc-2";
 const clientFeatures = [
   {
     title: "Students that don't feel safe",
@@ -43,26 +45,20 @@ const features = [
   {
     title: "See What's Around You",
     detail:
-      "Our map interface allows students to get an idea about what is around them. SafeMaps has information about crimes, emergency phones, police stations, bus stops, streetlights and open businesses. Students can use this information to plan their routes around campus!",
+      "SafeMaps has information about crimes, emergency phones, police stations, bus stops, streetlights and open businesses.",
     imgPath: "/static/images/projects/safemaps/sm-around you.png"
   },
   {
     title: "Access Verified Info From Trustworthy Sources",
     detail:
-      "SafeMap’s database is maintained and updated regularly to ensure the most accurate data for all of our users. Click on a point of interest to learn more about the event and when/what occurred.",
+      "Click on a point of interest to learn more about the event which is maintained and updated regularly to ensure the most accurate data for all of our users.",
     imgPath: "/static/images/projects/safemaps/sm-verified info.png"
   },
   {
     title: "Share Tips To Make Community Safer",
     detail:
-      "Learn and contribute to our large database of safety tips. We try our best to validate and ensure the quality of all the submitted tips so our users have the right info in their hands.",
+      "Learn and contribute to our large database of safety tips.",
     imgPath: "/static/images/projects/safemaps/sm-share tips.png"
-  },
-  {
-    title: "Join The SafeMaps Network And Build Your Profile",
-    detail:
-      "Build a profile, submit tips, and join our community! We are happy to have you aboard!",
-    imgPath: "/static/images/projects/safemaps/sm-join.png"
   }
 ];
 
@@ -122,6 +118,7 @@ export default {
   coverImagePath,
   clientDetail,
   clientLink,
+  previousLink,
   clientFeatures,
   problem,
   problemImagePath,

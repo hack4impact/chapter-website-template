@@ -7,6 +7,7 @@ const coverImagePath = "/static/images/projects/gg/gg-map.png";
 const clientDetail =
   "Global Giving seeks to identify nonprofits around the world, creating a central directory of nonprofits. They also aim to connect each nonprofit with the necessary resources, such as connecting them with donors or setting up crowdfunding options to help the nonprofit succeed.";
 const clientLink = "https=//www.globalgiving.org/";
+const previousLink = null;
 const clientFeatures = [
   {
     title: "In Donations",
@@ -104,6 +105,7 @@ export default {
   quoteSource,
   quoteSourceTitle,
   githubLink,
+  previousLink,
   team,
   featureImgSize
 };

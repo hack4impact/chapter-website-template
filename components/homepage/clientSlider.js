@@ -18,6 +18,13 @@ const clients = [
     link: "/projects?name=cp"
   },
   {
+    name: "Kiva-1",
+    width: 160,
+    height: 55,
+    logoPath: "/static/images/client_logos/kivalogo.png",
+    link: "/projects?name=kiva-1"
+  },
+  {
     name: "philidelphia reads",
     width: 135,
     height: 120,
@@ -29,21 +36,21 @@ const clients = [
     width: 130,
     height: 130,
     logoPath: "/static/images/client_logos/c2tclogo.png",
-    link: "/projects?name=c2tc-2"
+    link: "/projects?name=safemaps"
   },
   {
     name: "Global Giving",
     width: 250,
     height: 40,
     logoPath: "/static/images/client_logos/gglogo.png",
-    link: "/projects?name=gg"
+    link: "/projects?name=gg-2"
   },
   {
-    name: "Kiva",
+    name: "Kiva-2",
     width: 160,
     height: 55,
     logoPath: "/static/images/client_logos/kivalogo.png",
-    link: "/projects?name=kiva-1"
+    link: "/projects?name=kiva-2"
   },
   {
     name: "NNB",
@@ -51,7 +58,14 @@ const clients = [
     height: 50,
     logoPath: "/static/images/client_logos/nnblogo.png",
     link: "/projects?name=nnb-1"
-  }
+  },
+  {
+    name: "Product Infrastructure",
+    width: 150,
+    height: 100,
+    logoPath: "/static/images/values/value-1.svg",
+    link: "/projects?name=pi"
+  },
 ];
 export default () => (
   <Row>

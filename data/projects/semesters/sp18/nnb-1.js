@@ -10,6 +10,7 @@ const coverImagePath = "/static/images/projects/nnb-1/nnb-cover.jpg"; // used in
 const clientDetail =
   "The Neighborhood News Bureau (NNB) is a nonprofit organization that covers the historic African-American neighborhoods of St. Petersburg’s Midtown area in Tampa Bay, Florida. NNB student-reporters work on a multitude of projects including creating investigative news and feature stories, community communication research and practice, event-planning, and social marketing campaigns. NNB aims to build community partnerships to improve education in journalism, multimedia production and African-American history and culture.";
 const clientLink = "http://www.nnbnews.com/"; // link to website
+const previousLink = null;
 const clientFeatures = [
   {
     title: "",
@@ -83,5 +84,6 @@ export default {
   quoteSource,
   quoteSourceTitle,
   githubLink,
+  previousLink,
   team
 };

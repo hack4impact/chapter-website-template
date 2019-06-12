@@ -7,6 +7,7 @@ const coverImagePath = "/static/images/projects/lwb/lwb-cover.jpg";
 const clientDetail =
   "Love Without Boundaries (LWB) is an international NPO with the mission of serving vulnerable children in underserved communities. Through their services, which include nutrition programs, summer camps, and healing homes, LWB is able to target education, nutrition, medical care, and foster care. LWB mainly serves in China, Cambodia, India, and Uganda.";
 const clientLink = "https=//www.lovewithoutboundaries.com/";
+const previousLink = null;
 const clientFeatures = [
   {
     title: "Countries",
@@ -97,6 +98,7 @@ export default {
   quoteSource,
   quoteSourceTitle,
   githubLink,
+  previousLink,
   team,
   featureImgSize
 };

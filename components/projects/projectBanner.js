@@ -7,7 +7,8 @@ export default ({
   clientDetail,
   clientLink,
   githubLink,
-  projectLink
+  projectLink,
+  previousLink
 }) => (
   <>
     <section className="project-page-banner">
@@ -41,6 +42,11 @@ export default ({
             {githubLink !== undefined && githubLink !== null ? (
               <ActionButton text="View Code" link={githubLink} white />
             ) : null}
+            {previousLink !== undefined && previousLink !== null ? (
+              <div className="previous-button">
+                <ActionButton text="View Previous Project" link={previousLink} white />
+              </div>
+            ) : null }
           </Col>
         </Row>
       </Container>
@@ -67,6 +73,10 @@ export default ({
       .project-subtitle {
         font-size: 18px;
         font-weight: 500;
+      }
+      .previous-button {
+        margin: 1vh;
+        margin-bottom: 0vh;
       }
     `}</style>
   </>

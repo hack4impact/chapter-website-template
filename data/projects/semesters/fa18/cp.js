@@ -8,6 +8,7 @@ const coverImagePath = "/static/images/projects/cp/cp-cover.jpg";
 const clientDetail =
   "Child’s Play seeks to improve the lives of children in pediatric hospitals and other child welfare facilities through the kindness and generosity of the video game community and the power of play. They reach 169 hospitals and shelters internationally.";
 const clientLink = "https=//childsplaycharity.org/";
+const previousLink = null;
 const clientFeatures = [
   {
     title: "Raised",
@@ -113,5 +114,6 @@ export default {
   quoteSource,
   quoteSourceTitle,
   githubLink,
+  previousLink,
   team
 };

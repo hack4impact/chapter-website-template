@@ -6,6 +6,7 @@ const coverImagePath = "/static/images/projects/pi/pi-thumbnail.png";
 const clientDetail =
   "The goal of product infrastructure is to build generalized problems to these solutions. We want to build a open sourced authentication system with easy integration and well-thought out solutions for allowing users to securely handle signing up for an account, logging in, changing passwords, and promoting people to different levels of access";
 const clientLink = null;
+const previousLink = null;
 const clientFeatures = [
   {
     title: "H4I members that are suffering",
@@ -53,7 +54,7 @@ const features = [
   }
 ];
 
-const featureImgSize = "4";
+const featureImgSize = "5";
 const techStack = ["yargs", "express", "mongodb", "next", "react", "flask"];
 const quote = null;
 const quoteSource = null;
@@ -107,6 +108,7 @@ export default {
   quoteSource,
   quoteSourceTitle,
   githubLink,
+  previousLink,
   team,
   featureImgSize
 };

@@ -50,17 +50,17 @@ const Footer = () => (
               </Link>
             </li>
             <li>
-              <Link href="https://github.com/hack4impact-uiuc/wiki/wiki">
-                <a>Wiki</a>
-              </Link>
-            </li>
-            <li>
               <Link href="https://medium.com/hack4impact-uiuc">
                 <a>Blog</a>
               </Link>
             </li>
             <li>
               <a href="mailto:tk2@illinois.edu">Email</a>
+            </li>
+            <li>
+              <Link href="https://www.notion.so/h4iuiuc/Hack4Impact-UIUC-Official-628a998ceff4491a8267187f364947af">
+                <a>Notion & Wiki</a>
+              </Link>
             </li>
           </ul>
         </div>

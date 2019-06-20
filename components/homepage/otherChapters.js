@@ -7,14 +7,14 @@ const clients = [
   {
     name: "upenn",
     width: 125,
-    height: 40,
+    height: 36,
     logoPath: "/static/images/chapters/upenn/upenn-logo.jpg",
     link: "https://hack4impact.org"
   },
   {
     name: "gt",
     width: 125,
-    height: 45,
+    height: 55,
     logoPath: "/static/images/chapters/gt/gt-logo.png",
     link: "https://bitsofgood.org"
   },
@@ -45,66 +45,66 @@ const clients = [
     height: 75,
     logoPath: "/static/images/chapters/cornell/cornell-logo.png",
     link: "https://www.facebook.com/h4icornell/"
-  },
+  }
 ];
 export default () => (
-    <Section className="chapters-section">
-        <Row>
-            <h1 className="section-title center" style={{ marginBottom: "75px" }}>
-                Other Chapters
-            </h1>
-        </Row>
-        <Row>
-            <div className="showcase-container">
-            <BackgroundSlider duration={40}>
-                <div className="client-logo-container">
-                {clients.map(client => (
-                    <div key={client.name}>
-                    <Link href={client.link}>
-                        <a target="_blank">
-                        <img
-                            width={client.width}
-                            height={client.height}
-                            src={client.logoPath}
-                        />
-                        </a>
-                    </Link>
-                    </div>
-                ))}
-                </div>
-            </BackgroundSlider>
-            </div>
-            <style jsx>{`
-            .chapters-section h2 {
-                font-size: 20px;
-                text-align: center;
-                margin-bottom: 50px;
-                color: #373f46;
-                opacity: 0.7;
-                font-weight: 300;
-              }
-            .showcase-container {
-                margin-bottom: 40px;
-                overflow: hidden;
-                width: 100%;
-            }
-            .client-logo-container {
-                white-space: nowrap;
-                overflow: hidden;
-            }
-            .client-logo-container > div {
-                display: inline-block;
-                padding: 0 50px;
-                vertical-align: middle;
-                opacity: 0.25;
-                outline: none;
-                cursor: default;
-                transition: opacity 0.2s ease;
-            }
-            .client-logo-container > div:hover {
-                opacity: 0.8;
-            }
-            `}</style>
-        </Row>
-    </Section>
+  <Section className="chapters-section">
+    <Row>
+      <h1 className="section-title center" style={{ marginBottom: "75px" }}>
+        Other Chapters
+      </h1>
+    </Row>
+    <Row>
+      <div className="showcase-container">
+        <BackgroundSlider iterations={4} duration={50}>
+          <div className="client-logo-container">
+            {clients.map(client => (
+              <div key={client.name}>
+                <Link href={client.link}>
+                  <a target="_blank">
+                    <img
+                      width={client.width}
+                      height={client.height}
+                      src={client.logoPath}
+                    />
+                  </a>
+                </Link>
+              </div>
+            ))}
+          </div>
+        </BackgroundSlider>
+      </div>
+      <style jsx>{`
+        .chapters-section h2 {
+          font-size: 20px;
+          text-align: center;
+          margin-bottom: 50px;
+          color: #373f46;
+          opacity: 0.7;
+          font-weight: 300;
+        }
+        .showcase-container {
+          margin-bottom: 40px;
+          overflow: hidden;
+          width: 100%;
+        }
+        .client-logo-container {
+          white-space: nowrap;
+          overflow: hidden;
+        }
+        .client-logo-container > div {
+          display: inline-block;
+          padding: 0 50px;
+          vertical-align: middle;
+          opacity: 0.25;
+          outline: none;
+          cursor: default;
+          transition: opacity 0.2s ease;
+        }
+        .client-logo-container > div:hover {
+          opacity: 0.8;
+        }
+      `}</style>
+    </Row>
+  </Section>
 );

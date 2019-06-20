@@ -1,4 +1,5 @@
-export default ({ duration, children }) => (
+// default show children twice so slider won't be empty after "sliding" for a while
+export default ({ duration, children, iterations }) => (
   <div className="slider-container">
     <style jsx>{`
       .slider-container {
@@ -25,8 +26,9 @@ export default ({ duration, children }) => (
       }
     `}</style>
     <div className="slider-content-wrapper">
-      <div>{children}</div>
-      <div>{children}</div>
+      {iterations != undefined
+        ? [...Array(iterations)].map(x => <div key={x}>{children}</div>)
+        : [...Array(2)].map(x => <div key={x}>{children}</div>)}
     </div>
   </div>
 );

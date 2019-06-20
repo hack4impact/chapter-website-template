@@ -183,11 +183,11 @@ export default {
       role: "Software Developer",
       linkedin: "https://www.linkedin.com/in/navamawasthi/"
     },
-		{
-		  name: "Lam Tran",
-			role: "Software Developer",
-			linkedin: "https://www.linkedin.com/in/lamgtran/"
-		},
+    {
+      name: "Lam Tran",
+      role: "Software Developer",
+      linkedin: "https://www.linkedin.com/in/lamgtran/"
+    },
     {
       name: "Nithin Rajkumar",
       role: "Software Developer",
@@ -209,6 +209,11 @@ export default {
       name: "Varun Munjeti",
       role: "Co-Founder",
       linkedin: "https://www.linkedin.com/in/varunmunjeti/"
+    },
+    {
+      name: "Timothy Ko",
+      role: "Co-Director",
+      linkedin: "https://linkedin.com/in/timothy-ko"
     },
     {
       name: "David Chang",

@@ -65,7 +65,7 @@ const clients = [
     height: 100,
     logoPath: "/static/images/values/value-1.svg",
     link: "/projects?name=pi"
-  },
+  }
 ];
 export default () => (
   <Row>

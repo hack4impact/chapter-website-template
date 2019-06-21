@@ -1,6 +1,4 @@
-# UIUC Chapter Website - **NOW MOVED TO HACK4IMPACT-UIUC GITHUB ORG**
-
-## PLEASE VISIT https://github.com/hack4impact-uiuc/uiuc.hack4impact.org for most current update
+# UIUC Chapter Website - uiuc.hack4impact.org
 
 ------
 This website uses the server-rendered react framework, [Next.js](http://nextjs.org) for the best of both worlds, react usable components and faster page loads (since this is mostly a static website). We are also able to load configurations, text, etc based on config files (possibly json).

@@ -11,8 +11,8 @@ const Footer = () => (
             <img src="/static/images/h4i_white.png" height="35" width="200" />
           </div>
           <p>
-            For all inquiries of partnership or sponsorship, please contact{" "}
-            <a href="mailto:tk2@illinois.edu">Timothy Ko</a>.
+            For all inquiries of partnership or sponsorship, please contact us
+            at <a href="mailto:uiuc@hack4impact.org">uiuc@hack4impact.org</a>.
           </p>
         </Col>
         <div className="col-md-1" />
@@ -55,7 +55,7 @@ const Footer = () => (
               </Link>
             </li>
             <li>
-              <a href="mailto:tk2@illinois.edu">Email</a>
+              <a href="mailto:uiuc@hack4impact.org">Email</a>
             </li>
             <li>
               <Link href="https://www.notion.so/h4iuiuc/Hack4Impact-UIUC-Official-628a998ceff4491a8267187f364947af">

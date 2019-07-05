@@ -12,9 +12,6 @@ import Nav from "../components/nav";
 import Footer from "../components/footer";
 import ReactGA from 'react-ga';
 
-ReactGA.initialize('UA-143288182-1');
-ReactGA.pageview('/index');
-
 class Home extends React.Component {
   componentDidMount() {
     // need to open it once component is mounted bc of "document not found errors"
@@ -22,6 +19,8 @@ class Home extends React.Component {
     //   className: "announcement",
     //   bodyClassName: "announcement-body"
     // });
+    ReactGA.initialize('UA-143288182-1');
+    ReactGA.pageview('/index');
   }
 
   render() {

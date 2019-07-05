@@ -6,10 +6,8 @@ import ErrorMessage from "../components/errorMessage";
 import Footer from "../components/footer";
 import { PageTransition } from "next-page-transitions";
 
-function initializeReactGA() {
-  ReactGA.initialize('UA-143288182-1');
-  ReactGA.pageview('/homepage');
-}
+ReactGA.initialize('UA-143288182-1');
+ReactGA.pageview('/homepage');
 
 export default class MyApp extends App {
   constructor(props) {

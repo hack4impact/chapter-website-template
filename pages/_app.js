@@ -5,10 +5,6 @@ import Nav from "../components/nav";
 import ErrorMessage from "../components/errorMessage";
 import Footer from "../components/footer";
 import { PageTransition } from "next-page-transitions";
-import ReactGA from 'react-ga';
-
-ReactGA.initialize('UA-143288182-1');
-ReactGA.pageview('/homepage');
 
 export default class MyApp extends App {
   constructor(props) {

@@ -8,12 +8,19 @@ import ErrorMessage from "../components/errorMessage";
 import ProjectExplore from "../components/projects/projectExplore";
 import Footer from "../components/footer";
 import projectData from "../data/projectData";
+import ReactGA from 'react-ga';
 
 class Projects extends Component {
   constructor(props) {
     super(props);
     this.state = {};
   }
+
+  componentDidMount() {
+    ReactGA.initialize('UA-143288182-1');
+    ReactGA.pageview('/projects');
+  }
+
   static async getInitialProps({ query, pathname }) {
     return { query };
   }

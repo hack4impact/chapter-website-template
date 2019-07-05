@@ -10,6 +10,10 @@ import ToastText from "../components/toastText";
 import Head from "../components/head";
 import Nav from "../components/nav";
 import Footer from "../components/footer";
+import ReactGA from 'react-ga';
+
+ReactGA.initialize('UA-143288182-1');
+ReactGA.pageview('/index');
 
 class Home extends React.Component {
   componentDidMount() {

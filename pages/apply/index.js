@@ -5,10 +5,6 @@ import Nav from "../../components/nav";
 import { Container, Row, Col } from "reactstrap";
 import Link from "next/link";
 import Footer from "../../components/footer";
-import ReactGA from 'react-ga';
-
-ReactGA.initialize('UA-143288182-1');
-ReactGA.pageview('/apply');
 
 const ApplyPage = () => (
   <>

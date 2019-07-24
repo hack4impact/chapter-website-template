@@ -10,7 +10,7 @@ import ToastText from "../components/toastText";
 import Head from "../components/head";
 import Nav from "../components/nav";
 import Footer from "../components/footer";
-import ReactGA from 'react-ga';
+import { initializeGA, logPage, logEvent } from "../components/Analytics"
 
 class Home extends React.Component {
   componentDidMount() {
@@ -19,8 +19,9 @@ class Home extends React.Component {
     //   className: "announcement",
     //   bodyClassName: "announcement-body"
     // });
-    ReactGA.initialize('UA-143288182-1');
-    ReactGA.pageview('/index');
+    initializeGA()
+    logPage()
+  
   }
 
   render() {

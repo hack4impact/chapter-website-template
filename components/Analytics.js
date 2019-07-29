@@ -1,10 +1,11 @@
 import ReactGA from 'react-ga';
 
 const initializeGA = () => {
-    ReactGA.initialize('UA-143288182-1');
+    ReactGA.initialize('UA-144770649-1');
 }
 
 const logPage = () => {
+    //ReactGA.pageview(window.location.pathname + window.location.search);
     ReactGA.pageview(window.location.pathname + window.location.search);
 }
 

@@ -23,7 +23,7 @@ export default {
     },
     {
       name: "Daniel Choi",
-      role: "Director of ER",
+      role: "Director of External Relations",
       linkedin: "https://www.linkedin.com/in/choiboy98/"
     },
     {

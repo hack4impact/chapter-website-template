@@ -14,6 +14,12 @@ export default () => (
         <img
           width="150"
           height="150"
+          src="/static/images/imc-logo.png"
+          className="center"
+        />
+        <img
+          width="150"
+          height="150"
           src="/static/images/fb-logo.svg"
           className="center"
         />

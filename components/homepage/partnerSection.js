@@ -11,8 +11,7 @@ export default () => (
         </h1>
       </Row>
       <Row>
-        <Col />
-        <Col>
+        <Col className="text-right">
           <img
             width="150"
             height="150"
@@ -28,7 +27,6 @@ export default () => (
             className="center partner-logos"
           />
         </Col>
-        <Col />
       </Row>
 
       <Row>
@@ -53,10 +51,7 @@ export default () => (
         margin-top: 30px !important;
       }
       .partner-logos {
-        margin-top: 10px;
-        margin-bottom: 10px;
-        margin-left: 60px;
-        margin-right: 60px;
+        margin: 10px 60px;
       }
     `}</style>
   </Section>

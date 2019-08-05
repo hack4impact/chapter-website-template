@@ -5,7 +5,6 @@ const initializeGA = () => {
 }
 
 const logPage = () => {
-    //ReactGA.pageview(window.location.pathname + window.location.search);
     ReactGA.pageview(window.location.pathname + window.location.search);
 }
 

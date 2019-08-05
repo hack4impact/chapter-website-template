@@ -8,7 +8,7 @@ import ErrorMessage from "../components/errorMessage";
 import ProjectExplore from "../components/projects/projectExplore";
 import Footer from "../components/footer";
 import projectData from "../data/projectData";
-import { initializeGA, logPage, logEvent } from "../components/Analytics"
+import { initializeGA, logPage } from "../components/Analytics"
 
 class Projects extends Component {
   constructor(props) {

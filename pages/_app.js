@@ -5,14 +5,11 @@ import Nav from "../components/nav";
 import ErrorMessage from "../components/errorMessage";
 import Footer from "../components/footer";
 import { PageTransition } from "next-page-transitions";
-import { initializeGA, logPage, logEvent } from "../components/Analytics"
 
 export default class MyApp extends App {
   constructor(props) {
     super(props);
     this.state = { hasError: false };
-    // initializeGA()
-    // logPage()
   }
   static async getInitialProps({ Component, router, ctx }) {
     let pageProps = {};

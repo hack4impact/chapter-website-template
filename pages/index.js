@@ -10,7 +10,7 @@ import ToastText from "../components/toastText";
 import Head from "../components/head";
 import Nav from "../components/nav";
 import Footer from "../components/footer";
-import { initializeGA, logPage, logEvent } from "../components/Analytics"
+import { initializeGA, logPage } from "../components/Analytics"
 
 class Home extends React.Component {
   componentDidMount() {
@@ -21,7 +21,6 @@ class Home extends React.Component {
     // });
     initializeGA()
     logPage()
-  
   }
 
   render() {

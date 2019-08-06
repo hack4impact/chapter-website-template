@@ -217,6 +217,10 @@ export default {
       linkedin: "https://www.linkedin.com/in/arshia-malkani-4b458010b/"
     },
     {
+      name: "Doris Zhao",
+      role: "Community Director"
+    },
+    {
       name: "Andrew Liang",
       role: "Software Developer",
       linkedin: "https://www.linkedin.com/in/liang-y-andrew/"

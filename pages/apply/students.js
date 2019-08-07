@@ -39,7 +39,6 @@ class Students extends Component {
           closedText={data.closedText}
           processes={data.studentProcess}
           titleDetail={data.applicationDetail}
-          closed
         />
         <Quote
           quote={data.quote.text}
@@ -52,5 +51,6 @@ class Students extends Component {
     )
   }
 }
+
 
 export default Students;

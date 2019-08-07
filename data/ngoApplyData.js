@@ -6,16 +6,16 @@ import Link from "next/link";
 
 // constants that will affect links in the nonprofit application page
 const applicationLink =
-  "https://docs.google.com/forms/d/e/1FAIpQLSfHFq89YFYs98g8dxrHYqirp57ZhVX59GHmwshZI2RtoMKjZQ/viewform";
+  "https://docs.google.com/forms/d/e/1FAIpQLScPK_Xj27DzZqlX44qaGk-ecuTM3Zs8T7iQgcE4NtCqgjSbgg/viewform";
 const interestFormLink =
   "https://docs.google.com/forms/u/1/d/e/1FAIpQLSeart7T-6sR61MXhdOfsN0n7oJ8ZThYeNjdqPnsLQLzLNKL2A/viewform";
 const projectAppExample =
   "https://docs.google.com/document/d/1SGG7gxu8lgWMOhxIULMSUZQa-4p0bLwrwDl4SAZW2lE/edit";
 
 // constants for dates
-const applicationDueDate = "January 16, 2019";
-const currentSemester = "Spring 2019";
-const nextSemester = "Fall 2019";
+const applicationDueDate = "September 1, 2019";
+const currentSemester = "Fall 2019";
+const nextSemester = "Spring 2020";
 
 /*
 what's exported
@@ -115,7 +115,7 @@ export default {
     {
       question: "Is there a development fee?",
       answer:
-        "We typically charge a fee of $2,000 to our clients for any work that we do. However, this fee can be reduced on a need basis."
+        "We typically charge a fee of $1,000 to our clients for any work that we do. However, this fee can be reduced on a need basis."
     },
     {
       question: "How can I maximize my chances of working with Hack4Impact?",

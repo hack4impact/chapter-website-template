@@ -8,7 +8,7 @@ import ErrorMessage from "../components/errorMessage";
 import ProjectExplore from "../components/projects/projectExplore";
 import Footer from "../components/footer";
 import projectData from "../data/projectData";
-import ReactGA from 'react-ga';
+import { initializeGA, logPage } from "../components/Analytics"
 
 class Projects extends Component {
   constructor(props) {
@@ -17,8 +17,8 @@ class Projects extends Component {
   }
 
   componentDidMount() {
-    ReactGA.initialize('UA-143288182-1');
-    ReactGA.pageview('/projects');
+    initializeGA()
+    logPage()
   }
 
   static async getInitialProps({ query, pathname }) {

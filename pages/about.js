@@ -6,12 +6,12 @@ import Head from "../components/head";
 import Nav from "../components/nav";
 import Footer from "../components/footer";
 import Team from "../components/about/team";
-import ReactGA from 'react-ga';
+import { initializeGA, logPage } from "../components/Analytics"
 
 class AboutPage extends React.Component {
   componentDidMount() {
-    ReactGA.initialize('UA-143288182-1');
-    ReactGA.pageview('/about');
+    initializeGA()
+    logPage()
   }
 
   render() {

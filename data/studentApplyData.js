@@ -7,18 +7,17 @@ import Education from "../static/icons/education.svg";
 
 // constants that will affect links in the student application page
 const applicationLink =
-  "https://docs.google.com/forms/u/1/d/e/1FAIpQLSegwjt2Dx_83l-xKeopq27_mmoI79sOVCo3OesI7WmntmPLBg/viewform";
+  "https://docs.google.com/forms/d/e/1FAIpQLSeyE44_aHt_DOIBu2n0Uk3H_u-_BT2N7sE4rIqpcifUQBz3qQ/viewform";
 
 // current stuff
-const currentSemester = "Spring 2019";
-const nextSemester = "Fall 2019";
+const currentSemester = "Fall 2019";
+const nextSemester = "Spring 2020";
 
 // dates
-const infoSessionDate = "Wed Jan 16, 2019 7-8PM";
-const technicalWorkshopDate = "Thurs Jan 17, 2019 7-8PM";
-const applicationDueDate = "Saturday Jan 19, 2019";
+const infoSessionDate = "Thu Aug 29, 2019 6-7PM";
+const applicationDueDate = "Monday Sept 2, 2019";
 const applicationDueTime = "11:59 p.m.";
-const firstRoundInterviewDate = "Monday Jan 21, 2019";
+const firstRoundInterviewDate = "Thursday Sept 5, 2019";
 const secondRoundInterviewDate = "";
 const socialRoundDate = "";
 const takeHomeExerciseDate = "";
@@ -127,9 +126,10 @@ const studentProcess = [
   {
     title: (
       <>
-        <a href="https://www.facebook.com/events/783414215343789">
+        {/* <a href="https://www.facebook.com/events/783414215343789">
           Info Session
-        </a>
+        </a> */}
+        Info Session
       </>
     ),
     detail: (
@@ -140,25 +140,18 @@ const studentProcess = [
           and get to know each other!
         </p>
         <p>
-          <b className="pt-2"> 7PM - 8PM @ ECEB 2017</b>
+          <b className="pt-2"> 6PM - 7PM @ Noyes 100</b>
         </p>
-        <p>
+        {/* <p>
           More details at our{" "}
           <a href="https://www.facebook.com/events/783414215343789">
             Facebook Event!
           </a>{" "}
-        </p>
+        </p> */}
       </>
     ),
     icon: <Calendar />,
     date: infoSessionDate
-  },
-  {
-    title: "Technical Workshop",
-    detail:
-      "Come by to learn more about the technologies we use at Hack4Impact including React, Redux, and Flask. We'll be going through why we use these libraries and then diving into code.",
-    icon: <Education />,
-    date: technicalWorkshopDate
   },
   {
     title: "Applications",

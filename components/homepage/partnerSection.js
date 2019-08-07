@@ -11,12 +11,22 @@ export default () => (
         </h1>
       </Row>
       <Row>
-        <img
-          width="150"
-          height="150"
-          src="/static/images/fb-logo.svg"
-          className="center"
-        />
+        <Col className="text-right">
+          <img
+            width="150"
+            height="150"
+            src="/static/images/imc-logo.jpg"
+            className="center partner-logos"
+          />
+        </Col>
+        <Col>
+          <img
+            width="150"
+            height="150"
+            src="/static/images/fb-logo.svg"
+            className="center partner-logos"
+          />
+        </Col>
       </Row>
 
       <Row>
@@ -39,6 +49,9 @@ export default () => (
       }
       .partner-button {
         margin-top: 30px !important;
+      }
+      .partner-logos {
+        margin: 10px 60px;
       }
     `}</style>
   </Section>

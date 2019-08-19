@@ -117,7 +117,8 @@ export default {
     },
     {
       name: "Albert Cao",
-      role: "Software Developer"
+      role: "Software Developer",
+      linkedin: "https://www.linkedin.com/in/albertcao00/"
     },
     {
       name: "Alan Ren",

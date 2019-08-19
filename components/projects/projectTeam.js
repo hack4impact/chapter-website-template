@@ -29,9 +29,7 @@ const ProjectTeam = ({ team }) => (
                 <div className="text-center">
                   <p className="text-center">
                     <b> Developers: </b>{" "}
-                    {team.detail.swe.map(swe => (
-                      <>{swe}, </>
-                    ))}
+                    <>{team.detail.swe.join(', ')}</>
                   </p>
                 </div>
               </Col>

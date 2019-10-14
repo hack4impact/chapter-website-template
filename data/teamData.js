@@ -210,6 +210,11 @@ export default {
       role: "Software Developer",
       linkedin: "http://linkedin.com/in/sahithimuthyala/"
     },
+    {
+      name: "Ashwin Saxena",
+      role: "Software Developer",
+      linkedin: "https://www.linkedin.com/in/ashwinsax/"
+    },
   ],
   alumni: [
     {

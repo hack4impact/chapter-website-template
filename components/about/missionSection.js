@@ -35,7 +35,7 @@ const MissionSection = () => (
               <img
                 alttext="Fall 2018 team photo"
                 style={props}
-                src="/static/images/sp19-team.jpg"
+                src="/static/images/fa19-team.jpg"
                 className="shadow"
                 id="mission-team"
               />

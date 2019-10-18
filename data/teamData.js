@@ -47,11 +47,6 @@ export default {
       linkedin: "https://www.linkedin.com/in/alan-fang/"
     },
     {
-      name: "Shreyas Mohan",
-      role: "Product Manager",
-      linkedin: "https://www.linkedin.com/in/shreyasmohan/"
-    },
-    {
       name: "Aryn Harmon",
       role: "Tech Lead",
       linkedin: "https://www.linkedin.com/in/aryn/"
@@ -75,6 +70,16 @@ export default {
       name: "Megha Mallya",
       role: "Tech Lead",
       linkedin: "https://www.linkedin.com/in/megha-mallya/"
+    },
+    {
+      name: "Shreyas Mohan",
+      role: "Academy Lead",
+      linkedin: "https://www.linkedin.com/in/shreyasmohan/"
+    },
+    {
+      name: "Utkarsh Awasthi",
+      role: "Academy Lead",
+      linkedin: "https://www.linkedin.com/in/navamawasthi/"
     },
     {
       name: "Phillip Kuo",
@@ -151,11 +156,6 @@ export default {
       linkedin: "https://www.linkedin.com/in/rebeccaxun/"
     },
     {
-      name: "Utkarsh Awasthi",
-      role: "Software Developer",
-      linkedin: "https://www.linkedin.com/in/navamawasthi/"
-    },
-    {
       name: "Lam Tran",
       role: "Software Developer",
       linkedin: "https://www.linkedin.com/in/lamgtran/"
@@ -215,6 +215,22 @@ export default {
       role: "Software Developer",
       linkedin: "https://www.linkedin.com/in/ashwinsax/"
     },
+    {
+      name: "Yousef Ahmed",
+      role: "Software Developer",
+      linkedin: "http://www.linkedin.com/in/yousef-a/"
+    },
+    {
+      name: "Yousef Ahmed",
+      role: "Software Developer",
+      linkedin: "http://www.linkedin.com/in/yousef-a/"
+    },
+    {
+      name: "Matthew Walowski",
+      role: "Software Developer",
+      linkedin: "http://www.linkedin.com/in/matthew-walowski/"
+    },
+    
   ],
   alumni: [
     {

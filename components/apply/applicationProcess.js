@@ -10,6 +10,9 @@ const ApplicationProcess = ({ closed, processes, closedText, titleDetail }) => (
           <h3 className="text-center project-detail-title">
             Application Process
           </h3>
+          <p className="text-center">
+            Applications are currently closed!
+          </p>
         </div>
       </Row>
 

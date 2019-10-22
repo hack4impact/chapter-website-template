@@ -14,10 +14,10 @@ const currentSemester = "Fall 2019";
 const nextSemester = "Spring 2020";
 
 // dates
-const infoSessionDate = "Thu Aug 29, 2019 6-7PM";
-const applicationDueDate = "Monday Sept 2, 2019";
-const applicationDueTime = "11:59 p.m.";
-const firstRoundInterviewDate = "Thursday Sept 5, 2019";
+const infoSessionDate = ""; //Thu Aug 29, 2019 6-7PM
+const applicationDueDate = ""; //Monday Sept 2, 2019
+const applicationDueTime = ""; //11:59 p.m.
+const firstRoundInterviewDate = ""; //Thursday Sept 5, 2019
 const secondRoundInterviewDate = "";
 const socialRoundDate = "";
 const takeHomeExerciseDate = "";
@@ -140,7 +140,7 @@ const studentProcess = [
           and get to know each other!
         </p>
         <p>
-          <b className="pt-2"> 6PM - 7PM @ Noyes 100</b>
+          <b className="pt-2"></b>
         </p>
         {/* <p>
           More details at our{" "}
@@ -158,10 +158,13 @@ const studentProcess = [
     detail: (
       <>
         <p>
-          Fill out our online application before {applicationDueTime} on{" "}
-          <b>{applicationDueDate}</b>! To give yourself the best shot, be sure
+          Fill out our online application! To give yourself the best shot, be sure
           to start early and fill this out as soon as possible.
         </p>
+        {/*
+        before {applicationDueTime} on{" "}
+          <b>{applicationDueDate}
+        */}
         <ActionButton
           style={{ display: "block", marginTop: "10px" }}
           text="Apply Now"

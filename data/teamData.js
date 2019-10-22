@@ -221,11 +221,6 @@ export default {
       linkedin: "http://www.linkedin.com/in/yousef-a/"
     },
     {
-      name: "Yousef Ahmed",
-      role: "Software Developer",
-      linkedin: "http://www.linkedin.com/in/yousef-a/"
-    },
-    {
       name: "Matthew Walowski",
       role: "Software Developer",
       linkedin: "http://www.linkedin.com/in/matthew-walowski/"

@@ -165,11 +165,11 @@ const studentProcess = [
         before {applicationDueTime} on{" "}
           <b>{applicationDueDate}
         */}
-        <ActionButton
+        {/* <ActionButton
           style={{ display: "block", marginTop: "10px" }}
           text="Apply Now"
           link={applicationLink}
-        />
+        /> */}
       </>
     ),
     icon: <Contract />,

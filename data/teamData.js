@@ -37,11 +37,6 @@ export default {
       linkedin: "https://www.linkedin.com/in/arpanlaha/"
     },
     {
-      name: "Aryn Harmon",
-      role: "Tech Lead",
-      linkedin: "https://www.linkedin.com/in/aryn/"
-    },
-    {
       name: "Betty Shen",
       role: "Product Manager",
       linkedin: "https://www.linkedin.com/in/cybettyshen/"
@@ -50,6 +45,11 @@ export default {
       name: "Alan Fang",
       role: "Product Manager",
       linkedin: "https://www.linkedin.com/in/alan-fang/"
+    },
+    {
+      name: "Aryn Harmon",
+      role: "Tech Lead",
+      linkedin: "https://www.linkedin.com/in/aryn/"
     },
     {
       name: "Josh Byster",
@@ -70,6 +70,16 @@ export default {
       name: "Megha Mallya",
       role: "Tech Lead",
       linkedin: "https://www.linkedin.com/in/megha-mallya/"
+    },
+    {
+      name: "Shreyas Mohan",
+      role: "Academy Lead",
+      linkedin: "https://www.linkedin.com/in/shreyasmohan/"
+    },
+    {
+      name: "Utkarsh Awasthi",
+      role: "Academy Lead",
+      linkedin: "https://www.linkedin.com/in/navamawasthi/"
     },
     {
       name: "Phillip Kuo",
@@ -146,11 +156,6 @@ export default {
       linkedin: "https://www.linkedin.com/in/rebeccaxun/"
     },
     {
-      name: "Utkarsh Awasthi",
-      role: "Software Developer",
-      linkedin: "https://www.linkedin.com/in/navamawasthi/"
-    },
-    {
       name: "Lam Tran",
       role: "Software Developer",
       linkedin: "https://www.linkedin.com/in/lamgtran/"
@@ -160,6 +165,67 @@ export default {
       role: "Software Developer",
       linkedin: "https://www.linkedin.com/in/prashant-pokhriyal-3a7b72132/"
     },
+    {
+      name: "Sabelle Huang",
+      role: "Software Developer",
+      linkedin: "https://www.linkedin.com/in/sabelle/"
+    },
+    {
+      name: "Tiffany Duong",
+      role: "Product Designer",
+      linkedin: "https://www.linkedin.com/in/tiffanytnduong/"
+    },
+    {
+      name: "Kendall Hester",
+      role: "Software Developer",
+      linkedin: "https://www.linkedin.com/in/kendall-hester-429591168/"
+    },
+    {
+      name: "Lauren Ho",
+      role: "Software Developer",
+      linkedin: null
+    },
+    {
+      name: "Gene Wang",
+      role: "Software Developer",
+      linkedin: "https://www.linkedin.com/in/genewang0/"
+    },
+    {
+      name: "Evan Eckels",
+      role: "Product Designer",
+      linkedin: "https://www.linkedin.com/in/evaneckels/"
+    },
+    {
+      name: "Angela Luo",
+      role: "Software Developer",
+      linkedin: "https://www.linkedin.com/in/angela-luo-566340191/"
+    },
+    {
+      name: "Brandon Wang",
+      role: "Software Developer",
+      linkedin: "http://linkedin.com/in/brandonw4/"
+    },
+    {
+      name: "Sahithi Muthyala",
+      role: "Software Developer",
+      linkedin: "http://linkedin.com/in/sahithimuthyala/"
+    },
+    {
+      name: "Ashwin Saxena",
+      role: "Software Developer",
+      linkedin: "https://www.linkedin.com/in/ashwinsax/"
+    },
+    {
+      name: "Yousef Ahmed",
+      role: "Software Developer",
+      linkedin: "http://www.linkedin.com/in/yousef-a/"
+    },
+    {
+      name: "Matthew Walowski",
+      role: "Software Developer",
+      linkedin: "http://www.linkedin.com/in/matthew-walowski/"
+    },
+    
   ],
   alumni: [
     {
@@ -206,11 +272,6 @@ export default {
       name: "Josh Burke",
       role: "Product Manager",
       linkedin: "https://www.linkedin.com/in/josh-burke/"
-    },
-    {
-      name: "Shreyas Mohan",
-      role: "Product Manager",
-      linkedin: "https://www.linkedin.com/in/shreyasmohan/"
     },
     {
       name: "Aria Malkani",

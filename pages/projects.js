@@ -44,6 +44,8 @@ class Projects extends Component {
                 continue to be used for years to come."
             buttonText="Our Github"
             buttonLink="https://github.com/hack4impact-uiuc"
+            isLeftButtonDisplayed={true}
+            isRightButtonDisplayed={true}
           />
           <ProjectList />
           <ProjectExplore />

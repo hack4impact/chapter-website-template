@@ -12,7 +12,7 @@ export default () => (
       <Row>
         <div className="col-md-12">
           <p>
-            We currently support Web based and data science projects but we are
+            We currently support web based and data science projects but we are
             open to other different types of projects. Historically, we’ve found
             that the impact we can make, the amount we can learn, and the time
             and effort needed to build these kinds of projects fit well with our

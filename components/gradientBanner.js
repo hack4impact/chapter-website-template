@@ -11,7 +11,9 @@ const GradientBanner = ({
   color,
   arrow,
   minorButtonText,
-  minorButtonLink
+  minorButtonLink,
+  isLeftButtonDisplayed,
+  isRightButtonDisplayed
 }) => (
   <div>
     <section className="banner-section" style={style}>
@@ -51,10 +53,12 @@ const GradientBanner = ({
                 to={{ opacity: 100, transform: "translate3d(0,0px,0)" }}
               >
                 {props => (
+                isLeftButtonDisplayed ? (
                   <div style={props} className="d-inline">
                     <ActionButton text={buttonText} link={buttonLink} white />
                   </div>
-                )}
+                ) : null
+              )}
               </Spring>
             ) : null}
             {minorButtonText !== undefined ? (
@@ -64,13 +68,15 @@ const GradientBanner = ({
                 to={{ opacity: 100, transform: "translate3d(0,0px,0)" }}
               >
                 {props => (
+                isRightButtonDisplayed ? (
                   <div style={props} className="d-inline ml-3">
                     <ActionButton
                       text={minorButtonText}
                       link={minorButtonLink}
                     />
                   </div>
-                )}
+                ) : null
+              )}
               </Spring>
             ) : null}
           </Col>

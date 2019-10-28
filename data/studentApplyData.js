@@ -165,11 +165,11 @@ const studentProcess = [
         before {applicationDueTime} on{" "}
           <b>{applicationDueDate}
         */}
-        <ActionButton
+        {/* <ActionButton
           style={{ display: "block", marginTop: "10px" }}
           text="Apply Now"
           link={applicationLink}
-        />
+        /> */}
       </>
     ),
     icon: <Contract />,
@@ -207,9 +207,8 @@ const studentProcess = [
 
 const closedText = (
   <b>
-    Our current application period for {currentSemester} has closed! Our next
-    application period will begin next semester, {nextSemester}. Stop by then
-    for more information!
+    Our current application period for {currentSemester} has closed! Stop by
+    our website in the future to view updated information about the next application period!
   </b>
 );
 export default {

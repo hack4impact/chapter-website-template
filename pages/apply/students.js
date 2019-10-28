@@ -38,6 +38,7 @@ class Students extends Component {
           isRightButtonDisplayed={true}
         />
         <ApplicationProcess
+          closed={true}
           closedText={data.closedText}
           processes={data.studentProcess}
           titleDetail={data.applicationDetail}

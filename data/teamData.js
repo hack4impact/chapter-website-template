@@ -225,6 +225,11 @@ export default {
       role: "Software Developer",
       linkedin: "http://www.linkedin.com/in/matthew-walowski/"
     },
+    {
+      name: "Ashank Behara",
+      role: "Software Developer",
+      linkedin: "https://www.linkedin.com/in/ashankbehara/"
+    },
     
   ],
   alumni: [

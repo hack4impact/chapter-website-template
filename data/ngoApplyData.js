@@ -106,15 +106,15 @@ export default {
           <a href="https://h4i-project-timeline-qonwikgcqk.now.sh">here.</a>
           <br/>
           <br/>
-          In most cases, projects and development will span one semester, after which
+          Traditionally, projects and development will span one semester, after which
           our team will transfer ownership of the repository and any additional resources 
           created during the development process. More recently, however, some projects have 
           spanned the course of an entire year in an effort to ensure quality and impact. 
-          The development process follows the same structure in these cases, where a 
+          The development process follows the exact same structure in these cases, where a 
           fully functional prototype is completed after one semester. However, these projects 
           continue by gathering feedback during the next semester and iterating on the 
           prototype to ensure that we're creating the most impactful and useful product for our 
-          clients.
+          clients. The length of the project is discussed and agreed upon from both parties before official development.
         </>
       )
     },
@@ -126,7 +126,7 @@ export default {
     {
       question: "Is there a development fee?",
       answer:
-        "We typically charge a fee of $1,000 per semester to our clients for any work that we do. As a student-led nonprofit building products for other nonprofits, we typically incur costs from using services like Amazon AWS or other third-party APIs as we build our products. We also aim to develop our members professionally and foster a collaborative, passionate, and dedicated community by offering tech talks, networking events, and organization-wide retreats. Thus, the development fee mainly goes towards technology costs, professional development, and community events. However, we understand that nonprofits may have different financial circumstances and would be more than happy to reduce the fee or make accommodations on a need basis."
+        "We typically charge a fee of $1,000 per semester to our clients for any work that we do. As a student-led nonprofit building products for other nonprofits, we typically incur costs from using services like Amazon AWS or other third-party APIs as we build our products. We also aim to develop our members professionally and foster a collaborative, passionate, and dedicated community by offering tech talks, networking events, and organization-wide retreats. Thus, the development fee mainly goes towards technology costs, professional development, and community events. However, we understand that nonprofits may have different financial circumstances and are open to making accommodations on a case by case basis."
     },
     {
       question: "How can I maximize my chances of working with Hack4Impact?",

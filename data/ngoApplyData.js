@@ -6,7 +6,7 @@ import Link from "next/link";
 
 // constants that will affect links in the nonprofit application page
 const applicationLink =
-  "https://docs.google.com/forms/d/e/1FAIpQLScPK_Xj27DzZqlX44qaGk-ecuTM3Zs8T7iQgcE4NtCqgjSbgg/viewform";
+  "https://forms.gle/jaEsJHkBtzn9M5jt7";
 const interestFormLink =
   "https://docs.google.com/forms/u/1/d/e/1FAIpQLSeart7T-6sR61MXhdOfsN0n7oJ8ZThYeNjdqPnsLQLzLNKL2A/viewform";
 const projectAppExample =
@@ -28,38 +28,56 @@ export default {
   applicationLink: applicationLink,
   interestFormLink: interestFormLink,
   ngoProcess: [
+    // {
+    //   title: "Nonprofit Interest Form",
+    //   detail: (
+    //     <>
+    //       This is a short form to get to know your organization better and your
+    //       potential project ideas. It’ll help us get an initial sense of your
+    //       organization’s goals, needs, and expectations. <br />
+    //       <br />
+    //       This <a href={interestFormLink}> form </a>
+    //       is open throughout the year and shoot us an
+    //       <a href="mailto:uiuc@hack4impact.org"> email</a> after you've
+    //       submitted it!
+    //       <ActionButton
+    //         style={{ display: "block", marginTop: "10px" }}
+    //         text="Fill Out"
+    //         link={interestFormLink}
+    //       />
+    //     </>
+    //   ),
+    //   icon: <Contract />
+    // },
     {
-      title: "Nonprofit Interest Form",
+      title: "Initial Contact",
       detail: (
         <>
-          This is a short form to get to know your organization better and your
-          potential project ideas. It’ll help us get an initial sense of your
-          organization’s goals, needs, and expectations. <br />
-          <br />
-          This <a href={interestFormLink}> form </a>
-          is open throughout the year and shoot us an
-          <a href="mailto:uiuc@hack4impact.org"> email</a> after you've
-          submitted it!
-          <ActionButton
-            style={{ display: "block", marginTop: "10px" }}
-            text="Fill Out"
-            link={interestFormLink}
-          />
+          Reach out to our team via <a href="mailto:uiuc@hack4impact.org">email</a> to 
+          get started with the application process. We'd love to hear more about your organization 
+          and potential project ideas as it will help us get an initial sense of your organization's goals, 
+          needs, and expectations while you progress through the application process.
         </>
       ),
       icon: <Contract />
     },
     {
-      title: "Initial Call",
+      title: "Context",
       detail:
         "We will reach out shortly to schedule a call to dive deeper into your organization and project ideas, while also explaining more about what we do and our goals. Then, we will also work with you to define and clarify your project ideas.",
       icon: <Phone />
     },
     {
-      title: "Additional Calls",
+      title: "Scoping",
       detail:
-        "We may schedule additional calls to further tighten your project specifications.",
+        "We may schedule additional calls to further tighten your project specifications. With these additional meetings, we aim to narrow down your potential project ideas to a few that one of our project teams can feasibly accomplish and develop in one semester. We'll dive deep into specific ideas to gain a better understanding of the reasoning, value, and impact of the project, outline specifications for these ideas, and finalize a project that we believe align with your organization and our goals.",
       icon: <Phone />
+    },
+    {
+      title: "Ideation",
+      detail:
+        "We aim to create the most impactful product for your organization and ours. After finalizing a project that we would like to pursue throughout the semester, our team will work to create mockups, wireframes, and other prototypes and gather feedback from your organization. This way, our development teams can jump right in after ideation and build the best product that best serves your needs!",
+      icon: <Contract />
     },
     {
       title: "Project Application Due",

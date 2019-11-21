@@ -11,6 +11,7 @@ const interestFormLink =
   "https://docs.google.com/forms/u/1/d/e/1FAIpQLSeart7T-6sR61MXhdOfsN0n7oJ8ZThYeNjdqPnsLQLzLNKL2A/viewform";
 const projectAppExample =
   "https://docs.google.com/document/d/1SGG7gxu8lgWMOhxIULMSUZQa-4p0bLwrwDl4SAZW2lE/edit";
+const pitchbookLink = "https://h4i-pitchbook.now.sh/"
 
 // constants for dates
 const applicationDueDate = "September 1, 2019";

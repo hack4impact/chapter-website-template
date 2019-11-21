@@ -19,6 +19,11 @@ export default () => (
             constraints and goals.
           </p>
           <p>
+            To find out more about some of the projects that we've done in the past, 
+            feel free to look through our <a href="/projects">projects page</a> or our <a href="https://h4i-pitchbook.now.sh/">pitchbook</a>, 
+            which also has additional information pertaining to our project process and timeline.
+          </p>
+          <p>
             Please keep in mind that because one of our core focuses is on
             software engineering and developer education, our offerings
             currently do <i> not </i> include:

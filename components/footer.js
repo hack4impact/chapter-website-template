@@ -34,6 +34,11 @@ const Footer = () => (
                 <a>Sponsorship</a>
               </Link>
             </li>
+            <li>
+              <Link href="https://h4i-pitchbook.now.sh/">
+                <a>Pitchbook</a>
+              </Link>
+            </li>
           </ul>
         </div>
         <div className="col-md-2">

@@ -37,6 +37,8 @@ class NonProfits extends Component {
           subHeadline={data.subHeadline}
           buttonText="Apply Now"
           buttonLink={data.applicationLink}
+          minorButtonText="Learn More"
+          minorButtonLink={data.pitchbookLink}
           isLeftButtonDisplayed={true}
           isRightButtonDisplayed={true}
         />

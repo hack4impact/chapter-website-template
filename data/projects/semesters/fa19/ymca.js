@@ -36,7 +36,7 @@ const features = [
     imgPath: "/static/images/projects/ymca/customize.png"
   },
   {
-    title: "View resource details",
+    title: "View Resource Details",
     detail:
       "Gain reliable access to information such as required documents and recommended contacts for service providers in the community.",
     imgPath: "/static/images/projects/ymca/view.png"

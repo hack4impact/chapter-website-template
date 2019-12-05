@@ -8,30 +8,17 @@ const clientDetail =
 const clientLink =
   "https://www.communityconnectlabs.com";
 const previousLink = null;
-const clientFeatures = [
-  {
-    title: "Students that don't feel safe",
-    detail: "93.9%"
-  },
-  {
-    title: "Never used Safewalks/Saferides",
-    detail: "77.6%"
-  },
-  {
-    title: "Ranks UIUC's safety below 3",
-    detail: "45%"
-  }
-];
+const clientFeatures = null;
 const problem =
   "The main pain point is that although the Census provides tons of data about response rates, not many conclusions can be drawn from it due to the lack of resources CCL has. They are limited to a small subset of responses (17.5k) out of the 300+ million people living in the United States today. CCL would be able to provide their clients much more reliable response data if they can parse this multitude of data into a readable and understandable display. In addition, even if the data is parsed correctly, there is no easy way for CCL or their clients to compare the data they are getting for each tract. When a census or survey planner is determining which resources to allocate where, they need to be able to have a “summary view” of all of the places they are concerned with.";
-const problemImagePath = "/static/images/projects/c2tc-2/c2tc-2-cover.jpg";
+const problemImagePath = "/static/images/projects/ccl/problem.jpeg";
 const solution =
-  "We want to educate students about what’s around them. If we give them the information they need about what’s around campus, they will be better prepared to make decisions on how they should get home. From our research, we discovered that many students value knowing about where emergency phones, open businesses, lighting, past crimes, and other people are. For the app, we focused on giving students information about open businesses, emergency phones, police stations, street lights, bus stops, and past crimes are. ";
-const solutionImagePath = "/static/images/projects/question.jpg";
+  "We are creating a publicly available tool with an easily understandable geospatial visualization interface that provides analysis of the large census dataset to increase CCL’s response rate. CCL’s clients should be able to use this tool to make calculated judgments about a tract’s response rate when putting demographics, historical data, and location. They should also be able to make conclusions about a tract’s response rate in the future based on trends in historical data.";
+const solutionImagePath = "/static/images/projects/ccl/solution.jpg";
 const features = null;
 
 const featureImgSize = "4";
-const techStack = ["reactnative", "flask", "mongodb"];
+const techStack = ["react", "flask", "mongodb", "mapbox"];
 const quote = null;
 const quoteSource = null;
 const quoteSourceTitle = null;

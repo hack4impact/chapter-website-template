@@ -1,7 +1,7 @@
 // Data for the Fa19 YMCA Project
 const name = "YMCA New American Welcome Center";
 const id = "ymca";
-const detail = "How might reduce barriers to reliable information for Champaign’s resources?";
+const detail = "How might we reduce barriers to reliable information for Champaign’s resources?";
 const coverImagePath = "/static/images/projects/ymca/cover.png";
 const clientDetail =
   "The New American Welcome Center at the University Y helps immigrants fully integrate into American society and prepares receiving communities around Champaign County to be welcoming and inclusive. By engaging local institutions and mobilizing community resources, we help make our community a place where newcomers and immigrants can thrive and flourish.";

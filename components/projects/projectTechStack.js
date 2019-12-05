@@ -113,7 +113,12 @@ const techStackMasterList = {
     link: "https://expressjs.com",
     title: "ExpressJS",
     imgPath: "/static/images/techStack/express.png"
-  }
+  },
+  mapbox: {
+    link: "https://www.mapbox.com",
+    title: "Mapbox",
+    imgPath: "/static/images/techStack/mapbox.png"
+  },
 };
 
 const ProjectTechStack = ({ techStack }) =>

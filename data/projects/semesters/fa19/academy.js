@@ -29,7 +29,7 @@ const features = [
 ];
 
 const featureImgSize = "7";
-const techStack = ["react", "mongodb"];
+const techStack = ["react", "flask", "mongodb"];
 const quote = null;
 const quoteSource = null;
 const quoteSourceTitle = null;

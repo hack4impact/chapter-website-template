@@ -2,7 +2,7 @@
 const name = "CommunityConnect Labs";
 const id = "ccl";
 const detail = "How might we help parse the census data to provide the nonprofit with much more reliable response data to showcase to their clients?";
-const coverImagePath = "/static/images/projects/c2tc-2/c2tc-2-cover.jpg";
+const coverImagePath = "/static/images/projects/ccl/cover.jpg";
 const clientDetail =
   "CommunityConnect Labs is a nonprofit that seeks to help nonprofits and local governments and municipalities communicate with hard-to-reach populations of their audiences. In particular, they take advantage of the fact that 90% of people have a mobile phone, where 95% of texts are read within 3 minutes of sending. This not only increases the likelihood of someone responding to a survey, but also utilizes a much more approachable format for gathering user data.";
 const clientLink =

@@ -1,56 +1,37 @@
 // Data for the Fa19 YMCA Project
 const name = "Life After Hate";
 const id = "lah";
-const detail = "How might we reduce barriers to reliable information for Champaign’s resources?";
-const coverImagePath = "/static/images/projects/ymca/cover.png";
+const detail = "How might we build a centralized platform that allows for more efficient lookup and storage of ExitUSA™ program resources?";
+const coverImagePath = "/static/images/projects/lah/cover.jpeg";
 const clientDetail =
-  "The New American Welcome Center at the University Y helps immigrants fully integrate into American society and prepares receiving communities around Champaign County to be welcoming and inclusive. By engaging local institutions and mobilizing community resources, we help make our community a place where newcomers and immigrants can thrive and flourish.";
+  "Founded and run by former hate group members who have led successful post-movement lives, ExitUSA™ provides support to individuals who are looking to leave racism and violence behind. The organization uses a variety of strategies, including public awareness campaigns, individualized education and job training programs, and leveraging strategic community partnerships to help individuals get their lives back on track and on their way to making positive contributions to society.";
 const clientLink =
-  "https://universityymca.org/welcome/";
+  "https://www.lifeafterhate.org";
 const previousLink = null;
 const clientFeatures = [
   {
-    title: "Number of immigrants in Champaign",
-    detail: "24,000"
+    title: "Number of Supporters",
+    detail: "30K+"
   },
   {
-    title: "Number of countries",
-    detail: "80"
+    title: "Men and Women helped",
+    detail: "150+"
   },
   {
-    title: "Resources available",
-    detail: "100+"
+    title: "Formers Actively Involved",
+    detail: "50+"
   }
 ];
 const problem =
-  "Currently, valuable information about Champaign’s resources are scattered and difficult to find. This decentralization is creating an information gap preventing newcomers from reliably accessing resources that they need the most. YMCA has taken steps to centralize this information1, but it remains largely inaccessible due to language limitations and other barriers.";
+  "Often, LAH members and ExitUSA™ volunteers receive resource requests for specific services from service recipients. These requests can range from mental health support to tattoo removal to housing services. Resources are stored in individual staff emails, in LAH’s online ticketing system Supportbee, and in Smartsheets; therefore, when a referral needs to be made or a crisis occurs with an existing or new service recipient, they can lose precious time trying to track down resources. These referrals can take as long as days, and in time-sensitive scenarios LAH loses the ability to provide the logistical support that ExitUSA™ service recipients need.";
 const problemImagePath = "/static/images/projects/ymca/problem.jpg";
 const solution =
-  "Our team has partnered with the YMCA New American Welcome Center (NAWC) to build a centralized virtual resource hub aimed to equalize and promote information access to vital community resources. This product will allow immigrants to independently access resources according to their personal needs, and also enable NAWC and other local organizations to better serve the community through more informed recommendations.";
+  "We’re trying to build a centralized platform that allows for more efficient lookup and storage of ExitUSA™ program resources. Resources include contact information, vetting documentation, location (i.e which of the 10 standard federal regions they are located, address, state, county, and city), industry, description with any prior contact, link to website as applicable, year relationship established, and Life After Hate point of contact. Staff need a centralized location with all necessary information to assure they can quickly access needed details when conducting case management and face-to-face interventions. Data needs to be secured and location-restricted with account privileges such that only staff and volunteers can access resource data relevant to their needs.";
 const solutionImagePath = "/static/images/projects/ymca/solution.jpg";
-const features = [
-  {
-    title: "Filter Data",
-    detail:
-      "Tailor filters based on lifestyle needs including cost preference, languages offered, and location.",
-    imgPath: "/static/images/projects/ymca/customize.png"
-  },
-  {
-    title: "View Resource Details",
-    detail:
-      "Gain reliable access to information such as required documents and recommended contacts for service providers in the community.",
-    imgPath: "/static/images/projects/ymca/view.png"
-  },
-  {
-    title: "Upload New Resources",
-    detail:
-      "Administrator users can build on the resource base by editing existing and uploading new community resources.",
-    imgPath: "/static/images/projects/ymca/upload.png"
-  }
-];
+const features = null;
 
 const featureImgSize = "7";
-const techStack = ["react", "express", "mongodb"];
+const techStack = ["react", "nodejs", "mongodb"];
 const quote = null;
 const quoteSource = null;
 const quoteSourceTitle = null;
@@ -59,40 +40,36 @@ const team = {
   type: "pics",
   detail: [
     {
-      name: "Annie Wu",
+      name: "Alan Fang",
       role: "Product Manager"
     },
     {
-      name: "Neeraj Aggarwal",
+      name: "Josh Byster",
       role: "Tech Lead"
     },
     {
-      name: "Skyler Shi",
+      name: "Lauren Ho",
       role: "Software Developer"
     },
     {
-      name: "Jacqueline Osborn",
+      name: "Albert Cao",
       role: "Software Developer"
     },
     {
-      name: "Kendall Hester",
+      name: "Alice Fang",
       role: "Software Developer"
     },
     {
-      name: "Anooj Lal",
+      name: "Gene Wang",
       role: "Software Developer"
     },
     {
-        name: "Ashwin Saxena",
+        name: "Rebecca Xun",
         role: "Software Developer"
     },
     {
-      name: "Chloe Chan",
+      name: "Evan Eckels",
       role: "Product Designer"
-    },
-    {
-        name: "Tiffany Duong",
-        role: "Product Researcher"
     },
   ]
 };

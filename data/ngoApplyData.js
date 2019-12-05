@@ -70,13 +70,13 @@ export default {
     {
       title: "Scoping",
       detail:
-        "We may schedule additional calls to further tighten your project specifications. With these additional meetings, we aim to narrow down your potential project ideas to a few that one of our project teams can feasibly accomplish and develop in one semester. We'll dive deep into specific ideas to gain a better understanding of the reasoning, value, and impact of the project, outline specifications for these ideas, and finalize a project that we believe align with your organization and our goals.",
+        "We may schedule additional calls to further tighten your project specifications. With these additional meetings, we aim to dive deep into your specific ideas to gain a better understanding of the reasoning, value, and impact of these potential projects, outline specifications for these ideas, and narrow them down to a few that we believe we can reasonably accomplish with our development timeline and that align with your organization and our goals.",
       icon: <Phone />
     },
     {
       title: "Ideation",
       detail:
-        "We aim to create the most impactful product for your organization and ours. After finalizing a project that we would like to pursue throughout the semester, our team will work to create mockups, wireframes, and other prototypes and gather feedback from your organization. This way, our development teams can jump right in after ideation and build the best product that best serves your needs!",
+        "We aim to create the most impactful product for your organization and ours. After narrowing down your ideas to a few that we would like to pursue further, our team will continue to work with your organization to gather additional insight through discovering pain points, conducting user research, and incorporating other feedback from your organization. This way, our development teams can jump right in after ideation and build the best product that serves your needs!",
       icon: <Contract />
     },
     {

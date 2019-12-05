@@ -35,7 +35,7 @@ const techStack = ["react", "nodejs", "mongodb"];
 const quote = null;
 const quoteSource = null;
 const quoteSourceTitle = null;
-const githubLink = "https://github.com/hack4impact-uiuc/ymca";
+const githubLink = "https://github.com/hack4impact-uiuc/life-after-hate";
 const team = {
   type: "pics",
   detail: [

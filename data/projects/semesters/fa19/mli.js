@@ -2,7 +2,7 @@
 const name = "Dr.Mehta's Lab at UIC";
 const id = "mli";
 const detail = "How might we create an algorithm that denoises x-ray images and allow for the research lab to better diagnose patients?";
-const coverImagePath = "/static/images/projects/mli/cover.png";
+const coverImagePath = "/static/images/projects/mli/cover.PNG";
 const clientDetail =
   "Dr. Ankit I. Mehta’s lab at the University of Illinois at Chicago (UIC MLI) specializes in “the surgical treatment of complex spinal conditions including tumors, degenerative and spine diseases”, among which are corrective surgeries which require screws to be placed in patients’ spines to help correct vertebrae alignment. X-rays are taken at the location of any inserted screws at two occasions - one relatively closer to the operation and another later on - so that movement in screws and/or vertebrae can be monitored over time. At each time, two x-rays are taken: one from the patient’s side (lateral view) and another from the back (AP view). In addition to verifying operation success, the “post” x-rays can help diagnose spinal issues that may have occurred as a result of an operation, such as pseudarthrosis.";
 const clientLink =
@@ -22,7 +22,7 @@ const techStack = ["python"];
 const quote = null;
 const quoteSource = null;
 const quoteSourceTitle = null;
-const githubLink = "https://github.com/hack4impact-uiuc/life-after-hate";
+const githubLink = "https://github.com/hack4impact-uiuc/mli-client";
 const team = {
   type: "pics",
   detail: [

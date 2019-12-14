@@ -76,7 +76,7 @@ export default {
     {
       title: "Ideation",
       detail:
-        "We aim to create the most impactful product for your organization and ours. After narrowing down your ideas to a few that we would like to pursue further, our team will continue to work with your organization to gather additional insight through discovering pain points, conducting user research, and incorporating other feedback from your organization. This way, our development teams can jump right in after ideation and build the best product that serves your needs!",
+        "We aim to create the most impactful product for your organization and ours. Our team will continue to work with your organization to gather additional insight through discovering pain points, conducting user research, and incorporating other feedback from your organization. This way, our development teams can jump right in after ideation and build the best product that serves your needs!",
       icon: <Contract />
     },
     {

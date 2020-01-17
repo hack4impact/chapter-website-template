@@ -6,17 +6,18 @@ import Contract from "../static/icons/contract.svg";
 import Education from "../static/icons/education.svg";
 
 // constants that will affect links in the student application page
+// NOTE: This is the product designer application from sp20 semester. 
 const applicationLink =
-  "https://docs.google.com/forms/d/e/1FAIpQLSeyE44_aHt_DOIBu2n0Uk3H_u-_BT2N7sE4rIqpcifUQBz3qQ/viewform";
+  "https://forms.gle/AUrm29Zy29oBDAgF6";
 
 // current stuff
-const currentSemester = "Fall 2019";
-const nextSemester = "Spring 2020";
+const currentSemester = "Spring 2020";
+const nextSemester = "Fall 2020";
 
 // dates
 const infoSessionDate = ""; //Thu Aug 29, 2019 6-7PM
-const applicationDueDate = ""; //Monday Sept 2, 2019
-const applicationDueTime = ""; //11:59 p.m.
+const applicationDueDate = "Saturday, January 25"; //Monday Sept 2, 2019
+const applicationDueTime = "3:00 PM CST"; //11:59 p.m.
 const firstRoundInterviewDate = ""; //Thursday Sept 5, 2019
 const secondRoundInterviewDate = "";
 const socialRoundDate = "";
@@ -161,15 +162,13 @@ const studentProcess = [
           Fill out our online application! To give yourself the best shot, be sure
           to start early and fill this out as soon as possible.
         </p>
-        {/*
         before {applicationDueTime} on{" "}
-          <b>{applicationDueDate}
-        */}
-        {/* <ActionButton
+          <b>{applicationDueDate}</b>
+        {<ActionButton
           style={{ display: "block", marginTop: "10px" }}
           text="Apply Now"
           link={applicationLink}
-        /> */}
+        />}
       </>
     ),
     icon: <Contract />,
@@ -207,8 +206,8 @@ const studentProcess = [
 
 const closedText = (
   <b>
-    Our current application period for {currentSemester} has closed! Stop by
-    our website in the future to view updated information about the next application period!
+    Our current application period for {currentSemester} is currently open! We are only accepting Product Designers for the Spring semester.
+    For those that are interested in software development, stop by our website in the future to view updated information about the next application period!
   </b>
 );
 export default {

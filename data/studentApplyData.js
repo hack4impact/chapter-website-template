@@ -124,36 +124,36 @@ const faq = [
 const applicationDetail = "";
 
 const studentProcess = [
-  {
-    title: (
-      <>
-        {/* <a href="https://www.facebook.com/events/783414215343789">
-          Info Session
-        </a> */}
-        Info Session
-      </>
-    ),
-    detail: (
-      <>
-        <p>
-          Be sure to come out to our Info Session to get an idea of who we are,
-          what we do, and the impact Hack4Impact has. We hope to see you there
-          and get to know each other!
-        </p>
-        <p>
-          <b className="pt-2"></b>
-        </p>
-        {/* <p>
-          More details at our{" "}
-          <a href="https://www.facebook.com/events/783414215343789">
-            Facebook Event!
-          </a>{" "}
-        </p> */}
-      </>
-    ),
-    icon: <Calendar />,
-    date: infoSessionDate
-  },
+  // {
+  //   title: (
+  //     <>
+  //       {/* <a href="https://www.facebook.com/events/783414215343789">
+  //         Info Session
+  //       </a> */}
+  //       Info Session
+  //     </>
+  //   ),
+  //   detail: (
+  //     <>
+  //       <p>
+  //         Be sure to come out to our Info Session to get an idea of who we are,
+  //         what we do, and the impact Hack4Impact has. We hope to see you there
+  //         and get to know each other!
+  //       </p>
+  //       <p>
+  //         <b className="pt-2"></b>
+  //       </p>
+  //       {/* <p>
+  //         More details at our{" "}
+  //         <a href="https://www.facebook.com/events/783414215343789">
+  //           Facebook Event!
+  //         </a>{" "}
+  //       </p> */}
+  //     </>
+  //   ),
+  //   icon: <Calendar />,
+  //   date: infoSessionDate
+  // },
   {
     title: "Applications",
     detail: (
@@ -174,41 +174,48 @@ const studentProcess = [
     icon: <Contract />,
     date: `${applicationDueDate} ${applicationDueTime}`
   },
-  {
-    title: "First Round Interviews",
-    detail:
-      "Hack4Impact looks for students who are hungry to learn, excellent teammates, and are passionate for tech and social impact. Our first round behavioral interviews will be 20 minutes long and you will get meet a couple of our members.",
-    icon: <Interview />,
-    date: firstRoundInterviewDate
-  },
-  {
-    title: "Second Round Interviews",
-    detail:
-      "This will be a 30 minute interview with two of our members and answer technical questions. We encourage discussion throughout the interview and you’ll have an opportunity to ask questions to learn more about us.",
-    icon: <Interview />,
-    date: secondRoundInterviewDate
-  },
-  {
-    title: "Social Round",
-    detail:
-      "Our Social Night will be a fun opportunity for us to get to know each other in a more casual setting. Be your authentic self!",
-    icon: <Interview />,
-    date: socialRoundDate
-  },
+  // {
+  //   title: "First Round Interviews",
+  //   detail:
+  //     "Hack4Impact looks for students who are hungry to learn, excellent teammates, and are passionate for tech and social impact. Our first round behavioral interviews will be 20 minutes long and you will get meet a couple of our members.",
+  //   icon: <Interview />,
+  //   date: firstRoundInterviewDate
+  // },
+  // {
+  //   title: "Second Round Interviews",
+  //   detail:
+  //     "This will be a 30 minute interview with two of our members and answer technical questions. We encourage discussion throughout the interview and you’ll have an opportunity to ask questions to learn more about us.",
+  //   icon: <Interview />,
+  //   date: secondRoundInterviewDate
+  // },
+  // {
+  //   title: "Social Round",
+  //   detail:
+  //     "Our Social Night will be a fun opportunity for us to get to know each other in a more casual setting. Be your authentic self!",
+  //   icon: <Interview />,
+  //   date: socialRoundDate
+  // },
   {
     title: "Take Home Exercise",
     detail:
-      "A small, take home project that requires no prior experience to complete, and is designed to expose you to the technologies that we use. More instructions will be provided then.",
+      "A small, take home project designed to expose you to the tasks and technologies you will encounter while working with your project teams. More instructions will be provided then.",
     icon: <Contract />,
     date: takeHomeExerciseDate
+  },
+  {
+    title: "Interviews",
+    detail:
+      "Hack4Impact looks for students who are hungry to learn, excellent teammates, and are passionate for tech and social impact. Our interviews will be 1 hour long and you will get meet a couple of our members.",
+    icon: <Interview />,
+    date: firstRoundInterviewDate
   }
 ];
 
 const closedText = (
-  <b>
-    Our current application period for {currentSemester} is currently open! We are only accepting Product Designers for the Spring semester.
+  <p>
+    <b><em>Our current application period for {currentSemester} is currently open.</em></b> We are <b><em>only accepting Product Designers</em></b> for the Spring semester.
     For those that are interested in software development, stop by our website in the future to view updated information about the next application period!
-  </b>
+  </p>
 );
 export default {
   title: "Students",

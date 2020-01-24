@@ -1,18 +1,17 @@
 export default {
   directors: [
     {
-      name: "Angad Garg",
-      year: "'20",
-      quote:
-        "Hack4Impact has given me the opportunity to apply my skills towards important causes while improving myself at the same time. I hope to help others experience this personal growth, see the impact their work can have, and collaborate with other people who care just as much. ",
-      linkedin: "https://www.linkedin.com/in/angad-garg/"
-    },
-    {
       name: "Roy Chiu",
       year: "'20",
       quote:
-        "I joined Hack4Impact because I wanted to work on impactful products with like-minded, dedicated, and talented people. I hope to give others the same opportunities to work on projects they love with people they love through Hack4Impact.",
+        "I joined Hack4Impact because I wanted to work on impactful products with like-minded, dedicated, and talented people. Hack4Impact not only gave me those experiences, but also pushed me to improve professionally and personally. I hope to give others the same opportunities to grow while working on projects they love with people they love through Hack4Impact.",
       linkedin: "https://www.linkedin.com/in/royguanchiu/"
+    },
+    {
+      name: "Annie Wu",
+      year: "'21",
+      quote: "Coming into Illinois, I had a narrow view of who I could become and what I could do. Hack4Impact really changed that for me. So grateful to learn with an amazing group of developers, designers, and all-around inspiring humans. Moving forward, I aspire to deepen our avenues for social impact and foster friendships that last beyond our short time here at Illinois. Can't wait to write Hack4Impact's story together with everyone!",
+      linkedin: "https://www.linkedin.com/in/anniewu701/"
     },
   ],
   team: [
@@ -25,11 +24,6 @@ export default {
       name: "Helena Chi",
       role: "Director of External Relations",
       linkedin: "https://www.linkedin.com/in/helena-chi-025331135/"
-    },
-    {
-      name: "Annie Wu",
-      role: "Product Manager",
-      linkedin: "https://www.linkedin.com/in/anniewu701/"
     },
     {
       name: "Arpan Laha",

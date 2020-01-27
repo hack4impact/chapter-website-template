@@ -46,6 +46,11 @@ export default {
       linkedin: "https://www.linkedin.com/in/rebeccaxun/"
     },
     {
+      name: "Neeraj Aggarwal",
+      role: "Product Manager",
+      linkedin: "https://www.linkedin.com/in/neeraj-aggarwal/"
+    },
+    {
       name: "Josh Byster",
       role: "Tech Lead",
       linkedin: "https://www.linkedin.com/in/joshbyster/"
@@ -54,11 +59,6 @@ export default {
       name: "Kelley Chau",
       role: "Tech Lead",
       linkedin: "https://www.linkedin.com/in/kelley-chau-838ab313b/"
-    },
-    {
-      name: "Neeraj Aggarwal",
-      role: "Tech Lead",
-      linkedin: "https://www.linkedin.com/in/neeraj-aggarwal/"
     },
     {
       name: "Utkarsh Awasthi",
@@ -106,9 +106,9 @@ export default {
       linkedin: "https://www.linkedin.com/in/aryn/"
     },
     {
-      name: "Megha Mallya",
+      name: "Daniel Choi",
       role: "Software Developer",
-      linkedin: "https://www.linkedin.com/in/megha-mallya/"
+      linkedin: "https://www.linkedin.com/in/choiboy98/"
     },
     {
       name: "Melody Felix",
@@ -238,13 +238,13 @@ export default {
       linkedin: "https://www.linkedin.com/in/davidalexchang/"
     },
     {
-      name: "Doris Zhao",
-      role: "Community Director"
+      name: "Angad Garg",
+      role: "Co-Director",
+      linkedin: "https://www.linkedin.com/in/angad-garg/"
     },
     {
-      name: "Daniel Choi",
-      role: "Director of External Relations",
-      linkedin: "https://www.linkedin.com/in/choiboy98/"
+      name: "Doris Zhao",
+      role: "Community Director"
     },
     {
       name: "Xuan Li",
@@ -275,6 +275,11 @@ export default {
       name: "Aria Malkani",
       role: "Tech Lead",
       linkedin: "https://www.linkedin.com/in/arshia-malkani-4b458010b/"
+    },
+    {
+      name: "Megha Mallya",
+      role: "Tech Lead",
+      linkedin: "https://www.linkedin.com/in/megha-mallya/"
     },
     {
       name: "Alan Ren",

@@ -101,6 +101,16 @@ export default {
       linkedin: "https://www.linkedin.com/in/tiffanytnduong/"
     },
     {
+      name: "Zayyan Faizal",
+      role: "Product Designer",
+      linkedin: "https://www.linkedin.com/in/zayyanfaizal/"
+    },
+    {
+      name: "Siraj Chokshi",
+      role: "Product Designer",
+      linkedin: "https://www.linkedin.com/in/sirajchokshi/"
+    },
+    {
       name: "Aryn Harmon",
       role: "Software Developer",
       linkedin: "https://www.linkedin.com/in/aryn/"
@@ -127,7 +137,8 @@ export default {
     },
     {
       name: "Michael Chen",
-      role: "Software Developer"
+      role: "Software Developer",
+      linkedin: "linkedin.com/in/mc578"
     },
     {
       name: "Alice Fang",

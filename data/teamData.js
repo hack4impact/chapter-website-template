@@ -111,6 +111,11 @@ export default {
       linkedin: "https://www.linkedin.com/in/sirajchokshi/"
     },
     {
+      name: "Anisha Rao",
+      role: "Product Designer",
+      linkedin: "https://www.linkedin.com/in/anisharao14/"
+    },
+    {
       name: "Aryn Harmon",
       role: "Software Developer",
       linkedin: "https://www.linkedin.com/in/aryn/"

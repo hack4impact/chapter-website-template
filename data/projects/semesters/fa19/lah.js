@@ -27,7 +27,7 @@ const problem =
 const problemImagePath = "/static/images/projects/ymca/problem.jpg";
 const solution =
   "We’re trying to build a centralized platform that allows for more efficient lookup and storage of ExitUSA™ program resources. Resources include contact information, vetting documentation, location (i.e which of the 10 standard federal regions they are located, address, state, county, and city), industry, description with any prior contact, link to website as applicable, year relationship established, and Life After Hate point of contact. Staff need a centralized location with all necessary information to assure they can quickly access needed details when conducting case management and face-to-face interventions. Data needs to be secured and location-restricted with account privileges such that only staff and volunteers can access resource data relevant to their needs.";
-const solutionImagePath = "/static/images/projects/ymca/solution.jpg";
+const solutionImagePath = "/static/images/projects/lah/lah-solution.png";
 const features = null;
 
 const featureImgSize = "7";

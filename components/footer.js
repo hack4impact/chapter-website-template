@@ -39,6 +39,11 @@ const Footer = () => (
                 <a>Pitchbook</a>
               </Link>
             </li>
+            <li>
+              <Link href="/design">
+                <a>Bridge Design System</a>
+              </Link>
+            </li>
           </ul>
         </div>
         <div className="col-md-2">

@@ -1,7 +1,7 @@
 import CCLData from "./ccl";
-import LAHData from "./lah";
+import LAHData from "../sp20/lah";
 import MLIDATA from "./mli";
-import YMCADATA from "./ymca";
+import YMCADATA from "../sp20/ymca.js";
 import AcademyData from "./academy";
 
 // Fa18 Project Data

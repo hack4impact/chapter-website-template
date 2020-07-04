@@ -1,6 +1,6 @@
-// Data for the Fa19 YMCA Project (SEMESTER ONE DATA NO LONGER IN USE, refer to SP20 YMCA for latest page)
+// Data for the Sp20 YMCA Project (Continuation of Fa19 YMCA Project)
 const name = "YMCA New American Welcome Center";
-const id = null;
+const id = "ymca";
 const detail = "How might we reduce barriers to reliable information for Champaign’s resources?";
 const coverImagePath = "/static/images/projects/ymca/cover.png";
 const clientDetail =
@@ -26,7 +26,7 @@ const problem =
   "Currently, valuable information about Champaign’s resources are scattered and difficult to find. This decentralization is creating an information gap preventing newcomers from reliably accessing resources that they need the most. YMCA has taken steps to centralize this information1, but it remains largely inaccessible due to language limitations and other barriers.";
 const problemImagePath = "/static/images/projects/ymca/problem.jpg";
 const solution =
-  "Our team has partnered with the YMCA New American Welcome Center (NAWC) to build a centralized virtual resource hub aimed to equalize and promote information access to vital community resources. This product will allow immigrants to independently access resources according to their personal needs, and also enable NAWC and other local organizations to better serve the community through more informed recommendations.";
+  "Our team has partnered with the YMCA New American Welcome Center (NAWC) to build a centralized virtual resource hub aimed to equalize and promote information access to vital community resources. This product will allow immigrants to independently access resources according to their personal needs, and also enable NAWC and other local organizations to better serve the community through more informed recommendations. In our second semester of a year-long partnership with the YMCA New American Welcome Center (NAWC), our team endeavored to add to the existing centralized virtual resource hub platform and truly create a user-friendly experience for immigrants seeking community resources and the organizations that serve them.";
 const solutionImagePath = "/static/images/projects/ymca/solution.jpg";
 const features = [
   {
@@ -46,6 +46,18 @@ const features = [
     detail:
       "Administrator users can build on the resource base by editing existing and uploading new community resources.",
     imgPath: "/static/images/projects/ymca/upload.png"
+  },
+  {
+    title: "Save Resources",
+    detail:
+      "Users can create accounts and save resources for quicker access.",
+    imgPath: "/static/images/projects/sp20/ymca/ymca-save-resources.png"
+  },
+  {
+    title: "Increased Admin Editing Abilities",
+    detail:
+      "Admins can edit the content of the home page along with that of the resources themselves.",
+    imgPath: "/static/images/projects/sp20/ymca/ymca-edit-home.png"
   }
 ];
 
@@ -59,41 +71,53 @@ const team = {
   type: "pics",
   detail: [
     {
-      name: "Annie Wu",
-      role: "Product Manager"
-    },
-    {
       name: "Neeraj Aggarwal",
-      role: "Tech Lead"
-    },
-    {
-      name: "Skyler Shi",
-      role: "Software Developer"
+      role: "Sp20 Product Manager & Fa19 Tech Lead"
     },
     {
       name: "Jacqueline Osborn",
-      role: "Software Developer"
+      role: "Sp20 Tech Lead & Fa19 Software Developer"
     },
     {
       name: "Kendall Hester",
-      role: "Software Developer"
+      role: "Sp20 & Fa19 Software Developer"
     },
     {
       name: "Anooj Lal",
-      role: "Software Developer"
+      role: "Sp20 & Fa19 Software Developer"
     },
     {
-      name: "Ashwin Saxena",
-      role: "Software Developer"
+      name: "Michael Chen",
+      role: "Sp20 Software Developer"
+    },
+    {
+      name: "Danielle Yang",
+      role: "Sp20 Software Developer"
+    },
+    {
+      name: "Albert Cao",
+      role: "Sp20 Software Developer"
     },
     {
       name: "Chloe Chan",
-      role: "Product Designer"
+      role: "Sp20 & Fa19 Product Designer"
+    },
+    {
+      name: "Annie Wu",
+      role: "Fa19 Product Manager"
+    },
+    {
+      name: "Skyler Shi",
+      role: "Fa19 Software Developer"
+    },
+    {
+      name: "Ashwin Saxena",
+      role: "Fa19 Software Developer"
     },
     {
       name: "Tiffany Duong",
-      role: "Product Researcher"
-    },
+      role: "Fa19 Product Researcher"
+    }
   ]
 };
 

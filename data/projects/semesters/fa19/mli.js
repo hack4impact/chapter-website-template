@@ -1,5 +1,5 @@
 // Data for the Fa19 YMCA Project
-const name = "Dr.Mehta's Lab at UIC";
+const name = "Dr. Mehta's Lab at UIC";
 const id = "mli";
 const detail = "How might we create an algorithm that denoises x-ray images and allow for the research lab to better diagnose patients?";
 const coverImagePath = "/static/images/projects/mli/cover.PNG";

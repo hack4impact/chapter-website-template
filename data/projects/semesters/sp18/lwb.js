@@ -23,7 +23,7 @@ const clientFeatures = [
   }
 ];
 const problem =
-  "Recently, the Cambodian Ministry of Education implemented a written English component on the college entrance exams, requiring English competency in order to be admitted to university for the following term. Currently students and tutors can only contact via DM and facebook groups and tutors/admins arent able to track the progress of their students.";
+  "Recently, the Cambodian Ministry of Education implemented a written English component on the college entrance exams, requiring English competency in order to be admitted to university for the following term. Currently students and tutors can only contact via DM and facebook groups and tutors/admins aren't able to track the progress of their students.";
 const problemImagePath = "/static/images/projects/lwb/lwb-problem.jpg";
 const solution =
   "We worked with LWB to create an application that tracks the progress of students and their interactions with tutors. This platform allows students to access standardized lessons and work with teachers on individual worksheets and lesson notes in real-time through google docs. Admins can manage all the students and teachers through the platform while keeping track of the student progress.";

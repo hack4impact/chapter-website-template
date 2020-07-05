@@ -20,13 +20,13 @@ const features = [
     title: "View Custom Lessons",
     detail:
       "Browse through previously created assignments and access information on their contents and assigned students. Students can navigate to the assignments page of GLEN Learn to work through assigned lessons at their own pace.",
-    imgPath: "/static/images/projects/sp20/kso/kso-project.png"
+    imgPath: "/static/images/projects/sp20/glenworld-view.png"
   },
   {
     title: "Create New Lessons",
     detail:
       "Teachers can select from multiple lesson types, word groups, and words to generate a lesson that they assign to as many groups of students as they wish.",
-    imgPath: "/static/images/projects/sp20/glenworld/glenworld-create.png"
+    imgPath: "/static/images/projects/sp20/glenworld-create.png"
   }
 ];
 

@@ -15,6 +15,7 @@ const problemImagePath = "/static/images/projects/sp20/glenworld/glenworld-probl
 const solution =
   "Utilizing GLEN World's existing Admin Dashboard, we wanted to provide a web app that allows teachers to create their own custom lesson plans for GLEN Learn. Teachers will be able to select lesson types and word groups that auto-generates lessons that they can assign to students on specified dates. Students will then be able to access and work through these assignments on the GLEN Learn app!";
 const solutionImagePath = "/static/images/projects/sp20/glenworld/glenworld-solution.png";
+// Features image path only seems to work when it is not within the glenworld folder
 const features = [
   {
     title: "View Custom Lessons",
@@ -30,7 +31,7 @@ const features = [
   }
 ];
 
-const featureImgSize = "6";
+const featureImgSize = "7";
 const techStack = ["react", "firebase"];
 const quote = null;
 const quoteSource = null;

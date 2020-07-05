@@ -20,7 +20,7 @@ const features = [
     title: "View Custom Lessons",
     detail:
       "Browse through previously created assignments and access information on their contents and assigned students. Students can navigate to the assignments page of GLEN Learn to work through assigned lessons at their own pace.",
-    imgPath: "/static/images/projects/sp20/glenworld/glenworld-view.png"
+    imgPath: "/static/images/projects/sp20/kso/kso-project.png"
   },
   {
     title: "Create New Lessons",

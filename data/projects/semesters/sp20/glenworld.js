@@ -30,7 +30,7 @@ const features = [
   }
 ];
 
-const featureImgSize = "6";
+const featureImgSize = "4";
 const techStack = ["react", "firebase"];
 const quote = null;
 const quoteSource = null;

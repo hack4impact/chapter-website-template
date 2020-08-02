@@ -46,31 +46,35 @@ const team = {
   type: "pics",
   detail: [
     {
-      name: "Alan Fang",
+      name: "Betty Shen",
       role: "Product Manager"
     },
     {
-      name: "Josh Byster",
+      name: "Utkarsh Awasthi",
       role: "Tech Lead"
     },
     {
-      name: "Aryn Harmon",
+      name: "Matthew Walowski",
       role: "Software Developer"
     },
     {
-      name: "Eugenia Chen",
+      name: "Sabelle Huang",
       role: "Software Developer"
     },
     {
-      name: "Angad Garg",
+      name: "Lauren Ho",
       role: "Software Developer"
     },
     {
-      name: "Josh Burke",
+      name: "Melody Felix",
       role: "Software Developer"
     },
     {
-      name: "Evan Eckels",
+      name: "Michael Leon",
+      role: "Software Developer"
+    },
+    {
+      name: "Siraj Chokshi",
       role: "Product Designer"
     }
   ]

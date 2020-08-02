@@ -51,11 +51,11 @@ const team = {
       role: "Software Developer"
     },
     {
-        name: "Yousef Ahmed",
-        role: "Software Developer"
-      },
+      name: "Yousef Ahmed",
+      role: "Software Developer"
+    },
     {
-      name: "Phillip Kuo",
+      name: "Philip Kuo",
       role: "UI/UX Designer"
     }
   ]

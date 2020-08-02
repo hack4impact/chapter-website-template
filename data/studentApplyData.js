@@ -6,13 +6,14 @@ import Contract from "../static/icons/contract.svg";
 import Education from "../static/icons/education.svg";
 
 // constants that will affect links in the student application page
-// NOTE: This is the product designer application from sp20 semester. 
 const applicationLink =
-  "https://forms.gle/AUrm29Zy29oBDAgF6";
+  "https://forms.gle/AUrm29Zy29oBDAgF6"; //sp20 product designer
+const interestLink =
+  "https://forms.gle/wDzKo1KiV3Qq86uN9"; //fa20
 
 // current stuff
-const currentSemester = "Spring 2020";
-const nextSemester = "Fall 2020";
+const currentSemester = "Fall 2020";
+const nextSemester = "Spring 2021";
 
 // dates
 const infoSessionDate = ""; //Thu Aug 29, 2019 6-7PM
@@ -33,6 +34,31 @@ const quote = {
 };
 
 const faq = [
+  {
+    question: "Is Hack4Impact still recruiting for Fall 2020?",
+    answer: (
+      <>
+        Yes! Here is a rough schedule of our Fall 2020 Recruitment events:
+        <br /><br />
+        <ul>
+          <li>August Week 3: Info Session + Applications </li>
+          <li>August Week 4: 1st Round Behavioral Interview</li>
+          <li>September Week 1: 2nd Round Technical Interview</li>
+        </ul>
+        Specific dates and other information will be released leading up to
+        these events!
+      </>
+    )
+  },
+  {
+    question: "I will not be on campus this Fall. Can I still apply?",
+    answer: (
+      <>
+        Yes! Recruitment will be entirely virtual for this semester. Applicants
+        are welcome regardless of whether you are living on campus or not.
+      </>
+    )
+  },
   {
     question: "What is the general premise of Hack4Impact?",
     answer: (
@@ -124,6 +150,47 @@ const faq = [
 const applicationDetail = "";
 
 const studentProcess = [
+  {
+    title: "Want Updates?",
+    detail: (
+      <>
+        <p>
+          In the meanwhile, fill out our interest form! We will add you to a
+          mailing list to share all Fall 2020 Recruitment updates. This is
+          non-binding and you can ask to be removed at any time.
+        </p>
+        {<ActionButton
+          style={{ display: "block", marginTop: "10px" }}
+          text="Sign Up"
+          link={interestLink}
+        />}
+      </>
+    ),
+    icon: <Contract />
+  },
+  {
+    title: "Follow Us",
+    detail: (
+      <>
+        <p>
+          Keep in touch with us by following our social media! We will be
+          posting recruitment updates as well as revealing the nonprofit
+          organizations we will be working with in Fall 2020.
+        </p>
+        {<ActionButton
+          style={{ display: "block", marginTop: "10px" }}
+          text="Facebook"
+          link={"https://www.facebook.com/h4iuiuc/"}
+        />}
+        {<ActionButton
+          style={{ display: "block", marginTop: "10px" }}
+          text="Instagram"
+          link={"https://www.instagram.com/hack4impactuiuc/"}
+        />}
+      </>
+    ),
+    icon: <Interview />
+  },
   // {
   //   title: (
   //     <>
@@ -154,26 +221,26 @@ const studentProcess = [
   //   icon: <Calendar />,
   //   date: infoSessionDate
   // },
-  {
-    title: "Applications",
-    detail: (
-      <>
-        <p>
-          Fill out our online application! To give yourself the best shot, be sure
-          to start early and fill this out as soon as possible.
-        </p>
-        before {applicationDueTime} on{" "}
-          <b>{applicationDueDate}</b>
-        {<ActionButton
-          style={{ display: "block", marginTop: "10px" }}
-          text="Apply Now"
-          link={applicationLink}
-        />}
-      </>
-    ),
-    icon: <Contract />,
-    date: `${applicationDueDate} ${applicationDueTime}`
-  },
+  // {
+  //   title: "Applications",
+  //   detail: (
+  //     <>
+  //       <p>
+  //         Fill out our online application! To give yourself the best shot, be sure
+  //         to start early and fill this out as soon as possible.
+  //       </p>
+  //       before {applicationDueTime} on{" "}
+  //         <b>{applicationDueDate}</b>
+  //       {<ActionButton
+  //         style={{ display: "block", marginTop: "10px" }}
+  //         text="Apply Now"
+  //         link={applicationLink}
+  //       />}
+  //     </>
+  //   ),
+  //   icon: <Contract />,
+  //   date: `${applicationDueDate} ${applicationDueTime}`
+  // },
   // {
   //   title: "First Round Interviews",
   //   detail:
@@ -195,26 +262,30 @@ const studentProcess = [
   //   icon: <Interview />,
   //   date: socialRoundDate
   // },
-  {
-    title: "Take Home Exercise",
-    detail:
-      "A small, take home project designed to expose you to the tasks and technologies you will encounter while working with your project teams. More instructions will be provided then.",
-    icon: <Contract />,
-    date: takeHomeExerciseDate
-  },
-  {
-    title: "Interviews",
-    detail:
-      "Hack4Impact looks for students who are hungry to learn, excellent teammates, and are passionate for tech and social impact. Our interviews will be 1 hour long and you will get meet a couple of our members.",
-    icon: <Interview />,
-    date: firstRoundInterviewDate
-  }
+  // {
+  //   title: "Take Home Exercise",
+  //   detail:
+  //     "A small, take home project designed to expose you to the tasks and technologies you will encounter while working with your project teams. More instructions will be provided then.",
+  //   icon: <Contract />,
+  //   date: takeHomeExerciseDate
+  // },
+  // {
+  //   title: "Interviews",
+  //   detail:
+  //     "Hack4Impact looks for students who are hungry to learn, excellent teammates, and are passionate for tech and social impact. Our interviews will be 1 hour long and you will get meet a couple of our members.",
+  //   icon: <Interview />,
+  //   date: firstRoundInterviewDate
+  // }
 ];
 
 const closedText = (
   <p>
-    <b><em>Our current application period for {currentSemester} is currently open.</em></b> We are <b><em>only accepting Product Designers</em></b> for the Spring semester.
-    For those that are interested in software development, stop by our website in the future to view updated information about the next application period!
+    Our application period for {currentSemester} <b><em>will open soon. </em></b> We will be accepting 
+    <b> Academy Members, Software Developers and Product Designers</b> for the
+    Fall semester. Our recruitment process will include an Info Session within
+    the first week of school, an application, and interviews in the weeks to
+    follow. The following timeline will be updated in the following weeks to
+    better reflect the full process!
   </p>
 );
 export default {

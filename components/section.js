@@ -5,7 +5,11 @@ const Section = ({ children, grey, darkgrey }) => (
   <section
     className="typical-section"
     style={{
-      background: grey ? "rgb(250, 251, 252)" : darkgrey ? "#ebeff2" : undefined
+      background: grey
+        ? "rgb(250, 251, 252)"
+        : darkgrey
+        ? "#ebeff2"
+        : undefined,
     }}
   >
     <div>

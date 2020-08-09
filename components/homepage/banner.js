@@ -15,7 +15,7 @@ const Banner = () => (
         from={{ opacity: 0, transform: "translate3d(-100px,0,0)" }}
         to={{ opacity: 100, transform: "translate3d(0,0px,0)" }}
       >
-        {props => (
+        {(props) => (
           <Col md="7" style={{ ...props, paddingTop: 5 }}>
             <img src="/static/images/banner_sample.svg" />
           </Col>
@@ -27,7 +27,7 @@ const Banner = () => (
           from={{ opacity: 0, transform: "translate3d(-100px,0,0)" }}
           to={{ opacity: 100, transform: "translate3d(0,0px,0)" }}
         >
-          {props => (
+          {(props) => (
             <div style={props} id="homepage-main-headline">
               <h1>Software for Nonprofits </h1>
             </div>
@@ -38,7 +38,7 @@ const Banner = () => (
           from={{ opacity: 0, transform: "translate3d(-100px,0,0)" }}
           to={{ opacity: 100, transform: "translate3d(0,0px,0)" }}
         >
-          {props => (
+          {(props) => (
             <div style={props} id="homepage-sub-headline">
               <p>
                 We are a team of UIUC students who create robust software for
@@ -55,7 +55,7 @@ const Banner = () => (
             from={{ opacity: 0, transform: "translate3d(-100px,0,0)" }}
             to={{ opacity: 100, transform: "translate3d(0,0px,0)" }}
           >
-            {props => (
+            {(props) => (
               <ActionButton style={props} link="/about" text="Learn More" />
             )}
           </Spring>
@@ -64,7 +64,7 @@ const Banner = () => (
             from={{ opacity: 0, transform: "translate3d(-100px,0,0)" }}
             to={{ opacity: 100, transform: "translate3d(0,0px,0)" }}
           >
-            {props => (
+            {(props) => (
               <ActionButton
                 white
                 link="/apply"

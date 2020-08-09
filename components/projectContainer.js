@@ -8,7 +8,7 @@ const ProjectContainer = ({ title, subtitle, image, link }) => (
       <div
         className="project-item"
         style={{
-          backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), ${image}`
+          backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), ${image}`,
         }}
       >
         <h4>{title}</h4>

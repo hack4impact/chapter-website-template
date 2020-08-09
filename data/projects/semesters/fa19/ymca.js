@@ -1,26 +1,26 @@
 // Data for the Fa19 YMCA Project (SEMESTER ONE DATA NO LONGER IN USE, refer to SP20 YMCA for latest page)
 const name = "YMCA New American Welcome Center";
 const id = null;
-const detail = "How might we reduce barriers to reliable information for Champaign’s resources?";
+const detail =
+  "How might we reduce barriers to reliable information for Champaign’s resources?";
 const coverImagePath = "/static/images/projects/ymca/cover.png";
 const clientDetail =
   "The New American Welcome Center at the University Y helps immigrants fully integrate into American society and prepares receiving communities around Champaign County to be welcoming and inclusive. By engaging local institutions and mobilizing community resources, we help make our community a place where newcomers and immigrants can thrive and flourish.";
-const clientLink =
-  "https://universityymca.org/welcome/";
+const clientLink = "https://universityymca.org/welcome/";
 const previousLink = null;
 const clientFeatures = [
   {
     title: "Number of immigrants in Champaign",
-    detail: "24,000"
+    detail: "24,000",
   },
   {
     title: "Number of countries",
-    detail: "80"
+    detail: "80",
   },
   {
     title: "Resources available",
-    detail: "100+"
-  }
+    detail: "100+",
+  },
 ];
 const problem =
   "Currently, valuable information about Champaign’s resources are scattered and difficult to find. This decentralization is creating an information gap preventing newcomers from reliably accessing resources that they need the most. YMCA has taken steps to centralize this information1, but it remains largely inaccessible due to language limitations and other barriers.";
@@ -33,20 +33,20 @@ const features = [
     title: "Filter Data",
     detail:
       "Tailor filters based on lifestyle needs including cost preference, languages offered, and location.",
-    imgPath: "/static/images/projects/ymca/customize.png"
+    imgPath: "/static/images/projects/ymca/customize.png",
   },
   {
     title: "View Resource Details",
     detail:
       "Gain reliable access to information such as required documents and recommended contacts for service providers in the community.",
-    imgPath: "/static/images/projects/ymca/view.png"
+    imgPath: "/static/images/projects/ymca/view.png",
   },
   {
     title: "Upload New Resources",
     detail:
       "Administrator users can build on the resource base by editing existing and uploading new community resources.",
-    imgPath: "/static/images/projects/ymca/upload.png"
-  }
+    imgPath: "/static/images/projects/ymca/upload.png",
+  },
 ];
 
 const featureImgSize = "7";
@@ -60,41 +60,41 @@ const team = {
   detail: [
     {
       name: "Annie Wu",
-      role: "Product Manager"
+      role: "Product Manager",
     },
     {
       name: "Neeraj Aggarwal",
-      role: "Tech Lead"
+      role: "Tech Lead",
     },
     {
       name: "Skyler Shi",
-      role: "Software Developer"
+      role: "Software Developer",
     },
     {
       name: "Jacqueline Osborn",
-      role: "Software Developer"
+      role: "Software Developer",
     },
     {
       name: "Kendall Hester",
-      role: "Software Developer"
+      role: "Software Developer",
     },
     {
       name: "Anooj Lal",
-      role: "Software Developer"
+      role: "Software Developer",
     },
     {
       name: "Ashwin Saxena",
-      role: "Software Developer"
+      role: "Software Developer",
     },
     {
       name: "Chloe Chan",
-      role: "Product Designer"
+      role: "Product Designer",
     },
     {
       name: "Tiffany Duong",
-      role: "Product Researcher"
+      role: "Product Researcher",
     },
-  ]
+  ],
 };
 
 export default {
@@ -117,5 +117,5 @@ export default {
   githubLink,
   previousLink,
   team,
-  featureImgSize
+  featureImgSize,
 };

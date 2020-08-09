@@ -7,13 +7,13 @@ class FeatureSlider extends React.Component {
     super(props);
     this.state = {
       currentTitle:
-        this.props.features != undefined ? this.props.features[0].title : ""
+        this.props.features != undefined ? this.props.features[0].title : "",
     };
   }
 
-  featureClick = title => {
+  featureClick = (title) => {
     this.setState({
-      currentTitle: title
+      currentTitle: title,
     });
   };
 
@@ -34,14 +34,14 @@ class FeatureSlider extends React.Component {
         <Col md={featureImgSize}>
           <div className="img-holder">
             {this.props.features.map(
-              feature =>
+              (feature) =>
                 feature.title === this.state.currentTitle && (
                   <Spring
                     config={{ ...config.molasses }}
                     from={{ opacity: 0, transform: "translate3d(0,100px,0)" }}
                     to={{ opacity: 100, transform: "translate3d(0,0px,0)" }}
                   >
-                    {props => (
+                    {(props) => (
                       <div style={props}>
                         <img
                           className="img-fluid shadow"
@@ -57,7 +57,7 @@ class FeatureSlider extends React.Component {
 
         <Col md={featureTextSize}>
           <div className="feature-list-box">
-            {this.props.features.map(feature => (
+            {this.props.features.map((feature) => (
               <Row key={feature.title}>
                 <button
                   className={`feature-slider-btn ${

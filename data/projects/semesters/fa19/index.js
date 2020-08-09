@@ -9,19 +9,19 @@ export default {
   semester: "Fall 2019",
   projects: [
     {
-      ...CCLData
+      ...CCLData,
     },
     {
-      ...LAHData
+      ...LAHData,
     },
     {
-      ...MLIDATA
+      ...MLIDATA,
     },
     {
-      ...YMCADATA
+      ...YMCADATA,
     },
     {
-      ...AcademyData
-    }
-  ]
+      ...AcademyData,
+    },
+  ],
 };

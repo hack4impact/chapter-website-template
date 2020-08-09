@@ -9,43 +9,43 @@ const clients = [
     width: 125,
     height: 36,
     logoPath: "/static/images/chapters/upenn/upenn-logo.jpg",
-    link: "https://hack4impact.org"
+    link: "https://hack4impact.org",
   },
   {
     name: "gt",
     width: 125,
     height: 55,
     logoPath: "/static/images/chapters/gt/gt-logo.png",
-    link: "https://bitsofgood.org"
+    link: "https://bitsofgood.org",
   },
   {
     name: "bu",
     width: 75,
     height: 75,
     logoPath: "/static/images/chapters/bu/bu-logo.png",
-    link: "https://www.hack4impactbu.com/index.html"
+    link: "https://www.hack4impactbu.com/index.html",
   },
   {
     name: "calpoly",
     width: 75,
     height: 75,
     logoPath: "/static/images/chapters/calpoly/calpoly-logo.png",
-    link: "https://hack4impact-calpoly.github.io/index.html"
+    link: "https://hack4impact-calpoly.github.io/index.html",
   },
   {
     name: "uchicago",
     width: 75,
     height: 75,
     logoPath: "/static/images/chapters/uchicago/uchicago-logo.png",
-    link: "https://www.facebook.com/h4iuchicago/"
+    link: "https://www.facebook.com/h4iuchicago/",
   },
   {
     name: "cornell",
     width: 75,
     height: 75,
     logoPath: "/static/images/chapters/cornell/cornell-logo.png",
-    link: "https://www.facebook.com/h4icornell/"
-  }
+    link: "https://www.facebook.com/h4icornell/",
+  },
 ];
 export default () => (
   <Section className="chapters-section">
@@ -58,7 +58,7 @@ export default () => (
       <div className="showcase-container">
         <BackgroundSlider iterations={4} duration={50}>
           <div className="client-logo-container">
-            {clients.map(client => (
+            {clients.map((client) => (
               <div key={client.name}>
                 <Link href={client.link}>
                   <a target="_blank">

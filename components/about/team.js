@@ -9,7 +9,7 @@ const TeamSection = () => (
     <Container>
       <Directors directors={TeamData.directors} />
       <Row>
-        {TeamData.team.map(member => (
+        {TeamData.team.map((member) => (
           <MemberIcon
             key={member.name}
             name={member.name}
@@ -22,7 +22,7 @@ const TeamSection = () => (
         <h2 className="center"> Alumni </h2>
       </div>
       <Row>
-        {TeamData.alumni.map(member => (
+        {TeamData.alumni.map((member) => (
           <MemberIcon
             key={member.name}
             name={member.name}

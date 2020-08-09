@@ -1,26 +1,26 @@
 // Data for the Fa19 LAH Project (SEMESTER ONE DATA NO LONGER IN USE, refer to SP20 LAH for latest page)
 const name = "Life After Hate";
 const id = null;
-const detail = "How might we build a centralized platform that allows for more efficient lookup and storage of ExitUSA™ program resources?";
+const detail =
+  "How might we build a centralized platform that allows for more efficient lookup and storage of ExitUSA™ program resources?";
 const coverImagePath = "/static/images/projects/lah/cover.jpeg";
 const clientDetail =
   "Founded and run by former hate group members who have led successful post-movement lives, ExitUSA™ provides support to individuals who are looking to leave racism and violence behind. The organization uses a variety of strategies, including public awareness campaigns, individualized education and job training programs, and leveraging strategic community partnerships to help individuals get their lives back on track and on their way to making positive contributions to society.";
-const clientLink =
-  "https://www.lifeafterhate.org";
+const clientLink = "https://www.lifeafterhate.org";
 const previousLink = null;
 const clientFeatures = [
   {
     title: "Number of Supporters",
-    detail: "30K+"
+    detail: "30K+",
   },
   {
     title: "Men and Women helped",
-    detail: "150+"
+    detail: "150+",
   },
   {
     title: "Formers Actively Involved",
-    detail: "50+"
-  }
+    detail: "50+",
+  },
 ];
 const problem =
   "Often, LAH members and ExitUSA™ volunteers receive resource requests for specific services from service recipients. These requests can range from mental health support to tattoo removal to housing services. Resources are stored in individual staff emails, in LAH’s online ticketing system Supportbee, and in Smartsheets; therefore, when a referral needs to be made or a crisis occurs with an existing or new service recipient, they can lose precious time trying to track down resources. These referrals can take as long as days, and in time-sensitive scenarios LAH loses the ability to provide the logistical support that ExitUSA™ service recipients need.";
@@ -41,37 +41,37 @@ const team = {
   detail: [
     {
       name: "Alan Fang",
-      role: "Product Manager"
+      role: "Product Manager",
     },
     {
       name: "Josh Byster",
-      role: "Tech Lead"
+      role: "Tech Lead",
     },
     {
       name: "Lauren Ho",
-      role: "Software Developer"
+      role: "Software Developer",
     },
     {
       name: "Albert Cao",
-      role: "Software Developer"
+      role: "Software Developer",
     },
     {
       name: "Alice Fang",
-      role: "Software Developer"
+      role: "Software Developer",
     },
     {
       name: "Gene Wang",
-      role: "Software Developer"
+      role: "Software Developer",
     },
     {
-        name: "Rebecca Xun",
-        role: "Software Developer"
+      name: "Rebecca Xun",
+      role: "Software Developer",
     },
     {
       name: "Evan Eckels",
-      role: "Product Designer"
+      role: "Product Designer",
     },
-  ]
+  ],
 };
 
 export default {
@@ -94,5 +94,5 @@ export default {
   githubLink,
   previousLink,
   team,
-  featureImgSize
+  featureImgSize,
 };

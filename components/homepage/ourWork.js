@@ -24,7 +24,7 @@ const items = [
     subtitle="How might we expand Global Giving’s impact and reach on domestic and international nonprofits?"
     image="url('/static/images/projects/gg-2/gg2-thumbnail.png')"
     link="/projects?name=gg-2"
-  />
+  />,
 ];
 
 const OurWorkSection = () => (
@@ -35,7 +35,7 @@ const OurWorkSection = () => (
         from={{ opacity: 0 }}
         to={{ opacity: 1 }}
       >
-        {props => (
+        {(props) => (
           <div style={props} id="our-work-title-box">
             <h2 className="title text-center">
               We believe in using tech for good.
@@ -55,12 +55,12 @@ const OurWorkSection = () => (
         <Row>
           <Trail
             items={items}
-            keys={item => item.key}
+            keys={(item) => item.key}
             config={{ delay: 1200 }}
             from={{ opacity: 0, transform: "translate3d(0,200px,0)" }}
             to={{ opacity: 100, transform: "translate3d(0,0px,0)" }}
           >
-            {item => props => (
+            {(item) => (props) => (
               <Col key={item.key} sm="4" style={props}>
                 {item}
               </Col>

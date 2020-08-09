@@ -7,13 +7,13 @@ import {
   NavbarToggler,
   Collapse,
   NavItem,
-  Nav
+  Nav,
 } from "reactstrap";
 
 class NavigationBar extends React.Component {
   state = {
     isTop: true,
-    collapsed: true
+    collapsed: true,
   };
   componentDidMount() {
     document.addEventListener("scroll", () => {
@@ -25,7 +25,7 @@ class NavigationBar extends React.Component {
   }
   toggleNavbar = () => {
     this.setState({
-      collapsed: !this.state.collapsed
+      collapsed: !this.state.collapsed,
     });
   };
   render() {

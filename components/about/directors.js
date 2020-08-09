@@ -20,7 +20,7 @@ export default ({ directors }) => (
       </div>
     </Row>
     <Row>
-      {directors.map(director => (
+      {directors.map((director) => (
         <Col md="6">
           <Card className="card border-0">
             <div className="text-center mb-2">

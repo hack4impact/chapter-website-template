@@ -38,9 +38,9 @@ const team = {
       "Anooj Lal",
       "Pavani Malli",
       "Karthik Shankar",
-      "Skyler Shi"
-    ]
-  }
+      "Skyler Shi",
+    ],
+  },
 };
 
 export default {
@@ -63,5 +63,5 @@ export default {
   quoteSourceTitle,
   githubLink,
   previousLink,
-  team
+  team,
 };

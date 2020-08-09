@@ -1,4 +1,4 @@
-const ErrorMessage = props => (
+const ErrorMessage = (props) => (
   <h4 className="page-error">
     {props.code ? (
       <span style={{ borderRight: "1px solid #EAEAEA", padding: "10px" }}>

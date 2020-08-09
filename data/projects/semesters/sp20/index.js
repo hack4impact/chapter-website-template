@@ -9,19 +9,19 @@ export default {
   semester: "Spring 2020",
   projects: [
     {
-      ...GlenWorldData
+      ...GlenWorldData,
     },
     {
-      ...KsoData
+      ...KsoData,
     },
     {
-      ...LahData
+      ...LahData,
     },
     {
-      ...SaverLifeData
+      ...SaverLifeData,
     },
     {
-      ...YmcaData
-    }
-  ]
+      ...YmcaData,
+    },
+  ],
 };

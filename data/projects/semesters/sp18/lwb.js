@@ -11,16 +11,16 @@ const previousLink = null;
 const clientFeatures = [
   {
     title: "Countries",
-    detail: "4"
+    detail: "4",
   },
   {
     title: "Programs",
-    detail: "6"
+    detail: "6",
   },
   {
     title: "Impact",
-    detail: "50,000+ children"
-  }
+    detail: "50,000+ children",
+  },
 ];
 const problem =
   "Recently, the Cambodian Ministry of Education implemented a written English component on the college entrance exams, requiring English competency in order to be admitted to university for the following term. Currently students and tutors can only contact via DM and facebook groups and tutors/admins aren't able to track the progress of their students.";
@@ -33,26 +33,26 @@ const features = [
     title: "Standardized Lessons & Worksheets",
     detail:
       "Lessons are created by administrators, which consist of lessons, worksheets, and quizzes.",
-    imgPath: "/static/images/projects/lwb/lwb-sol.jpg"
+    imgPath: "/static/images/projects/lwb/lwb-sol.jpg",
   },
   {
     title: "Google Drive Integration",
     detail:
       "Worksheets are copied over to the student's personal google drive and accessible by tutors and admins.",
-    imgPath: "/static/images/projects/lwb/lwb-google.png"
+    imgPath: "/static/images/projects/lwb/lwb-google.png",
   },
   {
     title: "Tutor and Student Matching",
     detail:
       "Tutors are matched with students by Admins so tutors are able to work on the same material with their students.",
-    imgPath: "/static/images/projects/lwb/lwb-admin.png"
+    imgPath: "/static/images/projects/lwb/lwb-admin.png",
   },
   {
     title: "Quizzes",
     detail:
       "Quizzes are mandatory to pass lessons and are useful to gauge the progress of a student.",
-    imgPath: "/static/images/projects/lwb/lwb-addlesson.png"
-  }
+    imgPath: "/static/images/projects/lwb/lwb-addlesson.png",
+  },
 ];
 const featureImgSize = "5";
 const techStack = ["react", "relay", "mongodb", "nodejs", "graphql"];
@@ -74,9 +74,9 @@ const team = {
       "Hana Riwani",
       "Alan Ren",
       "Michael Chen",
-      "Teja Kotha"
-    ]
-  }
+      "Teja Kotha",
+    ],
+  },
 };
 
 export default {
@@ -100,5 +100,5 @@ export default {
   githubLink,
   previousLink,
   team,
-  featureImgSize
+  featureImgSize,
 };

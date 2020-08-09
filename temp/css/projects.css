@@ -22,12 +22,12 @@
 }
 */
 #project-photo {
-	height: 80%;
-	width: 80%;
+  height: 80%;
+  width: 80%;
 }
 
 .tech-stack div {
-	padding: 5px;
-	display: flex;
-	justify-content: center;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
 }

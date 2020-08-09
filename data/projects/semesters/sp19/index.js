@@ -8,16 +8,16 @@ export default {
   semester: "Spring 2019",
   projects: [
     {
-      ...KivaData
+      ...KivaData,
     },
     {
-      ...Sp19SafeMapsData
+      ...Sp19SafeMapsData,
     },
     {
-      ...GlobalGivingData
+      ...GlobalGivingData,
     },
     {
-      ...ProductInfraData
-    }
-  ]
+      ...ProductInfraData,
+    },
+  ],
 };

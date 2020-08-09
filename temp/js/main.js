@@ -1,8 +1,8 @@
-(function($) {
+(function ($) {
   "use strict"; // Start of use strict
 
   // Smooth scrolling using jQuery easing
-  $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
+  $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function () {
     if (
       location.pathname.replace(/^\//, "") ==
         this.pathname.replace(/^\//, "") &&
@@ -13,7 +13,7 @@
       if (target.length) {
         $("html, body").animate(
           {
-            scrollTop: target.offset().top - 54
+            scrollTop: target.offset().top - 54,
           },
           1000,
           "easeInOutExpo"
@@ -24,18 +24,18 @@
   });
 
   // Closes responsive menu when a scroll trigger link is clicked
-  $(".js-scroll-trigger").click(function() {
+  $(".js-scroll-trigger").click(function () {
     $(".navbar-collapse").collapse("hide");
   });
 
   // Activate scrollspy to add active class to navbar items on scroll
   $("body").scrollspy({
     target: "#otherNav",
-    offset: 54
+    offset: 54,
   });
 
   // Collapse Navbar
-  var navbarCollapse = function() {
+  var navbarCollapse = function () {
     if ($("#otherNav").offset().top > 100) {
       $("#otherNav").addClass("navbar-shrink");
       $("#otherNav").addClass("shadow");

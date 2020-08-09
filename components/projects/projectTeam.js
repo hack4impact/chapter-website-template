@@ -28,15 +28,14 @@ const ProjectTeam = ({ team }) => (
               <Col md="12">
                 <div className="text-center">
                   <p className="text-center">
-                    <b> Developers: </b>{" "}
-                    <>{team.detail.swe.join(', ')}</>
+                    <b> Developers: </b> <>{team.detail.swe.join(", ")}</>
                   </p>
                 </div>
               </Col>
             </Row>
           </div>
         ) : (
-          team.detail.map(member => (
+          team.detail.map((member) => (
             <TeamMemberIcon name={member.name} role={member.role} />
           ))
         )}

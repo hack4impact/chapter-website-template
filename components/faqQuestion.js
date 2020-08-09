@@ -4,12 +4,12 @@ class FaqQuestion extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      collapse: false
+      collapse: false,
     };
   }
   toggle = () => {
     this.setState({
-      collapse: !this.state.collapse
+      collapse: !this.state.collapse,
     });
   };
   render() {

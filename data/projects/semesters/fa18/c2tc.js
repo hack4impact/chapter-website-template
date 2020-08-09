@@ -11,16 +11,16 @@ const previousLink = null;
 const clientFeatures = [
   {
     title: "Students that don't feel safe",
-    detail: "93.9%"
+    detail: "93.9%",
   },
   {
     title: "Never used Safewalks/Saferides",
-    detail: "77.6%"
+    detail: "77.6%",
   },
   {
     title: "Ranks UIUC's safety below 3",
-    detail: "45%"
-  }
+    detail: "45%",
+  },
 ];
 const problem =
   "Cut to the Case is a UIUC based non-profit started by two UIUC Engineering students whose initial mission was to help victims of sexual assault. Now, Cut to the Case has expanded their focus into tackling public safety with the hopes of improving the safety of all students on campus";
@@ -33,26 +33,26 @@ const features = [
     title: "Location and Map Services",
     detail:
       "Users can browse the map, know their current location, and zoom back to their current location using their phone’s native map application.",
-    imgPath: "/static/images/projects/c2tc-2/c2tc-2-map.png"
+    imgPath: "/static/images/projects/c2tc-2/c2tc-2-map.png",
   },
   {
     title: "Filter Data",
     detail:
       "The C2TC app has location information on U of I’s bus stops, crimes in the past month, open businesses, emergency phones, police stations, street lights and keeps these updated constantly. ",
-    imgPath: "/static/images/projects/c2tc-2/c2tc-2-filters.png"
+    imgPath: "/static/images/projects/c2tc-2/c2tc-2-filters.png",
   },
   {
     title: "Applying Filters",
     detail:
       "Users can then apply filters to see how dangerous the surrounding area and what the best path to take home at night.",
-    imgPath: "/static/images/projects/c2tc-2/c2tc-2-apply-filters.png"
+    imgPath: "/static/images/projects/c2tc-2/c2tc-2-apply-filters.png",
   },
   {
     title: "Safe Rides and Safe Walks Integration",
     detail:
       "Users can quickly call safe rides and safe walks within the app if they are not comfortable walking home alone.",
-    imgPath: "/static/images/projects/c2tc-2/c2tc-2-safe-rides.png"
-  }
+    imgPath: "/static/images/projects/c2tc-2/c2tc-2-safe-rides.png",
+  },
 ];
 
 const featureImgSize = "4";
@@ -67,37 +67,37 @@ const team = {
   detail: [
     {
       name: "Shreyas Mohan",
-      role: "Product Manager"
+      role: "Product Manager",
     },
     {
       name: "Megha Mallya",
-      role: "Tech Lead"
+      role: "Tech Lead",
     },
     {
       name: "Josh Burke",
-      role: "Software Developer"
+      role: "Software Developer",
     },
     {
       name: "Neeraj Aggarwal",
-      role: "Software Developer"
+      role: "Software Developer",
     },
     {
       name: "Daniel Choi",
-      role: "Software Developer"
+      role: "Software Developer",
     },
     {
       name: "Anooj Lal",
-      role: "Software Developer"
+      role: "Software Developer",
     },
     {
       name: "Phillip Kuo",
-      role: "UI/UX Designer"
+      role: "UI/UX Designer",
     },
     {
       name: "Annie Wu",
-      role: ""
-    }
-  ]
+      role: "",
+    },
+  ],
 };
 
 export default {
@@ -120,5 +120,5 @@ export default {
   githubLink,
   previousLink,
   team,
-  featureImgSize
+  featureImgSize,
 };

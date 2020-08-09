@@ -30,7 +30,7 @@ const MissionSection = () => (
           from={{ transform: "translate3d(0,300px,0)" }}
           to={{ transform: "translate3d(0,0,0)" }}
         >
-          {props => (
+          {(props) => (
             <div className="text-center img-holder">
               <img
                 alttext="Fall 2018 team photo"

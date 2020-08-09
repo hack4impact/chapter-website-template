@@ -23,7 +23,7 @@ const InvolveSection = () => (
             <Row>
               <p
                 style={{
-                  padding: "38px 0 35px 0"
+                  padding: "38px 0 35px 0",
                 }}
               >
                 Are you passionate about software and Social Impact? Are you

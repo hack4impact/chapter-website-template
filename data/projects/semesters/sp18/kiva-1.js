@@ -14,20 +14,20 @@ const previousLink = null;
 const clientFeatures = [
   {
     title: "Borrowers",
-    detail: "3.1M"
+    detail: "3.1M",
   },
   {
     title: "Countries",
-    detail: "81"
+    detail: "81",
   },
   {
     title: "Loans funded",
-    detail: "$1.26B"
+    detail: "$1.26B",
   },
   {
     title: "Repayment rate",
-    detail: "96.8%"
-  }
+    detail: "96.8%",
+  },
 ]; // can be null
 
 /* Product Details and Solution */
@@ -64,9 +64,9 @@ const team = {
       "Angad Garg",
       "Betty Shen",
       "Alan Fang",
-      "Jamie Paterson"
-    ]
-  }
+      "Jamie Paterson",
+    ],
+  },
 };
 
 export default {
@@ -88,5 +88,5 @@ export default {
   quoteSourceTitle,
   githubLink,
   previousLink,
-  team
+  team,
 };

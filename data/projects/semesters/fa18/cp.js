@@ -12,16 +12,16 @@ const previousLink = null;
 const clientFeatures = [
   {
     title: "Raised",
-    detail: "$44,484,565"
+    detail: "$44,484,565",
   },
   {
     title: "Hospitals",
-    detail: "Gift wish lists for kids"
+    detail: "Gift wish lists for kids",
   },
   {
     title: "International Reach",
-    detail: "169 hospitals and shelters"
-  }
+    detail: "169 hospitals and shelters",
+  },
 ];
 const problem =
   "Child’s Play currently has an online pdf guide that categorizes recommended games by ailment, age, and device. This guide is updated around once a year with the newest EEDAR reports that they receive. The current PDF is static which requires manual searching, making it hard to update. Hospitals’ wifi usage can be limited or slow.";
@@ -34,26 +34,26 @@ const features = [
     title: "View Helpful Games for Specific Symptoms",
     detail:
       "Users can quickly see which games for each console that are helpful for children with a certain symptom.",
-    imgPath: "/static/images/projects/cp/cp-feat1.png"
+    imgPath: "/static/images/projects/cp/cp-feat1.png",
   },
   {
     title: "View Specific Game Information",
     detail:
       "Provides externally sourced information, including tags pertaining to which symptoms and types of children the game would aid.",
-    imgPath: "/static/images/projects/cp/cp-feat2.png"
+    imgPath: "/static/images/projects/cp/cp-feat2.png",
   },
   {
     title: "Import New Information",
     detail:
       "Allows administrators to quickly upload more recent information to display.",
-    imgPath: "/static/images/projects/cp/cp-feat3.png"
+    imgPath: "/static/images/projects/cp/cp-feat3.png",
   },
   {
     title: "Update Easily",
     detail:
       "Administrators can easily see and update any games with incomplete information.",
-    imgPath: "/static/images/projects/cp/cp-feat4.png"
-  }
+    imgPath: "/static/images/projects/cp/cp-feat4.png",
+  },
 ];
 const techStack = ["react", "redux", "flask", "postgres"];
 
@@ -67,33 +67,33 @@ const team = {
   detail: [
     {
       name: "Hana Rimawi",
-      role: "Product Manager"
+      role: "Product Manager",
     },
     {
       name: "Angad Garg",
-      role: "Tech Lead"
+      role: "Tech Lead",
     },
     {
       name: "Jeffy Lin",
-      role: "Software Developer"
+      role: "Software Developer",
     },
     {
       name: "Betty Shen",
-      role: "Software Developer"
+      role: "Software Developer",
     },
     {
       name: "Michael Chen",
-      role: "Software Developer"
+      role: "Software Developer",
     },
     {
       name: "Arpan Laha",
-      role: "Software Developer"
+      role: "Software Developer",
     },
     {
       name: "Albert Cao",
-      role: "Software Developer"
-    }
-  ]
+      role: "Software Developer",
+    },
+  ],
 };
 
 export default {
@@ -115,5 +115,5 @@ export default {
   quoteSourceTitle,
   githubLink,
   previousLink,
-  team
+  team,
 };

@@ -6,10 +6,8 @@ import Contract from "../static/icons/contract.svg";
 import Education from "../static/icons/education.svg";
 
 // constants that will affect links in the student application page
-const applicationLink =
-  "https://forms.gle/AUrm29Zy29oBDAgF6"; //sp20 product designer
-const interestLink =
-  "https://forms.gle/wDzKo1KiV3Qq86uN9"; //fa20
+const applicationLink = "https://forms.gle/AUrm29Zy29oBDAgF6"; //sp20 product designer
+const interestLink = "https://forms.gle/wDzKo1KiV3Qq86uN9"; //fa20
 
 // current stuff
 const currentSemester = "Fall 2020";
@@ -30,7 +28,7 @@ const quote = {
   text:
     "A lot of classwork is theoretical. You’re given a contrived problem, and then you solve it. At Hack4Impact, you get to build a product from the ground up. Being exposed to building something from scratch is a great experience as a student.",
   source: "Alex Wu",
-  sourceTitle: "'16"
+  sourceTitle: "'16",
 };
 
 const faq = [
@@ -39,7 +37,8 @@ const faq = [
     answer: (
       <>
         Yes! Here is a rough schedule of our Fall 2020 Recruitment events:
-        <br /><br />
+        <br />
+        <br />
         <ul>
           <li>August Week 3: Info Session + Applications </li>
           <li>August Week 4: 1st Round Behavioral Interview</li>
@@ -48,7 +47,7 @@ const faq = [
         Specific dates and other information will be released leading up to
         these events!
       </>
-    )
+    ),
   },
   {
     question: "I will not be on campus this Fall. Can I still apply?",
@@ -57,7 +56,7 @@ const faq = [
         Yes! Recruitment will be entirely virtual for this semester. Applicants
         are welcome regardless of whether you are living on campus or not.
       </>
-    )
+    ),
   },
   {
     question: "What is the general premise of Hack4Impact?",
@@ -77,13 +76,13 @@ const faq = [
           mentorship and social community events{" "}
         </p>
       </>
-    )
+    ),
   },
   {
     question:
       "Is extensive web development or data science experience required?",
     answer:
-      "Nope! Mentorship is a core value of our organization so we are always looking to take less experienced developers as long as you are willing to put in the time and have the passion to learn. You will have a tight feedback loop with your project leads along with experienced members on your team to ensure your success and project’s success in-order to benefit the nonprofit your team is working with."
+      "Nope! Mentorship is a core value of our organization so we are always looking to take less experienced developers as long as you are willing to put in the time and have the passion to learn. You will have a tight feedback loop with your project leads along with experienced members on your team to ensure your success and project’s success in-order to benefit the nonprofit your team is working with.",
   },
   {
     question: "Why don't you accept more students?",
@@ -122,7 +121,7 @@ const faq = [
         Leads to take on more projects but maintain the high quality work we are
         know for.
       </>
-    )
+    ),
   },
   {
     question:
@@ -143,8 +142,8 @@ const faq = [
         </a>
         .
       </>
-    )
-  }
+    ),
+  },
 ];
 
 const applicationDetail = "";
@@ -159,14 +158,16 @@ const studentProcess = [
           mailing list to share all Fall 2020 Recruitment updates. This is
           non-binding and you can ask to be removed at any time.
         </p>
-        {<ActionButton
-          style={{ display: "block", marginTop: "10px" }}
-          text="Sign Up"
-          link={interestLink}
-        />}
+        {
+          <ActionButton
+            style={{ display: "block", marginTop: "10px" }}
+            text="Sign Up"
+            link={interestLink}
+          />
+        }
       </>
     ),
-    icon: <Contract />
+    icon: <Contract />,
   },
   {
     title: "Follow Us",
@@ -177,19 +178,23 @@ const studentProcess = [
           posting recruitment updates as well as revealing the nonprofit
           organizations we will be working with in Fall 2020.
         </p>
-        {<ActionButton
-          style={{ display: "block", marginTop: "10px" }}
-          text="Facebook"
-          link={"https://www.facebook.com/h4iuiuc/"}
-        />}
-        {<ActionButton
-          style={{ display: "block", marginTop: "10px" }}
-          text="Instagram"
-          link={"https://www.instagram.com/hack4impactuiuc/"}
-        />}
+        {
+          <ActionButton
+            style={{ display: "block", marginTop: "10px" }}
+            text="Facebook"
+            link={"https://www.facebook.com/h4iuiuc/"}
+          />
+        }
+        {
+          <ActionButton
+            style={{ display: "block", marginTop: "10px" }}
+            text="Instagram"
+            link={"https://www.instagram.com/hack4impactuiuc/"}
+          />
+        }
       </>
     ),
-    icon: <Interview />
+    icon: <Interview />,
   },
   // {
   //   title: (
@@ -280,7 +285,11 @@ const studentProcess = [
 
 const closedText = (
   <p>
-    Our application period for {currentSemester} <b><em>will open soon. </em></b> We will be accepting 
+    Our application period for {currentSemester}{" "}
+    <b>
+      <em>will open soon. </em>
+    </b>{" "}
+    We will be accepting
     <b> Academy Members, Software Developers and Product Designers</b> for the
     Fall semester. Our recruitment process will include an Info Session within
     the first week of school, an application, and interviews in the weeks to
@@ -296,5 +305,5 @@ export default {
   faq,
   studentProcess,
   closedText,
-  applicationDetail
+  applicationDetail,
 };

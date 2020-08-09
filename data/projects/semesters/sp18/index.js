@@ -9,16 +9,16 @@ export default {
   semester: "Fall 2017 & Spring 2018",
   projects: [
     {
-      ...LwbData
+      ...LwbData,
     },
     {
-      ...Sp18C2tcData
+      ...Sp18C2tcData,
     },
     {
-      ...Sp18KivaData
+      ...Sp18KivaData,
     },
     {
-      ...Sp18NnbData
-    }
-  ]
+      ...Sp18NnbData,
+    },
+  ],
 };

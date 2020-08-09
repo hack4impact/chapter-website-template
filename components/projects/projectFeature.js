@@ -15,7 +15,7 @@ const ProjectFeature = ({ featureImgSize, features }) =>
       </Row>
       <Row>
         {features[0].imgPath === undefined ? (
-          features.map(feature => (
+          features.map((feature) => (
             <Col md="3" sm="6" style={{ marginBottom: "25px" }}>
               <Card className="text-white bg-secondary mb-3 h-100 light-shadow">
                 <CardBody>

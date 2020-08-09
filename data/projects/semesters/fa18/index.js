@@ -8,16 +8,16 @@ export default {
   semester: "Fall 2018",
   projects: [
     {
-      ...Fa18C2tcData
+      ...Fa18C2tcData,
     },
     {
-      ...ChildsPlayData
+      ...ChildsPlayData,
     },
     {
-      ...GlobalGivingData
+      ...GlobalGivingData,
     },
     {
-      ...PhilaReadsData
-    }
-  ]
+      ...PhilaReadsData,
+    },
+  ],
 };

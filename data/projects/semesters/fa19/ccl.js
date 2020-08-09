@@ -1,12 +1,12 @@
 // Data for the Fa19 CCL Project
 const name = "CommunityConnect Labs";
 const id = "ccl";
-const detail = "How might we help parse the census data to provide the nonprofit with much more reliable response data to showcase to their clients?";
+const detail =
+  "How might we help parse the census data to provide the nonprofit with much more reliable response data to showcase to their clients?";
 const coverImagePath = "/static/images/projects/ccl/cover.jpg";
 const clientDetail =
   "CommunityConnect Labs is a nonprofit that seeks to help nonprofits and local governments and municipalities communicate with hard-to-reach populations of their audiences. In particular, they take advantage of the fact that 90% of people have a mobile phone, where 95% of texts are read within 3 minutes of sending. This not only increases the likelihood of someone responding to a survey, but also utilizes a much more approachable format for gathering user data.";
-const clientLink =
-  "https://www.communityconnectlabs.com";
+const clientLink = "https://www.communityconnectlabs.com";
 const previousLink = null;
 const clientFeatures = null;
 const problem =
@@ -28,37 +28,37 @@ const team = {
   detail: [
     {
       name: "Betty Shen",
-      role: "Product Manager"
+      role: "Product Manager",
     },
     {
       name: "Kelley Chau",
-      role: "Tech Lead"
+      role: "Tech Lead",
     },
     {
       name: "Brandon Wang",
-      role: "Software Developer"
+      role: "Software Developer",
     },
     {
       name: "Megha Mallya",
-      role: "Software Developer"
+      role: "Software Developer",
     },
     {
       name: "Danielle Yang",
-      role: "Software Developer"
+      role: "Software Developer",
     },
     {
       name: "Alan Ren",
-      role: "Software Developer"
+      role: "Software Developer",
     },
     {
       name: "Yousef Ahmed",
-      role: "Software Developer"
+      role: "Software Developer",
     },
     {
       name: "Philip Kuo",
-      role: "UI/UX Designer"
-    }
-  ]
+      role: "UI/UX Designer",
+    },
+  ],
 };
 
 export default {
@@ -81,5 +81,5 @@ export default {
   githubLink,
   previousLink,
   team,
-  featureImgSize
+  featureImgSize,
 };

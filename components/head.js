@@ -7,7 +7,7 @@ const defaultDescription =
 const defaultOGURL = "uiuc.hack4impact.org";
 const defaultOGImage = "/static/icons/favicon-32x32.png";
 
-const Head = props => (
+const Head = (props) => (
   <NextHead>
     <meta charSet="UTF-8" />
     <title>{props.title || "Hack4Impact UIUC"}</title>
@@ -78,7 +78,7 @@ Head.propTypes = {
   title: string,
   description: string,
   url: string,
-  ogImage: string
+  ogImage: string,
 };
 
 export default Head;

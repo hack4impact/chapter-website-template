@@ -3,7 +3,7 @@
   background: #d0deec;
   padding: 20px;
   border-radius: 5px;
-  position:relative;
+  position: relative;
 }
 
 .speech-bubble-left:before {
@@ -24,7 +24,7 @@
   background: #d0deec;
   padding: 20px;
   border-radius: 5px;
-  position:relative;
+  position: relative;
 }
 
 .speech-bubble-right:before {

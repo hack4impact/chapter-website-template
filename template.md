@@ -14,8 +14,8 @@ const clientLink = ""; // link to website
 const clientFeatures = [
   {
     title: "",
-    detail: ""
-  }
+    detail: "",
+  },
 ]; // can be null
 
 /* Product Details and Solution */
@@ -29,10 +29,10 @@ const features = [
   {
     title: "",
     detail: "",
-    imgPath: ""
-  }
+    imgPath: "",
+  },
 ]; // can be null
-const featureImgSize = null
+const featureImgSize = null;
 
 const techStack = [""]; // can be null, must follow specific format (look at `projectTechStack.js`)
 
@@ -50,9 +50,9 @@ const team = {
   detail: [
     {
       name: "",
-      role: ""
-    }
-  ]
+      role: "",
+    },
+  ],
 };
 
 export default {
@@ -73,7 +73,6 @@ export default {
   quoteSource,
   quoteSourceTitle,
   githubLink,
-  team
+  team,
 };
-
 ```

@@ -7,7 +7,7 @@ const ClientFeatures = ({ features }) =>
     <Container>
       <div className="client-feature-box">
         <Row>
-          {features.map(feature => (
+          {features.map((feature) => (
             <Col>
               <div>
                 <h3 className="feature-title">{feature.title}</h3>

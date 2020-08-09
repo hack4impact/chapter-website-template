@@ -1,26 +1,26 @@
 // Data for the Sp20 YMCA Project (Continuation of Fa19 YMCA Project)
 const name = "YMCA New American Welcome Center";
 const id = "ymca";
-const detail = "How might we reduce barriers to reliable information for Champaign’s resources?";
+const detail =
+  "How might we reduce barriers to reliable information for Champaign’s resources?";
 const coverImagePath = "/static/images/projects/ymca/cover.png";
 const clientDetail =
   "The New American Welcome Center at the University Y helps immigrants fully integrate into American society and prepares receiving communities around Champaign County to be welcoming and inclusive. By engaging local institutions and mobilizing community resources, we help make our community a place where newcomers and immigrants can thrive and flourish.";
-const clientLink =
-  "https://universityymca.org/welcome/";
+const clientLink = "https://universityymca.org/welcome/";
 const previousLink = null;
 const clientFeatures = [
   {
     title: "Number of immigrants in Champaign",
-    detail: "24,000"
+    detail: "24,000",
   },
   {
     title: "Number of countries",
-    detail: "80"
+    detail: "80",
   },
   {
     title: "Resources available",
-    detail: "100+"
-  }
+    detail: "100+",
+  },
 ];
 const problem =
   "Currently, valuable information about Champaign’s resources are scattered and difficult to find. This decentralization is creating an information gap preventing newcomers from reliably accessing resources that they need the most. YMCA has taken steps to centralize this information1, but it remains largely inaccessible due to language limitations and other barriers.";
@@ -33,32 +33,31 @@ const features = [
     title: "Filter Data",
     detail:
       "Tailor filters based on lifestyle needs including cost preference, languages offered, and location.",
-    imgPath: "/static/images/projects/ymca/customize.png"
+    imgPath: "/static/images/projects/ymca/customize.png",
   },
   {
     title: "View Resource Details",
     detail:
       "Gain reliable access to information such as required documents and recommended contacts for service providers in the community.",
-    imgPath: "/static/images/projects/ymca/view.png"
+    imgPath: "/static/images/projects/ymca/view.png",
   },
   {
     title: "Upload New Resources",
     detail:
       "Administrator users can build on the resource base by editing existing and uploading new community resources.",
-    imgPath: "/static/images/projects/ymca/upload.png"
+    imgPath: "/static/images/projects/ymca/upload.png",
   },
   {
     title: "Save Resources",
-    detail:
-      "Users can create accounts and save resources for quicker access.",
-    imgPath: "/static/images/projects/sp20/ymca/ymca-save-resources.png"
+    detail: "Users can create accounts and save resources for quicker access.",
+    imgPath: "/static/images/projects/sp20/ymca/ymca-save-resources.png",
   },
   {
     title: "Increased Admin Editing Abilities",
     detail:
       "Admins can edit the content of the home page along with that of the resources themselves.",
-    imgPath: "/static/images/projects/sp20/ymca/ymca-edit-home.png"
-  }
+    imgPath: "/static/images/projects/sp20/ymca/ymca-edit-home.png",
+  },
 ];
 
 const featureImgSize = "7";
@@ -72,53 +71,53 @@ const team = {
   detail: [
     {
       name: "Neeraj Aggarwal",
-      role: "Sp20 Product Manager & Fa19 Tech Lead"
+      role: "Sp20 Product Manager & Fa19 Tech Lead",
     },
     {
       name: "Jacqueline Osborn",
-      role: "Sp20 Tech Lead & Fa19 Software Developer"
+      role: "Sp20 Tech Lead & Fa19 Software Developer",
     },
     {
       name: "Kendall Hester",
-      role: "Sp20 & Fa19 Software Developer"
+      role: "Sp20 & Fa19 Software Developer",
     },
     {
       name: "Anooj Lal",
-      role: "Sp20 & Fa19 Software Developer"
+      role: "Sp20 & Fa19 Software Developer",
     },
     {
       name: "Michael Chen",
-      role: "Sp20 Software Developer"
+      role: "Sp20 Software Developer",
     },
     {
       name: "Danielle Yang",
-      role: "Sp20 Software Developer"
+      role: "Sp20 Software Developer",
     },
     {
       name: "Albert Cao",
-      role: "Sp20 Software Developer"
+      role: "Sp20 Software Developer",
     },
     {
       name: "Chloe Chan",
-      role: "Sp20 & Fa19 Product Designer"
+      role: "Sp20 & Fa19 Product Designer",
     },
     {
       name: "Annie Wu",
-      role: "Fa19 Product Manager"
+      role: "Fa19 Product Manager",
     },
     {
       name: "Skyler Shi",
-      role: "Fa19 Software Developer"
+      role: "Fa19 Software Developer",
     },
     {
       name: "Ashwin Saxena",
-      role: "Fa19 Software Developer"
+      role: "Fa19 Software Developer",
     },
     {
       name: "Tiffany Duong",
-      role: "Fa19 Product Researcher"
-    }
-  ]
+      role: "Fa19 Product Researcher",
+    },
+  ],
 };
 
 export default {
@@ -141,5 +140,5 @@ export default {
   githubLink,
   previousLink,
   team,
-  featureImgSize
+  featureImgSize,
 };

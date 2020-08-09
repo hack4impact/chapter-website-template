@@ -13,7 +13,7 @@ const GradientBanner = ({
   minorButtonText,
   minorButtonLink,
   isLeftButtonDisplayed,
-  isRightButtonDisplayed
+  isRightButtonDisplayed,
 }) => (
   <div>
     <section className="banner-section" style={style}>
@@ -25,7 +25,7 @@ const GradientBanner = ({
               from={{ opacity: 0, transform: "translate3d(-100px,0,0)" }}
               to={{ opacity: 100, transform: "translate3d(0,0px,0)" }}
             >
-              {props => (
+              {(props) => (
                 <div style={props} className="main-headline">
                   <h1>{title}</h1>
                 </div>
@@ -38,7 +38,7 @@ const GradientBanner = ({
               from={{ opacity: 0, transform: "translate3d(-100px,0,0)" }}
               to={{ opacity: 100, transform: "translate3d(0,0px,0)" }}
             >
-              {props => (
+              {(props) => (
                 <div style={props} className="text-center sub-headline">
                   <p>{subHeadline}</p>
                 </div>
@@ -52,13 +52,13 @@ const GradientBanner = ({
                 from={{ opacity: 0, transform: "translate3d(-100px,0,0)" }}
                 to={{ opacity: 100, transform: "translate3d(0,0px,0)" }}
               >
-                {props => (
-                isLeftButtonDisplayed ? (
-                  <div style={props} className="d-inline">
-                    <ActionButton text={buttonText} link={buttonLink} white />
-                  </div>
-                ) : null
-              )}
+                {(props) =>
+                  isLeftButtonDisplayed ? (
+                    <div style={props} className="d-inline">
+                      <ActionButton text={buttonText} link={buttonLink} white />
+                    </div>
+                  ) : null
+                }
               </Spring>
             ) : null}
             {minorButtonText !== undefined ? (
@@ -67,16 +67,16 @@ const GradientBanner = ({
                 from={{ opacity: 0, transform: "translate3d(-100px,0,0)" }}
                 to={{ opacity: 100, transform: "translate3d(0,0px,0)" }}
               >
-                {props => (
-                isRightButtonDisplayed ? (
-                  <div style={props} className="d-inline ml-3">
-                    <ActionButton
-                      text={minorButtonText}
-                      link={minorButtonLink}
-                    />
-                  </div>
-                ) : null
-              )}
+                {(props) =>
+                  isRightButtonDisplayed ? (
+                    <div style={props} className="d-inline ml-3">
+                      <ActionButton
+                        text={minorButtonText}
+                        link={minorButtonLink}
+                      />
+                    </div>
+                  ) : null
+                }
               </Spring>
             ) : null}
           </Col>

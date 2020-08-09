@@ -1,12 +1,12 @@
 // Data for the Sp20 Kids Save Ocean Project
 const name = "Kids Save Ocean";
 const id = "kso";
-const detail = "How might we inspire and empower youth champion sustainability in their communities?";
+const detail =
+  "How might we inspire and empower youth champion sustainability in their communities?";
 const coverImagePath = "/static/images/projects/sp20/kso/kso-cover.png";
 const clientDetail =
   "Kids Save Ocean is an environmental nonprofit aiming to empower children to have their voices heard in the discussion about the planet's environment. Kids Save Ocean started out by creating an art exhibition to raise awareness and organizing the first United Nations Children’s Clean Ocean Summit, and is now currently piloting its first app, FateChanger, which empowers students and teachers by educating them about sustainability solutions and providing resources to enact policy change in their communities.";
-const clientLink =
-  "https://www.kidssaveocean.com/";
+const clientLink = "https://www.kidssaveocean.com/";
 const previousLink = null;
 const clientFeatures = null;
 const problem =
@@ -20,24 +20,32 @@ const features = [
     title: "Project view",
     detail:
       "The various phases and steps comprising each project can be easily viewed using a Gantt chart, allowing users to more easily understand the temporal nature and structure of a project.",
-    imgPath: "/static/images/projects/sp20/kso/kso-project.png"
+    imgPath: "/static/images/projects/sp20/kso/kso-project.png",
   },
   {
     title: "Interactive rich editor",
     detail:
       "To support both the generation of design guidance by Kids Save Ocean and enable users to create their own content with freedom, project content is built on top of Draft.js, with an interface similar to the Medium editor.",
-    imgPath: "/static/images/projects/sp20/kso/kso-draft.png"
+    imgPath: "/static/images/projects/sp20/kso/kso-draft.png",
   },
   {
     title: "Project feed",
     detail:
       "Users can follow other users and/or projects to stay updated on what others are doing, visualizing progress with a feed with the most recent changes to followed projects or by followed users.",
-    imgPath: "/static/images/projects/sp20/kso/kso-feed.png"
-  }
+    imgPath: "/static/images/projects/sp20/kso/kso-feed.png",
+  },
 ];
 
 const featureImgSize = "7";
-const techStack = ["react", "next", "draftjs", "express", "mongodb", "firebase", "h4i_infra_auth"];
+const techStack = [
+  "react",
+  "next",
+  "draftjs",
+  "express",
+  "mongodb",
+  "firebase",
+  "h4i_infra_auth",
+];
 const quote = null;
 const quoteSource = null;
 const quoteSourceTitle = null;
@@ -47,37 +55,37 @@ const team = {
   detail: [
     {
       name: "Arpan Laha",
-      role: "Product Manager"
+      role: "Product Manager",
     },
     {
       name: "Yousef Ahmed",
-      role: "Tech Lead"
+      role: "Tech Lead",
     },
     {
       name: "Brandon Wang",
-      role: "Software Developer"
+      role: "Software Developer",
     },
     {
       name: "Alice Fang",
-      role: "Software Developer"
+      role: "Software Developer",
     },
     {
       name: "Sahithi Muthyala",
-      role: "Software Developer"
+      role: "Software Developer",
     },
     {
       name: "Ashwin Saxena",
-      role: "Software Developer"
+      role: "Software Developer",
     },
     {
       name: "Ashank Behara",
-      role: "Software Developer"
+      role: "Software Developer",
     },
     {
       name: "Zayyan Faizal",
-      role: "Product Designer"
-    }
-  ]
+      role: "Product Designer",
+    },
+  ],
 };
 
 export default {
@@ -100,5 +108,5 @@ export default {
   githubLink,
   previousLink,
   team,
-  featureImgSize
+  featureImgSize,
 };

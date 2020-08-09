@@ -14,16 +14,16 @@ const previousLink = null;
 const clientFeatures = [
   {
     title: "Core Literacy Programs",
-    detail: "4"
+    detail: "4",
   },
   {
     title: "Philadelphia Schools Impacted",
-    detail: "12,000"
+    detail: "12,000",
   },
   {
     title: "Volunteer one-on-one hours",
-    detail: "450,000"
-  }
+    detail: "450,000",
+  },
 ];
 
 /* Product Details and Solution */
@@ -41,32 +41,32 @@ const features = [
     title: "Complete Quizzes",
     detail:
       "Users can complete quizzes to test themselves on past and present Reading Olympics book lists.",
-    imgPath: "/static/images/projects/pr/philareads_quiz.png"
+    imgPath: "/static/images/projects/pr/philareads_quiz.png",
   },
   {
     title: "Search for books",
     detail:
       "Users can conveniently find a specific book by title or author name. Filters are provided to refine search results further.",
-    imgPath: "/static/images/projects/pr/philareads_search.png"
+    imgPath: "/static/images/projects/pr/philareads_search.png",
   },
   {
     title: "Earn Badges",
     detail:
       "Provides incentivization for students to continually use the page by allowing them to track their progress through badges.",
-    imgPath: "/static/images/projects/pr/philareads_badges.png"
+    imgPath: "/static/images/projects/pr/philareads_badges.png",
   },
   {
     title: "View Parent Advice",
     detail:
       "Parents can get involved in their child’s learning through tips provided here.",
-    imgPath: "/static/images/projects/pr/philareads_parent-advice.png"
+    imgPath: "/static/images/projects/pr/philareads_parent-advice.png",
   },
   {
     title: "Manage Books and Quizzes",
     detail:
       "Administrators can easily update and create new books or quizzes as well as perform other administrative tasks.",
-    imgPath: "/static/images/projects/pr/philareads_admin.png"
-  }
+    imgPath: "/static/images/projects/pr/philareads_admin.png",
+  },
 ]; // can be null
 
 const techStack = ["react", "flask", "postgres"]; //watch me mistype one of these
@@ -85,33 +85,33 @@ const team = {
   detail: [
     {
       name: "Xuan Li",
-      role: "Product Manager"
+      role: "Product Manager",
     },
     {
       name: "David Wang",
-      role: "Technical Lead"
+      role: "Technical Lead",
     },
     {
       name: "Helena Chi",
-      role: "Software Developer"
+      role: "Software Developer",
     },
     {
       name: "Melody Felix",
-      role: "Software Developer"
+      role: "Software Developer",
     },
     {
       name: "Michael Leon",
-      role: "Software Developer"
+      role: "Software Developer",
     },
     {
       name: "Josh Byster",
-      role: "Software Developer"
+      role: "Software Developer",
     },
     {
       name: "Alice Fang",
-      role: "Software Developer"
-    }
-  ]
+      role: "Software Developer",
+    },
+  ],
 };
 
 export default {
@@ -134,5 +134,5 @@ export default {
   githubLink,
   previousLink,
   team,
-  featureImgSize
+  featureImgSize,
 };

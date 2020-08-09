@@ -5,7 +5,7 @@ const BlockQuote = ({ text, author, position, style }) => (
     <p
       className="blockquote-fancy"
       style={{
-        ...style
+        ...style,
       }}
     >
       {text}

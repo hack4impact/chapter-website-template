@@ -1,7 +1,8 @@
 // Data for the Fa19 YMCA Project
 const name = "UIUC Academy";
 const id = "academy";
-const detail = "How might we familiarize new members with technology and our development phases throughout the semester?";
+const detail =
+  "How might we familiarize new members with technology and our development phases throughout the semester?";
 const coverImagePath = "/static/images/projects/academy/cover.png";
 const clientDetail =
   "Academy aims to provide the organization with members who have an adequate grasp on the full tech stack of all our current technologies. Academy aims to provide the members of the class with the knowledge, mentorship, and community to be able to excel and succeed throughout their H4I career and beyond.";
@@ -19,12 +20,13 @@ const features = [
     title: "Home Page",
     detail:
       "Home page where users can look at currently available trips and more information about the trip.",
-    imgPath: "/static/images/projects/academy/home.png"
+    imgPath: "/static/images/projects/academy/home.png",
   },
   {
     title: "New Trip Form",
-    detail: "This is the add new trip form where students can add new trips to the platform.",
-    imgPath: "/static/images/projects/academy/trip.png"
+    detail:
+      "This is the add new trip form where students can add new trips to the platform.",
+    imgPath: "/static/images/projects/academy/trip.png",
   },
 ];
 
@@ -39,29 +41,29 @@ const team = {
   detail: [
     {
       name: "Utkarsh Awasthi",
-      role: "Academy Lead"
+      role: "Academy Lead",
     },
     {
       name: "Shreyas Mohan",
-      role: "Academy Lead"
+      role: "Academy Lead",
     },
     {
       name: "Angela Luo",
-      role: "Software Developer"
+      role: "Software Developer",
     },
     {
       name: "Matthew Walowski",
-      role: "Software Developer"
+      role: "Software Developer",
     },
     {
       name: "Ashank Behara",
-      role: "Software Developer"
+      role: "Software Developer",
     },
     {
       name: "Sahithi Muthyala",
-      role: "Software Developer"
+      role: "Software Developer",
     },
-  ]
+  ],
 };
 
 export default {
@@ -84,5 +86,5 @@ export default {
   githubLink,
   previousLink,
   team,
-  featureImgSize
+  featureImgSize,
 };

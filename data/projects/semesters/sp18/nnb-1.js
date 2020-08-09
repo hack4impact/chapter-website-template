@@ -14,8 +14,8 @@ const previousLink = null;
 const clientFeatures = [
   {
     title: "",
-    detail: ""
-  }
+    detail: "",
+  },
 ]; // can be null
 
 /* Product Details and Solution */
@@ -61,9 +61,9 @@ const team = {
       "Helena Chi",
       "Karthik Shankar",
       "Jeff DeLonge",
-      "Shreyas Mohan"
-    ]
-  }
+      "Shreyas Mohan",
+    ],
+  },
 };
 
 export default {
@@ -85,5 +85,5 @@ export default {
   quoteSourceTitle,
   githubLink,
   previousLink,
-  team
+  team,
 };

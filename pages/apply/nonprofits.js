@@ -35,12 +35,12 @@ class NonProfits extends Component {
           color="#64ab8a"
           title={data.title}
           subHeadline={data.subHeadline}
-          buttonText="Apply Now"
-          buttonLink={data.applicationLink}
-          minorButtonText="Learn More"
-          minorButtonLink={data.pitchbookLink}
+          buttonText="Learn More"
+          buttonLink={data.pitchbookLink}
+          minorButtonText="Apply"
+          minorButtonLink={data.applicationLink}
           isLeftButtonDisplayed={true}
-          isRightButtonDisplayed={true}
+          isRightButtonDisplayed={false}
         />
         <ServicesDetail />
         <Quote

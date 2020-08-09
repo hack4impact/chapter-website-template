@@ -4,19 +4,20 @@ import Contract from "../static/icons/contract.svg";
 import ActionButton from "../components/actionButton";
 import Link from "next/link";
 
-// constants that will affect links in the nonprofit application page
+// constants that will affect links in the nonprofit application page (not using either forms as of Fa20)
 const applicationLink =
   "https://forms.gle/jaEsJHkBtzn9M5jt7";
 const interestFormLink =
   "https://docs.google.com/forms/u/1/d/e/1FAIpQLSeart7T-6sR61MXhdOfsN0n7oJ8ZThYeNjdqPnsLQLzLNKL2A/viewform";
 const projectAppExample =
   "https://docs.google.com/document/d/1SGG7gxu8lgWMOhxIULMSUZQa-4p0bLwrwDl4SAZW2lE/edit";
-const pitchbookLink = "https://h4i-pitchbook.now.sh/"
+const pitchbookLink = "https://h4i-pitchbook.now.sh/";
+const projectsLink = "https://uiuc.hack4impact.org/projects";
 
 // constants for dates
 const applicationDueDate = "September 1, 2019";
-const currentSemester = "Fall 2019";
-const nextSemester = "Spring 2020";
+const currentSemester = "Fall 2020";
+const nextSemester = "Spring 2021";
 
 /*
 what's exported
@@ -28,6 +29,8 @@ export default {
   title: "Non-Profit Organizations",
   applicationLink: applicationLink,
   interestFormLink: interestFormLink,
+  pitchbookLink: pitchbookLink,
+  projectsLink: projectsLink,
   ngoProcess: [
     // {
     //   title: "Nonprofit Interest Form",
@@ -54,10 +57,12 @@ export default {
       title: "Initial Contact",
       detail: (
         <>
-          Reach out to our team via <a href="mailto:uiuc@hack4impact.org">email</a> to 
-          get started with the application process. We'd love to hear more about your organization 
-          and potential project ideas as it will help us get an initial sense of your organization's goals, 
-          needs, and expectations while you progress through the application process.
+          Reach out to our team via{" "}
+          <a href="mailto:uiuc@hack4impact.org">email</a> to get started with
+          the application process. We'd love to hear more about your
+          organization and potential project ideas as it will help us get an
+          initial sense of your organization's goals, needs, and expectations
+          while you progress through the application process.
         </>
       ),
       icon: <Contract />
@@ -81,17 +86,12 @@ export default {
       icon: <Contract />
     },
     {
-      title: "Project Application Due",
+      title: "Confirmation",
       detail: (
         <>
-          You will officially submit the final application, and we will confirm
-          that our goals and expectations are aligned. If everything checks out,
+          We will review the details for the finalized project and confirm that
+          our goals and expectations are aligned. If everything checks out, our
           our project leads will contact you to begin the development process!
-          <ActionButton
-            style={{ display: "block", marginTop: "10px" }}
-            text="Apply Now"
-            link={applicationLink}
-          />
         </>
       ),
       icon: <Contract />,
@@ -113,7 +113,7 @@ export default {
           Each project has a Product Manager, who will be responsible for
           communicating with the client, leading the team, and delivering a
           successful product as well as a team of software engineers to build
-          the technology. They will be leading a team of 7-8 developers with a
+          the technology. They will be leading a team of 5-8 developers with a
           possibility of a designer as well. They will start off diving even
           deeper into your idea and problems and come up with a Product
           Requirements Doc (PRD) specifying your requirements and timeline.
@@ -125,15 +125,18 @@ export default {
           <a href="https://h4i-project-timeline-qonwikgcqk.now.sh">here.</a>
           <br/>
           <br/>
-          Traditionally, projects and development will span one semester, after which
-          our team will transfer ownership of the repository and any additional resources 
-          created during the development process. More recently, however, some projects have 
-          spanned the course of an entire year in an effort to ensure quality and impact. 
-          The development process follows the exact same structure in these cases, where a 
-          fully functional prototype is completed after one semester. However, these projects 
-          continue by gathering feedback during the next semester and iterating on the 
-          prototype to ensure that we're creating the most impactful and useful product for our 
-          clients. The length of the project is discussed and agreed upon from both parties before official development.
+          Traditionally, projects and development will span one semester, after
+          which our team will transfer ownership of the repository and any
+          additional resources created during the development process. More
+          recently, however, some projects have spanned the course of an entire
+          year in an effort to ensure quality and impact. The development
+          process follows the exact same structure in these cases, where a fully
+          fully functional prototype is completed after one semester. However,
+          these projects continue by gathering feedback during the next semester
+          and iterating on the prototype to ensure that we're creating the most
+          impactful and useful product for our clients. The length of the
+          project is discussed and agreed upon from both parties before official
+          development.
         </>
       )
     },
@@ -151,12 +154,14 @@ export default {
       question: "How can I maximize my chances of working with Hack4Impact?",
       answer: (
         <>
-          Fill out our <a href={interestFormLink}>interest form</a> and come in
-          with some initial project ideas. Don’t worry about the validity of
-          those ideas - we simply use them as a starting point for deeper
-          conversation regarding your organization during our initial call! A
-          detailed application would be extremely helpful!{" "}
-          <a href={projectAppExample}>Sample Application</a>
+          Tell us about your organization and the problems that you are facing.
+          Let us know what your vision is and come in with some initial project
+          project ideas. Don’t worry about the validity of those ideas - we use
+          them as a starting point for deeper conversation regarding your
+          organization during our initial call! While a detailed application
+          would be helpful, we also have a very supportive team that will guide
+          through our process and inform you of all the relevant information
+          that we will need along the way.
         </>
       )
     },
@@ -195,11 +200,12 @@ export default {
   applicationDetail: (
     <>
       Our application process is designed to be as straightforward as possible.
-      As long as you fill out an application, {/*before <b>{applicationDueDate}</b>*/}
-      we will carefully consider your submission and reach out to you if our
-      goals align. Some aspects of the application we pay close attention to
-      include technical complexity, impact, and mission. Our application link is{" "}
-      <a href={applicationLink}>{applicationLink}</a>
+      If you are interested in working with us, you can contact us at
+      <a href="mailto:uiuc@hack4impact.org"> uiuc@hack4impact.org</a> with your
+      organization and vision for the problems you are facing. We will carefully
+      consider your submission and reach out to you if our goals goals align.
+      Some aspects of potential projects that we pay close attention to include
+      technical complexity, impact, and mission.
     </>
   ),
   closedApplicationText: (

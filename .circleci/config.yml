@@ -2,7 +2,7 @@ version: 2
 jobs:
   upload:
     docker:
-      - image: node:10.8.0
+      - image: node:12.18.0
     steps:
       - checkout
       - run:
@@ -23,4 +23,3 @@ workflows:
           filters:
             branches:
               only: master
-        

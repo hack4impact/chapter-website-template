@@ -6,7 +6,7 @@ const detail =
   "How might we educate the black youth about the vibrant local history of St. Petersburg, FL?";
 
 /* Client Details */
-const coverImagePath = "/static/images/projects/nnb-1/nnb-cover.jpg"; // used in the project cards in /projects
+const coverImagePath = "/images/projects/nnb-1/nnb-cover.jpg"; // used in the project cards in /projects
 const clientDetail =
   "The Neighborhood News Bureau (NNB) is a nonprofit organization that covers the historic African-American neighborhoods of St. Petersburg’s Midtown area in Tampa Bay, Florida. NNB student-reporters work on a multitude of projects including creating investigative news and feature stories, community communication research and practice, event-planning, and social marketing campaigns. NNB aims to build community partnerships to improve education in journalism, multimedia production and African-American history and culture.";
 const clientLink = "http://www.nnbnews.com/"; // link to website
@@ -21,10 +21,10 @@ const clientFeatures = [
 /* Product Details and Solution */
 const problem =
   "There is a constant loss of local black history as older people die and the stories are not recorded. Local schools do not teach local history and local libraries do not have any books or resources about local history. In other words, all the rich and empowering history of the Civil Rights, Jim Crow and Segregation eras are lost and the black youth is growing without a sense of the thriving black communities that existed in history. Specifically, the area of interest is the historic African-American neighborhoods of St. Petersburg’s Midtown area in Tampa Bay, Florida.";
-const problemImagePath = "/static/images/projects/nnb-1/nnb-cover.jpg";
+const problemImagePath = "/images/projects/nnb-1/nnb-cover.jpg";
 const solution =
   "We worked with Neighborhood News Bureau (NNB) to create an accessible and engaging educational tool that provides a map visualization and timeline of historical events. Students will be able to experience a guided tour of various stories automatically sorted in chronological order. Admins will be able to add more stories as more are uncovered. This tool is set to launch later this year in September/October in celebration of the 150 years since the arrival of the first black settlers to St. Petersburg in 1868.";
-const solutionImagePath = "/static/images/projects/nnb-1/nnb-sol.jpg";
+const solutionImagePath = "/images/projects/nnb-1/nnb-sol.jpg";
 
 /* Product Features*/
 const features = null;

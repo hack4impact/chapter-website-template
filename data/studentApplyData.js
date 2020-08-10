@@ -1,9 +1,9 @@
 import React from "react";
-import Interview from "../static/icons/interview.svg";
-import Calendar from "../static/icons/calendar.svg";
+import Interview from "../public/icons/interview.svg";
+import Calendar from "../public/icons/calendar.svg";
 import ActionButton from "../components/actionButton";
-import Contract from "../static/icons/contract.svg";
-import Education from "../static/icons/education.svg";
+import Contract from "../public/icons/contract.svg";
+import Education from "../public/icons/education.svg";
 
 // constants that will affect links in the student application page
 const applicationLink = "https://forms.gle/AUrm29Zy29oBDAgF6"; //sp20 product designer

@@ -24,7 +24,7 @@ const TeamMemberIcon = ({ name, role, linkedin, nopic }) => (
             <img
               width="12"
               className="linkedin-icon"
-              src="/static/icons/linkedin.svg"
+              src="/icons/linkedin.svg"
             />
           </a>
         ) : null}

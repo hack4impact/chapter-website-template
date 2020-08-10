@@ -17,7 +17,7 @@ const Banner = () => (
       >
         {(props) => (
           <Col md="7" style={{ ...props, paddingTop: 5 }}>
-            <img src="/static/images/banner_sample.svg" />
+            <img src="/images/banner_sample.svg" />
           </Col>
         )}
       </Spring>

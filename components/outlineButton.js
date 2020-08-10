@@ -3,9 +3,13 @@ import Link from "next/link";
 
 const OutlineButton = ({ text, link, style }) => (
   <button style={{ style }}>
-    <Link href={link}>
-      <a>{text}</a>
-    </Link>
+    {link.startsWith("/") ? (
+      <Link href={link}>
+        <a>{text}</a>
+      </Link>
+    ) : (
+      <a href={link}>{text}</a>
+    )}
     <style jsx>{`
       button {
         padding: 0px 2rem;

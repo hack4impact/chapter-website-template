@@ -3,7 +3,7 @@ const name = "GlobalGiving";
 const id = "gg";
 const detail =
   "How might we expand Global Giving’s impact and reach on domestic and international nonprofits?";
-const coverImagePath = "/static/images/projects/gg/gg-map.png";
+const coverImagePath = "/images/projects/gg/gg-map.png";
 const clientDetail =
   "Global Giving seeks to identify nonprofits around the world, creating a central directory of nonprofits. They also aim to connect each nonprofit with the necessary resources, such as connecting them with donors or setting up crowdfunding options to help the nonprofit succeed.";
 const clientLink = "https=//www.globalgiving.org/";
@@ -24,28 +24,28 @@ const clientFeatures = [
 ];
 const problem =
   "Currently, GlobalGiving connects with organizations based in the US along with some nonprofits in other countries. However, the process of finding and applying to GlobalGiving remains significantly easier within the United States. In certain countries, factors including lack of internet connectivity and lack of access to documents required by GlobalGiving has led to slower onboarding and discovery of the organization.";
-const problemImagePath = "/static/images/projects/gg/gg-cover.jpg";
+const problemImagePath = "/images/projects/gg/gg-cover.jpg";
 const solution =
   "We worked with GlobalGiving to build a scalable, easy-to-use command line interface that crawls for promising nonprofit websites to scrape and manages numerous web scrapers for these sites.";
-const solutionImagePath = "/static/images/projects/gg/gg-crawl.png";
+const solutionImagePath = "/images/projects/gg/gg-crawl.png";
 const features = [
   {
     title: "Data collection through scraping",
     detail:
       "Choose ten websites with directories of nonprofits and scrape each individual one and add them to the database. Data includes the organization’s name, country of registration, registration numbers, website url, and email.",
-    imgPath: "/static/images/projects/gg/gg-scraper.png",
+    imgPath: "/images/projects/gg/gg-scraper.png",
   },
   {
     title: "Command Line Tool",
     detail:
       "Allows user to see all the available scripts, run them, and submit the entries to the global giving database using the organization parser",
-    imgPath: "/static/images/projects/gg/gg-run.png",
+    imgPath: "/images/projects/gg/gg-run.png",
   },
   {
     title: "Web Crawler",
     detail:
       "Crawls the web and google searches and ranks potential NGO directories",
-    imgPath: "/static/images/projects/gg/gg-crawl.png",
+    imgPath: "/images/projects/gg/gg-crawl.png",
   },
 ];
 const featureImgSize = "7";

@@ -4,7 +4,6 @@ import ActionButton from "../../components/actionButton";
 import Head from "../../components/head";
 import Nav from "../../components/nav";
 import { Container, Row, Col } from "reactstrap";
-import Link from "next/link";
 import Footer from "../../components/footer";
 import { initializeGA, logPage } from "../../components/Analytics";
 
@@ -29,14 +28,9 @@ class ApplyPage extends Component {
           <Container>
             <Row>
               <Col md="6" className="text-center">
-                <Link href="https://h4i-project-timeline.now.sh/">
-                  <a>
-                    <img
-                      src="/static/images/timeline.jpg"
-                      className="img-fluid"
-                    />
-                  </a>
-                </Link>
+                <a href="https://h4i-project-timeline.now.sh/">
+                  <img src="/images/timeline.jpg" className="img-fluid" />
+                </a>
               </Col>
 
               <Col md="6">

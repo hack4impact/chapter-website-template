@@ -26,7 +26,7 @@ const values = [
         to our clients, even if the solution isn’t built by Hack4Impact.
       </>
     ),
-    imagePath: "/static/images/values/value-1.svg",
+    imagePath: "/images/values/value-1.svg",
   },
   {
     title: "Empathy",
@@ -44,7 +44,7 @@ const values = [
         executing on what’s best for our client.
       </>
     ),
-    imagePath: "/static/images/values/value-2.svg",
+    imagePath: "/images/values/value-2.svg",
   },
   {
     title: "Intentionality",
@@ -60,7 +60,7 @@ const values = [
         precise constraints.
       </>
     ),
-    imagePath: "/static/images/values/value-3.svg",
+    imagePath: "/images/values/value-3.svg",
   },
 ];
 

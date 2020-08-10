@@ -8,7 +8,7 @@ const Footer = () => (
       <Row>
         <Col md="5" xs="12" className="footer-left-div">
           <div className="footer-logo-box">
-            <img src="/static/images/h4i_white.png" height="35" width="200" />
+            <img src="/images/h4i_white.png" height="35" width="200" />
           </div>
           <p>
             For all inquiries of partnership or sponsorship, please contact us
@@ -30,14 +30,10 @@ const Footer = () => (
               </Link>
             </li>
             <li>
-              <Link href="https://h4i-sponsor.now.sh">
-                <a>Sponsorship</a>
-              </Link>
+              <a href="https://h4i-sponsor.now.sh">Sponsorship</a>
             </li>
             <li>
-              <Link href="https://h4i-pitchbook.now.sh/">
-                <a>Pitchbook</a>
-              </Link>
+              <a href="https://h4i-pitchbook.now.sh/">Pitchbook</a>
             </li>
             <li>
               <Link href="/design">
@@ -50,27 +46,21 @@ const Footer = () => (
           <h4>EXTRAS</h4>
           <ul>
             <li>
-              <Link href="https://www.facebook.com/h4iuiuc/">
-                <a>Facebook</a>
-              </Link>
+              <a href="https://www.facebook.com/h4iuiuc/">Facebook</a>
             </li>
             <li>
-              <Link href="https://github.com/hack4impact-uiuc">
-                <a>Github</a>
-              </Link>
+              <a href="https://github.com/hack4impact-uiuc">Github</a>
             </li>
             <li>
-              <Link href="https://medium.com/hack4impact-uiuc">
-                <a>Blog</a>
-              </Link>
+              <a href="https://medium.com/hack4impact-uiuc">Blog</a>
             </li>
             <li>
               <a href="mailto:uiuc@hack4impact.org">Email</a>
             </li>
             <li>
-              <Link href="https://www.notion.so/h4iuiuc/Hack4Impact-UIUC-Official-628a998ceff4491a8267187f364947af">
-                <a>Notion & Wiki</a>
-              </Link>
+              <a href="https://www.notion.so/h4iuiuc/Hack4Impact-UIUC-Official-628a998ceff4491a8267187f364947af">
+                Notion & Wiki
+              </a>
             </li>
           </ul>
         </div>

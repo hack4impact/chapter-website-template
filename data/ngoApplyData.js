@@ -1,6 +1,6 @@
 import React from "react"; // to import svgs
-import Phone from "../static/icons/phone-call.svg";
-import Contract from "../static/icons/contract.svg";
+import Phone from "../public/icons/phone-call.svg";
+import Contract from "../public/icons/contract.svg";
 import ActionButton from "../components/actionButton";
 import Link from "next/link";
 

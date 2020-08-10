@@ -5,7 +5,7 @@ import { string } from "prop-types";
 const defaultDescription =
   "We are a team of UIUC students who create robust software for social good. We believe that our engineering skill sets do not render us useless in addressing social injustices. Instead, they empower us to build a better society together.";
 const defaultOGURL = "uiuc.hack4impact.org";
-const defaultOGImage = "/static/icons/favicon-32x32.png";
+const defaultOGImage = "/icons/favicon-32x32.png";
 
 const Head = (props) => (
   <NextHead>
@@ -26,23 +26,23 @@ const Head = (props) => (
     <link
       rel="apple-touch-icon"
       sizes="180x180"
-      href="/static/icons/apple-touch-icon.png"
+      href="/icons/apple-touch-icon.png"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="/static/icons/favicon-32x32.png"
+      href="/icons/favicon-32x32.png"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="16x16"
-      href="/static/icons/favicon-16x16.png"
+      href="/icons/favicon-16x16.png"
     />
 
-    <link rel="stylesheet" type="text/css" href="/static/style.css" />
-    <link rel="stylesheet" type="text/css" href="/static/react-toast.css" />
+    <link rel="stylesheet" type="text/css" href="/style.css" />
+    <link rel="stylesheet" type="text/css" href="/react-toast.css" />
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
@@ -55,10 +55,10 @@ const Head = (props) => (
     />
     {props.title === "H4I Apply | Nonprofits" ||
     props.title === "H4I Apply | Students" ? (
-      <link rel="stylesheet" href="/static/react-vertical.min.css" />
+      <link rel="stylesheet" href="/react-vertical.min.css" />
     ) : null}
 
-    <link rel="mask-icon" href="/static/favicon-mask.svg" color="#49B882" />
+    <link rel="mask-icon" href="/favicon-mask.svg" color="#49B882" />
     <meta property="og:url" content={props.url || defaultOGURL} />
     <meta property="og:title" content={props.title || ""} />
     <meta

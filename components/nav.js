@@ -42,7 +42,7 @@ class NavigationBar extends React.Component {
               id="logo-img"
               height="35"
               width="200"
-              src="/static/images/colored-logo.png"
+              src="/images/colored-logo.png"
               alttext="Hack4Impact UIUC logo"
             />
           </NavbarBrand>
@@ -65,9 +65,12 @@ class NavigationBar extends React.Component {
                 </Link>
               </NavItem>
               <NavItem>
-                <Link prefetch href="https://medium.com/hack4impact-uiuc">
-                  <a className="nav-link pl-3">Blog</a>
-                </Link>
+                <a
+                  href="https://medium.com/hack4impact-uiuc"
+                  className="nav-link pl-3"
+                >
+                  Blog
+                </a>
               </NavItem>
               <NavItem>
                 <Link prefetch href="/apply">

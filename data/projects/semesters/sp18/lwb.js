@@ -3,7 +3,7 @@ const name = "Love Without Boundaries";
 const id = "lwb";
 const detail =
   "How might we facilitate and improve the learning of Cambodian students preparing for the English Exam?";
-const coverImagePath = "/static/images/projects/lwb/lwb-cover.jpg";
+const coverImagePath = "/images/projects/lwb/lwb-cover.jpg";
 const clientDetail =
   "Love Without Boundaries (LWB) is an international NPO with the mission of serving vulnerable children in underserved communities. Through their services, which include nutrition programs, summer camps, and healing homes, LWB is able to target education, nutrition, medical care, and foster care. LWB mainly serves in China, Cambodia, India, and Uganda.";
 const clientLink = "https=//www.lovewithoutboundaries.com/";
@@ -24,34 +24,34 @@ const clientFeatures = [
 ];
 const problem =
   "Recently, the Cambodian Ministry of Education implemented a written English component on the college entrance exams, requiring English competency in order to be admitted to university for the following term. Currently students and tutors can only contact via DM and facebook groups and tutors/admins aren't able to track the progress of their students.";
-const problemImagePath = "/static/images/projects/lwb/lwb-problem.jpg";
+const problemImagePath = "/images/projects/lwb/lwb-problem.jpg";
 const solution =
   "We worked with LWB to create an application that tracks the progress of students and their interactions with tutors. This platform allows students to access standardized lessons and work with teachers on individual worksheets and lesson notes in real-time through google docs. Admins can manage all the students and teachers through the platform while keeping track of the student progress.";
-const solutionImagePath = "/static/images/projects/lwb/lwb-sol.jpg";
+const solutionImagePath = "/images/projects/lwb/lwb-sol.jpg";
 const features = [
   {
     title: "Standardized Lessons & Worksheets",
     detail:
       "Lessons are created by administrators, which consist of lessons, worksheets, and quizzes.",
-    imgPath: "/static/images/projects/lwb/lwb-sol.jpg",
+    imgPath: "/images/projects/lwb/lwb-sol.jpg",
   },
   {
     title: "Google Drive Integration",
     detail:
       "Worksheets are copied over to the student's personal google drive and accessible by tutors and admins.",
-    imgPath: "/static/images/projects/lwb/lwb-google.png",
+    imgPath: "/images/projects/lwb/lwb-google.png",
   },
   {
     title: "Tutor and Student Matching",
     detail:
       "Tutors are matched with students by Admins so tutors are able to work on the same material with their students.",
-    imgPath: "/static/images/projects/lwb/lwb-admin.png",
+    imgPath: "/images/projects/lwb/lwb-admin.png",
   },
   {
     title: "Quizzes",
     detail:
       "Quizzes are mandatory to pass lessons and are useful to gauge the progress of a student.",
-    imgPath: "/static/images/projects/lwb/lwb-addlesson.png",
+    imgPath: "/images/projects/lwb/lwb-addlesson.png",
   },
 ];
 const featureImgSize = "5";

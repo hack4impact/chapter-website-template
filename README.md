@@ -17,7 +17,7 @@ For the optimal development environment, edit your code with [vscode](https://co
 
 ### Project Pages
 
-Each project page is under `/projects?name={project_id}`. Ex: `/projects?name=c2tc-1` - this goes to the sp2018 project. `/projects?name=c2tc-2` goes to the fa18 project, etc. Look into `/data/projectData.js` for the projects detail. `/projects` just goes to the regular project page listing all the projects.
+Each project page is under `/projects/{project_id}`. Ex: `/projects/c2tc-1` - this goes to the sp2018 project. `/projects/c2tc-2` goes to the fa18 project, etc. Look into `/data/projectData.js` for the projects detail. `/projects` just goes to the regular project page listing all the projects.
 
 ### People Pictures
 
@@ -34,7 +34,7 @@ Each Semester has the following...
 - `semester`: <str> ex: Fall 2018
 - `projects`: List[Objects]
   - `name`: Full Name of Client
-  - `id`: id for the page ex: `/projects?name=lwb` goes to the project with id `lwb`
+  - `id`: id for the page ex: `/projects/lwb` goes to the project with id `lwb`
   - `detail`: detail shown below each project card (in the regular projects list)
   - `coverImagePath`: image shown in each project card
   - `clientDetail`: paragraph detailing the client and who they are. Shown in the project banner.

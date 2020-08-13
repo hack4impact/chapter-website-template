@@ -2,7 +2,7 @@
   Mission Section holding the photo and our mission in the /about page
 */
 import { Container, Row, Col } from "reactstrap";
-import { Spring } from "react-spring";
+import { Spring } from "react-spring/renderprops.cjs";
 
 const MissionSection = () => (
   <section className="mission-section">

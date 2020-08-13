@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
-import { Spring, config } from "react-spring";
+import { Spring, config } from "react-spring/renderprops.cjs";
 import ActionButton from "../actionButton";
 
 const Banner = () => (

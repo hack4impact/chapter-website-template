@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col, Button } from "reactstrap";
 import Link from "next/link";
-import { Spring, Trail } from "react-spring";
+import { Spring, Trail } from "react-spring/renderprops.cjs";
 import Section from "../section";
 import ProjectContainer from "../projectContainer";
 import ActionLink from "../actionLink";
@@ -11,19 +11,19 @@ const items = [
     title="Kiva"
     subtitle="How might we expedite the reporting process with a single portal where users can see which documents need to be uploaded and track their progress?"
     image="url('/images/projects/kiva-2/kiva2-thumbnail copy.png')"
-    link="/projects?name=kiva-2"
+    link="/projects/kiva-2"
   />,
   <ProjectContainer
     title="SafeMaps"
     subtitle="How might we make students feel safer on campus?"
     image="url('/images/projects/safemaps/sm-safemaps-cover.png')"
-    link="/projects?name=safemaps"
+    link="/projects/safemaps"
   />,
   <ProjectContainer
     title="Global Giving"
     subtitle="How might we expand Global Giving’s impact and reach on domestic and international nonprofits?"
     image="url('/images/projects/gg-2/gg2-thumbnail.png')"
-    link="/projects?name=gg-2"
+    link="/projects/gg-2"
   />,
 ];
 

@@ -1,6 +1,6 @@
 import React from "react";
 import { Row, Col } from "reactstrap";
-import { Spring, config } from "react-spring";
+import { Spring, config } from "react-spring/renderprops.cjs";
 
 class FeatureSlider extends React.Component {
   constructor(props) {
@@ -23,7 +23,6 @@ class FeatureSlider extends React.Component {
       featureImgSize = 6;
     }
     const featureTextSize = 12 - featureImgSize > 6 ? 6 : 12 - featureImgSize;
-    console.log(parseInt(featureTextSize) + parseInt(featureImgSize));
     return (
       <Row>
         {parseInt(featureTextSize) + parseInt(featureImgSize) < 12 ? (

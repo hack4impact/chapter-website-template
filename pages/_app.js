@@ -11,15 +11,6 @@ export default class MyApp extends App {
     super(props);
     this.state = { hasError: false };
   }
-  static async getInitialProps({ Component, router, ctx }) {
-    let pageProps = {};
-
-    if (Component.getInitialProps) {
-      pageProps = await Component.getInitialProps(ctx);
-    }
-
-    return { pageProps };
-  }
 
   componentDidCatch(error, errorInfo) {
     console.error("Page Error Boundary: ", error);

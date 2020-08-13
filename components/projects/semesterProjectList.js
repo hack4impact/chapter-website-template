@@ -18,7 +18,7 @@ export default function SemesterProjectList() {
                 <ProjectCards
                   title={project.name}
                   imgPath={project.coverImagePath}
-                  link={`/projects?name=${project.id}`}
+                  link={`/projects/${project.id}`}
                   subTitle={project.detail}
                 />
               </Col>

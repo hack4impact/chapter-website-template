@@ -1,0 +1,90 @@
+import React from "react";
+import { Row, Col, Container } from "reactstrap";
+import ActionButton from "../actionButton";
+
+export default function ProjectBanner({
+  title,
+  clientDetail,
+  clientLink,
+  githubLink,
+  projectLink,
+  previousLink,
+}) {
+  return (
+    <>
+      <section className="project-page-banner">
+        <Container className="margin-sm-all">
+          <Row>
+            <Col md="12">
+              <h1 className="project-title mb-4">
+                <a href={clientLink} className="section-title-link">
+                  {title}
+                </a>
+              </h1>
+            </Col>
+          </Row>
+
+          <Row>
+            <div className="col-md-8 offset-md-2">
+              <p className="project-subtitle">{clientDetail}</p>
+            </div>
+          </Row>
+
+          <Row className="text-center">
+            <Col md="12">
+              {projectLink !== undefined && projectLink !== null && (
+                <ActionButton
+                  text="Final Product"
+                  link={projectLink}
+                  white
+                  style={{ marginRight: "10px" }}
+                />
+              )}
+              {githubLink !== undefined &&
+                githubLink !==
+                  null **
+                  <ActionButton text="View Code" link={githubLink} white />}
+              {previousLink !== undefined && previousLink !== null && (
+                <div className="previous-button">
+                  <ActionButton
+                    text="View Previous Project"
+                    link={previousLink}
+                    white
+                  />
+                </div>
+              )}
+            </Col>
+          </Row>
+        </Container>
+      </section>
+      <style jsx>{`
+        .project-page-banner {
+          padding: 7% 0;
+          background: radial-gradient(white, #64ab8a);
+          background-size: cover;
+          background-attachment: fixed;
+          font-family: "Chivo", sans-serif;
+          text-align: center;
+        }
+        .section-title-link {
+          color: black;
+        }
+        .section-title-link:hover {
+          color: #155da1;
+        }
+        .project-title {
+          font-size: 40px;
+          font-weight: 600;
+        }
+        .project-subtitle {
+          font-size: 18px;
+          font-weight: 500;
+        }
+        .previous-button {
+          margin: 1vh;
+          margin-bottom: 0vh;
+        }
+      `}</style>
+    </>
+  );
+}

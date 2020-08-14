@@ -28,27 +28,18 @@ const solutionImagePath = "/images/projects/nnb-1/nnb-sol.jpg";
 
 /* Product Features*/
 const features = null;
-const featureImgSize = null;
 
 const techStack = ["react", "redux", "flask", "postgres"]; // can be null, must follow specific format (look at `projectTechStack.js`)
 
 /* Quote */
-const quote = (
-  <>
-    The educational tool is both very sensible and very easy. We’ll be using
-    this tool to teach local kids in school and eventually teach them how to
-    code and add to these stories. This tool{" "}
-    <b>transforms local black history to mainstream history.</b> The more we
-    empower people to add to these stories, the better.
-  </>
-); // can be null
+const quote =
+  "The educational tool is both very sensible and very easy. We’ll be using this tool to teach local kids in school and eventually teach them how to code and add to these stories. This tool transforms local black history to mainstream history. The more we empower people to add to these stories, the better."; // can be null
 const quoteSource = "Bernardo Motta"; // can be null
 const quoteSourceTitle =
   "Ph. D, Faculty Coordinator of the USFSP Neighborhood News Bureau"; // can be null
 
 /* Project Related Links */
 const githubLink = "https://github.com/hack4impact-uiuc/nnb-frontend";
-const projectLink = "";
 
 const team = {
   type: "no-pic", // can be "no-pic" if no pics for developers, look at README.md for more info

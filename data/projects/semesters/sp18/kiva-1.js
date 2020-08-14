@@ -40,7 +40,6 @@ const solutionImagePath = "/images/projects/kiva-1/kiva-web.jpg";
 
 /* Product Features*/
 const features = null;
-const featureImgSize = null;
 
 const techStack = ["react", "redux", "flask", "postgres"]; //[""]; // can be null
 
@@ -51,7 +50,6 @@ const quoteSourceTitle = null; // can be null
 
 /* Project Related Links */
 const githubLink = "https://github.com/hack4impact-uiuc/kiva-pricing-tool";
-const projectLink = "";
 
 const team = {
   type: "no-pic", // can be "no-pic" if no pics for developers, look at README.md for more info

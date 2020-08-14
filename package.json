@@ -2,12 +2,14 @@
   "name": "uiuc.hack4impact.org",
   "author": "Hack4Impact UIUC",
   "scripts": {
-    "dev": "next",
     "build": "next build",
+    "dev": "next",
+    "export": "next export",
     "format": "prettier --write \"**/*.{js,json,md,css}\"",
     "format:check": "prettier --check \"**/*.{js,json,md,css}\"",
-    "start": "next start",
-    "export": "next export"
+    "lint": "eslint \"./**/*.{js,jsx}\"",
+    "lint:fix": "eslint --fix \"./**/*.{js,jsx}\"",
+    "start": "next start"
   },
   "dependencies": {
     "next": "^9.5.2",
@@ -22,13 +24,9 @@
     "yarn": "^1.16.0"
   },
   "devDependencies": {
-    "babel-eslint": "^10.0.1",
+    "@hack4impact-uiuc/eslint-plugin": "2.0.3",
     "babel-plugin-inline-react-svg": "^1.0.1",
-    "eslint": "^5.10.0",
-    "eslint-config-prettier": "^3.3.0",
-    "eslint-config-standard": "^12.0.0",
-    "eslint-plugin-prettier": "^3.0.0",
-    "eslint-plugin-react": "^7.20.6",
+    "eslint": "^7.6.0",
     "prettier": "^2.0.5"
   }
 }

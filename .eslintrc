@@ -1,24 +1,13 @@
 {
-    "env": {
-        "browser": true,
-        "es6": true
-    },
-    "parserOptions": {
-        "ecmaFeatures": {
-            "jsx": true
-        },
-        "sourceType": "module"
-    },
-    "extends": [
-        "prettier/standard",
-        "prettier",
-        "prettier/react"
-    ],
-    "parser": "babel-eslint",
-    "plugins": [
-        "prettier"
-    ],
-    "rules": {
-        "prettier/prettier": "error"
-    }
+  "plugins": ["@hack4impact-uiuc"],
+  "extends": [
+    "plugin:@hack4impact-uiuc/base",
+    "plugin:@hack4impact-uiuc/react"
+  ],
+  "env": {
+    "browser": true
+  },
+  "rules": {
+    "jsx-a11y/anchor-is-valid": "off"
+  }
 }

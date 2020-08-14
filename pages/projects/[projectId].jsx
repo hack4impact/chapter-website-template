@@ -44,3 +44,24 @@ export default function Projects() {
     </div>
   );
 }
+
+// necessary to statically render all paths
+export function getStaticPaths() {
+  let projectIds = [];
+
+  projectData.forEach((semester) =>
+    semester.projects.forEach((project) => projectIds.push(project.id))
+  );
+
+  return {
+    paths: projectIds.map((projectId) => ({ params: { projectId } })),
+    fallback: false,
+  };
+}
+
+// necessary to statically render all paths
+export function getStaticProps() {
+  return {
+    props: {},
+  };
+}

@@ -46,7 +46,7 @@ const getAnchor = (link, onClick, style, white, text) => (
     <button
       style={style}
       className={white ? "white-button styled-btn" : "action-button styled-btn"}
-      onClick={onClick !== undefined && onClick}
+      onClick={onClick ?? undefined}
     >
       {text}
     </button>
@@ -69,7 +69,7 @@ const ActionButton = ({ link, text, style, white, onClick }) => {
         className={
           white ? "white-button styled-btn" : "action-button styled-btn"
         }
-        onClick={onClick !== undefined && onClick}
+        onClick={onClick ?? undefined}
       >
         <a>{text}</a>
       </button>

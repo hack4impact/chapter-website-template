@@ -3,7 +3,7 @@ const name = "Kiva";
 const id = "kiva-2"; // second kiva Project
 const detail =
   "How might we expedite the reporting process with a single portal where Field Partners and Portfolio Managers can see which documents need to be uploaded and track their progress?";
-const coverImagePath = "/images/projects/kiva-2/kiva2-thumbnail copy.png";
+const coverImagePath = "/images/projects/kiva-2/kiva2-thumbnail copy.jpg";
 
 const clientDetail =
   "Kiva is a nonprofit organization founded in 2006 that is funded via individual and corporate donations. Their mission is to alleviate poverty and connect people by funding loans. So far, Kiva has reached borrowers in 82 countries, and 1.7 million Kiva lenders have lent over a billion dollars to family businesses. Their goal is to reach 2 million people soon and lend the next 1 billion dollars in a shorter amount of time.";
@@ -32,32 +32,32 @@ const problem =
 const problemImagePath = "/images/projects/kiva-2/kiva2-docs.jpg";
 const solution =
   "Our project consolidates this process into a single portal where Field Partners and Portfolio Managers can see which documents need to be uploaded and track their progress. We integrate this with some file repository service (likely Box or GitHub) and aim to create a streamlined, secure portal that will eliminate the hassle of tracking multiple financial documents across a wide network of Field Partners.";
-const solutionImagePath = "/images/projects/kiva-2/kiva2-fp.png";
+const solutionImagePath = "/images/projects/kiva-2/kiva2-fp.jpg";
 
 const features = [
   {
     title: "Login page",
     detail:
       "Kiva users and partners can log in to our application and be verified using the security tool developed by our chapter's Product Infrastructure team.",
-    imgPath: "/images/projects/kiva-2/kiva2-login.png",
+    imgPath: "/images/projects/kiva-2/kiva2-login.jpg",
   },
   {
     title: "Field partner dashboard",
     detail:
       "Required documents are organized by their status, and portfolio managers can reject or approve them based on their completions.",
-    imgPath: "/images/projects/kiva-2/kiva2-fp.png",
+    imgPath: "/images/projects/kiva-2/kiva2-fp.jpg",
   },
   {
     title: "Portfolio manager dashboard",
     detail:
       "Where portfolio managers can see the statuses of all their field partners, organized by whether each partner is currently in the reviewing process, has just been created, or has finished the review process.",
-    imgPath: "/images/projects/kiva-2/kiva2-pm.png",
+    imgPath: "/images/projects/kiva-2/kiva2-pm.jpg",
   },
   {
     title: "Document selection page",
     detail:
       "To set up the review process, a portfolio manager will assign requirements to a field partner from a user-defined list of document classes.",
-    imgPath: "/images/projects/kiva-2/kiva2-selection.png",
+    imgPath: "/images/projects/kiva-2/kiva2-selection.jpg",
   },
 ];
 

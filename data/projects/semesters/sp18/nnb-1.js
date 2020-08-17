@@ -42,19 +42,42 @@ const quoteSourceTitle =
 const githubLink = "https://github.com/hack4impact-uiuc/nnb-frontend";
 
 const team = {
-  type: "no-pic", // can be "no-pic" if no pics for developers, look at README.md for more info
-  detail: {
-    pm: "Alvin Wu",
-    tl: "Varun Munjeti",
-    swe: [
-      "Aria Malkani",
-      "Timothy Ko",
-      "Helena Chi",
-      "Karthik Shankar",
-      "Jeff DeLonge",
-      "Shreyas Mohan",
-    ],
-  },
+  type: "pics",
+  detail: [
+    {
+      name: "Alvin Wu",
+      role: "Product Manager",
+    },
+    {
+      name: "Varun Munjeti",
+      role: "Tech Lead",
+    },
+    {
+      name: "Jeff DeLonge",
+      role: "Software Developer",
+    },
+    {
+      name: "Aria Malkani",
+      role: "Software Developer",
+    },
+    {
+      name: "Timothy Ko",
+      role: "Software Developer",
+    },
+    {
+      name: "Helena Chi",
+      role: "Software Developer",
+    },
+
+    {
+      name: "Shreyas Mohan",
+      role: "Software Developer",
+    },
+    {
+      name: "Karthik Shankar",
+      role: "Software Developer",
+    },
+  ],
 };
 
 export default {

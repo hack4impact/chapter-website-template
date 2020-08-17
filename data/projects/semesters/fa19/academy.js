@@ -20,13 +20,13 @@ const features = [
     title: "Home Page",
     detail:
       "Home page where users can look at currently available trips and more information about the trip.",
-    imgPath: "/images/projects/academy/home.png",
+    imgPath: "/images/projects/academy/home.jpg",
   },
   {
     title: "New Trip Form",
     detail:
       "This is the add new trip form where students can add new trips to the platform.",
-    imgPath: "/images/projects/academy/trip.png",
+    imgPath: "/images/projects/academy/trip.jpg",
   },
 ];
 

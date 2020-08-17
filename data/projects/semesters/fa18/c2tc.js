@@ -33,25 +33,25 @@ const features = [
     title: "Location and Map Services",
     detail:
       "Users can browse the map, know their current location, and zoom back to their current location using their phone’s native map application.",
-    imgPath: "/images/projects/c2tc-2/c2tc-2-map.png",
+    imgPath: "/images/projects/c2tc-2/c2tc-2-map.jpg",
   },
   {
     title: "Filter Data",
     detail:
       "The C2TC app has location information on U of I’s bus stops, crimes in the past month, open businesses, emergency phones, police stations, street lights and keeps these updated constantly. ",
-    imgPath: "/images/projects/c2tc-2/c2tc-2-filters.png",
+    imgPath: "/images/projects/c2tc-2/c2tc-2-filters.jpg",
   },
   {
     title: "Applying Filters",
     detail:
       "Users can then apply filters to see how dangerous the surrounding area and what the best path to take home at night.",
-    imgPath: "/images/projects/c2tc-2/c2tc-2-apply-filters.png",
+    imgPath: "/images/projects/c2tc-2/c2tc-2-apply-filters.jpg",
   },
   {
     title: "Safe Rides and Safe Walks Integration",
     detail:
       "Users can quickly call safe rides and safe walks within the app if they are not comfortable walking home alone.",
-    imgPath: "/images/projects/c2tc-2/c2tc-2-safe-rides.png",
+    imgPath: "/images/projects/c2tc-2/c2tc-2-safe-rides.jpg",
   },
 ];
 
@@ -90,7 +90,7 @@ const team = {
       role: "Software Developer",
     },
     {
-      name: "Phillip Kuo",
+      name: "Philip Kuo",
       role: "UI/UX Designer",
     },
     {

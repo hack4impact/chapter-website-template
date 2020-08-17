@@ -39,19 +39,19 @@ const features = [
     title: "Google Drive Integration",
     detail:
       "Worksheets are copied over to the student's personal google drive and accessible by tutors and admins.",
-    imgPath: "/images/projects/lwb/lwb-google.png",
+    imgPath: "/images/projects/lwb/lwb-google.jpg",
   },
   {
     title: "Tutor and Student Matching",
     detail:
       "Tutors are matched with students by Admins so tutors are able to work on the same material with their students.",
-    imgPath: "/images/projects/lwb/lwb-admin.png",
+    imgPath: "/images/projects/lwb/lwb-admin.jpg",
   },
   {
     title: "Quizzes",
     detail:
       "Quizzes are mandatory to pass lessons and are useful to gauge the progress of a student.",
-    imgPath: "/images/projects/lwb/lwb-addlesson.png",
+    imgPath: "/images/projects/lwb/lwb-addlesson.jpg",
   },
 ];
 const featureImgSize = "5";
@@ -65,18 +65,37 @@ const githubLink =
   "https=//github.com/hack4impact-uiuc/love-without-boundaries";
 const projectLink = "http=//cambodia.lovewithoutboundaries.com";
 const team = {
-  type: "no-pic",
-  detail: {
-    pm: "Timothy Ko",
-    tl: "Aria Malkani",
-    swe: [
-      "Shreyas Mohan",
-      "Hana Riwani",
-      "Alan Ren",
-      "Michael Chen",
-      "Teja Kotha",
-    ],
-  },
+  type: "pics",
+  detail: [
+    {
+      name: "Timothy Ko",
+      role: "Product Manager",
+    },
+    {
+      name: "Aria Malkani",
+      role: "Tech Lead",
+    },
+    {
+      name: "Shreyas Mohan",
+      role: "Software Developer",
+    },
+    {
+      name: "Hana Rimawi",
+      role: "Software Developer",
+    },
+    {
+      name: "Alan Ren",
+      role: "Software Developer",
+    },
+    {
+      name: "Michael Chen",
+      role: "Software Developer",
+    },
+    {
+      name: "Teja Kotha",
+      role: "Software Developer",
+    },
+  ],
 };
 
 export default {

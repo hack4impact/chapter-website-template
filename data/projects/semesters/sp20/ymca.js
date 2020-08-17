@@ -3,7 +3,7 @@ const name = "YMCA New American Welcome Center";
 const id = "ymca";
 const detail =
   "How might we reduce barriers to reliable information for Champaign’s resources?";
-const coverImagePath = "/images/projects/ymca/cover.png";
+const coverImagePath = "/images/projects/ymca/cover.jpg";
 const clientDetail =
   "The New American Welcome Center at the University Y helps immigrants fully integrate into American society and prepares receiving communities around Champaign County to be welcoming and inclusive. By engaging local institutions and mobilizing community resources, we help make our community a place where newcomers and immigrants can thrive and flourish.";
 const clientLink = "https://universityymca.org/welcome/";
@@ -33,30 +33,30 @@ const features = [
     title: "Filter Data",
     detail:
       "Tailor filters based on lifestyle needs including cost preference, languages offered, and location.",
-    imgPath: "/images/projects/ymca/customize.png",
+    imgPath: "/images/projects/ymca/customize.jpg",
   },
   {
     title: "View Resource Details",
     detail:
       "Gain reliable access to information such as required documents and recommended contacts for service providers in the community.",
-    imgPath: "/images/projects/ymca/view.png",
+    imgPath: "/images/projects/ymca/view.jpg",
   },
   {
     title: "Upload New Resources",
     detail:
       "Administrator users can build on the resource base by editing existing and uploading new community resources.",
-    imgPath: "/images/projects/ymca/upload.png",
+    imgPath: "/images/projects/ymca/upload.jpg",
   },
   {
     title: "Save Resources",
     detail: "Users can create accounts and save resources for quicker access.",
-    imgPath: "/images/projects/sp20/ymca/ymca-save-resources.png",
+    imgPath: "/images/projects/sp20/ymca/ymca-save-resources.jpg",
   },
   {
     title: "Increased Admin Editing Abilities",
     detail:
       "Admins can edit the content of the home page along with that of the resources themselves.",
-    imgPath: "/images/projects/sp20/ymca/ymca-edit-home.png",
+    imgPath: "/images/projects/sp20/ymca/ymca-edit-home.jpg",
   },
 ];
 

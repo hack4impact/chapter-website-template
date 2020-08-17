@@ -32,7 +32,7 @@ const problem =
 const problemImagePath = "/images/projects/pr/philly-cover.jpg";
 const solution =
   "We worked with Philadelphia READs and their professionals to develop a tablet-friendly web application that allows students to prepare for the Reading Olympics, and provides helpful information for parents on how to be involved in their children's learning";
-const solutionImagePath = "/images/projects/pr/philareads_sol.png";
+const solutionImagePath = "/images/projects/pr/philareads_sol.jpg";
 
 /* Product Features*/
 
@@ -41,31 +41,31 @@ const features = [
     title: "Complete Quizzes",
     detail:
       "Users can complete quizzes to test themselves on past and present Reading Olympics book lists.",
-    imgPath: "/images/projects/pr/philareads_quiz.png",
+    imgPath: "/images/projects/pr/philareads_quiz.jpg",
   },
   {
     title: "Search for books",
     detail:
       "Users can conveniently find a specific book by title or author name. Filters are provided to refine search results further.",
-    imgPath: "/images/projects/pr/philareads_search.png",
+    imgPath: "/images/projects/pr/philareads_search.jpg",
   },
   {
     title: "Earn Badges",
     detail:
       "Provides incentivization for students to continually use the page by allowing them to track their progress through badges.",
-    imgPath: "/images/projects/pr/philareads_badges.png",
+    imgPath: "/images/projects/pr/philareads_badges.jpg",
   },
   {
     title: "View Parent Advice",
     detail:
       "Parents can get involved in their child’s learning through tips provided here.",
-    imgPath: "/images/projects/pr/philareads_parent-advice.png",
+    imgPath: "/images/projects/pr/philareads_parent-advice.jpg",
   },
   {
     title: "Manage Books and Quizzes",
     detail:
       "Administrators can easily update and create new books or quizzes as well as perform other administrative tasks.",
-    imgPath: "/images/projects/pr/philareads_admin.png",
+    imgPath: "/images/projects/pr/philareads_admin.jpg",
   },
 ]; // can be null
 

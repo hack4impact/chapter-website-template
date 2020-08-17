@@ -327,5 +327,24 @@ export default {
       role: "Software Developer",
       linkedin: "https://www.linkedin.com/in/prashant-pokhriyal-3a7b72132/",
     },
+    {
+      name: "Karthik Shankar",
+      role: "Software Developer",
+      linkedin: "https://www.linkedin.com/in/karthik--shankar",
+    },
+    {
+      name: "Teja Kotha",
+      role: "Software Developer",
+      linkedin: "https://www.linkedin.com/in/tkotha",
+    },
+    {
+      name: "Dean Lin",
+      role: "Software Developer",
+      linkedin: "https://www.linkedin.com/in/jingxiang-dean-lin-45ba18126",
+    },
+    {
+      name: "Jamie Paterson",
+      role: "Software Developer",
+    },
   ],
 };

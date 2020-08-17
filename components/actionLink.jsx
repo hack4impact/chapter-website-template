@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 
 const getAnchor = (link, text, style) => (
-  <a className={"link"} style={{ color: "#155da1", ...style }}>
+  <a className={"link"} style={{ color: "#155da1", ...style }} href={link}>
     {text}
     <style jsx>{`
       .link {

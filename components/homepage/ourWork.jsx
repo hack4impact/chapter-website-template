@@ -7,25 +7,26 @@ import ActionLink from "../actionLink";
 
 const items = [
   <ProjectContainer
-    title="Kiva"
-    subtitle="How might we expedite the reporting process with a single portal where users can see which documents need to be uploaded and track their progress?"
-    image="url('/images/projects/kiva-2/kiva2-thumbnail copy.png')"
-    link="/projects/kiva-2"
-    key="Kiva"
+    title="YMCA NAWC"
+    subtitle="How might we reduce barriers to reliable information for Champaign’s resources?"
+    image="url('/images/projects/ymca/cover.jpg')"
+    link="/projects/ymca"
+    key="YMCA"
+  />,
+
+  <ProjectContainer
+    title="Life After Hate"
+    subtitle="How might we build a centralized platform that allows for more efficient lookup and storage of ExitUSA™ program resources?"
+    image="url('/images/projects/lah/cover.jpg')"
+    link="/projects/lah"
+    key="LAH"
   />,
   <ProjectContainer
     title="SafeMaps"
     subtitle="How might we make students feel safer on campus?"
-    image="url('/images/projects/safemaps/sm-safemaps-cover.png')"
+    image="url('/images/projects/safemaps/sm-safemaps-cover.jpg')"
     link="/projects/safemaps"
     key="SafeMaps"
-  />,
-  <ProjectContainer
-    title="GlobalGiving"
-    subtitle="How might we expand GlobalGiving’s impact and reach on domestic and international nonprofits?"
-    image="url('/images/projects/gg-2/gg2-thumbnail.png')"
-    link="/projects/gg-2"
-    key="GlobalGiving"
   />,
 ];
 

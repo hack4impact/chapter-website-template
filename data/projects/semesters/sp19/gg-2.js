@@ -3,7 +3,7 @@ const name = "Global Giving";
 const id = "gg-2"; // second GG Project
 const detail =
   "How might we expand Global Giving’s impact and reach on domestic and international nonprofits?";
-const coverImagePath = "/images/projects/gg-2/gg2-thumbnail.png";
+const coverImagePath = "/images/projects/gg-2/gg2-thumbnail.jpg";
 
 const clientDetail =
   "Global Giving seeks to identify nonprofits around the world, creating a central directory of nonprofits. They also aim to connect each nonprofit with the necessary resources, such as connecting them with donors or setting up crowdfunding options to help the nonprofit succeed.";
@@ -28,31 +28,31 @@ const problem =
 const problemImagePath = "/images/projects/gg/gg-cover.jpg";
 const solution =
   "We are uncovering ways of characterizing the work that nonprofit organizations do all over the world. We've built tools which analyze the websites and missions statements of nonprofits, group them together according to what they do, and give suggestions as to what each organization’s work may be. Ultimately, we hope to give GlobalGiving as much knowledge and foresight as possible when they reach out to new nonprofits to join their global network.";
-const solutionImagePath = "/images/projects/gg/gg-crawl.png";
+const solutionImagePath = "/images/projects/gg/gg-crawl.jpg";
 const features = [
   {
     title: "Revised Categorization Schema",
     detail:
       "This categorization considers the patterns we found through experimentation and investigation, suggesting whom the nonprofit serves and what they do.",
-    imgPath: "/images/projects/gg-2/gg2-schema.png",
+    imgPath: "/images/projects/gg-2/gg2-schema.jpg",
   },
   {
     title: "Stochastic Gradient Descent",
     detail:
       "We used scikit-learn's Stochastic Gradient Descent classifier, a OneVsRest classifier, and a multiclass classification on an NGO.",
-    imgPath: "/images/projects/gg-2/gg2-gradient.png",
+    imgPath: "/images/projects/gg-2/gg2-gradient.jpg",
   },
   {
     title: "Document Vectors",
     detail:
       "Using Doc2Vec, we created a document vector model for each one using Kmeans to find similarities between projects.",
-    imgPath: "/images/projects/gg-2/gg2-document.png",
+    imgPath: "/images/projects/gg-2/gg2-document.jpg",
   },
   {
     title: "Unguided LDA",
     detail:
       "Unguided LDA class creates a model representing the “topics” present in a dataset of non-profit projects.",
-    imgPath: "/images/projects/gg-2/gg2-unguided.png",
+    imgPath: "/images/projects/gg-2/gg2-unguided.jpg",
   },
 ];
 const featureImgSize = "7";

@@ -3,7 +3,7 @@ const name = "SaverLife";
 const id = "saverlife";
 const detail =
   "How might we broaden SaverLife’s reach to incentivize a larger audience to make a habit of saving money?";
-const coverImagePath = "/images/projects/sp20/saverlife/saverlife-cover.png";
+const coverImagePath = "/images/projects/sp20/saverlife/saverlife-cover.jpg";
 const clientDetail =
   "SaverLife aims to educate and reward Americans who need help saving money and investing in their futures. The goal of the nonprofit is to lead a systematic change with rewards, expert resources and support to encourage new saving habits.";
 const clientLink = "https://www.saverlife.org/";
@@ -12,27 +12,27 @@ const clientFeatures = null;
 const problem =
   "About 40% of Americans have less than $400 in their savings account and millions of Americans live paycheck to paycheck. SaverLife aims to help educate people on financial literacy and give support to those who are saving. However, habit forming can be difficult. Saving, in particular, is a harder habit to form because it requires detailed planning and is more volatile due to real life circumstances.";
 const problemImagePath =
-  "/images/projects/sp20/saverlife/saverlife-problem.png";
+  "/images/projects/sp20/saverlife/saverlife-problem.jpg";
 const solution =
   "Our organization has worked with SaverLife to create a mobile application that displays a look at Saverlife’s resources. By designing and implementing a neat and convenient interface, the application is crafted to encourage users to utilize all that SaverLife has to offer to aid in the process of saving while simultaneously aiming to expand SaverLife’s reach.";
 const solutionImagePath =
-  "/images/projects/sp20/saverlife/saverlife-solution.png";
+  "/images/projects/sp20/saverlife/saverlife-solution.jpg";
 const features = [
   {
     title: "Savings",
     detail: "Track savings and user progress towards their goal.",
-    imgPath: "/images/projects/sp20/saverlife/saverlife-savings.png",
+    imgPath: "/images/projects/sp20/saverlife/saverlife-savings.jpg",
   },
   {
     title: "Articles",
     detail:
       "Read articles to learn more about financial literacy and related topics that SaverLife has to offer.",
-    imgPath: "/images/projects/sp20/saverlife/saverlife-articles.png",
+    imgPath: "/images/projects/sp20/saverlife/saverlife-articles.jpg",
   },
   {
     title: "Calendar",
     detail: "Add important events in the calendar for efficient planning.",
-    imgPath: "/images/projects/sp20/saverlife/saverlife-calendar.png",
+    imgPath: "/images/projects/sp20/saverlife/saverlife-calendar.jpg",
   },
 ];
 

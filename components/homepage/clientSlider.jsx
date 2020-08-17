@@ -5,14 +5,56 @@ import Link from "next/link";
 
 const clients = [
   {
-    name: "lwb",
+    name: "CommunityConnect Labs",
+    width: 218,
+    height: 48,
+    logoPath: "/images/client_logos/ccllogo.svg",
+    link: "/projects/ccl",
+  },
+  {
+    name: "Life After Hate",
+    width: 227,
+    height: 31,
+    logoPath: "/images/client_logos/lahlogo.png",
+    link: "/projects/lah",
+  },
+  {
+    name: "YMCA NAWC",
+    width: 147,
+    height: 116,
+    logoPath: "/images/client_logos/ymcalogo.png",
+    link: "/projects/ymca",
+  },
+  {
+    name: "Kids Save Ocean",
+    width: 128,
+    height: 123,
+    logoPath: "/images/client_logos/ksologo.png",
+    link: "/projects/kso",
+  },
+  {
+    name: "GLEN World",
+    width: 125,
+    height: 125,
+    logoPath: "/images/client_logos/glwlogo.png",
+    link: "/projects/glenworld",
+  },
+  {
+    name: "SaverLife",
+    width: 224,
+    height: 50,
+    logoPath: "/images/client_logos/saverlifelogo.svg",
+    link: "/projects/saverlife",
+  },
+  {
+    name: "Love Without Boundaries",
     width: 250,
     height: 55,
     logoPath: "/images/client_logos/lwblogo.svg",
     link: "/projects/lwb",
   },
   {
-    name: "child&#39;s play",
+    name: "Child&#39;s Play",
     width: 140,
     height: 135,
     logoPath: "/images/client_logos/cplogogreen.png",
@@ -25,8 +67,9 @@ const clients = [
     logoPath: "/images/client_logos/kivalogo.png",
     link: "/projects/kiva-1",
   },
+
   {
-    name: "philidelphia reads",
+    name: "Philadelphia Reads",
     width: 135,
     height: 120,
     logoPath: "/images/client_logos/philareadslogo.png",
@@ -54,7 +97,7 @@ const clients = [
     link: "/projects/kiva-2",
   },
   {
-    name: "NNB",
+    name: "Neighborhood News Bureau",
     width: 250,
     height: 50,
     logoPath: "/images/client_logos/nnblogo.png",
@@ -66,6 +109,13 @@ const clients = [
     height: 100,
     logoPath: "/images/values/value-1.svg",
     link: "/projects/pi",
+  },
+  {
+    name: "UIC MLI",
+    width: 120,
+    height: 120,
+    logoPath: "/images/client_logos/mlilogo.svg",
+    link: "/projects/mli",
   },
 ];
 export default function ClientSider() {

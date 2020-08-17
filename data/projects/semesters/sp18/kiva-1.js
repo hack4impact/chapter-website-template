@@ -52,19 +52,41 @@ const quoteSourceTitle = null; // can be null
 const githubLink = "https://github.com/hack4impact-uiuc/kiva-pricing-tool";
 
 const team = {
-  type: "no-pic", // can be "no-pic" if no pics for developers, look at README.md for more info
-  detail: {
-    pm: "David Chang",
-    tl: "Megha Mallya",
-    swe: [
-      "Dean Lin",
-      "Roy Chiu",
-      "Angad Garg",
-      "Betty Shen",
-      "Alan Fang",
-      "Jamie Paterson",
-    ],
-  },
+  type: "pics",
+  detail: [
+    {
+      name: "David Chang",
+      role: "Product Manager",
+    },
+    {
+      name: "Megha Mallya",
+      role: "Tech Lead",
+    },
+    {
+      name: "Dean Lin",
+      role: "Software Developer",
+    },
+    {
+      name: "Roy Chiu",
+      role: "Software Developer",
+    },
+    {
+      name: "Angad Garg",
+      role: "Software Developer",
+    },
+    {
+      name: "Betty Shen",
+      role: "Softwre Developer",
+    },
+    {
+      name: "Alan Fang",
+      role: "Software Developer",
+    },
+    {
+      name: "Jamie Paterson",
+      role: "Software Developer",
+    },
+  ],
 };
 
 export default {

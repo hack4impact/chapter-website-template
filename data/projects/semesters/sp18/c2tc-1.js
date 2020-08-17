@@ -28,19 +28,41 @@ const githubLink = null;
 const projectLink = null;
 
 const team = {
-  type: "no-pic",
-  detail: {
-    pm: "Alex Wu",
-    tl: "Jeff Delonge",
-    swe: [
-      "Helena Chi",
-      "Melody Felix",
-      "Anooj Lal",
-      "Pavani Malli",
-      "Karthik Shankar",
-      "Skyler Shi",
-    ],
-  },
+  type: "pics",
+  detail: [
+    {
+      name: "Alex Wu",
+      role: "Product Manager",
+    },
+    {
+      name: "Jeff Delonge",
+      role: "Tech Lead",
+    },
+    {
+      name: "Helena Chi",
+      role: "Software Developer",
+    },
+    {
+      name: "Melody Felix",
+      role: "Software Developer",
+    },
+    {
+      name: "Anooj Lal",
+      role: "Software Developer",
+    },
+    {
+      name: "Pavani Malli",
+      role: "Product Designer",
+    },
+    {
+      name: "Karthik Shankar",
+      role: "Software Developer",
+    },
+    {
+      name: "Skyler Shi",
+      role: "Software Developer",
+    },
+  ],
 };
 
 export default {

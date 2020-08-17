@@ -26,7 +26,7 @@ class FeatureSlider extends React.Component {
 
     const featureTextSize =
       featureImgSize !== undefined
-        ? Math.max(MAX_FEATURE_TEXT_SIZE - featureImgSize, 6)
+        ? Math.min(MAX_FEATURE_TEXT_SIZE - featureImgSize, 6)
         : 6;
 
     return (

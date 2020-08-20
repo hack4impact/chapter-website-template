@@ -3,51 +3,51 @@ import Interview from "../public/icons/interview.svg";
 import ActionButton from "../components/actionButton";
 import Contract from "../public/icons/contract.svg";
 //import Education from "../public/icons/education.svg";
- 
+
 // constants that will affect links in the student application page
-const applicationLink =
-  "https://forms.gle/AUrm29Zy29oBDAgF6"; //sp20 product designer
-const interestLink =
-  "https://forms.gle/wDzKo1KiV3Qq86uN9"; //fa20
- 
+const applicationLink = "https://forms.gle/AUrm29Zy29oBDAgF6"; //sp20 product designer
+const interestLink = "https://forms.gle/wDzKo1KiV3Qq86uN9"; //fa20
+
 // current stuff
 const currentSemester = "Fall 2020";
 //const nextSemester = "Spring 2021";
- 
+
 // dates
-const infoSessionDate = "Thursday, August 27  6-7 PM CST"; //Thu Aug 27, 2020 6-7PM
-const applicationDueDate = "Sunday, August 30"; //Sun Aug 20, 2020 
-const applicationDueTime = "12:00 PM CST"; //12:00 PM
-const firstRoundInterviewDate = "Wednesday, September 2"; //Wed Sept 2, 2020
-const secondRoundInterviewDate = "Monday, September 7 - Wednesday, Spetember 9"; //Mon-Wed Sept 7-9, 2020
+const infoSessionDate = "Thursday, August 27  6-7 PM CDT"; //Thu Aug 27, 2020 6-7PM
+const applicationDueDate = "Due Sunday, August 30"; //Sun Aug 20, 2020
+const applicationDueTime = "12:00 PM CDT"; //12:00 PM
+const firstRoundInterviewDate =
+  "Wednesday, September 2 - Thursday, September 3"; //Wed-Thu Sept 2-3, 2020
+const secondRoundInterviewDate = "Monday, September 7 - Wednesday, September 9"; //Mon-Wed Sept 7-9, 2020
 const socialRoundDate = "Saturday, September 12"; //Sat Sept 12, 2020
-const takeHomeExerciseDate = "Sunday, September 13"; //Sun Sept 13, 2020
- 
+const takeHomeExerciseDate = "Due Sunday, September 13"; //Sun Sept 13, 2020
+
 const subHeadline =
   "Students are a core part of what makes Hack4Impact. Joining Hack4Impact is the perfect way to give back while developing new skills and making long-lasting friendships.";
 const quote = {
   text:
     "A lot of classwork is theoretical. You’re given a contrived problem, and then you solve it. At Hack4Impact, you get to build a product from the ground up. Being exposed to building something from scratch is a great experience as a student.",
   source: "Alex Wu",
-  sourceTitle: "'16"
+  sourceTitle: "'16",
 };
- 
+
 const faq = [
   {
     question: "Is Hack4Impact still recruiting for Fall 2020?",
     answer: (
       <>
         Yes! Here is a rough schedule of our Fall 2020 Recruitment events:
-        <br /><br />
+        <br />
+        <br />
         <ul>
-          <li>August Week 3: Info Session + Applications </li>
-          <li>August Week 4: 1st Round Behavioral Interview</li>
-          <li>September Week 1: 2nd Round Technical Interview</li>
+          <li>August Week 4: Info Session + Applications </li>
+          <li>September Week 1: 1st Round Behavioral Interview</li>
+          <li>September Week 2: 2nd Round Technical Interview</li>
         </ul>
         Specific dates and other information will be released leading up to
         these events!
       </>
-    )
+    ),
   },
   {
     question: "I will not be on campus this Fall. Can I still apply?",
@@ -56,7 +56,7 @@ const faq = [
         Yes! Recruitment will be entirely virtual for this semester. Applicants
         are welcome regardless of whether you are living on campus or not.
       </>
-    )
+    ),
   },
   {
     question: "What is the general premise of Hack4Impact?",
@@ -76,13 +76,13 @@ const faq = [
           mentorship and social community events{" "}
         </p>
       </>
-    )
+    ),
   },
   {
     question:
       "Is extensive web development or data science experience required?",
     answer:
-      "Nope! Mentorship is a core value of our organization so we are always looking to take less experienced developers as long as you are willing to put in the time and have the passion to learn. You will have a tight feedback loop with your project leads along with experienced members on your team to ensure your success and project’s success in-order to benefit the nonprofit your team is working with."
+      "Nope! Mentorship is a core value of our organization so we are always looking to take less experienced developers as long as you are willing to put in the time and have the passion to learn. You will have a tight feedback loop with your project leads along with experienced members on your team to ensure your success and project’s success in-order to benefit the nonprofit your team is working with.",
   },
   {
     question: "Why don't you accept more students?",
@@ -121,7 +121,7 @@ const faq = [
         Leads to take on more projects but maintain the high quality work we are
         know for.
       </>
-    )
+    ),
   },
   {
     question:
@@ -142,30 +142,32 @@ const faq = [
         </a>
         .
       </>
-    )
-  }
+    ),
+  },
 ];
- 
+
 const applicationDetail = "";
- 
+
 const studentProcess = [
   {
     title: "Interest Form",
     detail: (
       <>
         <p>
-          Sign up below and we'll add you to a mailing list 
-          for Fall 2020 Recruitment updates! This is
-non-binding and you can ask to be removed at any time.
+          Sign up below and we'll add you to a mailing list for Fall 2020
+          Recruitment updates! This is non-binding and you can ask to be removed
+          at any time.
         </p>
-        {<ActionButton
-          style={{ display: "block", marginTop: "10px" }}
-          text="Sign Up"
-          link={interestLink}
-        />}
+        {
+          <ActionButton
+            style={{ display: "block", marginTop: "10px" }}
+            text="Sign Up"
+            link={interestLink}
+          />
+        }
       </>
     ),
-    icon: <Contract />
+    icon: <Contract />,
   },
   {
     title: "Follow Us",
@@ -176,19 +178,23 @@ non-binding and you can ask to be removed at any time.
           posting recruitment updates as well as revealing the nonprofit
           organizations we will be working with in Fall 2020.
         </p>
-        {<ActionButton
-          style={{ display: "block", marginTop: "10px" }}
-          text="Facebook"
-          link={"https://www.facebook.com/h4iuiuc/"}
-        />}
-        {<ActionButton
-          style={{ display: "block", marginTop: "10px" }}
-          text="Instagram"
-          link={"https://www.instagram.com/hack4impactuiuc/"}
-        />}
+        {
+          <ActionButton
+            style={{ display: "block", marginTop: "10px" }}
+            text="Facebook"
+            link={"https://www.facebook.com/h4iuiuc/"}
+          />
+        }
+        {
+          <ActionButton
+            style={{ display: "block", marginTop: "10px" }}
+            text="Instagram"
+            link={"https://www.instagram.com/hack4impactuiuc/"}
+          />
+        }
       </>
     ),
-    icon: <Interview />
+    icon: <Interview />,
   },
   {
     title: (
@@ -203,34 +209,34 @@ non-binding and you can ask to be removed at any time.
       <>
         <p>
           Be sure to come out to our Info Session to get an idea of who we are,
-          what we do, and the impact Hack4Impact has. For our virtual recruitment,
-          this will be in the form of a Facebook Livestream!
+          what we do, and the impact Hack4Impact has. For our virtual
+          recruitment, this will be in the form of a Facebook Livestream!
         </p>
         <p>
           <b className="pt-2"></b>
         </p>
         <p>
           Keep an eye on our{" "}
-          <a href="https://www.facebook.com/h4iuiuc">
-            Facebook page
-          </a>{""} for when we go live!
+          <a href="https://www.facebook.com/h4iuiuc">Facebook page</a>
+          {""} for when we go live!
         </p>
       </>
     ),
     icon: <Contract />,
-    date: infoSessionDate
+    date: infoSessionDate,
   },
   {
     title: "Applications",
     detail: (
       <>
         <p>
-          Applications will be released after our Info Session and will be due three days after! Stay tuned for the link.
+          Applications will be released after our Info Session and will be due
+          three days after! Stay tuned for the link.
         </p>
       </>
     ),
     icon: <Contract />,
-    date: `${applicationDueDate} ${applicationDueTime}`
+    date: `${applicationDueDate} ${applicationDueTime}`,
   },
   // {
   //   title: "Applications",
@@ -256,28 +262,28 @@ non-binding and you can ask to be removed at any time.
     detail:
       "Hack4Impact looks for students who are hungry to learn, excellent teammates, and are passionate for tech and social impact. Our first round interviews will give you an opportunity to answer some questions about yourself while also meeting some of our members.",
     icon: <Interview />,
-    date: firstRoundInterviewDate
+    date: firstRoundInterviewDate,
   },
   {
     title: "Second Round Interviews",
     detail:
       "This will be a short role-specific interview that is relevant to the position you are applying for. We encourage discussion throughout the interview and you’ll have an opportunity to ask questions to learn more about us.",
     icon: <Interview />,
-    date: secondRoundInterviewDate
+    date: secondRoundInterviewDate,
   },
   {
     title: "Social Round",
     detail:
       "Our Social Night will be a fun opportunity for us to get to know each other with a more casual atmosphere. Be your authentic self!",
     icon: <Interview />,
-    date: socialRoundDate
+    date: socialRoundDate,
   },
   {
     title: "Take Home Exercise",
     detail:
       "A small, take home project designed to expose you to the tasks and technologies you will encounter while working with your project teams. More instructions will be provided then.",
     icon: <Contract />,
-    date: takeHomeExerciseDate
+    date: takeHomeExerciseDate,
   },
   // {
   //   title: "Interviews",
@@ -287,10 +293,14 @@ non-binding and you can ask to be removed at any time.
   //   date: firstRoundInterviewDate
   // }
 ];
- 
+
 const closedText = (
   <p>
-    Our application period for {currentSemester} <b><em>will open soon. </em></b> We will be accepting 
+    Our application period for {currentSemester}{" "}
+    <b>
+      <em>will open soon. </em>
+    </b>{" "}
+    We will be accepting
     <b> Academy Members, Software Developers and Product Designers</b> for the
     Fall semester. Our recruitment process will include an Info Session within
     the first week of school, an application, and interviews in the weeks to
@@ -305,5 +315,5 @@ export default {
   faq,
   studentProcess,
   closedText,
-  applicationDetail
+  applicationDetail,
 };

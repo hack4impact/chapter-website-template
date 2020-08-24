@@ -5,7 +5,7 @@ import Contract from "../public/icons/contract.svg";
 //import Education from "../public/icons/education.svg";
 
 // constants that will affect links in the student application page
-const applicationLink = "https://forms.gle/AUrm29Zy29oBDAgF6"; //sp20 product designer
+const applicationLink = "https://forms.gle/4USp6UsfcJzNqfz58";
 const interestLink = "https://forms.gle/wDzKo1KiV3Qq86uN9"; //fa20
 
 // current stuff
@@ -13,9 +13,11 @@ const currentSemester = "Fall 2020";
 //const nextSemester = "Spring 2021";
 
 // dates
-const infoSessionDate = "Thursday, August 27  6-7 PM CDT"; //Thu Aug 27, 2020 6-7PM
+const infoSessionDate = "Thursday, August 27  6:00-7:00 PM CDT"; //Thu Aug 27, 2020 6-7PM
+const applicationReleaseDate = "Opens Monday, August 24";
+const applicationReleaseTime = "12:00 AM CDT";
 const applicationDueDate = "Due Sunday, August 30"; //Sun Aug 20, 2020
-const applicationDueTime = "12:00 PM CDT"; //12:00 PM
+const applicationDueTime = "6:00 PM CDT"; //12:00 PM
 const firstRoundInterviewDate =
   "Wednesday, September 2 - Thursday, September 3"; //Wed-Thu Sept 2-3, 2020
 const secondRoundInterviewDate = "Monday, September 7 - Wednesday, September 9"; //Mon-Wed Sept 7-9, 2020
@@ -63,7 +65,7 @@ const faq = [
     answer: (
       <>
         <p>
-          <i>Team:</i> Work on a team of 4-7 students led by a PM and tech lead{" "}
+          <i>Team:</i> Work on a team of 6-8 students led by a PM and tech lead{" "}
         </p>
         <p>
           <i>Build: </i> Develop the product throughout the semester (~12 weeks){" "}
@@ -197,6 +199,19 @@ const studentProcess = [
     icon: <Interview />,
   },
   {
+    title: "Application Released",
+    detail: (
+      <>
+        <p>Applications will be released at midnight on August 24th!</p>
+        <a href={applicationLink} target="_blank" rel="noopener noreferrer">
+          Link to application
+        </a>
+      </>
+    ),
+    icon: <Contract />,
+    date: `${applicationReleaseDate} ${applicationReleaseTime}`,
+  },
+  {
     title: (
       <>
         {/* <a href="https://www.facebook.com/events/783414215343789">
@@ -226,13 +241,13 @@ const studentProcess = [
     date: infoSessionDate,
   },
   {
-    title: "Applications",
+    title: "Application Due",
     detail: (
       <>
-        <p>
-          Applications will be released after our Info Session and will be due
-          three days after! Stay tuned for the link.
-        </p>
+        <p>Applications will be due three days after info session!</p>
+        <a href={applicationLink} target="_blank" rel="noopener noreferrer">
+          Link to application
+        </a>
       </>
     ),
     icon: <Contract />,
@@ -298,7 +313,7 @@ const closedText = (
   <p>
     Our application period for {currentSemester}{" "}
     <b>
-      <em>will open soon. </em>
+      <em>is now open! </em>
     </b>{" "}
     We will be accepting
     <b> Academy Members, Software Developers and Product Designers</b> for the

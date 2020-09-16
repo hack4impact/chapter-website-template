@@ -23,7 +23,7 @@ const clientFeatures = [
   },
 ];
 const problem =
-  "Currently, valuable information about Champaign’s resources are scattered and difficult to find. This decentralization is creating an information gap preventing newcomers from reliably accessing resources that they need the most. YMCA has taken steps to centralize this information1, but it remains largely inaccessible due to language limitations and other barriers.";
+  "Currently, valuable information about Champaign’s resources are scattered and difficult to find. This decentralization is creating an information gap preventing newcomers from reliably accessing resources that they need the most. YMCA has taken steps to centralize this information, but it remains largely inaccessible due to language limitations and other barriers.";
 const problemImagePath = "/images/projects/ymca/problem.jpg";
 const solution =
   "Our team has partnered with the YMCA New American Welcome Center (NAWC) to build a centralized virtual resource hub aimed to equalize and promote information access to vital community resources. This product will allow immigrants to independently access resources according to their personal needs, and also enable NAWC and other local organizations to better serve the community through more informed recommendations. In our second semester of a year-long partnership with the YMCA New American Welcome Center (NAWC), our team endeavored to add to the existing centralized virtual resource hub platform and truly create a user-friendly experience for immigrants seeking community resources and the organizations that serve them.";

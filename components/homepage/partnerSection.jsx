@@ -13,7 +13,7 @@ export default function PartnerSection() {
           </h1>
         </Row>
         <div className="sponsor-row">
-          <a href="https://www.imc.com/" alt="Stripe">
+          <a href="https://www.imc.com/" alt="IMC">
             <img
               width="150"
               src="/images/imc-logo.jpg"

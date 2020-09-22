@@ -1,6 +1,6 @@
 import React from "react";
 import Section from "../section";
-import { Container, Row, Col } from "reactstrap";
+import { Container, Row } from "reactstrap";
 import ActionLink from "../actionLink";
 
 export default function PartnerSection() {
@@ -12,27 +12,33 @@ export default function PartnerSection() {
             Our Sponsors
           </h1>
         </Row>
-        <Row>
-          <Col className="text-right">
+        <div className="sponsor-row">
+          <a href="https://www.imc.com/" alt="Stripe">
             <img
               width="150"
-              height="150"
               src="/images/imc-logo.jpg"
               className="center partner-logos"
               alt="IMC logo"
             />
-          </Col>
-          <Col>
+          </a>
+
+          <a href="https://stripe.com/" alt="Stripe">
+            <img
+              width="250"
+              src="/images/stripe-logo.svg"
+              className="center partner-logos"
+              alt="Stripe logo"
+            />
+          </a>
+          <a href="https://www.facebook.com/" alt="Facebook">
             <img
               width="150"
-              height="150"
               src="/images/fb-logo.svg"
               className="center partner-logos"
               alt="Facebook logo"
             />
-          </Col>
-        </Row>
-
+          </a>
+        </div>
         <Row>
           <div className="center partner-button">
             <ActionLink
@@ -55,7 +61,14 @@ export default function PartnerSection() {
           margin-top: 30px !important;
         }
         .partner-logos {
-          margin: 10px 60px;
+          margin: 0;
+          max-width: 15vw;
+        }
+        .sponsor-row {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-evenly;
+          align-items: center;
         }
       `}</style>
     </Section>

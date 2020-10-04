@@ -27,6 +27,7 @@
     "@hack4impact-uiuc/eslint-plugin": "2.0.3",
     "babel-plugin-inline-react-svg": "^1.0.1",
     "eslint": "^7.6.0",
-    "prettier": "^2.0.5"
+    "eslint-config-prettier": "^6.12.0",
+    "prettier": "2.1.2"
   }
 }

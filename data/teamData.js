@@ -24,7 +24,7 @@ export default {
     {
       name: "Sue Wee",
       role: "Director of External Relations",
-      linkedin: null,
+      linkedin: "https://www.linkedin.com/in/suewee/",
     },
     {
       name: "Rebecca Xun",
@@ -159,7 +159,6 @@ export default {
     {
       name: "Lauren Ho",
       role: "Software Developer",
-      linkedin: null,
     },
     {
       name: "Gene Wang",
@@ -180,6 +179,90 @@ export default {
       name: "Ashank Behara",
       role: "Software Developer",
       linkedin: "https://www.linkedin.com/in/ashankbehara/",
+    },
+    {
+      name: "Aditya Jain",
+      role: "Academy Member",
+    },
+    {
+      name: "Amit Sawhney",
+      role: "Software Developer",
+      linkedin: "https://www.linkedin.com/in/amit-m-sawhney/",
+    },
+    {
+      name: "Andy Wong",
+      role: "Software Developer",
+      linkedin: "https://www.linkedin.com/in/feiyuwong/",
+    },
+    {
+      name: "Archna Sobti",
+      role: "Academy Member",
+      linkedin: "https://www.linkedin.com/in/archna-sobti-1932b01b1",
+    },
+    {
+      name: "Arman Rafati",
+      role: "Software Developer",
+      linkedin: "https://www.linkedin.com/in/arman-rafati-6907991b5/",
+    },
+    {
+      name: "Ayan Mallik",
+      role: "Software Developer",
+      linkedin: "https://www.linkedin.com/in/ayan-mallik-b71bb21b4/",
+    },
+    {
+      name: "Daniel Moon",
+      role: "Software Developer",
+      linkedin: "https://www.linkedin.com/in/daniel-moon-a46b0818b/",
+    },
+    {
+      name: "Faith Losbanes",
+      role: "Product Designer",
+      linkedin: "https://www.linkedin.com/in/faith-losbanes-527a97196",
+    },
+    {
+      name: "Ishaan Sharma",
+      role: "Academy Member",
+    },
+    {
+      name: "Jeffrey Tang",
+      role: "Software Developer",
+      linkedin: "https://www.linkedin.com/in/jeffrey-tang/",
+    },
+    {
+      name: "Kelly Dunleavy",
+      role: "Software Developer",
+      linkedin: "https://www.linkedin.com/in/kelly-dunleavy/",
+    },
+    {
+      name: "Leonardo Galindo",
+      role: "Software Developer",
+      linkedin: "https://www.linkedin.com/in/leonardo-galindo-frias/",
+    },
+    {
+      name: "Luciana Toledo-López",
+      role: "Software Developer",
+      linkedin:
+        "https://www.linkedin.com/in/luciana-toledo-l%C3%B3pez-645556187/",
+    },
+    {
+      name: "Nayonika Roy",
+      role: "Software Developer",
+      linkedin: "https://www.linkedin.com/in/nayonika-roy-0162291b5/",
+    },
+    {
+      name: "Neha Konjeti",
+      role: "Academy Member",
+      linkedin: "https://www.linkedin.com/in/neha-konjeti-574135199/",
+    },
+    {
+      name: "Riya Jain",
+      role: "Academy Member",
+      linkedin: "https://www.linkedin.com/in/riya-jain-161bb3162/",
+    },
+    {
+      name: "Vasu Chalasani",
+      role: "Academy Member",
+      linkedin: "https://www.linkedin.com/in/saivasudha-chalasani-a83684157/",
     },
   ],
   alumni: [

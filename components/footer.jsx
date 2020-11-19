@@ -35,12 +35,6 @@ const Footer = () => (
               </Link>
             </li>
             <li>
-              <a href="https://h4i-sponsor.now.sh">Sponsorship</a>
-            </li>
-            <li>
-              <a href="https://h4i-pitchbook.now.sh/">Pitchbook</a>
-            </li>
-            <li>
               <Link href="/design">
                 <a>Bridge Design System</a>
               </Link>

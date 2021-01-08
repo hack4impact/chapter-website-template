@@ -1,18 +1,12 @@
-import React, { useEffect } from "react";
-import Head from "../../components/head";
-import Nav from "../../components/nav";
-import GradientBanner from "../../components/gradientBanner";
-import ProjectList from "../../components/projects/projectList";
-import ProjectExplore from "../../components/projects/projectExplore";
-import Footer from "../../components/footer";
-import { initializeGA, logPage } from "../../components/Analytics";
+import React from 'react';
+import Head from '../../components/head';
+import Nav from '../../components/nav';
+import GradientBanner from '../../components/gradientBanner';
+import ProjectList from '../../components/projects/projectList';
+import ProjectExplore from '../../components/projects/projectExplore';
+import Footer from '../../components/footer';
 
-export default function Projects() {
-  useEffect(() => {
-    initializeGA();
-    logPage();
-  }, []);
-
+function Projects() {
   // return project List (regular project Page) if not query (just /projets)
   return (
     <div>
@@ -35,7 +29,8 @@ export default function Projects() {
       />
       <ProjectList />
       <ProjectExplore />
-      <Footer />
     </div>
   );
 }
+
+export default Projects;

@@ -1,22 +1,16 @@
-import React, { useEffect } from "react";
-import { useRouter } from "next/router";
-import Head from "../../components/head";
-import Nav from "../../components/nav";
-import SpecificProjectPage from "../../components/projects/specificProjectPage";
-import ErrorMessage from "../../components/errorMessage";
-import Footer from "../../components/footer";
-import projectData from "../../data/projectData";
-import { initializeGA, logPage } from "../../components/Analytics";
+import React from 'react';
+import { useRouter } from 'next/router';
+import Head from '../../components/head';
+import Nav from '../../components/nav';
+import SpecificProjectPage from '../../components/projects/specificProjectPage';
+import ErrorMessage from '../../components/errorMessage';
+import Footer from '../../components/footer';
+import projectData from '../../data/projectData';
 
-export default function Projects() {
+function Projects() {
   const {
     query: { projectId },
   } = useRouter();
-
-  useEffect(() => {
-    initializeGA();
-    logPage();
-  }, []);
 
   // return project List (regular project Page) if not query (just /projets)
 
@@ -30,7 +24,6 @@ export default function Projects() {
             <Head title={semester.projects[y].name} />
             <Nav navType="otherNav" />
             <SpecificProjectPage project={semester.projects[y]} />
-            <Footer />
           </div>
         );
       }
@@ -45,12 +38,14 @@ export default function Projects() {
   );
 }
 
+export default Projects;
+
 // necessary to statically render all paths
 export function getStaticPaths() {
   let projectIds = [];
 
   projectData.forEach((semester) =>
-    semester.projects.forEach((project) => projectIds.push(project.id))
+    semester.projects.forEach((project) => projectIds.push(project.id)),
   );
 
   return {

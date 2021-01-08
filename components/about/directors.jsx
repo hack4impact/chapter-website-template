@@ -1,8 +1,8 @@
-import React from "react";
-import { Row, Col, Card, CardBody } from "reactstrap";
+import React from 'react';
+import { Row, Col, Card, CardBody } from 'reactstrap';
 
-import { ImagePathConversion } from "../../data/helper";
-import Section from "../section";
+import { ImagePathConversion } from '../../data/helper';
+import Section from '../section';
 
 export default function Directors({ directors }) {
   return (
@@ -42,8 +42,8 @@ export default function Directors({ directors }) {
                     <cite title="Source Title"> {director.year} </cite>
                     {director.linkedin !== undefined && (
                       <a href={director.linkedin}>
-                        {" "}
-                        |{" "}
+                        {' '}
+                        |{' '}
                         <img
                           width="12"
                           className="linkedin-icon pb-1"

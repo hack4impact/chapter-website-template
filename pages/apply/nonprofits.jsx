@@ -8,7 +8,6 @@ import Head from '../../components/head';
 import Nav from '../../components/nav';
 
 import data from '../../data/ngoApplyData';
-import Footer from '../../components/footer';
 
 // TODO: ADD `closed` prop to ApplicationProcess to add text about applications being closed!
 

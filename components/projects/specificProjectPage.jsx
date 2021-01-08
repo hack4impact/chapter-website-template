@@ -1,10 +1,10 @@
-import React, { Component } from "react";
-import ProjectBanner from "./projectBanner";
-import ProjectDetail from "./projectDetail";
-import ProjectTeam from "./projectTeam";
-import ClientFeatures from "./clientFeatures";
-import ProjectTechStack from "./projectTechStack";
-import { Container } from "reactstrap";
+import React, { Component } from 'react';
+import ProjectBanner from './projectBanner';
+import ProjectDetail from './projectDetail';
+import ProjectTeam from './projectTeam';
+import ClientFeatures from './clientFeatures';
+import ProjectTechStack from './projectTechStack';
+import { Container } from 'reactstrap';
 
 class SpecificProjectPage extends Component {
   constructor(props) {

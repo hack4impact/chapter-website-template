@@ -1,6 +1,6 @@
-import React from "react";
-import { Row, Col } from "reactstrap";
-import { Spring, config } from "react-spring/renderprops.cjs";
+import React from 'react';
+import { Row, Col } from 'reactstrap';
+import { Spring, config } from 'react-spring/renderprops.cjs';
 
 const MAX_FEATURE_TEXT_SIZE = 12;
 
@@ -10,7 +10,7 @@ class FeatureSlider extends React.Component {
 
     const { features } = props;
     this.state = {
-      currentTitle: features !== undefined ? features[0].title : "",
+      currentTitle: features !== undefined ? features[0].title : '',
     };
   }
 
@@ -25,21 +25,13 @@ class FeatureSlider extends React.Component {
     const { currentTitle } = this.state;
 
     const featureTextSize =
-      featureImgSize !== undefined
-        ? Math.min(MAX_FEATURE_TEXT_SIZE - featureImgSize, 6)
-        : 6;
+      featureImgSize !== undefined ? Math.min(MAX_FEATURE_TEXT_SIZE - featureImgSize, 6) : 6;
 
     return (
       <Row>
-        {parseInt(featureTextSize) + parseInt(featureImgSize) <
-          MAX_FEATURE_TEXT_SIZE && (
+        {parseInt(featureTextSize) + parseInt(featureImgSize) < MAX_FEATURE_TEXT_SIZE && (
           <Col
-            md={
-              (MAX_FEATURE_TEXT_SIZE -
-                parseInt(featureImgSize) -
-                parseInt(featureTextSize)) /
-              2
-            }
+            md={(MAX_FEATURE_TEXT_SIZE - parseInt(featureImgSize) - parseInt(featureTextSize)) / 2}
           />
         )}
         <Col md={featureImgSize ?? 6}>
@@ -49,9 +41,8 @@ class FeatureSlider extends React.Component {
                 feature.title === currentTitle && (
                   <Spring
                     config={{ ...config.molasses }}
-                    from={{ opacity: 0, transform: "translate3d(0,100px,0)" }}
-                    to={{ opacity: 100, transform: "translate3d(0,0px,0)" }}
-                  >
+                    from={{ opacity: 0, transform: 'translate3d(0,100px,0)' }}
+                    to={{ opacity: 100, transform: 'translate3d(0,0px,0)' }}>
                     {(props) => (
                       <div style={props}>
                         <img
@@ -62,7 +53,7 @@ class FeatureSlider extends React.Component {
                       </div>
                     )}
                   </Spring>
-                )
+                ),
             )}
           </div>
         </Col>
@@ -73,10 +64,9 @@ class FeatureSlider extends React.Component {
               <Row key={feature.title}>
                 <button
                   className={`feature-slider-btn ${
-                    currentTitle === feature.title ? "is-active" : ""
+                    currentTitle === feature.title ? 'is-active' : ''
                   }`}
-                  onClick={() => this.featureClick(feature.title)}
-                >
+                  onClick={() => this.featureClick(feature.title)}>
                   <div className="pl-3">
                     <h3 className="feature-title">{feature.title}</h3>
                     <p className="feature-detail">{feature.detail}</p>
@@ -92,8 +82,8 @@ class FeatureSlider extends React.Component {
           }
           .img-holder {
             margin-top: ${featureImgSize !== undefined && featureImgSize <= 5
-              ? "25px"
-              : "60px"}; // pushes img down a little bit
+              ? '25px'
+              : '60px'}; // pushes img down a little bit
           }
           .feature-slider-btn {
             border: none;

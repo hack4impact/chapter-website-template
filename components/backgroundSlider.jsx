@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 // default show children twice so slider won't be empty after "sliding" for a while
 export default function BackgroundSlider({ duration, children, iterations }) {

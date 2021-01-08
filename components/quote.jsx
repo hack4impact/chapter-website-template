@@ -1,6 +1,6 @@
-import React from "react";
-import Section from "./section";
-import { Container, Row, Col } from "reactstrap";
+import React from 'react';
+import Section from './section';
+import { Container, Row, Col } from 'reactstrap';
 
 const Quote = ({ quote, source, sourceTitle }) =>
   quote === undefined || quote === null ? (

@@ -1,16 +1,13 @@
-import React from "react";
-import { Card, CardBody } from "reactstrap";
-import ActionButton from "../actionButton";
-import Link from "next/link";
+import React from 'react';
+import { Card, CardBody } from 'reactstrap';
+import ActionButton from '../actionButton';
+import Link from 'next/link';
 
 export default function ProjectCards({ title, imgPath, link, subTitle }) {
   return (
     <>
       <Link href={link}>
-        <Card
-          className="bg-light mb-3 project-card h-100"
-          style={{ height: "100%" }}
-        >
+        <Card className="bg-light mb-3 project-card h-100" style={{ height: '100%' }}>
           <img className="card-img-top" src={imgPath} alt={title} />
           <CardBody>
             <h5 className="text-title card-title text-center">{title}</h5>

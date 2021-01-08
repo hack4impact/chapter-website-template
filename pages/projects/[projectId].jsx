@@ -4,7 +4,6 @@ import Head from '../../components/head';
 import Nav from '../../components/nav';
 import SpecificProjectPage from '../../components/projects/specificProjectPage';
 import ErrorMessage from '../../components/errorMessage';
-import Footer from '../../components/footer';
 import projectData from '../../data/projectData';
 
 function Projects() {

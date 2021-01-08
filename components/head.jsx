@@ -1,42 +1,25 @@
-import React from "react";
-import NextHead from "next/head";
-import { string } from "prop-types";
+import React from 'react';
+import NextHead from 'next/head';
+import { string } from 'prop-types';
 
 const defaultDescription =
-  "We are a team of UIUC students who create robust software for social good. We believe that our engineering skill sets do not render us useless in addressing social injustices. Instead, they empower us to build a better society together.";
-const defaultOGURL = "uiuc.hack4impact.org";
-const defaultOGImage = "/icons/favicon-32x32.png";
+  'We are a team of UIUC students who create robust software for social good. We believe that our engineering skill sets do not render us useless in addressing social injustices. Instead, they empower us to build a better society together.';
+const defaultOGURL = 'uiuc.hack4impact.org';
+const defaultOGImage = '/icons/favicon-32x32.png';
 
 const Head = ({ title, description, url, ogImage }) => (
   <NextHead>
     <meta charSet="UTF-8" />
-    <title>{title ?? "Hack4Impact UIUC"}</title>
+    <title>{title ?? 'Hack4Impact UIUC'}</title>
     <meta name="description" content={description ?? defaultDescription} />
     {/* Global Site Tag (gtag.js) - Google Analytics */}
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=UA-124593378-1"
-    />
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-124593378-1" />
     <meta charSet="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="/icons/apple-touch-icon.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="/icons/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="/icons/favicon-16x16.png"
-    />
+    <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png" />
 
     <link rel="stylesheet" type="text/css" href="/style.css" />
     <link rel="stylesheet" type="text/css" href="/react-toast.css" />
@@ -46,22 +29,15 @@ const Head = ({ title, description, url, ogImage }) => (
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
       crossOrigin="anonymous"
     />
-    <link
-      href="https://fonts.googleapis.com/css?family=Lato|Chivo|Heebo:300"
-      rel="stylesheet"
-    />
-    {(title === "H4I Apply | Nonprofits" ||
-      title === "H4I Apply | Students") && (
+    <link href="https://fonts.googleapis.com/css?family=Lato|Chivo|Heebo:300" rel="stylesheet" />
+    {(title === 'H4I Apply | Nonprofits' || title === 'H4I Apply | Students') && (
       <link rel="stylesheet" href="/react-vertical.min.css" />
     )}
 
     <link rel="mask-icon" href="/favicon-mask.svg" color="#49B882" />
     <meta property="og:url" content={url ?? defaultOGURL} />
-    <meta property="og:title" content={title ?? ""} />
-    <meta
-      property="og:description"
-      content={description ?? defaultDescription}
-    />
+    <meta property="og:title" content={title ?? ''} />
+    <meta property="og:description" content={description ?? defaultDescription} />
     <meta name="twitter:site" content={url ?? defaultOGURL} />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:image" content={ogImage ?? defaultOGImage} />

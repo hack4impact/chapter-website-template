@@ -1,9 +1,9 @@
 /*
   Mission Section holding the photo and our mission in the /about page
 */
-import React from "react";
-import { Container, Row, Col } from "reactstrap";
-import { Spring } from "react-spring/renderprops.cjs";
+import React from 'react';
+import { Container, Row, Col } from 'reactstrap';
+import { Spring } from 'react-spring/renderprops.cjs';
 
 const MissionSection = () => (
   <section className="mission-section">
@@ -17,20 +17,18 @@ const MissionSection = () => (
       <Row>
         <Col md="12" className="text-center">
           <p className="mission-body-text">
-            Hack4Impact exists for both nonprofits and students. We connect
-            student software developers with nonprofits and other socially
-            responsible businesses to develop powerful new tools for social
-            change. This enables nonprofits to further their mission and better
-            engage their clients. We are committed to increasing awareness of
-            technology&#39;s potential for good.
+            Hack4Impact exists for both nonprofits and students. We connect student software
+            developers with nonprofits and other socially responsible businesses to develop powerful
+            new tools for social change. This enables nonprofits to further their mission and better
+            engage their clients. We are committed to increasing awareness of technology&#39;s
+            potential for good.
           </p>
         </Col>
       </Row>
       <Row>
         <Spring
-          from={{ transform: "translate3d(0,300px,0)" }}
-          to={{ transform: "translate3d(0,0,0)" }}
-        >
+          from={{ transform: 'translate3d(0,300px,0)' }}
+          to={{ transform: 'translate3d(0,0,0)' }}>
           {(props) => (
             <div className="text-center img-holder">
               <img

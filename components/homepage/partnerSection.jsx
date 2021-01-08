@@ -1,14 +1,14 @@
-import React from "react";
-import Section from "../section";
-import { Container, Row } from "reactstrap";
-import ActionLink from "../actionLink";
+import React from 'react';
+import Section from '../section';
+import { Container, Row } from 'reactstrap';
+import ActionLink from '../actionLink';
 
 export default function PartnerSection() {
   return (
     <Section className="partners-section">
       <Container>
         <Row>
-          <h1 className="section-title center" style={{ marginBottom: "50px" }}>
+          <h1 className="section-title center" style={{ marginBottom: '50px' }}>
             Our Sponsors
           </h1>
         </Row>
@@ -41,10 +41,7 @@ export default function PartnerSection() {
         </div>
         <Row>
           <div className="center partner-button">
-            <ActionLink
-              text="Partner With Us"
-              link="https://h4i-sponsor.now.sh"
-            />
+            <ActionLink text="Partner With Us" link="https://h4i-sponsor.now.sh" />
           </div>
         </Row>
       </Container>

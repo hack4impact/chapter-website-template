@@ -4,7 +4,6 @@ import ActionButton from '../../components/actionButton';
 import Head from '../../components/head';
 import Nav from '../../components/nav';
 import { Container, Row, Col } from 'reactstrap';
-import Footer from '../../components/footer';
 
 function ApplyPage() {
   return (

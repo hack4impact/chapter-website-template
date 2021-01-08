@@ -1,16 +1,14 @@
-import React from "react";
-import Section from "../section";
-import { Container, Row, Col } from "reactstrap";
-import Timeline from "./timeline";
+import React from 'react';
+import Section from '../section';
+import { Container, Row, Col } from 'reactstrap';
+import Timeline from './timeline';
 
 const ApplicationProcess = ({ closed, processes, closedText, titleDetail }) => (
   <Section darkgrey>
     <Container>
       <Row>
         <div className="col-md-12">
-          <h3 className="text-center project-detail-title">
-            Application Process
-          </h3>
+          <h3 className="text-center project-detail-title">Application Process</h3>
         </div>
       </Row>
 

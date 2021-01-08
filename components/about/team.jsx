@@ -1,9 +1,9 @@
-import React from "react";
-import { Container, Row } from "reactstrap";
-import Directors from "./directors";
-import Section from "../section";
-import TeamData from "../../data/teamData";
-import MemberIcon from "../memberIcon";
+import React from 'react';
+import { Container, Row } from 'reactstrap';
+import Directors from './directors';
+import Section from '../section';
+import TeamData from '../../data/teamData';
+import MemberIcon from '../memberIcon';
 
 const TeamSection = () => (
   <Section>

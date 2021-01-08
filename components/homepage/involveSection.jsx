@@ -1,9 +1,9 @@
-import React from "react";
-import { Container, Row, Col } from "reactstrap";
-import Section from "../section";
-import BlockQuote from "../blockQuote";
-import ActionButton from "../actionButton";
-import Link from "next/link";
+import React from 'react';
+import { Container, Row, Col } from 'reactstrap';
+import Section from '../section';
+import BlockQuote from '../blockQuote';
+import ActionButton from '../actionButton';
+import Link from 'next/link';
 
 const InvolveSection = () => (
   <Section grey>
@@ -18,24 +18,18 @@ const InvolveSection = () => (
               <h3 className="text-title text-center">Students</h3>
               <Link href="/apply/students">
                 <a>
-                  <img
-                    src="/images/h4i-funny.jpg"
-                    className="img-fluid"
-                    alt="Sp18 team"
-                  />
+                  <img src="/images/h4i-funny.jpg" className="img-fluid" alt="Sp18 team" />
                 </a>
               </Link>
             </div>
             <Row>
               <p
                 style={{
-                  padding: "38px 0 35px 0",
-                }}
-              >
-                Are you passionate about software and Social Impact? Are you
-                looking to join a unique and close-knit community? Join Us! Our
-                mission provides a distinct experience to develop technical
-                skills and interact with nonprofit clients all while applying
+                  padding: '38px 0 35px 0',
+                }}>
+                Are you passionate about software and Social Impact? Are you looking to join a
+                unique and close-knit community? Join Us! Our mission provides a distinct experience
+                to develop technical skills and interact with nonprofit clients all while applying
                 your skills to impact real lives.
               </p>
 
@@ -49,11 +43,7 @@ const InvolveSection = () => (
               <h3 className="text-title text-center">Nonprofits</h3>
               <Link href="/apply/students">
                 <a>
-                  <img
-                    src="/images/team-cheer.jpg"
-                    className="img-fluid"
-                    alt="Fa19 team"
-                  />
+                  <img src="/images/team-cheer.jpg" className="img-fluid" alt="Fa19 team" />
                 </a>
               </Link>
               <Row>
@@ -66,11 +56,7 @@ const InvolveSection = () => (
                   position="Faculty Coordinator of the USFSP Neighborhood News Bureau"
                 />
                 <div className="text-center">
-                  <ActionButton
-                    white
-                    link="/apply/nonprofits"
-                    text="Learn More"
-                  />
+                  <ActionButton white link="/apply/nonprofits" text="Learn More" />
                 </div>
               </Row>
             </div>

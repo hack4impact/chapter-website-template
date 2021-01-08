@@ -1,57 +1,57 @@
-import React from "react";
-import Section from "../section";
-import BackgroundSlider from "../backgroundSlider";
-import { Row } from "reactstrap";
+import React from 'react';
+import Section from '../section';
+import BackgroundSlider from '../backgroundSlider';
+import { Row } from 'reactstrap';
 
 const chapters = [
   {
-    name: "upenn",
+    name: 'upenn',
     width: 125,
     height: 36,
-    logoPath: "/images/chapters/upenn/upenn-logo.jpg",
-    link: "https://hack4impact.org",
+    logoPath: '/images/chapters/upenn/upenn-logo.jpg',
+    link: 'https://hack4impact.org',
   },
   {
-    name: "gt",
+    name: 'gt',
     width: 125,
     height: 55,
-    logoPath: "/images/chapters/gt/gt-logo.png",
-    link: "https://bitsofgood.org",
+    logoPath: '/images/chapters/gt/gt-logo.png',
+    link: 'https://bitsofgood.org',
   },
   {
-    name: "bu",
+    name: 'bu',
     width: 75,
     height: 75,
-    logoPath: "/images/chapters/bu/bu-logo.png",
-    link: "https://www.hack4impactbu.com/index.html",
+    logoPath: '/images/chapters/bu/bu-logo.png',
+    link: 'https://www.hack4impactbu.com/index.html',
   },
   {
-    name: "calpoly",
+    name: 'calpoly',
     width: 75,
     height: 75,
-    logoPath: "/images/chapters/calpoly/calpoly-logo.png",
-    link: "https://calpoly.hack4impact.org/",
+    logoPath: '/images/chapters/calpoly/calpoly-logo.png',
+    link: 'https://calpoly.hack4impact.org/',
   },
   {
-    name: "cornell",
+    name: 'cornell',
     width: 75,
     height: 75,
-    logoPath: "/images/chapters/cornell/cornell-logo.png",
-    link: "https://www.facebook.com/h4icornell/",
+    logoPath: '/images/chapters/cornell/cornell-logo.png',
+    link: 'https://www.facebook.com/h4icornell/',
   },
   {
-    name: "mcgill",
+    name: 'mcgill',
     width: 75,
     height: 75,
-    logoPath: "/images/chapters/mcgill/mcgill-logo.png",
-    link: "https://www.facebook.com/hack4impactmcgill",
+    logoPath: '/images/chapters/mcgill/mcgill-logo.png',
+    link: 'https://www.facebook.com/hack4impactmcgill',
   },
 ];
 export default function OtherChapters() {
   return (
     <Section className="chapters-section">
       <Row>
-        <h1 className="section-title center" style={{ marginBottom: "75px" }}>
+        <h1 className="section-title center" style={{ marginBottom: '75px' }}>
           Other Chapters
         </h1>
       </Row>
@@ -61,11 +61,7 @@ export default function OtherChapters() {
             <div className="chapter-logo-container">
               {chapters.map((chapter) => (
                 <div key={chapter.name}>
-                  <a
-                    href={chapter.link}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
+                  <a href={chapter.link} target="_blank" rel="noopener noreferrer">
                     <img
                       width={chapter.width}
                       height={chapter.height}

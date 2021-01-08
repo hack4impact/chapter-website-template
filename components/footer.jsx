@@ -1,6 +1,6 @@
-import React from "react";
-import { Container, Row, Col } from "reactstrap";
-import Link from "next/link";
+import React from 'react';
+import { Container, Row, Col } from 'reactstrap';
+import Link from 'next/link';
 
 const Footer = () => (
   <section className="footer-section">
@@ -8,16 +8,11 @@ const Footer = () => (
       <Row>
         <Col md="5" xs="12" className="footer-left-div">
           <div className="footer-logo-box">
-            <img
-              src="/images/h4i_white.png"
-              height="35"
-              width="200"
-              alt="Hack4Impact logo"
-            />
+            <img src="/images/h4i_white.png" height="35" width="200" alt="Hack4Impact logo" />
           </div>
           <p>
-            For all inquiries of partnership or sponsorship, please contact us
-            at <a href="mailto:uiuc@hack4impact.org">uiuc@hack4impact.org</a>.
+            For all inquiries of partnership or sponsorship, please contact us at{' '}
+            <a href="mailto:uiuc@hack4impact.org">uiuc@hack4impact.org</a>.
           </p>
         </Col>
         <div className="col-md-1" />

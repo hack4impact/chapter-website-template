@@ -1,9 +1,9 @@
-import React from "react";
-import Link from "next/link";
+import React from 'react';
+import Link from 'next/link';
 
 const OutlineButton = ({ text, link, style }) => (
   <button style={{ style }}>
-    {link.startsWith("/") ? (
+    {link.startsWith('/') ? (
       <Link href={link}>
         <a>{text}</a>
       </Link>
@@ -24,7 +24,7 @@ const OutlineButton = ({ text, link, style }) => (
       }
 
       button a {
-        font-family: "Chivo", sans-serif;
+        font-family: 'Chivo', sans-serif;
         font-weight: 100;
         font-size: 14px;
         color: white !important;

@@ -1,7 +1,7 @@
-import React from "react";
-import Section from "../section";
-import { Col } from "reactstrap";
-import Link from "next/link";
+import React from 'react';
+import Section from '../section';
+import { Col } from 'reactstrap';
+import Link from 'next/link';
 
 const ProjectLinks = () => (
   <Section darkgrey>

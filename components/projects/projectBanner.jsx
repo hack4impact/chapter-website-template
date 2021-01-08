@@ -1,6 +1,6 @@
-import React from "react";
-import { Row, Col, Container } from "reactstrap";
-import ActionButton from "../actionButton";
+import React from 'react';
+import { Row, Col, Container } from 'reactstrap';
+import ActionButton from '../actionButton';
 
 export default function ProjectBanner({
   title,
@@ -37,20 +37,14 @@ export default function ProjectBanner({
                   text="Final Product"
                   link={projectLink}
                   white
-                  style={{ marginRight: "10px" }}
+                  style={{ marginRight: '10px' }}
                 />
               )}
               {githubLink !== undefined &&
-                githubLink !==
-                  null **
-                  <ActionButton text="View Code" link={githubLink} white />}
+                githubLink !== null ** <ActionButton text="View Code" link={githubLink} white />}
               {previousLink !== undefined && previousLink !== null && (
                 <div className="previous-button">
-                  <ActionButton
-                    text="View Previous Project"
-                    link={previousLink}
-                    white
-                  />
+                  <ActionButton text="View Previous Project" link={previousLink} white />
                 </div>
               )}
             </Col>
@@ -63,7 +57,7 @@ export default function ProjectBanner({
           background: radial-gradient(white, #64ab8a);
           background-size: cover;
           background-attachment: fixed;
-          font-family: "Chivo", sans-serif;
+          font-family: 'Chivo', sans-serif;
           text-align: center;
         }
         .section-title-link {

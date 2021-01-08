@@ -1,81 +1,79 @@
 // Data for the Sp20 SaverLife Project
-const name = "SaverLife";
-const id = "saverlife";
+const name = 'SaverLife';
+const id = 'saverlife';
 const detail =
-  "How might we broaden SaverLife’s reach to incentivize a larger audience to make a habit of saving money?";
-const coverImagePath = "/images/projects/sp20/saverlife/saverlife-cover.jpg";
+  'How might we broaden SaverLife’s reach to incentivize a larger audience to make a habit of saving money?';
+const coverImagePath = '/images/projects/sp20/saverlife/saverlife-cover.jpg';
 const clientDetail =
-  "SaverLife aims to educate and reward Americans who need help saving money and investing in their futures. The goal of the nonprofit is to lead a systematic change with rewards, expert resources and support to encourage new saving habits.";
-const clientLink = "https://www.saverlife.org/";
+  'SaverLife aims to educate and reward Americans who need help saving money and investing in their futures. The goal of the nonprofit is to lead a systematic change with rewards, expert resources and support to encourage new saving habits.';
+const clientLink = 'https://www.saverlife.org/';
 const previousLink = null;
 const clientFeatures = null;
 const problem =
-  "About 40% of Americans have less than $400 in their savings account and millions of Americans live paycheck to paycheck. SaverLife aims to help educate people on financial literacy and give support to those who are saving. However, habit forming can be difficult. Saving, in particular, is a harder habit to form because it requires detailed planning and is more volatile due to real life circumstances.";
-const problemImagePath =
-  "/images/projects/sp20/saverlife/saverlife-problem.jpg";
+  'About 40% of Americans have less than $400 in their savings account and millions of Americans live paycheck to paycheck. SaverLife aims to help educate people on financial literacy and give support to those who are saving. However, habit forming can be difficult. Saving, in particular, is a harder habit to form because it requires detailed planning and is more volatile due to real life circumstances.';
+const problemImagePath = '/images/projects/sp20/saverlife/saverlife-problem.jpg';
 const solution =
-  "Our organization has worked with SaverLife to create a mobile application that displays a look at Saverlife’s resources. By designing and implementing a neat and convenient interface, the application is crafted to encourage users to utilize all that SaverLife has to offer to aid in the process of saving while simultaneously aiming to expand SaverLife’s reach.";
-const solutionImagePath =
-  "/images/projects/sp20/saverlife/saverlife-solution.jpg";
+  'Our organization has worked with SaverLife to create a mobile application that displays a look at Saverlife’s resources. By designing and implementing a neat and convenient interface, the application is crafted to encourage users to utilize all that SaverLife has to offer to aid in the process of saving while simultaneously aiming to expand SaverLife’s reach.';
+const solutionImagePath = '/images/projects/sp20/saverlife/saverlife-solution.jpg';
 const features = [
   {
-    title: "Savings",
-    detail: "Track savings and user progress towards their goal.",
-    imgPath: "/images/projects/sp20/saverlife/saverlife-savings.jpg",
+    title: 'Savings',
+    detail: 'Track savings and user progress towards their goal.',
+    imgPath: '/images/projects/sp20/saverlife/saverlife-savings.jpg',
   },
   {
-    title: "Articles",
+    title: 'Articles',
     detail:
-      "Read articles to learn more about financial literacy and related topics that SaverLife has to offer.",
-    imgPath: "/images/projects/sp20/saverlife/saverlife-articles.jpg",
+      'Read articles to learn more about financial literacy and related topics that SaverLife has to offer.',
+    imgPath: '/images/projects/sp20/saverlife/saverlife-articles.jpg',
   },
   {
-    title: "Calendar",
-    detail: "Add important events in the calendar for efficient planning.",
-    imgPath: "/images/projects/sp20/saverlife/saverlife-calendar.jpg",
+    title: 'Calendar',
+    detail: 'Add important events in the calendar for efficient planning.',
+    imgPath: '/images/projects/sp20/saverlife/saverlife-calendar.jpg',
   },
 ];
 
-const featureImgSize = "4";
-const techStack = ["reactnative", "redux", "reduxsaga"];
+const featureImgSize = '4';
+const techStack = ['reactnative', 'redux', 'reduxsaga'];
 const quote = null;
 const quoteSource = null;
 const quoteSourceTitle = null;
 const githubLink = null;
 const team = {
-  type: "pics",
+  type: 'pics',
   detail: [
     {
-      name: "Betty Shen",
-      role: "Product Manager",
+      name: 'Betty Shen',
+      role: 'Product Manager',
     },
     {
-      name: "Utkarsh Awasthi",
-      role: "Tech Lead",
+      name: 'Utkarsh Awasthi',
+      role: 'Tech Lead',
     },
     {
-      name: "Matthew Walowski",
-      role: "Software Developer",
+      name: 'Matthew Walowski',
+      role: 'Software Developer',
     },
     {
-      name: "Sabelle Huang",
-      role: "Software Developer",
+      name: 'Sabelle Huang',
+      role: 'Software Developer',
     },
     {
-      name: "Lauren Ho",
-      role: "Software Developer",
+      name: 'Lauren Ho',
+      role: 'Software Developer',
     },
     {
-      name: "Melody Felix",
-      role: "Software Developer",
+      name: 'Melody Felix',
+      role: 'Software Developer',
     },
     {
-      name: "Michael Leon",
-      role: "Software Developer",
+      name: 'Michael Leon',
+      role: 'Software Developer',
     },
     {
-      name: "Siraj Chokshi",
-      role: "Product Designer",
+      name: 'Siraj Chokshi',
+      role: 'Product Designer',
     },
   ],
 };

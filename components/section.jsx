@@ -1,11 +1,11 @@
-import React from "react";
+import React from 'react';
 
 const getBackground = (grey, darkgrey) => {
   if (grey) {
-    return "rgb(250, 251, 252)";
+    return 'rgb(250, 251, 252)';
   }
   if (darkgrey) {
-    return "#ebeff2";
+    return '#ebeff2';
   }
   return undefined;
 };
@@ -15,8 +15,7 @@ const Section = ({ children, grey, darkgrey }) => (
     className="typical-section"
     style={{
       background: getBackground(grey, darkgrey),
-    }}
-  >
+    }}>
     <div>
       {children}
       <style jsx>

@@ -1,6 +1,6 @@
-import React from "react";
-import FeatureSlider from "../featureSlider";
-import { Row, Col, Card, CardBody } from "reactstrap";
+import React from 'react';
+import FeatureSlider from '../featureSlider';
+import { Row, Col, Card, CardBody } from 'reactstrap';
 
 const ProjectFeature = ({ featureImgSize, features }) =>
   features === null || features === undefined || features.length === 0 ? (
@@ -17,17 +17,10 @@ const ProjectFeature = ({ featureImgSize, features }) =>
       <Row>
         {features[0].imgPath === undefined ? (
           features.map((feature) => (
-            <Col
-              md="3"
-              sm="6"
-              style={{ marginBottom: "25px" }}
-              key={feature.title}
-            >
+            <Col md="3" sm="6" style={{ marginBottom: '25px' }} key={feature.title}>
               <Card className="text-white bg-secondary mb-3 h-100 light-shadow">
                 <CardBody>
-                  <h5 className="project-detail-title card-title text-center">
-                    {feature.title}
-                  </h5>
+                  <h5 className="project-detail-title card-title text-center">{feature.title}</h5>
                   <p className="text-center" id="card-text">
                     {feature.detail}
                   </p>

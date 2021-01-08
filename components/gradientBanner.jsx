@@ -1,7 +1,7 @@
-import React from "react";
-import { Container, Row, Col } from "reactstrap";
-import { Spring, config } from "react-spring/renderprops.cjs";
-import ActionButton from "./actionButton";
+import React from 'react';
+import { Container, Row, Col } from 'reactstrap';
+import { Spring, config } from 'react-spring/renderprops.cjs';
+import ActionButton from './actionButton';
 
 const GradientBanner = ({
   title,
@@ -23,9 +23,8 @@ const GradientBanner = ({
           <Col md="12" className="text-center">
             <Spring
               config={{ delay: 700, ...config.molasses }}
-              from={{ opacity: 0, transform: "translate3d(-100px,0,0)" }}
-              to={{ opacity: 100, transform: "translate3d(0,0px,0)" }}
-            >
+              from={{ opacity: 0, transform: 'translate3d(-100px,0,0)' }}
+              to={{ opacity: 100, transform: 'translate3d(0,0px,0)' }}>
               {(props) => (
                 <div style={props} className="main-headline">
                   <h1>{title}</h1>
@@ -36,9 +35,8 @@ const GradientBanner = ({
           <Row>
             <Spring
               config={{ delay: 500, ...config.molasses }}
-              from={{ opacity: 0, transform: "translate3d(-100px,0,0)" }}
-              to={{ opacity: 100, transform: "translate3d(0,0px,0)" }}
-            >
+              from={{ opacity: 0, transform: 'translate3d(-100px,0,0)' }}
+              to={{ opacity: 100, transform: 'translate3d(0,0px,0)' }}>
               {(props) => (
                 <div style={props} className="text-center sub-headline">
                   <p>{subHeadline}</p>
@@ -50,9 +48,8 @@ const GradientBanner = ({
             {buttonText !== undefined && (
               <Spring
                 config={{ delay: 550, ...config.molasses }}
-                from={{ opacity: 0, transform: "translate3d(-100px,0,0)" }}
-                to={{ opacity: 100, transform: "translate3d(0,0px,0)" }}
-              >
+                from={{ opacity: 0, transform: 'translate3d(-100px,0,0)' }}
+                to={{ opacity: 100, transform: 'translate3d(0,0px,0)' }}>
                 {(props) =>
                   isLeftButtonDisplayed && (
                     <div style={props} className="d-inline">
@@ -65,16 +62,12 @@ const GradientBanner = ({
             {minorButtonText !== undefined && (
               <Spring
                 config={{ delay: 550, ...config.molasses }}
-                from={{ opacity: 0, transform: "translate3d(-100px,0,0)" }}
-                to={{ opacity: 100, transform: "translate3d(0,0px,0)" }}
-              >
+                from={{ opacity: 0, transform: 'translate3d(-100px,0,0)' }}
+                to={{ opacity: 100, transform: 'translate3d(0,0px,0)' }}>
                 {(props) =>
                   isRightButtonDisplayed && (
                     <div style={props} className="d-inline ml-3">
-                      <ActionButton
-                        text={minorButtonText}
-                        link={minorButtonLink}
-                      />
+                      <ActionButton text={minorButtonText} link={minorButtonLink} />
                     </div>
                   )
                 }
@@ -87,10 +80,7 @@ const GradientBanner = ({
     {arrow && <div className="arrow" />}
     <style jsx>{`
       section {
-        background: radial-gradient(
-          white,
-          ${color !== undefined ? color : "#aac3ff"}
-        );
+        background: radial-gradient(white, ${color !== undefined ? color : '#aac3ff'});
         padding: 12% 0;
         padding: 8% 0;
       }
@@ -104,7 +94,7 @@ const GradientBanner = ({
         font-size: 60px !important;
         font-weight: 600;
         color: #323648;
-        font-family: "Chivo", sans-serif;
+        font-family: 'Chivo', sans-serif;
       }
       .sub-headline {
         max-width: 100%;

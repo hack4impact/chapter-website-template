@@ -1,8 +1,8 @@
-import React from "react";
-import Link from "next/link";
+import React from 'react';
+import Link from 'next/link';
 
 const getAnchor = (link, text, style) => (
-  <a className={"link"} style={{ color: "#155da1", ...style }} href={link}>
+  <a className={'link'} style={{ color: '#155da1', ...style }} href={link}>
     {text}
     <style jsx>{`
       .link {
@@ -19,7 +19,7 @@ const getAnchor = (link, text, style) => (
 );
 
 const ActionLink = ({ link, text, style }) =>
-  link.startsWith("/") ? (
+  link.startsWith('/') ? (
     <Link href={link}>{getAnchor(link, text, style)}</Link>
   ) : (
     getAnchor(link, text, style)

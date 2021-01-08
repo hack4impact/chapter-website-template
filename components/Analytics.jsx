@@ -1,7 +1,7 @@
-import ReactGA from "react-ga";
+import ReactGA from 'react-ga';
 
 const initializeGA = () => {
-  ReactGA.initialize("UA-144770649-1");
+  ReactGA.initialize('UA-144770649-1');
 };
 
 const logPage = () => {

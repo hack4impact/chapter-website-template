@@ -1,5 +1,5 @@
-import React from "react";
-import Link from "next/link";
+import React from 'react';
+import Link from 'next/link';
 
 const actionButtonStyle = (
   <style jsx>{`
@@ -15,7 +15,7 @@ const actionButtonStyle = (
       color: white;
     }
     .styled-btn {
-      font-family: "Chivo", sans-serif;
+      font-family: 'Chivo', sans-serif;
       font-weight: 100;
       font-size: 14px;
       text-decoration: none;
@@ -45,9 +45,8 @@ const getAnchor = (link, onClick, style, white, text) => (
   <a href={link}>
     <button
       style={style}
-      className={white ? "white-button styled-btn" : "action-button styled-btn"}
-      onClick={onClick ?? undefined}
-    >
+      className={white ? 'white-button styled-btn' : 'action-button styled-btn'}
+      onClick={onClick ?? undefined}>
       {text}
     </button>
   </a>
@@ -55,7 +54,7 @@ const getAnchor = (link, onClick, style, white, text) => (
 
 const ActionButton = ({ link, text, style, white, onClick }) => {
   if (link !== undefined) {
-    return link.startsWith("/") ? (
+    return link.startsWith('/') ? (
       <Link href={link}>{getAnchor(link, onClick, style, white, text)}</Link>
     ) : (
       getAnchor(link, onClick, style, white, text)
@@ -66,11 +65,8 @@ const ActionButton = ({ link, text, style, white, onClick }) => {
     <>
       <button
         style={style}
-        className={
-          white ? "white-button styled-btn" : "action-button styled-btn"
-        }
-        onClick={onClick ?? undefined}
-      >
+        className={white ? 'white-button styled-btn' : 'action-button styled-btn'}
+        onClick={onClick ?? undefined}>
         <a>{text}</a>
       </button>
       {actionButtonStyle}

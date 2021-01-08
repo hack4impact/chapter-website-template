@@ -171,15 +171,7 @@
   transform-origin: right;
 }
 .Toastify__progress-bar--default {
-  background: linear-gradient(
-    to right,
-    #4cd964,
-    #5ac8fa,
-    #007aff,
-    #34aadc,
-    #5856d6,
-    #ff2d55
-  );
+  background: linear-gradient(to right, #4cd964, #5ac8fa, #007aff, #34aadc, #5856d6, #ff2d55);
 }
 
 @keyframes Toastify__bounceInRight {

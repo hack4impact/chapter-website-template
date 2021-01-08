@@ -1,5 +1,5 @@
-import React from "react";
-import Link from "next/link";
+import React from 'react';
+import Link from 'next/link';
 // Used in Homescreen
 
 const getAnchor = (title, subtitle, image, link) => (
@@ -8,8 +8,7 @@ const getAnchor = (title, subtitle, image, link) => (
       className="project-item"
       style={{
         backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), ${image}`,
-      }}
-    >
+      }}>
       <h4>{title}</h4>
       <p>{subtitle}</p>
     </div>
@@ -39,8 +38,7 @@ const getAnchor = (title, subtitle, image, link) => (
         min-height: 200px;
       }
       .project-item:hover {
-        box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.2),
-          0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
       }
       p {
         margin: 0px;
@@ -52,7 +50,7 @@ const getAnchor = (title, subtitle, image, link) => (
 );
 
 const ProjectContainer = ({ title, subtitle, image, link }) =>
-  link.startsWith("/") ? (
+  link.startsWith('/') ? (
     <Link href={link}>{getAnchor(title, subtitle, image, link)}</Link>
   ) : (
     getAnchor(title, subtitle, image, link)

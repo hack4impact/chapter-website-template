@@ -1,6 +1,6 @@
-import React from "react";
-import Section from "../../section";
-import { Container, Row } from "reactstrap";
+import React from 'react';
+import Section from '../../section';
+import { Container, Row } from 'reactstrap';
 
 export default function ServicesDetail() {
   return (
@@ -13,41 +13,35 @@ export default function ServicesDetail() {
         <Row>
           <div className="col-md-12">
             <p>
-              We currently support web based and data science projects but we
-              are open to other different types of projects. Historically, we’ve
-              found that the impact we can make, the amount we can learn, and
-              the time and effort needed to build these kinds of projects fit
-              well with our constraints and goals.
+              We currently support web based and data science projects but we are open to other
+              different types of projects. Historically, we’ve found that the impact we can make,
+              the amount we can learn, and the time and effort needed to build these kinds of
+              projects fit well with our constraints and goals.
             </p>
             <p>
-              To find out more about some of the projects that we've done in the
-              past, feel free to look through our{" "}
-              <a href="/projects">projects page</a> or our{" "}
-              <a href="https://h4i-pitchbook.now.sh/">pitchbook</a>, which also
-              has additional information pertaining to our project process and
-              timeline.
+              To find out more about some of the projects that we've done in the past, feel free to
+              look through our <a href="/projects">projects page</a> or our{' '}
+              <a href="https://h4i-pitchbook.now.sh/">pitchbook</a>, which also has additional
+              information pertaining to our project process and timeline.
             </p>
             <p>
-              Please keep in mind that because one of our core focuses is on
-              software engineering and developer education, our offerings
-              currently do <i> not </i> include:
+              Please keep in mind that because one of our core focuses is on software engineering
+              and developer education, our offerings currently do <i> not </i> include:
             </p>
             <ol>
               <li>
-                <strong>Basic website design and development.</strong> We do not
-                build websites that are purely content-based, such as Wordpress
-                blogs or landing pages.
+                <strong>Basic website design and development.</strong> We do not build websites that
+                are purely content-based, such as Wordpress blogs or landing pages.
               </li>
               <li>
-                <strong>Technology integration or consulting.</strong> We do not
-                set up or integrate existing solutions such as Salesforce or
-                Drupal.
+                <strong>Technology integration or consulting.</strong> We do not set up or integrate
+                existing solutions such as Salesforce or Drupal.
               </li>
             </ol>
             <p>
-              That said, if you’re looking for help with that sort of thing, we
-              might be able to recommend some other tools or services that fit
-              your needs. So feel free to reach out anyway!
+              That said, if you’re looking for help with that sort of thing, we might be able to
+              recommend some other tools or services that fit your needs. So feel free to reach out
+              anyway!
             </p>
           </div>
         </Row>

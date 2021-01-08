@@ -1,5 +1,5 @@
-import React from "react";
-import { Collapse } from "reactstrap";
+import React from 'react';
+import { Collapse } from 'reactstrap';
 
 class FaqQuestion extends React.Component {
   constructor(props) {

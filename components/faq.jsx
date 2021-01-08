@@ -1,7 +1,7 @@
-import React from "react";
-import { Container } from "reactstrap";
-import Section from "./section";
-import FaqQuestion from "./faqQuestion";
+import React from 'react';
+import { Container } from 'reactstrap';
+import Section from './section';
+import FaqQuestion from './faqQuestion';
 
 export default function Faq({ questions }) {
   return (

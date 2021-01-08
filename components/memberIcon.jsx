@@ -1,9 +1,9 @@
-import React from "react";
-import { Col, Card } from "reactstrap";
-import { ImagePathConversion } from "../data/helper";
+import React from 'react';
+import { Col, Card } from 'reactstrap';
+import { ImagePathConversion } from '../data/helper';
 
 const TeamMemberIcon = ({ name, role, linkedin, nopic }) => (
-  <Col xs={nopic ? "6" : "6"} md="3">
+  <Col xs={nopic ? '6' : '6'} md="3">
     <Card className="border-0 member-icon">
       <div className="text-center">
         <a href={linkedin}>
@@ -18,11 +18,11 @@ const TeamMemberIcon = ({ name, role, linkedin, nopic }) => (
 
     <div className="card-body">
       <p className="text-center">
-        <b> {name} </b> <br /> {role}{" "}
+        <b> {name} </b> <br /> {role}{' '}
         {linkedin !== undefined && (
           <a href={linkedin}>
-            {" "}
-            |{" "}
+            {' '}
+            |{' '}
             <img
               width="12"
               className="linkedin-icon"
@@ -41,8 +41,7 @@ const TeamMemberIcon = ({ name, role, linkedin, nopic }) => (
         margin-bottom: 3px;
       }
       .team-icon:hover {
-        box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.2),
-          0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
       }
     `}</style>
   </Col>

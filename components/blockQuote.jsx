@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 const BlockQuote = ({ text, style }) => (
   <div>
@@ -6,13 +6,10 @@ const BlockQuote = ({ text, style }) => (
       className="blockquote-fancy"
       style={{
         ...style,
-      }}
-    >
+      }}>
       {text}
     </p>
-    <p className="text-right blockquote-fancy-cite">
-      - Bernardo H. Motta, Ph.D.
-    </p>
+    <p className="text-right blockquote-fancy-cite">- Bernardo H. Motta, Ph.D.</p>
     <p className="text-right blockquote-fancy-title">
       Faculty Coordinator of the USFSP Neighborhood News Bureau
     </p>

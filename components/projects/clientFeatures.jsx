@@ -1,5 +1,5 @@
-import React from "react";
-import { Row, Container, Col } from "reactstrap";
+import React from 'react';
+import { Row, Container, Col } from 'reactstrap';
 
 const ClientFeatures = ({ features }) =>
   features !== null &&
@@ -32,7 +32,7 @@ const ClientFeatures = ({ features }) =>
         .client-feature-box {
           margin: auto 60px;
           margin-top: 60px;
-          font-family: "Chivo", sans-serif;
+          font-family: 'Chivo', sans-serif;
         }
         .feature-detail {
           font-size: 1.4rem;

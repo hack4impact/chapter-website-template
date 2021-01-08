@@ -1,7 +1,7 @@
-import React from "react";
-import { Container, Row, Col, Card } from "reactstrap";
-import ProjectFeature from "./projectFeature";
-import ProjectQuote from "../quote";
+import React from 'react';
+import { Container, Row, Col, Card } from 'reactstrap';
+import ProjectFeature from './projectFeature';
+import ProjectQuote from '../quote';
 
 const ProjectDetail = ({ project }) => (
   <section>
@@ -9,9 +9,7 @@ const ProjectDetail = ({ project }) => (
       <Row>
         <Col md="6">
           <Card className="border-0">
-            <h5 className="card-title text-center project-detail-title">
-              Problem
-            </h5>
+            <h5 className="card-title text-center project-detail-title">Problem</h5>
             <div className="text-center mt-3 img-holder">
               <img
                 src={project.problemImagePath}
@@ -25,9 +23,7 @@ const ProjectDetail = ({ project }) => (
 
         <Col md="6">
           <Card className="border-0">
-            <h5 className="card-title text-center project-detail-title">
-              Solution
-            </h5>
+            <h5 className="card-title text-center project-detail-title">Solution</h5>
             <div className="text-center mt-3 img-holder">
               <img
                 src={project.solutionImagePath}
@@ -51,10 +47,7 @@ const ProjectDetail = ({ project }) => (
           </Col>
         </Row>
       </Row>
-      <ProjectFeature
-        featureImgSize={project.featureImgSize}
-        features={project.features}
-      />
+      <ProjectFeature featureImgSize={project.featureImgSize} features={project.features} />
     </Container>
     <ProjectQuote
       quote={project.quote}

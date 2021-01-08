@@ -5,7 +5,6 @@ import Faq from '../../components/faq';
 import GradientBanner from '../../components/gradientBanner';
 import Head from '../../components/head';
 import Nav from '../../components/nav';
-import Footer from '../../components/footer';
 import data from '../../data/studentApplyData';
 
 function Students() {

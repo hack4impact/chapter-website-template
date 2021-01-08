@@ -4,7 +4,6 @@ import Nav from '../../components/nav';
 import GradientBanner from '../../components/gradientBanner';
 import ProjectList from '../../components/projects/projectList';
 import ProjectExplore from '../../components/projects/projectExplore';
-import Footer from '../../components/footer';
 
 function Projects() {
   // return project List (regular project Page) if not query (just /projets)

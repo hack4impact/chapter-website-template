@@ -7,8 +7,8 @@
   height: 100vh;
   display: flex;
   align-items: center;
-  background: linear-gradient(rgba(20, 20, 20, 0.8), rgba(20, 20, 20, 0.8)),
-    url("../img/uiuc.jpg"), no-repeat;
+  background: linear-gradient(rgba(20, 20, 20, 0.8), rgba(20, 20, 20, 0.8)), url('../img/uiuc.jpg'),
+    no-repeat;
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;

@@ -1,6 +1,5 @@
 import React from 'react';
 import Head from '../../components/head';
-import Nav from '../../components/nav';
 import GradientBanner from '../../components/gradientBanner';
 import ProjectList from '../../components/projects/projectList';
 import ProjectExplore from '../../components/projects/projectExplore';
@@ -9,8 +8,7 @@ function Projects() {
   // return project List (regular project Page) if not query (just /projets)
   return (
     <div>
-      <Head title="Hack4Impact Projects" />
-      <Nav navType="otherNav" />
+      <Head title="Our Work" />
       <GradientBanner
         arrow
         title="Our Work"

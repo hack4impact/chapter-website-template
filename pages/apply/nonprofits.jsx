@@ -5,7 +5,6 @@ import ServicesDetail from '../../components/apply/nonprofit/servicesDetail';
 import Quote from '../../components/quote';
 import ApplicationProcess from '../../components/apply/applicationProcess';
 import Head from '../../components/head';
-import Nav from '../../components/nav';
 
 import data from '../../data/ngoApplyData';
 
@@ -15,7 +14,6 @@ function NonProfits() {
   return (
     <>
       <Head title="H4I Apply | Nonprofits" />
-      <Nav navType="otherNav" />
       <GradientBanner
         color="#64ab8a"
         title={data.title}

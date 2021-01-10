@@ -4,14 +4,12 @@ import Quote from '../../components/quote';
 import Faq from '../../components/faq';
 import GradientBanner from '../../components/gradientBanner';
 import Head from '../../components/head';
-import Nav from '../../components/nav';
 import data from '../../data/studentApplyData';
 
 function Students() {
   return (
     <>
       <Head title="H4I Apply | Students" />
-      <Nav navType="otherNav" />
       <GradientBanner
         color="#64ab8a"
         title={data.title}

@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import { useRouter } from 'next/router';
 import Footer from '../components/footer';
+import Nav from '../components/navbar';
 import { initializeGA, logPage } from '../components/Analytics';
 import { PageTransition } from 'next-page-transitions';
 
@@ -16,6 +17,7 @@ function App({ Component, pageProps }) {
 
   return (
     <div>
+      <Nav />
       <PageTransition timeout={300} classNames="page-transition">
         <Component {...pageProps} />
       </PageTransition>

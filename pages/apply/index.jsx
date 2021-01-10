@@ -2,14 +2,12 @@ import React from 'react';
 import GradientBanner from '../../components/gradientBanner';
 import ActionButton from '../../components/actionButton';
 import Head from '../../components/head';
-import Nav from '../../components/nav';
 import { Container, Row, Col } from 'reactstrap';
 
 function ApplyPage() {
   return (
     <>
       <Head title="Apply" />
-      <Nav navType="otherNav" />
       <GradientBanner title="Apply" arrow />
       <section className="timeline-split-apply">
         <Container>

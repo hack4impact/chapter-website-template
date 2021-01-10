@@ -5,30 +5,30 @@ import Section from '../section';
 import TeamData from '../../data/teamData';
 import MemberIcon from '../memberIcon';
 
-const TeamSection = () => (
+const TeamSection = ({ members, alumni }) => (
   <Section>
     <Container>
       <Directors directors={TeamData.directors} />
       <Row>
-        {TeamData.team.map((member) => (
+        {members.map((member) => (
           <MemberIcon
             key={member.name}
             name={member.name}
-            role={member.role}
-            linkedin={member.linkedin}
+            title={member.title}
+            image={member.image}
+            linkedIn={member.linkedIn}
           />
         ))}
       </Row>
-      <div className="p-5 m-3">
-        <h2 className="center"> Alumni </h2>
-      </div>
+      <h2 className="p-5 m-3 center"> Alumni </h2>
       <Row>
-        {TeamData.alumni.map((member) => (
+        {alumni.map((member) => (
           <MemberIcon
             key={member.name}
             name={member.name}
-            role={member.role}
-            linkedin={member.linkedin}
+            title={member.title}
+            image={member.image}
+            linkedIn={member.linkedIn}
           />
         ))}
       </Row>

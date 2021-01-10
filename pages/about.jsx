@@ -5,8 +5,9 @@ import OurValues from '../components/about/ourValues';
 import Head from '../components/head';
 import Nav from '../components/nav';
 import Team from '../components/about/team';
+import fetchContent from '../utils/fetchContent';
 
-function AboutPage() {
+function AboutPage({ members, alumni }) {
   return (
     <div>
       <Head title="About Hack4Impact" />
@@ -18,9 +19,40 @@ function AboutPage() {
       />
       <MissionSection />
       <OurValues />
-      <Team />
+      <Team members={members} alumni={alumni} />
     </div>
   );
 }
 
 export default AboutPage;
+
+export async function getStaticProps() {
+  const memberProperties = `
+    items {
+      name
+      title
+      image {
+        url
+      }
+      linkedIn
+    }
+  `;
+  const { websiteLayout } = await fetchContent(`
+  {
+    websiteLayout(id:"dPAHTMUXe3gbb7hlXFIZ1") {
+      membersCollection {
+        ${memberProperties}
+      }
+      alumniCollection {
+        ${memberProperties}
+      }
+    }
+  }
+  `);
+  return {
+    props: {
+      members: websiteLayout.membersCollection.items,
+      alumni: websiteLayout.alumniCollection.items,
+    },
+  };
+}

@@ -1,10 +1,9 @@
 import React from 'react';
 import { Row, Col, Card, CardBody } from 'reactstrap';
-
-import { ImagePathConversion } from '../../data/helper';
+import { documentToHtmlString } from '@contentful/rich-text-html-renderer';
 import Section from '../section';
 
-export default function Directors({ directors }) {
+function DirectorQuotes({ content }) {
   return (
     <Section>
       <Row>
@@ -17,38 +16,38 @@ export default function Directors({ directors }) {
         <div className="mb-3 text-center">
           <Col md="12">
             <h4 className="text-title">
-              <em> Message from our Co-Directors </em>
+              <em> Message from our Directors </em>
             </h4>
           </Col>
         </div>
       </Row>
       <Row>
-        {directors.map((director) => (
-          <Col md="6" key={director.name}>
+        {content.map(({ authorInfo, quote, yearWritten }) => (
+          <Col md="6" key={authorInfo.name}>
             <Card className="card border-0">
               <div className="text-center mb-2">
                 <img
                   className="rounded-circle img-fluid director-icon"
-                  src={ImagePathConversion(director.name)}
+                  src={authorInfo.image.url}
                   id="co-director"
-                  alt={director.name}
+                  alt={authorInfo}
                 />
               </div>
               <CardBody className="card-body">
                 <blockquote className="blockquote text-center mb-0">
-                  <p>"{director.quote}"</p>
+                  <div dangerouslySetInnerHTML={{ __html: documentToHtmlString(quote.json) }}></div>
                   <footer className="blockquote-footer">
-                    {director.name}
-                    <cite title="Source Title"> {director.year} </cite>
-                    {director.linkedin !== undefined && (
-                      <a href={director.linkedin}>
+                    {authorInfo.name}
+                    <cite title="Source Title"> {yearWritten} </cite>
+                    {authorInfo.linkedIn !== undefined && (
+                      <a href={authorInfo.linkedIn}>
                         {' '}
                         |{' '}
                         <img
                           width="12"
                           className="linkedin-icon pb-1"
                           src="/icons/linkedin.svg"
-                          alt={`${director.name}'s LinkedIn`}
+                          alt={`${authorInfo.name}'s LinkedIn`}
                         />
                       </a>
                     )}
@@ -67,3 +66,5 @@ export default function Directors({ directors }) {
     </Section>
   );
 }
+
+export default DirectorQuotes;

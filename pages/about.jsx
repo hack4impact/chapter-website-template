@@ -3,10 +3,10 @@ import GradientBanner from '../components/gradientBanner';
 import MissionSection from '../components/about/missionSection';
 import OurValues from '../components/about/ourValues';
 import Head from '../components/head';
-import Team from '../components/about/team';
+import Team from '../components/about/Team';
 import fetchContent from '../utils/fetchContent';
 
-function AboutPage({ members, alumni, values }) {
+function AboutPage({ members, alumni, values, directorQuotes }) {
   return (
     <div>
       <Head title="About Us" />
@@ -17,7 +17,7 @@ function AboutPage({ members, alumni, values }) {
       />
       <MissionSection />
       <OurValues content={values} />
-      <Team members={members} alumni={alumni} />
+      <Team directorQuotes={directorQuotes} members={members} alumni={alumni} />
     </div>
   );
 }
@@ -26,7 +26,12 @@ export default AboutPage;
 
 export async function getStaticProps() {
   const {
-    websiteLayout: { chapterValuesCollection, membersCollection, alumniCollection },
+    websiteLayout: {
+      chapterValuesCollection,
+      directorQuotesCollection,
+      membersCollection,
+      alumniCollection,
+    },
   } = await fetchContent(`
   fragment profile on MemberProfile {
     name
@@ -51,6 +56,17 @@ export async function getStaticProps() {
           }
         }
       }
+      directorQuotesCollection {
+        items {
+          authorInfo {
+            ...profile
+          }
+          quote {
+            json
+          }
+          yearWritten
+        }
+      }
       membersCollection {
         items {
           ...profile
@@ -66,9 +82,10 @@ export async function getStaticProps() {
   `);
   return {
     props: {
+      values: chapterValuesCollection.items,
+      directorQuotes: directorQuotesCollection.items,
       members: membersCollection.items,
       alumni: alumniCollection.items,
-      values: chapterValuesCollection.items,
     },
   };
 }

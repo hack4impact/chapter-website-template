@@ -29,7 +29,7 @@ function Nav() {
   return (
     <>
       <header className={hasScrolledDown ? 'header with_background' : 'header'}>
-        <nav className={mobileNavOpened ? 'nav_container nav_toggled' : 'nav_container'}>
+        <nav className={`container nav_container ${mobileNavOpened ? 'nav_toggled' : ''}`}>
           <NavLink
             activeRoute={activeRoute}
             href="/"
@@ -85,13 +85,12 @@ function Nav() {
 
         .nav_container {
           width: 100%;
-          margin-left: 7vw;
-          margin-right: 7vw;
+          margin-left: 20px;
+          margin-right: 20px;
 
-          @media (min-width: 1248px) {
+          @media (min-width: 1000px) {
             margin-left: auto;
             margin-right: auto;
-            max-width: 1200px;
           }
 
           font-size: 20px;

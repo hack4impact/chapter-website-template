@@ -1,52 +1,34 @@
 import React from 'react';
 import { Row, Col, Container } from 'reactstrap';
 import ActionButton from '../actionButton';
+import ContentBlock from '../../components/ContentBlock';
 
-export default function ProjectBanner({
-  title,
-  clientDetail,
-  clientLink,
-  githubLink,
-  projectLink,
-  previousLink,
-}) {
+export default function ProjectBanner({ title = '', description, codeRepoLink, finalProductLink }) {
   return (
     <>
       <section className="project-page-banner">
         <Container className="margin-sm-all">
           <Row>
             <Col md="12">
-              <h1 className="project-title mb-4">
-                <a href={clientLink} className="section-title-link">
-                  {title}
-                </a>
-              </h1>
+              <h1 className="project-title mb-4">{title}</h1>
             </Col>
           </Row>
 
           <Row>
-            <div className="col-md-8 offset-md-2">
-              <p className="project-subtitle">{clientDetail}</p>
-            </div>
+            <ContentBlock className="col-md-8 offset-md-2" content={description.json} />
           </Row>
 
           <Row className="text-center">
             <Col md="12">
-              {projectLink !== undefined && projectLink !== null && (
+              {finalProductLink && (
                 <ActionButton
                   text="Final Product"
-                  link={projectLink}
+                  link={finalProductLink}
                   white
                   style={{ marginRight: '10px' }}
                 />
               )}
-              {githubLink !== undefined &&
-                githubLink !== null ** <ActionButton text="View Code" link={githubLink} white />}
-              {previousLink !== undefined && previousLink !== null && (
-                <div className="previous-button">
-                  <ActionButton text="View Previous Project" link={previousLink} white />
-                </div>
-              )}
+              {codeRepoLink && <ActionButton text="View Code" link={codeRepoLink} white />}
             </Col>
           </Row>
         </Container>
@@ -57,8 +39,11 @@ export default function ProjectBanner({
           background: radial-gradient(white, #64ab8a);
           background-size: cover;
           background-attachment: fixed;
-          font-family: 'Chivo', sans-serif;
+          font-family: var(--accent-font);
           text-align: center;
+
+          font-size: 18px !important;
+          font-weight: 500;
         }
         .section-title-link {
           color: black;
@@ -69,10 +54,6 @@ export default function ProjectBanner({
         .project-title {
           font-size: 40px;
           font-weight: 600;
-        }
-        .project-subtitle {
-          font-size: 18px;
-          font-weight: 500;
         }
         .previous-button {
           margin: 1vh;

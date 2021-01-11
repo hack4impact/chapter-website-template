@@ -3,51 +3,7 @@ import Section from '../section';
 import BackgroundSlider from '../backgroundSlider';
 import { Row } from 'reactstrap';
 
-const chapters = [
-  {
-    name: 'upenn',
-    width: 125,
-    height: 36,
-    logoPath: '/images/chapters/upenn/upenn-logo.jpg',
-    link: 'https://hack4impact.org',
-  },
-  {
-    name: 'gt',
-    width: 125,
-    height: 55,
-    logoPath: '/images/chapters/gt/gt-logo.png',
-    link: 'https://bitsofgood.org',
-  },
-  {
-    name: 'bu',
-    width: 75,
-    height: 75,
-    logoPath: '/images/chapters/bu/bu-logo.png',
-    link: 'https://www.hack4impactbu.com/index.html',
-  },
-  {
-    name: 'calpoly',
-    width: 75,
-    height: 75,
-    logoPath: '/images/chapters/calpoly/calpoly-logo.png',
-    link: 'https://calpoly.hack4impact.org/',
-  },
-  {
-    name: 'cornell',
-    width: 75,
-    height: 75,
-    logoPath: '/images/chapters/cornell/cornell-logo.png',
-    link: 'https://www.facebook.com/h4icornell/',
-  },
-  {
-    name: 'mcgill',
-    width: 75,
-    height: 75,
-    logoPath: '/images/chapters/mcgill/mcgill-logo.png',
-    link: 'https://www.facebook.com/hack4impactmcgill',
-  },
-];
-export default function OtherChapters() {
+export default function OtherChapters({ chapterLogos }) {
   return (
     <Section className="chapters-section">
       <Row>
@@ -57,17 +13,12 @@ export default function OtherChapters() {
       </Row>
       <Row>
         <div className="showcase-container">
-          <BackgroundSlider iterations={4} duration={50}>
+          <BackgroundSlider>
             <div className="chapter-logo-container">
-              {chapters.map((chapter) => (
-                <div key={chapter.name}>
-                  <a href={chapter.link} target="_blank" rel="noopener noreferrer">
-                    <img
-                      width={chapter.width}
-                      height={chapter.height}
-                      src={chapter.logoPath}
-                      alt={`${chapter.name} logo`}
-                    />
+              {chapterLogos.map(({ name, link, universityLogo }) => (
+                <div key={name}>
+                  <a href={link} target="_blank" rel="noopener noreferrer">
+                    <img width={75} height={75} src={universityLogo.url} alt={name} />
                   </a>
                 </div>
               ))}

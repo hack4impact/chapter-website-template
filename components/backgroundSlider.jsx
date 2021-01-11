@@ -1,7 +1,5 @@
-import React from 'react';
-
 // default show children twice so slider won't be empty after "sliding" for a while
-export default function BackgroundSlider({ duration, children, iterations }) {
+export default function BackgroundSlider({ children, iterations }) {
   return (
     <div className="slider-container">
       <style jsx>{`
@@ -14,7 +12,7 @@ export default function BackgroundSlider({ duration, children, iterations }) {
           display: inline-block;
           white-space: nowrap;
           overflow: hidden;
-          animation: slide ${duration * 2 || 10}s linear infinite;
+          animation: slide 30s linear infinite;
         }
         .slider-content-wrapper > div {
           display: inline-block;

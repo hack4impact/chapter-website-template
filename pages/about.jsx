@@ -6,7 +6,7 @@ import Head from '../components/head';
 import Team from '../components/about/team';
 import fetchContent from '../utils/fetchContent';
 
-function AboutPage({ members, alumni }) {
+function AboutPage({ members, alumni, values }) {
   return (
     <div>
       <Head title="About Us" />
@@ -16,7 +16,7 @@ function AboutPage({ members, alumni }) {
         arrow
       />
       <MissionSection />
-      <OurValues />
+      <OurValues content={values} />
       <Team members={members} alumni={alumni} />
     </div>
   );
@@ -25,32 +25,50 @@ function AboutPage({ members, alumni }) {
 export default AboutPage;
 
 export async function getStaticProps() {
-  const memberProperties = `
-    items {
-      name
-      title
-      image {
-        url
-      }
-      linkedIn
+  const {
+    websiteLayout: { chapterValuesCollection, membersCollection, alumniCollection },
+  } = await fetchContent(`
+  fragment profile on MemberProfile {
+    name
+    title
+    image {
+      url
     }
-  `;
-  const { websiteLayout } = await fetchContent(`
+    linkedIn
+  } 
+  
   {
     websiteLayout(id:"dPAHTMUXe3gbb7hlXFIZ1") {
+      chapterValuesCollection {
+        items {
+          header
+          body {
+            json
+          }
+          image {
+            url
+            description
+          }
+        }
+      }
       membersCollection {
-        ${memberProperties}
+        items {
+          ...profile
+        }
       }
       alumniCollection {
-        ${memberProperties}
+        items {
+          ...profile
+        }
       }
     }
   }
   `);
   return {
     props: {
-      members: websiteLayout.membersCollection.items,
-      alumni: websiteLayout.alumniCollection.items,
+      members: membersCollection.items,
+      alumni: alumniCollection.items,
+      values: chapterValuesCollection.items,
     },
   };
 }

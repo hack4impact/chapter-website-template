@@ -2,6 +2,7 @@ import React from 'react';
 import Head from '../../components/head';
 import fetchContent from '../../utils/fetchContent';
 import ProjectBanner from '../../components/projects/projectBanner';
+import Team from '../../components/projects/team';
 import FeatureSlider from '../../components/featureSlider';
 import ProjectQuote from '../../components/quote';
 import ContentBlock from '../../components/ContentBlock';
@@ -35,13 +36,13 @@ function ProjectPage({
         </Row>
         <Row className="d-flex justify-content-center">
           <Col lg="4" md="6">
-            <h2>Problem</h2>
+            <h2 className="mb-3">Problem</h2>
             <div className="card-body">
               <ContentBlock content={problem.json} />
             </div>
           </Col>
           <Col lg="4" md="6">
-            <h2>Solution</h2>
+            <h2 className="mb-3">Solution</h2>
             <div className="card-body">
               <ContentBlock content={solution.json} />
             </div>
@@ -60,10 +61,12 @@ function ProjectPage({
           />
         );
       })}
+      <Team members={teamMembersCollection.items} />
       <style jsx>{`
         :global(h2) {
           font-family: var(--accent-font);
           text-align: center;
+          margin-bottom: 50px;
         }
         :global(section) {
           padding: 40px 0;

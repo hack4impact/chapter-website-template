@@ -2,8 +2,8 @@ import React from 'react';
 import Head from '../../components/head';
 import fetchContent from '../../utils/fetchContent';
 import ProjectBanner from '../../components/projects/projectBanner';
-import Team from '../../components/projects/team';
-import FeatureSlider from '../../components/featureSlider';
+import Team from '../../components/projects/Team';
+import FeatureSlider from '../../components/projects/featureSlider';
 import ProjectQuote from '../../components/quote';
 import ContentBlock from '../../components/ContentBlock';
 import { Row, Col } from 'reactstrap';
@@ -14,7 +14,6 @@ function ProjectPage({
   thumbnail,
   finalProductLink,
   codeRepoLink,
-  technologiesUsed,
   problem,
   solution,
   featuresCollection,

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Row, Col } from 'reactstrap';
 import { Spring } from 'react-spring/renderprops.cjs';
-import ContentBlock from './ContentBlock';
+import ContentBlock from '../ContentBlock';
 
 function FeatureSlider({ features }) {
   const [currFeatureHeader, setCurrFeatureHeader] = React.useState(features[0].header);

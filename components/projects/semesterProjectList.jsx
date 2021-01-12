@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
-import ProjectCards from './projectCards';
+import ProjectCards from './projectCard';
 import projectData from '../../data/projectData';
 
 export default function SemesterProjectList() {

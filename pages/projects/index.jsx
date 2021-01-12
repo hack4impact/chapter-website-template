@@ -3,9 +3,10 @@ import Head from '../../components/head';
 import GradientBanner from '../../components/gradientBanner';
 import ProjectList from '../../components/projects/projectList';
 import ProjectExplore from '../../components/projects/projectExplore';
+import fetchContent from '../../utils/fetchContent';
 
-function Projects() {
-  // return project List (regular project Page) if not query (just /projets)
+function Projects({ projects }) {
+  console.log(projects);
   return (
     <div>
       <Head title="Our Work" />
@@ -24,10 +25,41 @@ function Projects() {
         isLeftButtonDisplayed
         isRightButtonDisplayed
       />
-      <ProjectList />
+      <ProjectList projects={projects} />
       <ProjectExplore />
     </div>
   );
 }
 
 export default Projects;
+
+export async function getStaticProps() {
+  const {
+    websiteLayout: { projectsCollection },
+  } = await fetchContent(`
+  {
+    websiteLayout(id:"dPAHTMUXe3gbb7hlXFIZ1") {
+      projectsCollection {
+        items {
+          title
+          description {
+            json
+          }
+          thumbnail {
+            url
+            description
+          }
+          urlSlug
+          completedIn
+        }
+      }
+    }
+  }
+  `);
+
+  return {
+    props: {
+      projects: projectsCollection.items,
+    },
+  };
+}

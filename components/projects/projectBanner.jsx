@@ -35,7 +35,9 @@ export default function ProjectBanner({ title = '', description, codeRepoLink, f
       </section>
       <style jsx>{`
         .project-page-banner {
-          padding: 7% 0;
+          padding: 0;
+          padding-top: calc(80px + var(--nav-height));
+          padding-bottom: 120px;
           background: radial-gradient(white, #64ab8a);
           background-size: cover;
           background-attachment: fixed;

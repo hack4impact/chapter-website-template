@@ -19,6 +19,7 @@ Common Styling
 body {
   font-family: var(--body-font) !important;
   letter-spacing: 0.3px;
+  line-height: 1.5;
   background: #445261;
 }
 
@@ -46,12 +47,6 @@ button {
 section {
   padding: 90px 0;
   display: inline-block;
-}
-
-p {
-  font-weight: 400;
-  font-family: 'Heebo', sans-serif;
-  line-height: 1.5;
 }
 
 /**
@@ -285,9 +280,6 @@ h2 {
   font-family: Georgia, serif;
   color: #7a7a7a;
   margin: 1% 0 0 -7%;
-}
-.project-body-quote {
-  font-family: 'Chivo', sans-serif;
 }
 
 .blockquote-fancy-cite {

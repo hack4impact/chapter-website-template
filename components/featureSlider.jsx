@@ -7,42 +7,53 @@ function FeatureSlider({ features }) {
   const [currFeatureHeader, setCurrFeatureHeader] = React.useState(features[0].header);
 
   return (
-    <Row className="d-flex justify-content-center">
-      <Col md={4}>
-        <div className="img-holder">
-          {features.map(
-            ({ header, image }) =>
-              header === currFeatureHeader && (
-                <Spring
-                  from={{ opacity: 0, transform: 'translate3d(0,100px,0)' }}
-                  to={{ opacity: 100, transform: 'translate3d(0,0px,0)' }}>
-                  {(props) => (
-                    <div style={props}>
-                      <img className="img-fluid shadow" src={image.url} alt={image.description} />
-                    </div>
-                  )}
-                </Spring>
-              ),
-          )}
-        </div>
-      </Col>
+    <>
+      <section>
+        <h2 className="mb-5">Main Features</h2>
+        <Row className="d-flex justify-content-center">
+          <Col lg={5} md={6}>
+            <div className="img-holder">
+              {features.map(
+                ({ header, image }) =>
+                  header === currFeatureHeader && (
+                    <Spring
+                      from={{ opacity: 0, transform: 'translate3d(0,100px,0)' }}
+                      to={{ opacity: 100, transform: 'translate3d(0,0px,0)' }}>
+                      {(props) => (
+                        <div style={props}>
+                          <img
+                            className="img-fluid shadow"
+                            src={image.url}
+                            alt={image.description}
+                          />
+                        </div>
+                      )}
+                    </Spring>
+                  ),
+              )}
+            </div>
+          </Col>
 
-      <Col md={4}>
-        <div className="feature-list-box">
-          {features.map(({ header, body }) => (
-            <Row key={header}>
-              <button
-                className={`feature-slider-btn ${currFeatureHeader === header ? 'is-active' : ''}`}
-                onClick={() => setCurrFeatureHeader(header)}>
-                <div className="pl-3">
-                  <h3 className="feature-title">{header}</h3>
-                  <ContentBlock content={body.json} />
-                </div>
-              </button>
-            </Row>
-          ))}
-        </div>
-      </Col>
+          <Col lg={4} md={6}>
+            <div className="feature-list-box">
+              {features.map(({ header, body }) => (
+                <Row key={header}>
+                  <button
+                    className={`feature-slider-btn ${
+                      currFeatureHeader === header ? 'is-active' : ''
+                    }`}
+                    onClick={() => setCurrFeatureHeader(header)}>
+                    <div className="pl-3">
+                      <h3 className="feature-title">{header}</h3>
+                      <ContentBlock content={body.json} />
+                    </div>
+                  </button>
+                </Row>
+              ))}
+            </div>
+          </Col>
+        </Row>
+      </section>
       <style jsx>{`
         .animate,
         .is-active {
@@ -90,7 +101,7 @@ function FeatureSlider({ features }) {
           font-weight: 400;
         }
       `}</style>
-    </Row>
+    </>
   );
 }
 

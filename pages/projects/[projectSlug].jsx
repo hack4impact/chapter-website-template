@@ -3,6 +3,9 @@ import Head from '../../components/head';
 import fetchContent from '../../utils/fetchContent';
 import ProjectBanner from '../../components/projects/projectBanner';
 import FeatureSlider from '../../components/featureSlider';
+import ProjectQuote from '../../components/quote';
+import ContentBlock from '../../components/ContentBlock';
+import { Row, Col } from 'reactstrap';
 
 function ProjectPage({
   title,
@@ -14,6 +17,7 @@ function ProjectPage({
   problem,
   solution,
   featuresCollection,
+  testimonialsCollection,
   teamMembersCollection,
 }) {
   return (
@@ -25,8 +29,56 @@ function ProjectPage({
         codeRepoLink={codeRepoLink}
         finalProductLink={finalProductLink}
       />
+      <section className="pt-0">
+        <Row className="d-flex justify-content-center mb-5">
+          <img className="thumbnail" src={thumbnail.url} alt={thumbnail.description} />
+        </Row>
+        <Row className="d-flex justify-content-center">
+          <Col lg="4" md="6">
+            <h2>Problem</h2>
+            <div className="card-body">
+              <ContentBlock content={problem.json} />
+            </div>
+          </Col>
+          <Col lg="4" md="6">
+            <h2>Solution</h2>
+            <div className="card-body">
+              <ContentBlock content={solution.json} />
+            </div>
+          </Col>
+        </Row>
+      </section>
       <FeatureSlider features={featuresCollection.items} />
-      <pre>{title}</pre>
+      {testimonialsCollection.items.map(({ author, quote }) => {
+        const [authorName, authorTitle] = author.split(',');
+        return (
+          <ProjectQuote
+            key={authorName}
+            quote={quote}
+            source={authorName}
+            sourceTitle={authorTitle}
+          />
+        );
+      })}
+      <style jsx>{`
+        :global(h2) {
+          font-family: var(--accent-font);
+          text-align: center;
+        }
+        :global(section) {
+          padding: 40px 0;
+        }
+        .thumbnail {
+          @media (min-width: 600px) {
+            position: relative;
+            top: -50px;
+            max-width: 500px;
+          }
+          width: 100%;
+          object-fit: cover;
+          box-shadow: 0 10px 20px var(--primary-dark-2);
+        }
+      `}</style>
     </>
   );
 }
@@ -92,6 +144,14 @@ export async function getStaticProps({ params: { projectSlug } }) {
             image {
               url
               description
+            }
+          }
+        }
+        testimonialsCollection {
+          items {
+            author
+            quote {
+              json
             }
           }
         }

@@ -3,7 +3,7 @@ import GradientBanner from '../components/gradientBanner';
 import MissionSection from '../components/about/missionSection';
 import OurValues from '../components/about/ourValues';
 import Head from '../components/head';
-import Team from '../components/about/Team';
+import Team from '../components/about/team';
 import fetchContent from '../utils/fetchContent';
 
 function AboutPage({ members, alumni, values, directorQuotes }) {

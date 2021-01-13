@@ -9,13 +9,13 @@ import { ToastContainer } from 'react-toastify';
 import Head from '../components/head';
 import fetchContent from '../utils/fetchContent';
 
-function Home({ chapterLogos }) {
+function Home({ chapterLogos, previewProjects }) {
   return (
     <>
       <Head title="Hack4Impact" />
       <ToastContainer />
       <Banner />
-      <OurWorkSection />
+      <OurWorkSection projects={previewProjects} />
       <ClientSlider />
       <InvolveSection />
       <PartnerSection />
@@ -27,7 +27,10 @@ function Home({ chapterLogos }) {
 export default Home;
 
 export async function getStaticProps() {
-  const { chapterCollection } = await fetchContent(`
+  const {
+    chapterCollection,
+    websiteLayout: { projectsCollection },
+  } = await fetchContent(`
   {
     chapterCollection {
       items {
@@ -37,6 +40,21 @@ export async function getStaticProps() {
         codeRepoLink
         universityLogo {
           url
+        }
+      }
+    }
+    websiteLayout(id:"dPAHTMUXe3gbb7hlXFIZ1") {
+      projectsCollection(limit: 3) {
+        items {
+          title
+          description {
+            json
+          }
+          thumbnail {
+            url
+            description
+          }
+          urlSlug
         }
       }
     }
@@ -52,6 +70,7 @@ export async function getStaticProps() {
           link: websiteLink ?? socialMediaLink ?? codeRepoLink ?? 'https://hack4impact.org',
         }),
       ),
+      previewProjects: projectsCollection.items,
     },
   };
 }

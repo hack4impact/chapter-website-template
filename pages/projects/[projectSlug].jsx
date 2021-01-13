@@ -6,6 +6,7 @@ import Team from '../../components/projects/Team';
 import FeatureSlider from '../../components/projects/featureSlider';
 import ProjectQuote from '../../components/quote';
 import ContentBlock from '../../components/ContentBlock';
+import ActionButton from '../../components/actionButton';
 import { Row, Col } from 'reactstrap';
 
 function ProjectPage({
@@ -61,6 +62,9 @@ function ProjectPage({
         );
       })}
       <Team members={teamMembersCollection.items} />
+      <Row className="d-flex justify-content-center mb-5">
+        <ActionButton white text="See more of our projects" link="/projects" />
+      </Row>
       <style jsx>{`
         :global(h2) {
           font-family: var(--accent-font);

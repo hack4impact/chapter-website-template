@@ -49,19 +49,20 @@ const Banner = () => (
             config={{ delay: 500, ...config.slow }}
             from={{ opacity: 0, transform: 'translate3d(-100px,0,0)' }}
             to={{ opacity: 100, transform: 'translate3d(0,0px,0)' }}>
-            {(props) => <ActionButton style={props} link="/about" text="Learn More" />}
+            {(props) => (
+              <ActionButton style={props} link="/about">
+                Learn More
+              </ActionButton>
+            )}
           </Spring>
           <Spring
             config={{ delay: 550, ...config.slow }}
             from={{ opacity: 0, transform: 'translate3d(-100px,0,0)' }}
             to={{ opacity: 100, transform: 'translate3d(0,0px,0)' }}>
             {(props) => (
-              <ActionButton
-                white
-                link="/apply"
-                text="Apply"
-                style={{ marginLeft: '20px', ...props }}
-              />
+              <ActionButton white link="/apply" style={{ marginLeft: '20px', ...props }}>
+                Apply
+              </ActionButton>
             )}
           </Spring>
         </div>

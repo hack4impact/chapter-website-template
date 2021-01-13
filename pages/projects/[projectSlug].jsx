@@ -63,7 +63,9 @@ function ProjectPage({
       })}
       <Team members={teamMembersCollection.items} />
       <Row className="d-flex justify-content-center mb-5">
-        <ActionButton white text="See more of our projects" link="/projects" />
+        <ActionButton white link="/projects">
+          See more of our projects
+        </ActionButton>
       </Row>
       <style jsx>{`
         :global(h2) {

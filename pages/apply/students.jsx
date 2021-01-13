@@ -5,22 +5,20 @@ import Faq from '../../components/faq';
 import GradientBanner from '../../components/gradientBanner';
 import Head from '../../components/head';
 import data from '../../data/studentApplyData';
+import ActionButton from '../../components/actionButton';
 
 function Students() {
   return (
     <>
       <Head title="H4I Apply | Students" />
-      <GradientBanner
-        color="#64ab8a"
-        title={data.title}
-        subHeadline={data.subHeadline}
-        buttonText="Apply Now"
-        buttonLink={data.applicationLink}
-        minorButtonLink="https://www.notion.so/h4iuiuc/Join-Hack4Impact-UIUC-2e875ce396b34e6ebb23c6dda57a89aa"
-        minorButtonText="View Positions"
-        isLeftButtonDisplayed={false}
-        isRightButtonDisplayed
-      />
+      <GradientBanner title={data.title} subHeadline={data.subHeadline}>
+        <ActionButton className="mr-3" link="link-to-your-applications">
+          Apply Now
+        </ActionButton>
+        <ActionButton white link="link-to-your-Notion-page">
+          View Open Positions
+        </ActionButton>
+      </GradientBanner>
       <ApplicationProcess
         closed
         closedText={data.closedText}

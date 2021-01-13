@@ -31,7 +31,7 @@ function ApplyPage() {
                     software products that has potential to impact lives alongside a team of
                     motivated and talented peers.
                   </p>
-                  <ActionButton text="Apply" link="/apply/students" />
+                  <ActionButton link="/apply/students">Apply</ActionButton>
                 </div>
               </Row>
 
@@ -43,7 +43,7 @@ function ApplyPage() {
                     and how your organization can partner with us to support your organization's
                     goals and mission.
                   </p>
-                  <ActionButton text="Apply" link="/apply/nonprofits" />
+                  <ActionButton link="/apply/nonprofits">Apply</ActionButton>
                 </div>
               </Row>
             </Col>

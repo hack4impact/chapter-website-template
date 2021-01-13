@@ -40,12 +40,9 @@ const ProjectTeam = ({ team }) => (
       </Row>
       <Row>
         <div style={{ margin: '30px auto' }}>
-          <ActionButton
-            style={{ margin: '30px auto' }}
-            white
-            text="View Other Projects"
-            link="/projects"
-          />
+          <ActionButton style={{ margin: '30px auto' }} white link="/projects">
+            View Other Projects
+          </ActionButton>
         </div>
       </Row>
     </Container>

@@ -14,7 +14,9 @@ function ProjectCard({ title, thumbnail, urlSlug, description }) {
             <ContentBlock content={description.json} />
           </div>
           <div className="text-center action-btn-box">
-            <ActionButton white text="Read More" link={`/projects/${urlSlug}`} />
+            <ActionButton white link={`/projects/${urlSlug}`}>
+              Learn more
+            </ActionButton>
           </div>
         </CardBody>
       </Card>

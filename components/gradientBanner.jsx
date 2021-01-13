@@ -1,28 +1,15 @@
 import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
-import { Spring, config } from 'react-spring/renderprops.cjs';
-import ActionButton from './actionButton';
+import { Spring } from 'react-spring/renderprops.cjs';
 
-const GradientBanner = ({
-  title,
-  subHeadline,
-  style,
-  buttonText,
-  buttonLink,
-  color,
-  arrow,
-  minorButtonText,
-  minorButtonLink,
-  isLeftButtonDisplayed,
-  isRightButtonDisplayed,
-}) => (
+const GradientBanner = ({ title, subHeadline, style, arrow, children }) => (
   <div>
     <section className="banner-section" style={style}>
       <Container className="align-middle">
         <Row>
           <Col md="12" className="text-center">
             <Spring
-              config={{ delay: 700, ...config.molasses }}
+              config={{ delay: 700 }}
               from={{ opacity: 0, transform: 'translate3d(-100px,0,0)' }}
               to={{ opacity: 100, transform: 'translate3d(0,0px,0)' }}>
               {(props) => (
@@ -34,7 +21,7 @@ const GradientBanner = ({
           </Col>
           <Row>
             <Spring
-              config={{ delay: 500, ...config.molasses }}
+              config={{ delay: 500 }}
               from={{ opacity: 0, transform: 'translate3d(-100px,0,0)' }}
               to={{ opacity: 100, transform: 'translate3d(0,0px,0)' }}>
               {(props) => (
@@ -44,56 +31,43 @@ const GradientBanner = ({
               )}
             </Spring>
           </Row>
-          <Col md="12" className="text-center">
-            {buttonText !== undefined && (
-              <Spring
-                config={{ delay: 550, ...config.molasses }}
-                from={{ opacity: 0, transform: 'translate3d(-100px,0,0)' }}
-                to={{ opacity: 100, transform: 'translate3d(0,0px,0)' }}>
-                {(props) =>
-                  isLeftButtonDisplayed && (
-                    <div style={props} className="d-inline">
-                      <ActionButton text={buttonText} link={buttonLink} white />
-                    </div>
-                  )
-                }
-              </Spring>
-            )}
-            {minorButtonText !== undefined && (
-              <Spring
-                config={{ delay: 550, ...config.molasses }}
-                from={{ opacity: 0, transform: 'translate3d(-100px,0,0)' }}
-                to={{ opacity: 100, transform: 'translate3d(0,0px,0)' }}>
-                {(props) =>
-                  isRightButtonDisplayed && (
-                    <div style={props} className="d-inline ml-3">
-                      <ActionButton text={minorButtonText} link={minorButtonLink} />
-                    </div>
-                  )
-                }
-              </Spring>
-            )}
-          </Col>
+          <Row className="w-100 pt-4">
+            <Spring
+              config={{ delay: 550 }}
+              from={{ opacity: 0, transform: 'translate3d(-100px,0,0)' }}
+              to={{ opacity: 100, transform: 'translate3d(0,0px,0)' }}>
+              {(props) => (
+                <Col className="d-flex justify-content-center" style={props}>
+                  {children}
+                </Col>
+              )}
+            </Spring>
+          </Row>
         </Row>
       </Container>
     </section>
     {arrow && <div className="arrow" />}
     <style jsx>{`
-      section {
-        background: radial-gradient(white, ${color !== undefined ? color : '#aac3ff'});
-        padding: 12% 0;
-        padding: 8% 0;
-      }
+      $tablet-width: 800px;
 
-      @media (max-width: 990px) {
-        section {
-          padding: 20% 0;
+      section {
+        background: linear-gradient(white, var(--secondary-seafoam));
+        padding: 120px 0;
+        padding-top: calc(60px + var(--nav-height));
+
+        @media (max-width: $tablet-width) {
+          padding: 80px 0;
+          padding-top: calc(40px + var(--nav-height));
         }
       }
+
       .main-headline h1 {
-        font-size: 60px !important;
+        font-size: 60px;
         font-weight: bold;
-        color: #323648;
+
+        @media (max-width: $tablet-width) {
+          font-size: 36px;
+        }
       }
       .sub-headline {
         max-width: 100%;
@@ -111,7 +85,7 @@ const GradientBanner = ({
         height: 0;
         border-left: 100px solid transparent;
         border-right: 100px solid transparent;
-        border-top: 60px solid #c3d5fd;
+        border-top: 60px solid var(--secondary-seafoam);
       }
     `}</style>
   </div>

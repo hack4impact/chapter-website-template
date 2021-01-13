@@ -21,14 +21,15 @@ export default function ProjectBanner({ title = '', description, codeRepoLink, f
           <Row className="text-center">
             <Col md="12">
               {finalProductLink && (
-                <ActionButton
-                  text="Final Product"
-                  link={finalProductLink}
-                  white
-                  style={{ marginRight: '10px' }}
-                />
+                <ActionButton link={finalProductLink} white style={{ marginRight: '10px' }}>
+                  Final Product
+                </ActionButton>
               )}
-              {codeRepoLink && <ActionButton text="View Code" link={codeRepoLink} white />}
+              {codeRepoLink && (
+                <ActionButton link={codeRepoLink} white>
+                  View Code
+                </ActionButton>
+              )}
             </Col>
           </Row>
         </Container>

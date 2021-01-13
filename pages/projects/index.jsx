@@ -4,6 +4,7 @@ import GradientBanner from '../../components/gradientBanner';
 import ProjectList from '../../components/projects/projectList';
 import ProjectExplore from '../../components/projects/projectExplore';
 import fetchContent from '../../utils/fetchContent';
+import ActionButton from '../../components/actionButton';
 
 function Projects({ projects }) {
   return (
@@ -18,12 +19,11 @@ function Projects({ projects }) {
                 to build tools that are more than just pet projects. We strive
                 to deliver incredible value to the nonprofits we are fortunate
                 enough to work with and look forward to seeing our products
-                continue to be used for years to come."
-        buttonText="Our Github"
-        buttonLink="https://github.com/hack4impact-uiuc"
-        isLeftButtonDisplayed
-        isRightButtonDisplayed
-      />
+                continue to be used for years to come.">
+        <ActionButton link="https://github.com/hack4impact-YOUR-CHAPTER">
+          See our GitHub
+        </ActionButton>
+      </GradientBanner>
       <ProjectList projects={projects} />
       <ProjectExplore />
     </div>

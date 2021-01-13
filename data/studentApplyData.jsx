@@ -154,16 +154,16 @@ const studentProcess = [
         {
           <ActionButton
             style={{ display: 'block', marginTop: '10px' }}
-            text="Facebook"
-            link={'https://www.facebook.com/h4iuiuc/'}
-          />
+            link={'https://www.facebook.com/h4iuiuc/'}>
+            Facebook
+          </ActionButton>
         }
         {
           <ActionButton
             style={{ display: 'block', marginTop: '10px' }}
-            text="Instagram"
-            link={'https://www.instagram.com/hack4impactuiuc/'}
-          />
+            link={'https://www.instagram.com/hack4impactuiuc/'}>
+            Instagram
+          </ActionButton>
         }
       </>
     ),

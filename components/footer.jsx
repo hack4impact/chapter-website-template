@@ -95,7 +95,7 @@ function Footer() {
           h4 {
             font-size: inherit;
             text-transform: uppercase;
-            font-family: var(--accent-font);
+            font-weight: bold;
             margin-bottom: 15px;
           }
           a,

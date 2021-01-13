@@ -29,7 +29,6 @@ const Head = ({ title, description, url, ogImage }) => (
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
       crossOrigin="anonymous"
     />
-    <link href="https://fonts.googleapis.com/css?family=Lato|Chivo|Heebo:300" rel="stylesheet" />
     {(title === 'H4I Apply | Nonprofits' || title === 'H4I Apply | Students') && (
       <link rel="stylesheet" href="/react-vertical.min.css" />
     )}

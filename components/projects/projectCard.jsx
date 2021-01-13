@@ -19,6 +19,10 @@ function ProjectCard({ title, thumbnail, urlSlug, description }) {
         </CardBody>
       </Card>
       <style jsx>{`
+        h3 {
+          font-size: 22px;
+          margin-bottom: 15px;
+        }
         .action-btn-box {
           margin-top: 30px;
         }

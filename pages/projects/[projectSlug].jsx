@@ -67,7 +67,6 @@ function ProjectPage({
       </Row>
       <style jsx>{`
         :global(h2) {
-          font-family: var(--accent-font);
           text-align: center;
           margin-bottom: 50px;
         }

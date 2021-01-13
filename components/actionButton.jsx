@@ -15,8 +15,7 @@ const actionButtonStyle = (
       color: white;
     }
     .styled-btn {
-      font-family: 'Chivo', sans-serif;
-      font-weight: 100;
+      font-weight: bold;
       font-size: 14px;
       text-decoration: none;
     }

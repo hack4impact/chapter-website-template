@@ -41,7 +41,6 @@ export default function ProjectBanner({ title = '', description, codeRepoLink, f
           background: radial-gradient(white, #64ab8a);
           background-size: cover;
           background-attachment: fixed;
-          font-family: var(--accent-font);
           text-align: center;
 
           font-size: 18px !important;

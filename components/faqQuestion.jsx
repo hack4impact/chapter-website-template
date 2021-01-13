@@ -46,7 +46,6 @@ class FaqQuestion extends React.Component {
             justify-content: space-between;
             min-height: 75px;
             font-size: 20px;
-            font-weight: 400;
             text-transform: none;
             color: black;
             cursor: pointer;

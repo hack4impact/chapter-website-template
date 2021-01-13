@@ -6,7 +6,7 @@ const getAnchor = (link, text, style) => (
     {text}
     <style jsx>{`
       .link {
-        font-weight: 400;
+        font-weight: normal;
         line-height: 1.2;
         letter-spacing: normal;
         font-size: 15px;

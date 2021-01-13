@@ -92,7 +92,6 @@ function Nav() {
             margin-left: 10px;
           }
           :global(a, a:visited) {
-            font-family: var(--accent-font);
             display: inline-block;
             color: var(--primary-dark);
             text-decoration: none;

@@ -22,7 +22,6 @@ const Quote = ({ quote, source, sourceTitle }) => (
     </Container>
     <style jsx>{`
       blockquote {
-        font-family: var(--accent-font);
         font-weight: bold;
       }
       .project-body-quote::before {

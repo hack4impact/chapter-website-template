@@ -70,7 +70,6 @@ function HomePageProject({ title, description, thumbnail, urlSlug }) {
           p {
             margin: 0px;
             color: #f9fafc;
-            font-weight: 650;
           }
         `}</style>
       </a>

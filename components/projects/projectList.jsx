@@ -5,7 +5,6 @@ import groupBy from '../../utils/groupBy';
 
 export default function ProjectList({ projects }) {
   const projectsByCompletion = groupBy(projects, 'completedIn');
-  console.log(projectsByCompletion);
   return (
     <Section>
       <Container>

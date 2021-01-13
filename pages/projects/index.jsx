@@ -6,7 +6,6 @@ import ProjectExplore from '../../components/projects/projectExplore';
 import fetchContent from '../../utils/fetchContent';
 
 function Projects({ projects }) {
-  console.log(projects);
   return (
     <div>
       <Head title="Our Work" />

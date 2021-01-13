@@ -1,13 +1,13 @@
 import React from 'react';
 import Head from '../../components/head';
 import fetchContent from '../../utils/fetchContent';
-import ProjectBanner from '../../components/projects/projectBanner';
 import Team from '../../components/projects/Team';
 import FeatureSlider from '../../components/projects/featureSlider';
 import ProjectQuote from '../../components/quote';
 import ContentBlock from '../../components/ContentBlock';
 import ActionButton from '../../components/actionButton';
 import { Row, Col } from 'reactstrap';
+import GradientBanner from '../../components/gradientBanner';
 
 function ProjectPage({
   title,
@@ -24,12 +24,14 @@ function ProjectPage({
   return (
     <>
       <Head title={title} />
-      <ProjectBanner
-        title={title}
-        description={description}
-        codeRepoLink={codeRepoLink}
-        finalProductLink={finalProductLink}
-      />
+      <GradientBanner title={title} subHeadline={description}>
+        <ActionButton className="mr-3" link={finalProductLink}>
+          Try our final product
+        </ActionButton>
+        <ActionButton white link={codeRepoLink}>
+          See our code
+        </ActionButton>
+      </GradientBanner>
       <section className="pt-0">
         <Row className="d-flex justify-content-center mb-5">
           <img className="thumbnail" src={thumbnail.url} alt={thumbnail.description} />
@@ -78,7 +80,7 @@ function ProjectPage({
         .thumbnail {
           @media (min-width: 600px) {
             position: relative;
-            top: -50px;
+            top: -30px;
             max-width: 500px;
           }
           width: 100%;

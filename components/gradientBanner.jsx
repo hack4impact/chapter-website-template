@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
 import { Spring } from 'react-spring/renderprops.cjs';
+import ContentBlock from './ContentBlock';
 
 const GradientBanner = ({ title, subHeadline, style, arrow, children }) => (
   <div>
@@ -26,7 +27,8 @@ const GradientBanner = ({ title, subHeadline, style, arrow, children }) => (
               to={{ opacity: 100, transform: 'translate3d(0,0px,0)' }}>
               {(props) => (
                 <div style={props} className="text-center sub-headline">
-                  <p>{subHeadline}</p>
+                  {/* if it has a json key, we'll assume it's Rich Text from Contentful */}
+                  {subHeadline.json ? <ContentBlock content={subHeadline} /> : <p>{subHeadline}</p>}
                 </div>
               )}
             </Spring>

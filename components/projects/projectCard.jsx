@@ -9,7 +9,7 @@ function ProjectCard({ title, thumbnail, urlSlug, description }) {
       <Card className="bg-light mb-3 project-card h-100" style={{ height: '100%' }}>
         <img className="card-img-top" src={thumbnail.url} alt={thumbnail.description} />
         <CardBody>
-          <h3 className="text-title card-title text-center">{title}</h3>
+          <h3 className="text-center">{title}</h3>
           <div className="text-center">
             <ContentBlock content={description.json} />
           </div>

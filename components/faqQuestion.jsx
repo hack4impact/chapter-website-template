@@ -20,10 +20,7 @@ class FaqQuestion extends React.Component {
       <>
         <div className="item">
           {/* eslint-disable */}
-          <div
-            className={`question ${collapse ? "active" : ""}`}
-            onClick={this.toggle}
-          >
+          <div className={`question ${collapse ? 'active' : ''}`} onClick={this.toggle}>
             <a>{question}</a>
             <a className="expand-sign">+</a>
           </div>

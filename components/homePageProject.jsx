@@ -34,6 +34,11 @@ function HomePageProject({ title, description, thumbnail, urlSlug }) {
             min-height: 200px;
             position: relative;
 
+            h4 {
+              font-size: 22px;
+              font-weight: bold;
+            }
+
             img {
               filter: grayscale(20%);
               z-index: 1;
@@ -48,7 +53,7 @@ function HomePageProject({ title, description, thumbnail, urlSlug }) {
             &::after {
               z-index: 2;
               content: '';
-              background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.6));
+              background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9));
               position: absolute;
               top: 0;
               left: 0;

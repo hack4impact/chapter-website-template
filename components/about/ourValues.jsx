@@ -17,7 +17,7 @@ const OurValues = ({ content }) => (
           <Card key={header}>
             <img className="card-img-top" src={image.url} alt={image.description} />
             <CardBody>
-              <h4 className="text-title card-title">{header}</h4>
+              <h4 className="text-title">{header}</h4>
               <div
                 dangerouslySetInnerHTML={{
                   __html: documentToHtmlString(body.json),

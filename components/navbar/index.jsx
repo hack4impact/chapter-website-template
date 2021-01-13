@@ -102,7 +102,7 @@ function Nav() {
           }
 
           :global(a:hover, a:visited:hover) {
-            color: var(--accent);
+            color: var(--accent-orange);
           }
 
           .dropdown_link_container {

@@ -2,12 +2,13 @@
 Common Styling
 */
 :root {
-  --primary: #a6edfc; /*Light Blue*/
-  --secondary: #b0ffe9; /*Light Green*/
+  --primary-blue: #0069ca;
+  --secondary-seafoam: #80d2c8;
+  --gray: #657788;
   --primary-dark: #172a3a; /*Dark Blue*/
   --primary-dark-2: #2e5987; /* Dark Blue level 2*/
   --background: #d7fdff; /*Light Light Blue*/
-  --accent: #001aff; /*Stronk Blue, Listen there are a lot of blues ok?*/
+  --accent-orange: #f2594b;
   --black: #171717; /*Black*/
   --white: #ffffff; /*White*/
   --neutral: #8c8c8c; /*Gray*/

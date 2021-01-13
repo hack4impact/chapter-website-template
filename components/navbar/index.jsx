@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react';
 import MobileDropdownToggle from './MobileDropdownToggle';
 import NavLink from './NavLink';
 import useHasScrolledDown from '../../utils/useHasScrolledDown';
+import Logo from './Logo';
 
 function Nav() {
   const router = useRouter();
@@ -30,14 +31,7 @@ function Nav() {
     <>
       <header className={hasScrolledDown ? 'header with_background' : 'header'}>
         <nav className={`container nav_container ${mobileNavOpened ? 'nav_toggled' : ''}`}>
-          <NavLink
-            activeRoute={activeRoute}
-            href="/"
-            className="logo_link"
-            ariaLabel="Go to homepage">
-            <img width="275" height="53" src="/images/logo.svg" alt="Hack4Impact logo" />
-          </NavLink>
-
+          <Logo />
           <MobileDropdownToggle toggled={mobileNavOpened} onClick={toggleMobileNav} />
           <div className="dropdown_link_container">
             <NavLink activeRoute={activeRoute} href="/about">
@@ -85,13 +79,9 @@ function Nav() {
 
         .nav_container {
           width: 100%;
-          margin-left: 20px;
-          margin-right: 20px;
-
-          @media (min-width: 1000px) {
-            margin-left: auto;
-            margin-right: auto;
-          }
+          margin-left: auto;
+          margin-right: auto;
+          padding: 0 20px;
 
           font-size: 20px;
 
@@ -149,7 +139,7 @@ function Nav() {
               :global(a, a:visited) {
                 font-size: 36px;
                 font-weight: bold;
-                padding-right: 0;
+                padding: 0;
               }
 
               :global(a + a) {

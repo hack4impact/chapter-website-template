@@ -4,127 +4,99 @@ import { Spring, config } from 'react-spring/renderprops.cjs';
 import ActionButton from '../actionButton';
 
 const Banner = () => (
-  <Container
-    fluid
-    className="bannerCont"
-    style={{ marginTop: '100px', marginBottom: '30px', maxWidth: '1200px' }}>
-    <Row>
-      <Spring
-        config={{ delay: 100, ...config.slow }}
-        from={{ opacity: 0, transform: 'translate3d(-100px,0,0)' }}
-        to={{ opacity: 100, transform: 'translate3d(0,0px,0)' }}>
-        {(props) => (
-          <Col md="7" style={{ ...props, paddingTop: 5 }}>
-            <img src="/images/banner_sample.svg" alt="" />
+  <>
+    <Container fluid className="container">
+      <div className="bannerCont">
+        <Row className="d-flex align-items-center">
+          <Spring
+            config={{ delay: 100, ...config.slow }}
+            from={{ opacity: 0, transform: 'translate3d(-100px,0,0)' }}
+            to={{ opacity: 100, transform: 'translate3d(0,0px,0)' }}>
+            {(props) => (
+              <Col md="7" style={{ ...props, paddingTop: 5 }}>
+                <img src="/images/banner_sample.svg" alt="" />
+              </Col>
+            )}
+          </Spring>
+          <Col md="5">
+            <Spring
+              config={{ delay: 450, ...config.slow }}
+              from={{ opacity: 0, transform: 'translate3d(-100px,0,0)' }}
+              to={{ opacity: 100, transform: 'translate3d(0,0px,0)' }}>
+              {(props) => <h1 style={props}>Building tools for social good</h1>}
+            </Spring>
+            <Spring
+              config={{ delay: 450, ...config.slow }}
+              from={{ opacity: 0, transform: 'translate3d(-100px,0,0)' }}
+              to={{ opacity: 100, transform: 'translate3d(0,0px,0)' }}>
+              {(props) => (
+                <p style={props} className="sub-headline">
+                  We empower engineers, designers, activists, and humanitarians to create lasting
+                  and impactful social change. If you're a student or a nonprofit, we'd love to get
+                  in touch!
+                </p>
+              )}
+            </Spring>
+            <Spring
+              config={{ delay: 500, ...config.slow }}
+              from={{ opacity: 0, transform: 'translate3d(-100px,0,0)' }}
+              to={{ opacity: 100, transform: 'translate3d(0,0px,0)' }}>
+              {(props) => (
+                <div style={props}>
+                  <ActionButton className="mr-3" link="/about">
+                    Apply
+                  </ActionButton>
+                  <ActionButton white link="/apply">
+                    Learn More
+                  </ActionButton>
+                </div>
+              )}
+            </Spring>
           </Col>
-        )}
-      </Spring>
-      <Col md="5">
-        <Spring
-          config={{ delay: 450, ...config.slow }}
-          from={{ opacity: 0, transform: 'translate3d(-100px,0,0)' }}
-          to={{ opacity: 100, transform: 'translate3d(0,0px,0)' }}>
-          {(props) => (
-            <div style={props} id="homepage-main-headline">
-              <h1>Software for Nonprofits </h1>
-            </div>
-          )}
-        </Spring>
-        <Spring
-          config={{ delay: 450, ...config.slow }}
-          from={{ opacity: 0, transform: 'translate3d(-100px,0,0)' }}
-          to={{ opacity: 100, transform: 'translate3d(0,0px,0)' }}>
-          {(props) => (
-            <div style={props} id="homepage-sub-headline">
-              <p>
-                We are a team of UIUC students who create robust software for social good. We
-                believe that our engineering skill sets do not render us useless in addressing
-                social injustices. Instead, they empower us to build a better society together.
-              </p>
-            </div>
-          )}
-        </Spring>
-        <div>
-          <Spring
-            config={{ delay: 500, ...config.slow }}
-            from={{ opacity: 0, transform: 'translate3d(-100px,0,0)' }}
-            to={{ opacity: 100, transform: 'translate3d(0,0px,0)' }}>
-            {(props) => (
-              <ActionButton style={props} link="/about">
-                Learn More
-              </ActionButton>
-            )}
-          </Spring>
-          <Spring
-            config={{ delay: 550, ...config.slow }}
-            from={{ opacity: 0, transform: 'translate3d(-100px,0,0)' }}
-            to={{ opacity: 100, transform: 'translate3d(0,0px,0)' }}>
-            {(props) => (
-              <ActionButton white link="/apply" style={{ marginLeft: '20px', ...props }}>
-                Apply
-              </ActionButton>
-            )}
-          </Spring>
-        </div>
-      </Col>
-    </Row>
-    <style jsx>
-      {`
-        @media (max-width: 768px) {
-          .banner-section {
-            background-size: contain;
-          }
-        }
-        .bannerCont {
-          max-width: 1500px;
-          margin: 0px;
-          color: #fff !important;
-          text-rendering: optimizeLegibility;
-          -webkit-font-smoothing: antialiased;
-          margin-top: 30px;
-        }
-        .banner-img {
-          width: 100%;
-          height: auto;
-        }
-        .banner-section {
-          height: 650px;
-          padding-top: 150px;
-          background-size: cover;
+        </Row>
+      </div>
+    </Container>
+    <style jsx>{`
+      $tablet-width: 800px;
+
+      .bannerCont {
+        padding: 120px 0;
+        padding-top: calc(60px + var(--nav-height));
+
+        @media (max-width: $tablet-width) {
+          padding: 80px 0;
+          padding-top: calc(40px + var(--nav-height));
         }
 
-        .cta-box {
-          padding-top: 7px;
-          align-content: left;
+        h1 {
+          font-size: 54px !important;
+          margin-bottom: 30px;
         }
+        .sub-headline {
+          font-size: 18px;
+          margin-bottom: 40px;
+        }
+      }
+      .banner-img {
+        width: 100%;
+        height: auto;
+      }
+      .banner-section {
+        height: 650px;
+        padding-top: 150px;
+        background-size: cover;
 
-        #main-banner-headline {
-          margin-bottom: 24px;
+        @media (max-width: $tablet-width) {
+          background-size: contain;
         }
+      }
 
-        #homepage-main-headline h1 {
-          font-size: 60px !important;
-          color: #323648;
-        }
-        #sub-headline {
-          max-width: 600px;
-          margin: 0 auto;
-        }
-
-        #homepage-sub-headline {
-          max-width: 600px;
-          margin: 0 auto;
-        }
-
-        #homepage-sub-headline p {
-          font-size: 17px;
-          margin-bottom: 28px auto;
-          color: #323648;
-          font-weight: 350;
-        }
-      `}
-    </style>
-  </Container>
+      .cta-box {
+        padding-top: 7px;
+        align-content: left;
+      }
+    `}</style>
+  </>
 );
 
 export default Banner;

@@ -13,7 +13,7 @@ const Banner = () => (
             from={{ opacity: 0, transform: 'translate3d(-100px,0,0)' }}
             to={{ opacity: 100, transform: 'translate3d(0,0px,0)' }}>
             {(props) => (
-              <Col md="7" style={{ ...props, paddingTop: 5 }}>
+              <Col md="7" style={{ ...props }}>
                 <img src="/images/banner_sample.svg" alt="" />
               </Col>
             )}
@@ -71,6 +71,10 @@ const Banner = () => (
         h1 {
           font-size: 54px !important;
           margin-bottom: 30px;
+
+          @media (max-width: 400px) {
+            font-size: 42px !important;
+          }
         }
         .sub-headline {
           font-size: 18px;

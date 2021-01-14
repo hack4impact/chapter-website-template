@@ -2,7 +2,6 @@ import React from 'react';
 import Link from 'next/link';
 
 function Anchor({ link, white, className, children, ...props }) {
-  console.log(link, white, className, children);
   return (
     <>
       <a

@@ -20,19 +20,25 @@ const GradientBanner = ({ title, subHeadline, style, arrow, children }) => (
               )}
             </Spring>
           </Col>
-          <Row>
-            <Spring
-              config={{ delay: 500 }}
-              from={{ opacity: 0, transform: 'translate3d(-100px,0,0)' }}
-              to={{ opacity: 100, transform: 'translate3d(0,0px,0)' }}>
-              {(props) => (
-                <div style={props} className="text-center sub-headline">
-                  {/* if it has a json key, we'll assume it's Rich Text from Contentful */}
-                  {subHeadline.json ? <ContentBlock content={subHeadline} /> : <p>{subHeadline}</p>}
-                </div>
-              )}
-            </Spring>
-          </Row>
+          {subHeadline && (
+            <Row>
+              <Spring
+                config={{ delay: 500 }}
+                from={{ opacity: 0, transform: 'translate3d(-100px,0,0)' }}
+                to={{ opacity: 100, transform: 'translate3d(0,0px,0)' }}>
+                {(props) => (
+                  <div style={props} className="text-center sub-headline">
+                    {/* if it has a json key, we'll assume it's Rich Text from Contentful */}
+                    {subHeadline.json ? (
+                      <ContentBlock content={subHeadline} />
+                    ) : (
+                      <p>{subHeadline}</p>
+                    )}
+                  </div>
+                )}
+              </Spring>
+            </Row>
+          )}
           <Row className="w-100 pt-4">
             <Spring
               config={{ delay: 550 }}
@@ -54,11 +60,11 @@ const GradientBanner = ({ title, subHeadline, style, arrow, children }) => (
 
       section {
         background: linear-gradient(white, var(--secondary-seafoam));
-        padding: 120px 0;
+        padding: 80px 0;
         padding-top: calc(60px + var(--nav-height));
 
         @media (max-width: $tablet-width) {
-          padding: 80px 0;
+          padding: 40px 0;
           padding-top: calc(40px + var(--nav-height));
         }
       }

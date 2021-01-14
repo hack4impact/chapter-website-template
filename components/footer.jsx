@@ -9,7 +9,7 @@ function Footer() {
         <Row>
           <Col md="5" xs="12" className="footer-left-div">
             <div className="footer-logo-box">
-              <img src="/images/h4i_white.png" height="35" width="200" alt="Hack4Impact logo" />
+              <img src="/images/logo-white.svg" height="60" width="240" alt="Hack4Impact logo" />
             </div>
             <p>
               For all inquiries of partnership or sponsorship, please contact us at{' '}

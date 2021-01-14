@@ -32,8 +32,8 @@ function NonProfits({
       {testimonialsCollection.items.map(({ author, quote }) => (
         <Quote key={author} quote={quote} source={author} />
       ))}
-      <ApplicationProcess steps={timelineCollection.items} />
-      <Faq questions={faqsCollection.items} />
+      {timelineCollection && <ApplicationProcess steps={timelineCollection.items} />}
+      {faqsCollection && <Faq questions={faqsCollection.items} />}
     </>
   );
 }

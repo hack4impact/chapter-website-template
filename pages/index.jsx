@@ -1,13 +1,14 @@
 import React from 'react';
 import Banner from '../components/homepage/banner';
 import OurWorkSection from '../components/homepage/ourWork';
-import InvolveSection from '../components/homepage/involveSection';
-import ClientSlider from '../components/homepage/clientSlider';
+import InvolveSection from '../components/involveSection';
 import PartnerSection from '../components/homepage/partnerSection';
 import OtherChapters from '../components/homepage/otherChapters';
 import { ToastContainer } from 'react-toastify';
 import Head from '../components/head';
 import fetchContent from '../utils/fetchContent';
+import Section from '../components/section';
+import { Container } from 'reactstrap';
 
 function Home({ chapterLogos, previewProjects }) {
   return (
@@ -16,8 +17,12 @@ function Home({ chapterLogos, previewProjects }) {
       <ToastContainer />
       <Banner />
       <OurWorkSection projects={previewProjects} />
-      <ClientSlider />
-      <InvolveSection />
+      <Section grey>
+        <Container>
+          <h2 className="text-center">Get Involved</h2>
+          <InvolveSection />
+        </Container>
+      </Section>
       <PartnerSection />
       <OtherChapters chapterLogos={chapterLogos} />
     </>

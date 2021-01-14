@@ -43,10 +43,10 @@ const Banner = () => (
               to={{ opacity: 100, transform: 'translate3d(0,0px,0)' }}>
               {(props) => (
                 <div style={props}>
-                  <ActionButton className="mr-3" link="/about">
+                  <ActionButton className="mr-3" link="/apply">
                     Apply
                   </ActionButton>
-                  <ActionButton white link="/apply">
+                  <ActionButton white link="/about">
                     Learn More
                   </ActionButton>
                 </div>

@@ -6,13 +6,9 @@ import { Row } from 'reactstrap';
 export default function OtherChapters({ chapterLogos }) {
   return (
     <Section className="chapters-section">
+      <h2 className="section-title center mb-5">Other Chapters</h2>
       <Row>
-        <h1 className="section-title center" style={{ marginBottom: '75px' }}>
-          Other Chapters
-        </h1>
-      </Row>
-      <Row>
-        <div className="showcase-container">
+        <div className="showcase-container pt-5">
           <BackgroundSlider>
             <div className="chapter-logo-container">
               {chapterLogos.map(({ name, link, universityLogo }) => (

@@ -7,11 +7,7 @@ export default function PartnerSection() {
   return (
     <Section className="partners-section">
       <Container>
-        <Row>
-          <h1 className="section-title center" style={{ marginBottom: '50px' }}>
-            Our Sponsors
-          </h1>
-        </Row>
+        <h2 className="section-title center mb-5">Our Partners</h2>
         <div className="sponsor-row">
           <a href="https://www.imc.com/" alt="IMC">
             <img
@@ -41,7 +37,10 @@ export default function PartnerSection() {
         </div>
         <Row>
           <div className="center partner-button">
-            <ActionLink text="Partner With Us" link="https://h4i-sponsor.now.sh" />
+            <ActionLink
+              text="Interested in partnering? Contact us"
+              link="mailto:contact@hack4impact.org"
+            />
           </div>
         </Row>
       </Container>

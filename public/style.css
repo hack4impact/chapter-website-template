@@ -17,6 +17,12 @@ Common Styling
     Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
+@media (max-width: 600px) {
+  :root {
+    --nav-height: 50px;
+  }
+}
+
 @font-face {
   font-family: 'HK Grotesk';
   src: local('HK Grotesk'), local('HKGrotesk-Regular'),

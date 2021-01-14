@@ -9,12 +9,24 @@ import ActionButton from '../../components/actionButton';
 import data from '../../data/ngoApplyData';
 import fetchContent from '../../utils/fetchContent';
 
-function NonProfits({ description, timelineCollection, testimonialsCollection, faqsCollection }) {
+function NonProfits({
+  applicationLink,
+  openRolesLink,
+  description,
+  timelineCollection,
+  testimonialsCollection,
+  faqsCollection,
+}) {
   return (
     <>
       <Head title="H4I Apply | Nonprofits" />
       <GradientBanner title={data.title} subHeadline={data.subHeadline}>
-        <ActionButton link={data.applicationLink}>Apply</ActionButton>
+        {applicationLink && <ActionButton link={applicationLink}>Apply Now</ActionButton>}
+        {openRolesLink && (
+          <ActionButton white link={openRolesLink}>
+            View Open Positions
+          </ActionButton>
+        )}
       </GradientBanner>
       <ServicesDetail content={description} />
       {testimonialsCollection.items.map(({ author, quote }) => (
@@ -35,6 +47,8 @@ export async function getStaticProps() {
   {
     websiteLayout(id:"dPAHTMUXe3gbb7hlXFIZ1") {
       nonprofitApplication {
+        applicationLink
+        openRolesLink
         description {
           json
         }
@@ -70,8 +84,6 @@ export async function getStaticProps() {
     }
   }
   `);
-
-  console.log(nonprofitApplication);
 
   return {
     props: nonprofitApplication,

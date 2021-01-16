@@ -6,7 +6,6 @@ import Quote from '../../components/quote';
 import ApplicationProcess from '../../components/apply/applicationProcess';
 import Head from '../../components/head';
 import ActionButton from '../../components/actionButton';
-import data from '../../data/studentApplyData';
 import fetchContent from '../../utils/fetchContent';
 
 function Students({
@@ -20,7 +19,11 @@ function Students({
   return (
     <>
       <Head title="H4I Apply | Students" />
-      <GradientBanner title={data.title} subHeadline={data.subHeadline}>
+      <GradientBanner
+        title={'Students'}
+        subHeadline={
+          'Students are a core part of what makes Hack4Impact. Joining Hack4Impact is the perfect way to give back while developing new skills and making long-lasting friendships.'
+        }>
         {applicationLink && <ActionButton link={applicationLink}>Apply Now</ActionButton>}
         {openRolesLink && (
           <ActionButton white link={openRolesLink}>

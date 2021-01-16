@@ -6,7 +6,6 @@ import Quote from '../../components/quote';
 import ApplicationProcess from '../../components/apply/applicationProcess';
 import Head from '../../components/head';
 import ActionButton from '../../components/actionButton';
-import data from '../../data/ngoApplyData';
 import fetchContent from '../../utils/fetchContent';
 
 function NonProfits({
@@ -20,7 +19,11 @@ function NonProfits({
   return (
     <>
       <Head title="H4I Apply | Nonprofits" />
-      <GradientBanner title={data.title} subHeadline={data.subHeadline}>
+      <GradientBanner
+        title={'Nonprofit Organizations'}
+        subHeadline={
+          'As a nonprofit, you deliver tremendous social value to the community every day. What if you could leverage technology to make your work even more efficient, effective, or far-reaching?'
+        }>
         {applicationLink && <ActionButton link={applicationLink}>Apply Now</ActionButton>}
         {openRolesLink && (
           <ActionButton white link={openRolesLink}>

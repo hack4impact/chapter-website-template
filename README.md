@@ -1,70 +1,92 @@
-# UIUC Chapter Website - uiuc.hack4impact.org
+# Hack4Impact's Chapter Website Template 🚀
 
----
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/hack4impact/chapter-website-template&utm_source=github&utm_medium=nextstarter-cs&utm_campaign=devex)
 
-This website uses the server-rendered react framework, [Next.js](http://nextjs.org) for the best of both worlds, react usable components and faster page loads (since this is mostly a static website). We are also able to load configurations, text, etc based on config files (possibly json).
+## Our tech stack
 
-To start development, first install node.js and yarn. Look at the [H4I wiki](https://github.com/hack4impact-uiuc/wiki/wiki/Mac-Setup) for instructions. Then,
+This template is built for generating a _static, super-efficient_ website that you can easily update overtime. For this, NextJS + Contentful formed the perfect dream team.
+
+### NextJS ⚙️
+
+[**NextJS**](https://nextjs.org/) is a great match for static sites, especially if you're already familiar with React. The main benefit is **flexibility:** you can build most of your site to _static,_ super-efficient HTML. Then, as your site expands, you can explore [server rendering and caching](https://medium.com/walmartglobaltech/the-benefits-of-server-side-rendering-over-client-side-rendering-5d07ff2cefe8) with almost zero extra setup. This opens to door for admin portals, nonprofit dashboards, and more!
+
+### Contentful 📝
+
+[**The Contentful CMS**](https://www.contentful.com/) is where all your text content and media (images and videos) are hosted. Above all, this services _eliminates_ the need to "ask the developer" whenever you want to add content to the site.
+
+Have a new nonprofit project page to create? Need to update applications for the next recruitment cycle? Just edit some Google-Doc-style text boxes and hit "publish." If you're hosting your site on Netlify, you can [trigger your site to redeploy whenever](https://www.contentful.com/developers/docs/tutorials/general/automate-site-builds-with-webhooks/) new content is published!
+
+## Set up Contentful
+
+If you're unfamiliar with connecting NextJS and Contentful using GraphQL, read this article before proceeding 👇
+
+[**NextJS, Contentful CMS, GraphQL, oh my!**](https://dev.to/hack4impact/nextjs-contentful-cms-graphql-oh-my-352o)
+
+### Set your environment variables
+
+To use Contentful in your project, you'll need to set some keys to talk to our Hack4Impact space.
+
+Note that **we recommend using our existing Hack4Impact Contentful space.** Please contact us over slack or at contact@hack4impact.org for these credentials.
+
+Once you have them, create a `.env` file in the base folder of this repo, and paste these contents:
 
 ```
-yarn
-yarn dev
+# Token to log into our Contentful organization
+NEXT_PUBLIC_CONTENTFUL_ACCESS_TOKEN=
+# ID for the Hack4Impact website space
+NEXT_PUBLIC_CONTENTFUL_SPACE_ID=
+# ID for your Website Layout model
+LAYOUT_ENTRY_ID=
 ```
 
-For the optimal development environment, edit your code with [vscode](https://code.visualstudio.com/) and install the [eslint plugin](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) then press `Cmd + Shift + P` to open the command palette and then search and click `Eslint: Enable Eslint`. Then, go to the settings (`Cmd + Shift + P` then type `open user settings`) and search for `Eslint`. Afterwards, click the checkbox for `Eslint: Auto Fix On Save`. This would automatically format your code as you go.
+### Create a new Website Layout entry
 
-## Details
+If you use our Hack4Impact space, you'll have a content model called **Website Layout** that you can access. This model outlines _all major_ pieces of your site, from your university logo to your nonprofit projects to your recruitment cycle information.
 
-### Project Pages
+To create a new entry for your chapter's website:
+1. Head to the **Content** tab and search for the "Example Template" to see how your end product might look ![contentful search for Example Template, filtered by Website Layout](public/images/readme-assets/website-layout-search.png)
+3. Back out and create a new Website Layout entry from the **Add Entry** button. You can also **Duplicate** our template for a nice starting point, but _be warned!_ All referenced entries in this template (values, projects, etc) are _not_ duplicated. You'll need to detach these from your duplicated template, or you'll accidentally modify our example 😬
+4. Fill out the contents as you wish. Feel free to omit non-required values where necessary, since this repo should be smart enough to handle optional content!
+5. Copy your layout's **Entry ID** into your environment variables (`.env`) as the `LAYOUT_ENTRY_ID`. To find this, just head to the **Info** tab on your entry and copy the ID from there. 
 
-Each project page is under `/projects/{project_id}`. Ex: `/projects/c2tc-1` - this goes to the sp2018 project. `/projects/c2tc-2` goes to the fa18 project, etc. Look into `/data/projectData.js` for the projects detail. `/projects` just goes to the regular project page listing all the projects.
+## Building the site
 
-### People Pictures
+Make sure you [have node installed](https://nodejs.org/en/) first. Then, pop open a terminal and run these commands in the project directory:
 
-Whenever you need to add a new member to the organization, whether to the `/about` or `/project` page, you would need to add a photo of them to the folder `/static/images/people/` and name it `{name}.jpg`. Ex: for `Timothy Ko`, `timothy_ko.jpg`. Fill in the spaces with `_`. Then, in any configuration file for their name, put in the name itself (`Timothy Ko`)
+```
+npm i
+npm run dev
+```
 
-### Project Data configuration
+This will spin up a local server for you to preview your site. Note that the build _will_ fail if you haven't set your `.env` file! Head back to the "Set up Contentful" step for this.
 
-The Project Data configuration file will hold a list of dictionaries (which are semesters specifying the projects that happened there). Each field must exist.
+💡 And no, **don't use `yarn` here.** That will create a second "lock" file that you won't want to push to the repository.
 
-Look at [template.md](./template.md) for a template when adding a project
+### Set up your editor
 
-Each Semester has the following...
+**[VS Code](https://code.visualstudio.com/) is our editor of choice at Hack4Impact.** This is why our repo comes with a `.vscode` directory, which will auto-configure some settings for this project (like auto-formatting code on save) and recommend some important extensions ([eslint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) and [prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)).
 
-- `semester`: <str> ex: Fall 2018
-- `projects`: List[Objects]
-  - `name`: Full Name of Client
-  - `id`: id for the page ex: `/projects/lwb` goes to the project with id `lwb`
-  - `detail`: detail shown below each project card (in the regular projects list)
-  - `coverImagePath`: image shown in each project card
-  - `clientDetail`: paragraph detailing the client and who they are. Shown in the project banner.
-  - `clientLink`: link to the Client's website. Used in the `Learn More` Button in the project banner
-  - `clientFeatures`: array of features about the client
-    - `title`: example is `In Donations`
-    - `detail: example is`\$324 Million`
-  - `problem`: problem text shown below the `Problem` in the specific project's page
-  - `problemImagePath`: the image for this section
-  - `solution`: solution text
-  - `solutionImagePath`: self explanatory
-  - `features`: List[Object] (can make this null)
-    - `title`: str
-    - `detail`: str
-    - `imgPath`: optional but shows feature's images.
-  - `techStack`: List[str] (Must match the `techStackMasterList` in `/components/projects/projectTechStack.js`)
-  - `quote`: Quote from client. (can be null)
-  - `quoteSource`: name of the source of the quote (can be null if `quote` is null)
-  - `quoteTitle`: the title of the source of the quote (can be null if `quoteq is null)
-  - `githubLink`: link to the github source code of the project
-  - `projectLink: link to the project's current deployable link. Or a link to a youtube video, gif, etc.
-  - `team`: Object
-    - `type`: either `no-pic` or `pic`
-    - `details` (this can either be { pm: "Timothy Ko", tl: "Aria Malkani", swe: ["Hana Rimawi", "Michael Chen"]} for type `no-pic`. OR [{name: "Timothy Ko", role: "Product Manager"}, {name: "Aria Malkani", role: "Tech Lead"}, {name: "Hana Rimawi", role: "Software Developer"}]) for type `pic`
-  - `featureImgSize`: (int) Bootstrap column size for the image in a feature Slider. This is to combat rectangle screenshots (vertical rectangles(phone screenshots) dont fit well with column 6 while rectanges work well with 7) - nullable. `FeatureSlider` will default to 6 (half)
+If you use an editor other than VS Code, don't fret! Just make sure you are using a prettier equivalent to format code while you work. All else fails, you can manually run these commands to fix formatting issues:
 
-### Apply Pages
+- **`npm run format`** - to fix any styling issues in your code (indentation and spacing, namely)
+- **`npm run lint:fix`** - to fix any syntax concerns (like accessibility problems, bad HTML attributes, etc.)
 
-For both Nonprofits and Students, both pages pull data from `/data/ngoApplyData.js` or `/data/studentApplyData.js` depending on the page.
+### Building for production
 
-To close an application cycle, add the `closed` prop to the component `ApplicationProcess` in the relevant page and the `closedText` will display. Remember to update `currentSemester` and `nextSemester` to the correct text because that will affect what the `closedText` says.
+If you use our template as-is, you'll probably want to "export" your site to a static set of HTML files. For this, just run the command:
 
-Always remember to update the `applicationLink`, the Dates, etc. They will all be reflected on our pages. Look into the code to know how to add more faq questions, change the application process, etc. It's pretty straightforward.
+```
+npm run export
+```
+
+This will create a production-ready build of your site in the **`/out`** directory. This is the command you'll want to run for deployment as well.
+
+## Deployment
+
+We recommend deploying your site using [Netlify](https://www.netlify.com). It offers a whole host of benefits, like a generous free tier, automatic redeploys whenever your `main` branch updates, integrations for contact forms (if you implement them), etc.
+
+Hit the button at the top of this repo to try it out! Just don't forget to [set the environment variables](https://docs.netlify.com/configure-builds/environment-variables/) to the contents of your `.env`. Your build command will be `npm run export`.
+
+### Redeploy on Contentful changes
+
+Netlify lets you set up "webhooks," which trigger redeploys on certain conditions. Just [read this guide](https://www.contentful.com/developers/docs/tutorials/general/automate-site-builds-with-webhooks/) to get set up! You should be able to use the webhook already configured in our Contentful space.

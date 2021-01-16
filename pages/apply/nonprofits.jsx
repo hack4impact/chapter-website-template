@@ -45,7 +45,7 @@ export async function getStaticProps() {
     websiteLayout: { nonprofitApplication },
   } = await fetchContent(`
   {
-    websiteLayout(id:"dPAHTMUXe3gbb7hlXFIZ1") {
+    websiteLayout(id: "${process.env.LAYOUT_ENTRY_ID}") {
       nonprofitApplication {
         applicationLink
         openRolesLink

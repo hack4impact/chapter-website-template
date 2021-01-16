@@ -48,7 +48,7 @@ export async function getStaticProps() {
         }
       }
     }
-    websiteLayout(id:"dPAHTMUXe3gbb7hlXFIZ1") {
+    websiteLayout(id: "${process.env.LAYOUT_ENTRY_ID}") {
       projectsCollection(limit: 3) {
         items {
           title

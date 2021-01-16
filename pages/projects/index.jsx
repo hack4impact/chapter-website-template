@@ -37,7 +37,7 @@ export async function getStaticProps() {
     websiteLayout: { projectsCollection },
   } = await fetchContent(`
   {
-    websiteLayout(id:"dPAHTMUXe3gbb7hlXFIZ1") {
+    websiteLayout(id: "${process.env.LAYOUT_ENTRY_ID}") {
       projectsCollection {
         items {
           title

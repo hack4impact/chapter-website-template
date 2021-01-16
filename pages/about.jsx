@@ -43,7 +43,7 @@ export async function getStaticProps() {
   } 
   
   {
-    websiteLayout(id:"dPAHTMUXe3gbb7hlXFIZ1") {
+    websiteLayout(id:"${process.env.LAYOUT_ENTRY_ID}") {
       chapterValuesCollection {
         items {
           header

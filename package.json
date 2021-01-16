@@ -6,8 +6,8 @@
     "build": "next build",
     "start": "next start",
     "export": "next build && next export",
-    "format": "prettier --write \"**/*.{js,json,md,css}\"",
-    "format:check": "prettier --check \"**/*.{js,json,md,css}\"",
+    "format": "prettier --write \"**/*.{js,jsx,css}\"",
+    "format:check": "prettier --check \"**/*.{js,jsx,css}\"",
     "lint": "eslint \"./**/*.{js,jsx}\"",
     "lint:fix": "eslint --fix \"./**/*.{js,jsx}\""
   },

@@ -74,29 +74,29 @@ function FeatureSlider({ features }) {
           min-height: 480px;
         }
         .is-active {
-          border-left: 4px solid #64ab8a;
+          border-left: 4px solid var(--accent-orange);
           box-sizing: content-box;
           outline: 0;
         }
         .feature-slider-btn:hover h3 {
-          color: #155da1 !important;
+          color: var(--primary-blue) !important;
         }
         .feature-slider-btn:hover 0 {
           color: black !important;
         }
         .is-active h3 {
-          color: #155da1 !important;
+          color: var(--primary-blue) !important;
         }
         .is-active p {
-          color: black !important;
+          color: var(--black) !important;
         }
         .feature-title {
-          color: #a8a9b0;
+          color: var(--gray);
           font-size: 1.2rem;
           font-weight: 600;
         }
         .feature-detail {
-          color: #a8a9b0;
+          color: var(--gray);
           font-size: 16px;
           font-weight: 400;
         }

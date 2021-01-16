@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 
 const getAnchor = (link, text, style) => (
-  <a className={'link'} style={{ color: '#155da1', ...style }} href={link}>
+  <a className={'link'} style={{ color: 'var(--primary-blue)', ...style }} href={link}>
     {text}
     <style jsx>{`
       .link {
@@ -12,7 +12,7 @@ const getAnchor = (link, text, style) => (
         font-size: 15px;
         margin: auto;
         margin-top: 40px;
-        border-bottom: 1px solid #3f46ad;
+        border-bottom: 1px solid var(--primary-blue);
       }
     `}</style>
   </a>

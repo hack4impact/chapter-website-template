@@ -85,7 +85,6 @@ const GradientBanner = ({ title, subHeadline, style, arrow, children }) => (
       p {
         font-size: 20px;
         margin-bottom: 28px auto;
-        color: #323648;
       }
       .arrow {
         margin: auto;

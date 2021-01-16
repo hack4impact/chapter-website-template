@@ -63,14 +63,14 @@ const InvolveSection = () => (
         display: block;
         margin: 7% auto;
         border-radius: 5px;
-        box-shadow: 2px 2px 2px grey;
+        box-shadow: 2px 2px 2px var(--gray);
         max-height: 260px; /* Temporary to preserve image heights */
       }
       .involved-container {
         margin-top: 30px;
       }
       .involved-container h3 {
-        color: #666b72;
+        color: var(--gray);
       }
     `}</style>
   </Row>

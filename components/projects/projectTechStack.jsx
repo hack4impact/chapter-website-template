@@ -192,7 +192,7 @@ const ProjectTechStack = ({ techStack }) =>
           text-align: center;
         }
         .tech-stack-link {
-          color: #155da1;
+          color: var(--primary-blue);
         }
         .tech-stack-img:hover {
           box-shadow: 0 5px 30px rgba(44, 62, 80, 0.1);

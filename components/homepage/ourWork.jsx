@@ -61,7 +61,7 @@ function OurWorkSection({ projects }) {
       <style jsx>{`
         .subtitle {
           padding-top: 10px;
-          color: #5b5e6d;
+          color: var(--gray);
           letter-spacing: 1px;
         }
         #our-work-title-box {
@@ -77,7 +77,7 @@ function OurWorkSection({ projects }) {
           letter-spacing: normal;
           font-size: 15px;
           margin: auto;
-          border-bottom: 1px solid #3f46ad;
+          border-bottom: 1px solid var(--primary-blue);
           margin-top: 40px;
         }
       `}</style>

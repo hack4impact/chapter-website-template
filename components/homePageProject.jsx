@@ -23,7 +23,7 @@ function HomePageProject({ title, description, thumbnail, urlSlug }) {
           .project-item {
             box-shadow: 3px 3px 20px rgba(44, 62, 80, 0.1);
             border-radius: 5px;
-            color: #f9fafc;
+            color: white;
             display: flex;
             justify-content: flex-end;
             overflow: hidden;
@@ -74,7 +74,7 @@ function HomePageProject({ title, description, thumbnail, urlSlug }) {
           }
           p {
             margin: 0px;
-            color: #f9fafc;
+            color: white;
           }
         `}</style>
       </a>

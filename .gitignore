@@ -10,6 +10,8 @@
 /build
 /dist
 /.next
+/out
+/temp
 
 # misc
 .DS_Store
@@ -18,5 +20,3 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 package-lock.json
-
-/out

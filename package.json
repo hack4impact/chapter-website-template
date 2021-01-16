@@ -1,6 +1,6 @@
 {
-  "name": "uiuc.hack4impact.org",
-  "author": "Hack4Impact UIUC",
+  "name": "hack4impact-chapter-website-template",
+  "author": "Hack4Impact",
   "scripts": {
     "dev": "next",
     "build": "next build",

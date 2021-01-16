@@ -8,6 +8,7 @@ import ContentBlock from '../../components/ContentBlock';
 import ActionButton from '../../components/actionButton';
 import { Row, Col } from 'reactstrap';
 import GradientBanner from '../../components/gradientBanner';
+import ProjectTechUsed from '../../components/projects/projectTechUsed';
 
 function ProjectPage({
   title,
@@ -19,6 +20,7 @@ function ProjectPage({
   solution,
   featuresCollection,
   testimonialsCollection,
+  technologiesUsed,
   teamMembersCollection,
 }) {
   return (
@@ -52,6 +54,7 @@ function ProjectPage({
         </Row>
       </section>
       <FeatureSlider features={featuresCollection.items} />
+      <ProjectTechUsed technologiesUsed={technologiesUsed.split(',').map((t) => t.trim())} />
       {testimonialsCollection.items.map(({ author, quote }) => {
         const [authorName, authorTitle] = author.split(',');
         return (

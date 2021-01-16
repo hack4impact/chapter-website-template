@@ -8,7 +8,7 @@ function FeatureSlider({ features }) {
 
   return (
     <>
-      <section>
+      <section className="pb-0">
         <h2 className="mb-5">Main Features</h2>
         <Row className="d-flex justify-content-center">
           <Col lg={5} md={6}>

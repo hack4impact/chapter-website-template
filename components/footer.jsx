@@ -13,7 +13,7 @@ function Footer() {
             </div>
             <p>
               For all inquiries of partnership or sponsorship, please contact us at{' '}
-              {/* update to your chapter's email! */}
+              {/* TODO: Update this for your university! */}
               <a className="email-link" href="mailto:contanct@hack4impact.org">
                 contact@hack4impact.org
               </a>
@@ -59,22 +59,21 @@ function Footer() {
           <div className="col-md-2">
             <h4>Follow us</h4>
             <ul>
+              {/* TODO: Update these for your university! */}
               <li>
-                <a href="https://www.facebook.com/h4iuiuc/">Facebook</a>
+                <a href="https://www.linkedin.com/company/hack4impact/mycompany/">LinkedIn</a>
               </li>
               <li>
-                <a href="https://github.com/hack4impact-uiuc">Github</a>
+                <a href="https://github.com/hack4impact">Github</a>
               </li>
               <li>
-                <a href="https://medium.com/hack4impact-uiuc">Blog</a>
+                <a href="https://medium.com/hack4impact">Blog</a>
               </li>
               <li>
-                <a href="mailto:uiuc@hack4impact.org">Email</a>
+                <a href="mailto:contact@hack4impact.org">Email</a>
               </li>
               <li>
-                <a href="https://www.notion.so/h4iuiuc/Hack4Impact-UIUC-Official-628a998ceff4491a8267187f364947af">
-                  Notion & Wiki
-                </a>
+                <a href="https://www.notion.so/h4i">Notion & Wiki</a>
               </li>
             </ul>
           </div>

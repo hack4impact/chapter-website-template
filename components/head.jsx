@@ -2,15 +2,16 @@ import React from 'react';
 import NextHead from 'next/head';
 import { string } from 'prop-types';
 
+// TODO: Update these for your university!
 const defaultDescription =
-  'We are a team of UIUC students who create robust software for social good. We believe that our engineering skill sets do not render us useless in addressing social injustices. Instead, they empower us to build a better society together.';
-const defaultOGURL = 'uiuc.hack4impact.org';
+  'We are a nonprofit org of student engineers, designers, activists, and humanitarians. We build powerful, impactful software as a tool for social good';
+const defaultOGURL = 'template.hack4impact.org';
 const defaultOGImage = '/icons/favicon-32x32.png';
 
 const Head = ({ title, description, url, ogImage }) => (
   <NextHead>
     <meta charSet="UTF-8" />
-    <title>{title ?? 'Hack4Impact UIUC'}</title>
+    <title>{title ?? 'Hack4Impact'}</title>
     <meta name="description" content={description ?? defaultDescription} />
     {/* Global Site Tag (gtag.js) - Google Analytics */}
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-124593378-1" />

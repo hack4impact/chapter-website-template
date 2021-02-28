@@ -6,7 +6,7 @@ const accessToken = process.env.NEXT_PUBLIC_CONTENTFUL_ACCESS_TOKEN;
 // (just don't forget to add the authorization header)
 // From here, you'll be able to explore all of the existing content
 // https://www.electronjs.org/apps/graphiql
-export async function fetchContent(query) {
+async function fetchContent(query) {
   try {
     const res = await fetch(
       `https://graphql.contentful.com/content/v1/spaces/${space}/environments/master`,

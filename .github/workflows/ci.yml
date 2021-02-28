@@ -1,4 +1,4 @@
-name: CI
+name: CI on deploys
 
 on: [push, pull_request]
 

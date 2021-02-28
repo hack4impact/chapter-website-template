@@ -27,12 +27,16 @@ function ProjectPage({
     <>
       <Head title={title} />
       <GradientBanner title={title} subHeadline={description}>
-        <ActionButton className="mr-3" link={finalProductLink}>
-          Try our final product
-        </ActionButton>
-        <ActionButton white link={codeRepoLink}>
-          See our code
-        </ActionButton>
+        {finalProductLink != null && 
+          <ActionButton className="mr-3" link={finalProductLink}>
+            Try our final product
+          </ActionButton> 
+        }
+        {codeRepoLink != null && 
+          <ActionButton white link={codeRepoLink}>
+            See our code
+          </ActionButton>
+        }
       </GradientBanner>
       <section className="pt-0">
         <Row className="d-flex justify-content-center mb-5">

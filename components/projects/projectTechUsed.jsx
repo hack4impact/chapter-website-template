@@ -35,6 +35,11 @@ const icons = {
     title: 'ExpressJS',
     imgPath: '/images/techStack/express.png',
   },
+  Figma: {
+    link: 'https://www.figma.com/',
+    title: 'Figma',
+    imgPath: '/images/techStack/figma.png',
+  },
   Firebase: {
     link: 'https://firebase.google.com',
     title: 'Firebase',
@@ -49,6 +54,11 @@ const icons = {
     link: 'https://radimrehurek.com/gensim/',
     title: 'Gensim',
     imgPath: '/images/techStack/gensim.png',
+  },
+  'Google Charts': {
+    link: 'https://developers.google.com/chart/',
+    title: 'Google Charts',
+    imgPath: '/images/techStack/google_charts.png',
   },
   GraphQL: {
     link: 'https://graphql.org/',
@@ -65,6 +75,11 @@ const icons = {
     title: 'MongoDB',
     imgPath: '/images/techStack/mongodb.jpg',
   },
+  MySQL: {
+    link: 'https://www.mysql.com/',
+    title: 'MySQL',
+    imgPath: '/images/techStack/mysql.png',
+  },
   Next: {
     link: 'https://nextjs.org',
     title: 'NextJS',
@@ -79,6 +94,16 @@ const icons = {
     link: 'https://nodejs.org/en/',
     title: 'NodeJS',
     imgPath: '/images/techStack/nodejs.jpg',
+  },
+  NumPy: {
+    link: 'https://numpy.org/',
+    title: 'NumPy',
+    imgPath: '/images/techStack/numpy.png',
+  },
+  pandas: {
+    link: 'https://pandas.pydata.org/',
+    title: 'Pandas',
+    imgPath: '/images/techStack/pandas.png',
   },
   Passport: {
     link: 'http://www.passportjs.org/',

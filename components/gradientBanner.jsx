@@ -30,7 +30,7 @@ const GradientBanner = ({ title, subHeadline, style, arrow, children }) => (
                   <div style={props} className="text-center sub-headline">
                     {/* if it has a json key, we'll assume it's Rich Text from Contentful */}
                     {subHeadline.json ? (
-                      <ContentBlock content={subHeadline} />
+                      <ContentBlock content={subHeadline.json} />
                     ) : (
                       <p>{subHeadline}</p>
                     )}

@@ -9,7 +9,7 @@ function App({ Component, pageProps }) {
   const router = useRouter();
 
   useEffect(() => {
-    document.documentElement.lang = "en";
+    document.documentElement.lang = 'en';
   });
 
   const activeRoute = router.pathname;

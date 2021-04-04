@@ -73,7 +73,9 @@ function Footer() {
                 <a href="mailto:cornell@hack4impact.org">Email</a>
               </li>
               <li>
-                <a href="https://www.notion.so/h4i/Hack4Impact-Cornell-9aef6a734fb149aba896ae8866e736b7">Notion & Wiki</a>
+                <a href="https://www.notion.so/h4i/Hack4Impact-Cornell-9aef6a734fb149aba896ae8866e736b7">
+                  Notion & Wiki
+                </a>
               </li>
             </ul>
           </div>

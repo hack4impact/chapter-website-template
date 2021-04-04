@@ -8,8 +8,8 @@ function Logo() {
           <img
             className="university-logo"
             height="40"
-            src="https://images.ctfassets.net/dz50cburkkql/7trWXZia556Z9uftKAMCz/dc3b7d7fc1aa07ca0d752d09df6a01a5/Georgia_Tech_Yellow_Jackets_logo.svg"
-            alt=""
+            src="/images/cornell-c.svg"
+            alt="Cornell C Logo"
           />
           <img
             className="hack4impact-logo"

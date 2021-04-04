@@ -4,7 +4,7 @@ function Logo() {
   return (
     <>
       <Link href="/">
-        <a className="image-container" ariaLabel="Go to homepage">
+        <a className="image-container" aria-label="Go to homepage">
           <img
             className="university-logo"
             height="40"

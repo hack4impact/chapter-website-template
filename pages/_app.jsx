@@ -7,8 +7,12 @@ import { PageTransition } from 'next-page-transitions';
 
 function App({ Component, pageProps }) {
   const router = useRouter();
-  const activeRoute = router.pathname;
 
+  useEffect(() => {
+    document.documentElement.lang = "en";
+  });
+
+  const activeRoute = router.pathname;
   // ping Google Analytics on every route change
   useEffect(() => {
     initializeGA();

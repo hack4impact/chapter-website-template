@@ -21,6 +21,7 @@
     "react-toastify": "^6.0.8",
     "react-vertical-timeline-component": "^3.0.2",
     "reactstrap": "^8.5.1",
+    "styled-jsx": "^4.0.1",
     "yarn": "^1.16.0"
   },
   "devDependencies": {
